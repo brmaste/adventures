@@ -1,0 +1,145 @@
+---
+title: "San Rafael Swell trip"
+author: "Brian"
+date: "2023-12-13"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(dataRetrieval)
+library(dygraphs)
+library(xts)
+library(revealjs)
+
+library(snotelr)
+library(riem)
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+library(dataRetrieval)
+library(lubridate)
+library(sf)
+library(ggthemes)
+library(xts)
+library(dygraphs)
+library(scales)
+library(openair)
+library(plotly)
+library(SciViews)
+knitr::opts_chunk$set(message = F, 
+                      warning = F,
+                      cache = T)
+knitr::opts_chunk$set(echo = TRUE)
+library(trend)
+library(nhdplusTools)
+library(lfstat)
+library(ggpubr)
+library(kableExtra)
+
+#Stats
+library(forcats)
+library(stringr)
+library(trend)
+```
+
+# Dirty Devil River
+
+#### NWIS data
+
+```{r downloader}
+q <- readNWISdv(siteNumbers = '09333500',
+                parameterCd = '00060',
+                startDate = '2002-01-01',
+                endDate = '2022-03-20') %>%
+  rename(q = 'X_00060_00003') %>% 
+  select(-X_00060_00003_cd)
+```
+
+####  Discharge, 2002-2022
+
+```{r Static, warning = FALSE, fig.width = 8, fig.height = 5}
+ggplot(q, aes(x = Date, y = q)) + 
+  geom_line() + 
+  ylab('Q (cfs)') + 
+  theme_few() +
+  ggtitle('Discharge For the Dirty Devil River, UT')
+```
+
+#### Interactive Data Plotter
+
+```{r data plotter}
+q_xts <- xts(q$q, order.by = q$Date)
+dygraph(q_xts) %>%
+  dyAxis("y", label = "Discharge (cfs)") 
+```
+
+#### January & February Discharge
+
+```{r March clean}
+
+q_january <- q %>% 
+  addWaterYear() %>%
+  group_by(waterYear)%>% 
+  mutate(waterDay = (as.integer(difftime(Date, ymd(paste0(waterYear - 1 ,'-09-30')), units = "days")))) %>% filter(waterDay >= 93, waterDay <= 151) %>% 
+  group_by(waterDay) %>% 
+  mutate(avg = mean(q))
+
+```
+
+#### January & February Discharge, 2002-2022
+
+```{r January figure from ChatGPT}
+
+# Convert waterYear to factor if it's not already
+q_january$waterYear <- factor(q_january$waterYear)
+
+
+ggplot(q_january, aes(x = waterDay, y = q, group = waterYear)) + 
+  geom_line(aes(color = waterYear), size = 1) + 
+  geom_line(aes(x = waterDay, y = avg, linetype = "average"), size = 1, color = "red") +
+  scale_x_log10() +
+  theme_minimal() +
+  scale_color_viridis_d(name = "Water Year") +
+  scale_linetype_manual(name = "", values = "dashed") +
+  ylab('Q (cfs)') +
+  xlab('Water Day') +
+  labs(color = "Legend Title") +
+  guides(color = guide_legend(order = 1), linetype = guide_legend(order = 2))
+  
+
+```
+
+**Discharge (cfs) for 2002-2022 for January & February. Average discharge is the red line.**
+
+
+Excluding the 1600 cfs recorded on January 12, 2005:
+
+```{r 2005 excluded}
+
+# Exclude the data for the year 2005
+q_excluded_2005 <- subset(q_january, waterYear != 2005)
+
+# Plotting excluding the year 2005
+ggplot(q_excluded_2005, aes(x = waterDay, y = q, group = waterYear)) + 
+  geom_line(aes(color = waterYear), size = 1) + 
+  geom_line(aes(x = waterDay, y = avg, linetype = "average"), size = 1, color = "red") +
+  scale_x_log10() +
+  theme_minimal() +
+  scale_color_viridis_d(name = "Water Year") +
+  scale_linetype_manual(name = "", values = "dashed") +  # Remove the legend title for Line Type
+  ylab('Q (cfs)') +
+  xlab('Water Day') +
+  labs(color = "Legend Title") +
+  guides(color = guide_legend(order = 1), linetype = guide_legend(order = 2))  # Move the average line up
+
+```
+
+**Discharge (cfs) for 2002-2022 for January & February. Average discharge is the red line.**
