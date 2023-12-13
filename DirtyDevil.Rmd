@@ -125,7 +125,8 @@ Excluding the 1600 cfs recorded on January 12, 2005:
 ```{r 2005 excluded}
 
 # Exclude the data for the year 2005
-q_excluded_2005 <- subset(q_january, waterYear != 2005)
+q_excluded_2005 <- subset(q_january, waterYear != 2005) %>% 
+  mutate(avg = mean(q))
 
 # Plotting excluding the year 2005
 ggplot(q_excluded_2005, aes(x = waterDay, y = q, group = waterYear)) + 
