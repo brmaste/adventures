@@ -1,28 +1,13 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
-
+# Ignore specific files
 .bash_history
 .gitconfig
-.gitignore
 .idlerc/
 .ipython/
+.lesshst
 .ssh/
-AppData/
-Contacts/
-Documents/
-Downloads/
-Favorites/
-Links/
-Music/
-NTUSER.DAT
-NTUSER.DAT*
-OneDrive - Colostate/
-Saved Games/
-Searches/
-Videos/
-ntuser.dat.LOG1
-ntuser.dat.LOG2
-ntuser.ini
+
+# Ignore all files under AppData/Local/Application Data
+AppData/Local/Application Data/
+
+# Ignore all files under AppData/Local/.certifi
+AppData/Local/.certifi/
