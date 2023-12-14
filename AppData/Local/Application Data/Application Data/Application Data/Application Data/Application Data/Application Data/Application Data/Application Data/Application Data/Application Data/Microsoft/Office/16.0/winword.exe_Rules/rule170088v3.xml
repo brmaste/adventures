@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170088" V="3" DC="SM" EN="Office.Graphics.ARCExceptions" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" SP="CriticalBusinessImpact" DL="B" DCa="DC" xmlns="">
+  <S>
+    <UCSS T="1" C="ARC Exception Telemetry" S="Assert Unexpected" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="ULS_TagId" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="TagID">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="I32" I="1" O="true" N="HResult">
+    <S T="1" F="SH_ErrorCode" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="false" N="TagCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224087" V="1" DC="SM" EN="Office.Licensing.ExpirationDialogTiming" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bbxmb" />
+    <UTS T="2" Id="bbxmc" />
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="LE">
+            <L>
+              <V V="5" T="I32" />
+            </L>
+            <R>
+              <S T="2" F="EventId" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LE">
+            <L>
+              <S T="2" F="EventId" />
+            </L>
+            <R>
+              <V V="22" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="true" N="ActionTime">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="true" N="DialogAction">
+    <S T="3" F="EventId" />
+  </C>
+  <C T="I32" I="2" O="true" N="LicNotificationState">
+    <S T="1" F="LicNotificationState" />
+  </C>
+  <C T="I64" I="3" O="true" N="TimeOnScreen">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="3" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="1" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

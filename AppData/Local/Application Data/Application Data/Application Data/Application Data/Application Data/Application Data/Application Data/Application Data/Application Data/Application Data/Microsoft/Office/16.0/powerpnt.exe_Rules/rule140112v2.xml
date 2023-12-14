@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140112" V="2" DC="SM" EN="Office.PowerPoint.PPT.Desktop.DesignerApplySuggestErrors" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UACS T="1" S="Unexpected Assert" />
+    <UTS T="2" Id="a3n3g" A="icleu" />
+    <UTS T="3" Id="a3n32" A="iclhs" />
+    <UTS T="4" Id="bar01" A="icle4" />
+    <US T="5">
+      <S T="3" />
+      <S T="4" />
+    </US>
+  </S>
+  <C T="TAG" I="0" O="true" N="FirstErrorTag">
+    <A T="FIRST">
+      <S T="1" F="ULS_Tag" M="Ignore" />
+    </A>
+  </C>
+  <C T="TAG" I="1" O="true" N="LastErrorTag">
+    <A T="LAST">
+      <S T="1" F="ULS_Tag" M="Ignore" />
+    </A>
+  </C>
+  <C T="G" I="2" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+  <ST>
+    <S T="2" />
+  </ST>
+</R>

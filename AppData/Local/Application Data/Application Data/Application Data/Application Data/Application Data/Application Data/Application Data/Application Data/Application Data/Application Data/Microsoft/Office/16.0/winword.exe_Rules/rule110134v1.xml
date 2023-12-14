@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110134" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <R T="1" R="110133" />
+    <Etw T="2" E="1439" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="3" E="1624" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <TH T="4">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <S T="3" F="correlationIdStart" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LE">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <S T="3" F="correlationIdEnd" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </TH>
+  </S>
+  <C T="U32" I="0" O="false">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="4" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="1" F="1" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <C T="U32" I="1" O="false">
+    <S T="1" F="2" />
+  </C>
+  <C T="TAG" I="2" O="false">
+    <S T="3" F="Tag" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+  <ST>
+    <S T="2" />
+  </ST>
+</R>

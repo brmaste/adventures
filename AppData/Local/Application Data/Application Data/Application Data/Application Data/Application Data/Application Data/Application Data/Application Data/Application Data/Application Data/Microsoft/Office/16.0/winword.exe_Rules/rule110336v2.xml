@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110336" V="2" DC="SM" EN="Office.Word.Display.DrawE2o" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <TI T="1" I="Hourly" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+    <Etw T="4" E="224" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+  </S>
+  <G>
+    <S T="4">
+      <F N="wkWwd" />
+    </S>
+  </G>
+  <C T="B" I="0" O="false" N="FAccessibilityRunning">
+    <S T="4" F="fAccessibilityRunning" />
+  </C>
+  <C T="U32" I="1" O="false" N="WkWwd">
+    <S T="4" F="wkWwd" />
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="4" />
+  </ST>
+</R>

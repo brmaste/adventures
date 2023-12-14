@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140116" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.PPTTableOfContentsInsertionRule" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bdrpc" />
+    <UTS T="2" Id="bdsjd" />
+    <UTS T="3" Id="bdsjg" />
+    <UTS T="4" Id="bdsjh" />
+    <UTS T="5" Id="bdrpd" />
+    <A T="6" E="TelemetrySuspend" />
+    <A T="7" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="TableOfContentsInsertTOCButtonInvoked">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="TableOfContentsInsertionDialogLaunched">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="TableOfContentsInsertionDialogCancelled">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="TableOfContentsInsertedUsingDialog">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="TableOfContentsInsertionSuccess">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <T>
+    <S T="6" />
+    <S T="7" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="5" />
+  </ST>
+</R>

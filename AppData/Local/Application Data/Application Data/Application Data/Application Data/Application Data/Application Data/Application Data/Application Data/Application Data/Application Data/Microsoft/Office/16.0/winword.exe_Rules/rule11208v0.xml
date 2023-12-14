@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11208" V="0" DC="SM" EN="Office.Outlook.Desktop.PcxPersonInfoInstances" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bsexq" />
+    <A T="2" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="PersonInfoInstanceCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

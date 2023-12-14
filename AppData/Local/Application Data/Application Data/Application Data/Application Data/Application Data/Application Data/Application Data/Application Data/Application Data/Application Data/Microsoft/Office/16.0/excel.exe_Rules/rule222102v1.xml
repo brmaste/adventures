@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="222102" V="1" DC="SM" EN="Office.NaturalLanguage.Proofing.ProofingEventsRuleGrammarEnable" ATT="71cc1046851042108843d90e5d3ef6c1-61e5de5c-238c-4de5-95de-3b40d20ea6e5-6899" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bgjm6" A="bn8xl" />
+  </S>
+  <C T="W" I="0" O="false" N="GrammarEventCultureTag">
+    <S T="1" F="CultureTag" />
+  </C>
+  <C T="B" I="1" O="false" N="GrammarEventIsForegroundChecking">
+    <S T="1" F="IsForegroundChecking" />
+  </C>
+  <C T="B" I="2" O="false" N="GrammarEventIsEnabled">
+    <S T="1" F="IsEnabled" />
+  </C>
+  <C T="I32" I="3" O="false" N="GrammarEventDllVersionMajor">
+    <S T="1" F="DllVersionMajor" />
+  </C>
+  <C T="I32" I="4" O="false" N="GrammarEventDllVersionMinor">
+    <S T="1" F="DllVersionMinor" />
+  </C>
+  <C T="I32" I="5" O="false" N="GrammarEventDllVersionBuild">
+    <S T="1" F="DllVersionBuild" />
+  </C>
+  <C T="I32" I="6" O="false" N="GrammarEventDllVersionRevision">
+    <S T="1" F="DllVersionRevision" />
+  </C>
+  <C T="I32" I="7" O="false" N="GrammarEventLexVersionMajor">
+    <S T="1" F="LexVersionMajor" />
+  </C>
+  <C T="I32" I="8" O="false" N="GrammarEventLexVersionMinor">
+    <S T="1" F="LexVersionMinor" />
+  </C>
+  <C T="I32" I="9" O="false" N="GrammarEventLexVersionBuild">
+    <S T="1" F="LexVersionBuild" />
+  </C>
+  <C T="I32" I="10" O="false" N="GrammarEventLexVersionRevision">
+    <S T="1" F="LexVersionRevision" />
+  </C>
+  <C T="B" I="11" O="false" N="GrammarEventIsDataShareableOutsideOffice">
+    <S T="1" F="IsDataShareableOutsideOffice" />
+  </C>
+  <C T="B" I="12" O="false" N="GrammarEventIsOverrideTool">
+    <S T="1" F="IsOverrideTool" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

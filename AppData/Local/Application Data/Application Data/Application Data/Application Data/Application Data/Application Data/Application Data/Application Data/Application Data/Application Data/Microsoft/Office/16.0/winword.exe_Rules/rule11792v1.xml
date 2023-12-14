@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11792" V="1" DC="SM" EN="Office.Outlook.Desktop.PeopleSuggestionsDisplayTimes" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSP" xmlns="">
+  <S>
+    <UTS T="1" Id="cwfnh" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="IsFirstInSession" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="LT">
+        <L>
+          <S T="4" F="ElapsedMsForSession" />
+        </L>
+        <R>
+          <V V="100" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="100" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="250" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="250" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="500" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="500" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="1000" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="1000" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="ElapsedMsForSession" />
+            </L>
+            <R>
+              <V V="2500" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="GE">
+        <L>
+          <S T="4" F="ElapsedMsForSession" />
+        </L>
+        <R>
+          <V V="2500" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="1" F="IsFirstInSession" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="LT">
+        <L>
+          <S T="11" F="ElapsedMs" />
+        </L>
+        <R>
+          <V V="100" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="100" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="250" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="250" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="500" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="500" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="1000" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="1000" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="11" F="ElapsedMs" />
+            </L>
+            <R>
+              <V V="2500" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="GE">
+        <L>
+          <S T="11" F="ElapsedMs" />
+        </L>
+        <R>
+          <V V="2500" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountFirstLessThan100ms">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountFirst100to250ms">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountFirst250to500ms">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CountFirst500to1000ms">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="CountFirst1000to2500ms">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CountFirstMoreThan2500ms">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="CountUpdateLessThan100ms">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="CountUpdate100to250ms">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="CountUpdate250to500ms">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="CountUpdate500to1000ms">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="CountUpdate1000to2500ms">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="CountUpdateMoreThan2500ms">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="F" I="12" O="true" N="AvgFirstDisplayElapsedMs">
+    <A T="AVG">
+      <S T="4" F="ElapsedMsForSession" />
+    </A>
+  </C>
+  <C T="F" I="13" O="true" N="AvgUpdateDisplaysElapsedMs">
+    <A T="AVG">
+      <S T="11" F="ElapsedMs" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

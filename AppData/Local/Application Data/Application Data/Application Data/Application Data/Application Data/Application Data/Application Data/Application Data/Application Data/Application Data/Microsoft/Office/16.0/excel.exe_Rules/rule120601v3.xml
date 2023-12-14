@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120601" V="3" DC="SM" EN="Office.System.SystemHealthMetadataOS" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalBusinessImpact" DL="A" DCa="DC" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <SS T="1" G="{3cb9b55e-dede-4e53-a8fb-237e71d0c1ad}" />
+    <SS T="2" G="{233c7b3b-96db-42f9-9cd7-2a3dc93947e8}" />
+    <SS T="3" G="{8ab2d942-dc47-4076-8a16-0c8b6874be27}" />
+    <R T="4" R="120100" />
+  </S>
+  <C T="U32" I="0" O="true" N="OsMajorVer">
+    <S T="1" F="OSMajorVer" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="OsMinorVer">
+    <S T="1" F="OSMinorVer" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="OsBuild">
+    <S T="1" F="OSBuildNumber" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="OsBuildRevision">
+    <S T="1" F="OSBuildRevision" M="Ignore" />
+  </C>
+  <C T="U16" I="4" O="true" N="OsSuite2">
+    <S T="1" F="OSSuite2" M="Ignore" />
+  </C>
+  <C T="U16" I="5" O="true" N="ServicePackMajorVer">
+    <S T="1" F="ServicePackMajorVer" M="Ignore" />
+  </C>
+  <C T="U16" I="6" O="true" N="ServicePackMinorVer">
+    <S T="1" F="ServicePackMinorVer" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="OsSku">
+    <S T="1" F="OSSku" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="IsTerminalServer">
+    <S T="1" F="IsTerminalServer" M="Ignore" />
+  </C>
+  <C T="W" I="9" O="true" N="OSVersionString">
+    <S T="1" F="OSVersionString" M="Ignore" />
+  </C>
+  <C T="U8" I="10" O="true" N="OSSDKVersionCode">
+    <S T="1" F="OSSDKVersionCode" M="Ignore" />
+  </C>
+  <C T="U8" I="11" O="true" N="OSEnvironment">
+    <S T="1" F="OSEnvironment" M="Ignore" />
+  </C>
+  <C T="I32" I="12" O="true" N="HorizontalResolution">
+    <S T="3" F="HorizontalResolution" M="Ignore" />
+  </C>
+  <C T="I32" I="13" O="true" N="VerticalResolution">
+    <S T="3" F="VerticalResolution" M="Ignore" />
+  </C>
+  <C T="I32" I="14" O="true" N="ScreenDpi">
+    <S T="3" F="ScreenDpi" M="Ignore" />
+  </C>
+  <C T="I32" I="15" O="true" N="ScreenDepth">
+    <S T="3" F="ScreenDepth" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="OsLocale">
+    <S T="2" F="OsUserLocale" M="Ignore" />
+  </C>
+  <C T="U16" I="17" O="true" N="OsUiLang">
+    <S T="2" F="OSUiLang" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="KeyboardLanguage">
+    <S T="2" F="KeyboardInputLang" M="Ignore" />
+  </C>
+  <C T="U32" I="19" O="true" N="SystemLocale">
+    <S T="2" F="SystemLocale" M="Ignore" />
+  </C>
+  <C T="I32" I="20" O="true" N="CountryRegion">
+    <S T="2" F="CountryRegion" M="Ignore" />
+  </C>
+  <C T="I32" I="21" O="true" N="TimeZoneBiasInMinutes">
+    <S T="2" F="Timezone" M="Ignore" />
+  </C>
+  <C T="W" I="22" O="true" N="OsLocaleTag">
+    <S T="2" F="OsUserLocaleTag" M="Ignore" />
+  </C>
+  <C T="W" I="23" O="true" N="KeyboardLanguageTag">
+    <S T="2" F="KeyboardInputLangTag" M="Ignore" />
+  </C>
+  <C T="W" I="24" O="true" N="SystemLocaleTag">
+    <S T="2" F="SystemLocaleTag" M="Ignore" />
+  </C>
+  <C T="U32" I="25" O="true" N="OfficeWvd">
+    <S T="1" F="IsOfficeWVD" M="Ignore" />
+  </C>
+  <C T="U32" I="26" O="true" N="W365EnvironmentType">
+    <S T="1" F="W365EnvironmentType" M="Ignore" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

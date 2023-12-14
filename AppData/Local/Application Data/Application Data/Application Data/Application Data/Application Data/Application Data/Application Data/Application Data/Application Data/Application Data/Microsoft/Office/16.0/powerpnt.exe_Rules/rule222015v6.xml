@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="222015" V="6" DC="SM" EN="Office.NaturalLanguage.Proofing.ProofingEventsRuleSpellerEvent" ATT="71cc1046851042108843d90e5d3ef6c1-61e5de5c-238c-4de5-95de-3b40d20ea6e5-6899" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a2dok" A="bkoh0 bn8xh" />
+  </S>
+  <C T="I32" I="0" O="true" N="SpellerEventUndoID">
+    <S T="1" F="UndoID" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="SpellerEventCultureTag">
+    <S T="1" F="CultureTag" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="SpellerEventEventName">
+    <S T="1" F="EventName" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="IndexSelectedSuggestion">
+    <S T="1" F="IndexSelectedSuggestion" M="Ignore" />
+  </C>
+  <C T="B" I="4" O="true" N="SpellerEventIsFromApplicationUndo">
+    <S T="1" F="IsFromApplicationUndo" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="SpellerEventEndPoint">
+    <S T="1" F="EndPoint" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="SpellerEventIsDataShareableOutsideOffice">
+    <S T="1" F="IsDataShareableOutsideOffice" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="SpellerEventIsOverrideTool">
+    <S T="1" F="IsOverrideTool" M="Ignore" />
+  </C>
+  <C T="G" I="8" O="true" N="CorrelationId">
+    <S T="1" F="CorrelationId" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

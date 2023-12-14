@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="490014" V="2" DC="SM" EN="Office.Feedback.Survey.FloodgateClient.FeatureFlags" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ctrxf" A="ctrxh ctrxe ctrxg 6ulqq" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="AppName">
+    <S T="1" F="AppName" M="Ignore" />
+  </C>
+  <C T="B" I="2" O="true" N="FloodgateClientLibletEnabled">
+    <S T="1" F="FloodgateClientLibletEnabled" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="true" N="FloodgateEnabled">
+    <S T="1" F="FloodgateEnabled" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

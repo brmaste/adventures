@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110082" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UACS T="1" S="Assert" />
+    <Etw T="2" E="123" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <Etw T="3" E="124" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <TH T="4">
+      <O T="EQ">
+        <L>
+          <C>
+            <S T="2" />
+          </C>
+        </L>
+        <R>
+          <C>
+            <S T="3" />
+          </C>
+        </R>
+      </O>
+    </TH>
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="false">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+  <R>
+    <S T="4" />
+  </R>
+  <ST>
+    <S T="2" />
+  </ST>
+</R>

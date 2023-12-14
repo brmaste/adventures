@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170110" V="0" DC="SM" EN="Office.Graphics.StylusUpView" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjzqh" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+  </S>
+  <C T="U32" I="0" O="false" N="StylusUpCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="B" I="1" O="true" N="AnimationsPlaying">
+    <S T="1" F="fAnimationsPlaying" M="Ignore" />
+  </C>
+  <C T="B" I="2" O="true" N="InitiatedFromSlideshow">
+    <S T="1" F="fInitiatedFromSlideshow" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="true" N="MixedDpi">
+    <S T="1" F="fMixedDpi" M="Ignore" />
+  </C>
+  <C T="B" I="4" O="true" N="PacketCallBack">
+    <S T="1" F="FPacketCallBack" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true" N="ViewName">
+    <S T="1" F="ViewName" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

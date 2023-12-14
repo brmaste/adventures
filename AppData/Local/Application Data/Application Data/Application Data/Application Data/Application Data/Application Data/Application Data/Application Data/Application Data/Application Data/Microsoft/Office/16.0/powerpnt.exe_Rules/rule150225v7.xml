@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150225" V="7" DC="SM" EN="Office.PowerPoint.PPT.RealtimeEditing.OutgoingMessageTimes" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bg761" />
+  </S>
+  <C T="U32" I="0" O="false" N="RevisionNumber">
+    <S T="1" F="RevisionNumber" />
+  </C>
+  <C T="W" I="1" O="true" N="SenderClientId">
+    <S T="1" F="ClientID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="false" N="Tcid">
+    <S T="1" F="TCID" />
+  </C>
+  <C T="U32" I="3" O="true" N="StartToQueueMicrosec">
+    <S T="1" F="StartToQueueMicrosec" M="Ignore" />
+  </C>
+  <C T="I64" I="4" O="true" N="InQueueMicrosec">
+    <S T="1" F="InQueueMicrosec" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="QueueToSendMsgMicrosec">
+    <S T="1" F="QueueToSendMsgMicrosec" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="SendMsgMicrosec">
+    <S T="1" F="SendMsgMicrosec" M="Ignore" />
+  </C>
+  <C T="I64" I="7" O="true" N="OutgoingE2EMicrosec">
+    <S T="1" F="OutgoingE2EMicrosec" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="SerializeMicrosec">
+    <S T="1" F="SerializeMicrosec" M="Ignore" />
+  </C>
+  <C T="G" I="9" O="true" N="ServerDocId">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="ServerDocId" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="Doc.ServerDocId" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="10" O="true" N="SendDeferredCount">
+    <S T="1" F="SendDeferredCount" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="SendDeferredReason">
+    <S T="1" F="SendDeferredReason" M="Ignore" />
+  </C>
+  <C T="B" I="12" O="true" N="HasFakeCommand">
+    <S T="1" F="HasFakeCommand" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="LargeBlobSize">
+    <S T="1" F="LargeBlobSize" M="Ignore" />
+  </C>
+  <C T="W" I="14" O="true" N="StackTraits">
+    <S T="1" F="StackTraits" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

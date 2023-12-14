@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150217" V="0" DC="SM" EN="Office.PowerPoint.PPT.PresenceEditorInfo" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="befwe" />
+    <UTS T="2" Id="befwf" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="ClientId" />
+    </S>
+    <S T="2">
+      <F N="ClientId" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="true" N="PresenceToEditorInfoDuration">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="2" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="1" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <C T="W" I="1" O="false" N="ClientId">
+    <S T="1" F="ClientId" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

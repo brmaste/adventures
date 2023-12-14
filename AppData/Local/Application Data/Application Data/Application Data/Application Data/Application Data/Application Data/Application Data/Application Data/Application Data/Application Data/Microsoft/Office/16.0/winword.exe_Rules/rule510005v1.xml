@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510005" V="1" DC="SM" EN="Office.DynamicCanvas.CanvasLaunches" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalBusinessImpact" S="100" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="blgb5" />
+  </S>
+  <C T="FT" I="0" O="false" N="LaunchTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="false" N="Surface">
+    <S T="1" F="Surface" />
+  </C>
+  <C T="W" I="2" O="false" N="CampaignId">
+    <S T="1" F="CampaignId" />
+  </C>
+  <C T="W" I="3" O="false" N="MessageId">
+    <S T="1" F="MessageId" />
+  </C>
+  <C T="W" I="4" O="false" N="CampaignName">
+    <S T="1" F="CampaignName" />
+  </C>
+  <C T="W" I="5" O="false" N="ContentName">
+    <S T="1" F="ContentName" />
+  </C>
+  <C T="U8" I="6" O="false" N="ContentNumber">
+    <S T="1" F="ContentNumber" />
+  </C>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

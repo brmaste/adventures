@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180177" V="0" DC="SM" EN="Office.Excel.UserVoiceClipboard.ShipAssertDiagnostic" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bsb61" />
+    <UTS T="2" Id="bq16e" />
+    <UTS T="3" Id="bnrwb" />
+    <UTS T="4" Id="bnrwe" />
+    <UTS T="5" Id="bsb63" />
+    <UTS T="6" Id="bq16k" />
+    <UTS T="7" Id="bnrwg" />
+    <UTS T="8" Id="bq16o" />
+    <UTS T="9" Id="brmg6" />
+    <UTS T="10" Id="bsb65" />
+    <UTS T="11" Id="bq16u" />
+    <UTS T="12" Id="bq16d" />
+    <US T="13">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+      <S T="10" />
+      <S T="11" />
+      <S T="12" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="true" N="CollectionTime">
+    <S T="13" F="TimeStamp100ns" M="Ignore" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="13" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="EventId">
+    <S T="13" F="EventId" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="TagId">
+    <S T="13" F="ULS_TagId" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="CommandId">
+    <S T="13" F="CommandId" M="Ignore" />
+  </C>
+  <T>
+    <S T="13" />
+  </T>
+</R>

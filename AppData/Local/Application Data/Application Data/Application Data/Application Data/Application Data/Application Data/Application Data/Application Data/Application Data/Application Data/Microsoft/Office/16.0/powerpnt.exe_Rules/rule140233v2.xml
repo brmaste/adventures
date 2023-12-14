@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140233" V="2" DC="SM" EN="Office.PowerPoint.PPT.Shared.Collab.SlideChanges" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bmv46" />
+  </S>
+  <C T="G" I="0" O="true" N="UlsCorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="G" I="1" O="true" N="ChangeCorrelationId">
+    <S T="1" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="CreationId">
+    <S T="1" F="CreationID" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="SlideChangeDetails">
+    <S T="1" F="Slide" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="ShapeChangeDetails">
+    <S T="1" F="Shape" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="TextBodyChangeDetails">
+    <S T="1" F="TextBody" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="E2oFrameChangeDetails">
+    <S T="1" F="E2oFrame" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="PictureChangeDetails">
+    <S T="1" F="Picture" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="GroupShapeChangeDetails">
+    <S T="1" F="GroupShape" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="InkChangeDetails">
+    <S T="1" F="Ink" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="ConnectorChangeDetails">
+    <S T="1" F="Connector" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="AnimationEffectChangeDetails">
+    <S T="1" F="AnimationEffect" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="CommentChangeDetails">
+    <S T="1" F="Comment" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="NoteTextChangeDetails">
+    <S T="1" F="NoteText" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="NotesChangeDetails">
+    <S T="1" F="Notes" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="FIsExternal">
+    <S T="1" F="fIsExternal" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

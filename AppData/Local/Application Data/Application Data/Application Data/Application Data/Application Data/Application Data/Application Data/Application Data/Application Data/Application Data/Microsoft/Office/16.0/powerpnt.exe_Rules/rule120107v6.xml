@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120107" V="6" DC="SM" EN="Office.System.SystemHealthDesktopSessionLifecycleAndHeartbeat" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalCensus" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Lifecycle" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="awjb7" />
+    <UTS T="2" Id="a14x3" />
+    <SS T="3" G="{68442bc6-3519-4b08-a80c-e0a68fc8cda3}" />
+    <TI T="4" I="Hourly" />
+    <TR T="5" />
+    <R T="6" R="120107" />
+    <F T="7">
+      <O T="NE">
+        <L>
+          <S T="1" F="Event" />
+        </L>
+        <R>
+          <V V="3" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="Time">
+    <O T="COALESCE">
+      <L>
+        <S T="2" F="SessionStartTime" />
+      </L>
+      <R>
+        <S T="5" F="TimeStamp100ns" />
+      </R>
+    </O>
+  </C>
+  <C T="U8" I="1" O="false" N="State">
+    <O T="COALESCE">
+      <L>
+        <S T="2" F="Event" />
+      </L>
+      <R>
+        <O T="COALESCE">
+          <L>
+            <S T="7" F="Event" />
+          </L>
+          <R>
+            <V V="4" T="U8" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="W" I="2" O="true" N="PreviousBuild">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="2" F="PreviousBuild" M="Ignore" />
+          </L>
+          <R>
+            <S T="7" F="PreviousBuild" M="Ignore" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <S T="6" F="2" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="3" O="true" N="InstallMethod">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="2" F="InstallMethod" M="Ignore" />
+          </L>
+          <R>
+            <S T="7" F="InstallMethod" M="Ignore" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <S T="6" F="3" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="4" O="true" N="OfficeArchitectureText">
+    <S T="3" F="ApplicationArchitecture" M="Ignore" />
+  </C>
+  <T>
+    <S T="7" />
+    <S T="2" />
+    <S T="4" />
+  </T>
+</R>

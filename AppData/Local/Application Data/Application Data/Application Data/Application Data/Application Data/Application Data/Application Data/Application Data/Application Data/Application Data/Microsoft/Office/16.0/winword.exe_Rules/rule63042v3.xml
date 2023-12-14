@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63042" V="3" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="awutb" A="awuxw bbvox bb9d3 bb9ed bb9ee" />
+    <UTS T="2" Id="bb9d5" A="bb9d4 bhgns awuv5" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="false">
+    <S T="3" F="ULS_Tag" />
+  </C>
+  <C T="W" I="2" O="true">
+    <S T="3" F="IdentityMetadata_IdentityProviderType" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true">
+    <S T="3" F="IdentityMetadata_LibraryType" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170060" V="1" DC="SM" EN="Office.Graphics.D2D1Usage" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bqo3s" />
+  </S>
+  <C T="W" I="0" O="false" N="TagID">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

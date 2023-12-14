@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="69703" V="0" DC="SM" EN="Office.Insights.JunoDesktop.StartInfo" ATT="250a372c4a854d8fb120ef0366f9410c-dd39bcd8-3b38-4c6c-9f8d-3821e5c28b47-7487" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="be06k" />
+    <UTS T="2" Id="bjaxf" />
+  </S>
+  <C T="W" I="0" O="false" N="AppCorrelationId">
+    <S T="1" F="AppCorrelationId" />
+  </C>
+  <C T="B" I="1" O="false" N="IsFirstRun">
+    <S T="1" F="IsFirstRun" />
+  </C>
+  <C T="B" I="2" O="false" N="HasEntity">
+    <S T="1" F="HasEntity" />
+  </C>
+  <C T="W" I="3" O="false" N="EntryPoint">
+    <S T="2" F="EntryPoint" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

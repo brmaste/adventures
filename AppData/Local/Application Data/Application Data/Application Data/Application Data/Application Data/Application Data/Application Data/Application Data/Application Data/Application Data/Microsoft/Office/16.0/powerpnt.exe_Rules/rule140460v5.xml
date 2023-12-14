@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140460" V="5" DC="SM" EN="Office.PowerPoint.PPT.Shared.AugLoop.RuntimePerformance" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cnmkt" />
+  </S>
+  <C T="W" I="0" O="true" N="DocGuid">
+    <S T="1" F="docGuid" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="OutputSchemaName">
+    <S T="1" F="outputSchemaName" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="false" N="ResponseCount">
+    <V V="1" T="U32" />
+  </C>
+  <C T="U64" I="3" O="false" N="OutputTileSize">
+    <S T="1" F="outputTileSize" />
+  </C>
+  <C T="U64" I="4" O="false" N="RequestResponseDurationMsec">
+    <S T="1" F="requestResponseDurationMsec" />
+  </C>
+  <C T="U64" I="5" O="true" N="InputTileSize">
+    <S T="1" F="inputTileSize" M="Ignore" />
+  </C>
+  <C T="U64" I="6" O="true" N="ReqOrd">
+    <S T="1" F="reqOrd" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="SlideID">
+    <S T="1" F="SlideID" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="CreationID">
+    <S T="1" F="CreationID" M="Ignore" />
+  </C>
+  <C T="B" I="9" O="true" N="Succeeded">
+    <S T="1" F="fSucceeded" M="Ignore" />
+  </C>
+  <C T="I64" I="10" O="true" N="ProcessTimeMicrosec">
+    <S T="1" F="processTimeMicrosec" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="PartialSuccess">
+    <S T="1" F="fPartialSuccess" M="Ignore" />
+  </C>
+  <C T="U64" I="12" O="true" N="RawCritiques">
+    <S T="1" F="rawCritiques" M="Ignore" />
+  </C>
+  <C T="U64" I="13" O="true" N="ApplicableCritiques">
+    <S T="1" F="applicableCritiques" M="Ignore" />
+  </C>
+  <C T="U64" I="14" O="true" N="CritiquesForChangedTextBodies">
+    <S T="1" F="critiquesForChangedTextBodies" M="Ignore" />
+  </C>
+  <C T="U64" I="15" O="true" N="CritiquesForDeletedTextBodies">
+    <S T="1" F="critiquesForDeletedTextBodies" M="Ignore" />
+  </C>
+  <C T="U64" I="16" O="true" N="IgnoredCritiques">
+    <S T="1" F="ignoredCritiques" M="Ignore" />
+  </C>
+  <C T="U64" I="17" O="true" N="InvalidCritiques">
+    <S T="1" F="invalidCritiques" M="Ignore" />
+  </C>
+  <C T="U64" I="18" O="true" N="SpellingCritiques">
+    <S T="1" F="spellingCritiques" M="Ignore" />
+  </C>
+  <C T="U64" I="19" O="true" N="InputTextBodies">
+    <S T="1" F="inputTextBodies" M="Ignore" />
+  </C>
+  <C T="U64" I="20" O="true" N="UnchangedTextBodies">
+    <S T="1" F="unchangedTextBodies" M="Ignore" />
+  </C>
+  <C T="U64" I="21" O="true" N="TextBodiesWithApplicableCritiques">
+    <S T="1" F="textBodiesWithApplicableCritiques" M="Ignore" />
+  </C>
+  <C T="U64" I="22" O="true" N="TextBodiesWithCritiquesUpdated">
+    <S T="1" F="textBodiesWithCritiquesUpdated" M="Ignore" />
+  </C>
+  <C T="U64" I="23" O="true" N="ExistingCritiques">
+    <S T="1" F="existingCritiques" M="Ignore" />
+  </C>
+  <C T="B" I="24" O="true" N="HttpRuntime">
+    <S T="1" F="fHttpRuntime" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

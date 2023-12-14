@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="320003" V="1" DC="SM" EN="Office.Extensibility.ODPAppManagementMenu" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a55rr" />
+    <UTS T="2" Id="c6io7" />
+    <UTS T="3" Id="dfid6" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="4" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="true" N="AssetId">
+    <S T="4" F="AssetId" />
+  </C>
+  <C T="U32" I="2" O="true" N="OperationMetadata">
+    <S T="4" F="OperationMetadata" />
+  </C>
+  <C T="I32" I="3" O="true" N="ErrorResult">
+    <S T="4" F="ErrorResult" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

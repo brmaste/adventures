@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180043" V="1" DC="SM" EN="Office.Excel.XlUserErrorsPassthrough.ForGA" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ULS_Category" />
+            </L>
+            <R>
+              <V V="Alerts" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Table" />
+            </L>
+            <R>
+              <V V="UserErrors" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="CorrelationId">
+    <S T="2" F="ULS_CorrelationID" />
+  </C>
+  <C T="I64" I="2" O="true" N="ErrorId">
+    <S T="2" F="ErrorId" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="ScopeHolderId">
+    <S T="2" F="ScopeHolderId" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="ErrorDialogId">
+    <S T="2" F="ErrorDialogId" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="ErrorDlgUserChoice">
+    <S T="2" F="ErrorDlgUserChoice" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

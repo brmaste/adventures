@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224013" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.Client.ShowSignInUI" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a2zam" />
+    <UTS T="2" Id="a2zan" />
+    <UTS T="3" Id="a2zcd" />
+    <UTS T="4" Id="a2zao" />
+  </S>
+  <C T="FT" I="0" O="false" N="EnteringShowSignInUI">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="1" O="true" N="AttemptingPassedIdentity">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="2" O="true" N="ObtainedIdentity">
+    <S T="4" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="3" O="true" N="ActiveIdentityToNull">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <T>
+    <S T="1" />
+    <S T="3" />
+  </T>
+</R>

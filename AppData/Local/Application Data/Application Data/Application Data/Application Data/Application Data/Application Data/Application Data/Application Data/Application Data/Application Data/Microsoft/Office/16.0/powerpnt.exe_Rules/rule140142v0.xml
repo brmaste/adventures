@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140142" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.Designer.UnifiedPrivacyAction" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="boker" />
+    <UTS T="2" Id="bokep" />
+    <UTS T="3" Id="bokeq" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="B" I="0" O="true" N="IsUnifiedPrivacyFeatureEnabledWhenShown">
+    <S T="1" F="IsUppEnabled" />
+  </C>
+  <C T="B" I="1" O="true" N="IsUnifiedPrivacyFeatureEnabledWhenAccepted">
+    <S T="2" F="IsUppEnabled" />
+  </C>
+  <C T="B" I="2" O="true" N="IsUnifiedPrivacyFeatureEnabledWhenDeclined">
+    <S T="3" F="IsUppEnabled" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

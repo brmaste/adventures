@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150132" V="3" DC="SM" EN="Office.PowerPoint.PPT.Shared.SlideContentTelemetry.Part2" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bo1zh" />
+  </S>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <S T="1" F="CorrelationId" />
+  </C>
+  <C T="U32" I="1" O="true" N="SlidesWithSectionZoom">
+    <S T="1" F="SlidesWithSectionZoom" />
+  </C>
+  <C T="U32" I="2" O="true" N="SectionZoomsCount">
+    <S T="1" F="SectionZoomsCount" />
+  </C>
+  <C T="U32" I="3" O="true" N="SlidesWithSummaryZoom">
+    <S T="1" F="SlidesWithSummaryZoom" />
+  </C>
+  <C T="U32" I="4" O="true" N="SummaryZoomsCount">
+    <S T="1" F="SummaryZoomsCount" />
+  </C>
+  <C T="U32" I="5" O="true" N="SlidesWithSlideZoom">
+    <S T="1" F="SlidesWithSlideZoom" />
+  </C>
+  <C T="U32" I="6" O="true" N="SlideZoomsCount">
+    <S T="1" F="SlideZoomsCount" />
+  </C>
+  <C T="U32" I="7" O="true" N="SlidesWithLinkedAudio">
+    <S T="1" F="SlidesWithLinkedAudio" />
+  </C>
+  <C T="U32" I="8" O="true" N="LinkedAudiosCount">
+    <S T="1" F="LinkedAudiosCount" />
+  </C>
+  <C T="U32" I="9" O="true" N="SlidesWithLinkedVideo">
+    <S T="1" F="SlidesWithLinkedVideo" />
+  </C>
+  <C T="U32" I="10" O="true" N="LinkedVideosCount">
+    <S T="1" F="LinkedVideosCount" />
+  </C>
+  <C T="U32" I="11" O="true" N="SlidesWithEmbedAudio">
+    <S T="1" F="SlidesWithEmbedAudio" />
+  </C>
+  <C T="U32" I="12" O="true" N="EmbedAudiosCount">
+    <S T="1" F="EmbedAudiosCount" />
+  </C>
+  <C T="U32" I="13" O="true" N="SlidesWithEmbedVideo">
+    <S T="1" F="SlidesWithEmbedVideo" />
+  </C>
+  <C T="U32" I="14" O="true" N="EmbedVideosCounts">
+    <S T="1" F="EmbedVideosCount" />
+  </C>
+  <C T="U32" I="15" O="true" N="SlidesWithLoopingAudio">
+    <S T="1" F="SlidesWithLoopingAudio" />
+  </C>
+  <C T="U32" I="16" O="true" N="LoopingAudiosCount">
+    <S T="1" F="LoopingAudiosCount" />
+  </C>
+  <C T="U32" I="17" O="true" N="SlidesWithLoopingVideo">
+    <S T="1" F="SlidesWithLoopingVideo" />
+  </C>
+  <C T="U32" I="18" O="true" N="LoopingVideosCount">
+    <S T="1" F="LoopingVideosCount" />
+  </C>
+  <C T="U32" I="19" O="true" N="SlidesWithCrossSlideAudio">
+    <S T="1" F="SlidesWithCrossSlideAudio" />
+  </C>
+  <C T="U32" I="20" O="true" N="CrossSlideAudiosCount">
+    <S T="1" F="CrossSlideAudiosCount" />
+  </C>
+  <C T="U32" I="21" O="true" N="SlidesWithCrossSlideVideo">
+    <S T="1" F="SlidesWithCrossSlideVideo" />
+  </C>
+  <C T="U32" I="22" O="true" N="CrossSlideVideosCount">
+    <S T="1" F="CrossSlideVideosCount" />
+  </C>
+  <C T="U32" I="23" O="true" N="SlidesWithNarration">
+    <S T="1" F="SlidesWithNarration" />
+  </C>
+  <C T="U32" I="24" O="true" N="NarrationsCount">
+    <S T="1" F="NarrationsCount" />
+  </C>
+  <C T="U32" I="25" O="true" N="SlidesWithFullScreenVideo">
+    <S T="1" F="SlidesWithFullScreenVideo" />
+  </C>
+  <C T="U32" I="26" O="true" N="FullScreenVideosCount">
+    <S T="1" F="FullScreenVideosCount" />
+  </C>
+  <C T="U32" I="27" O="true" N="SlidesWithOnlineVideo">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="SlidesWithYoutubeVideo" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="SlidesWithOnlineVideo" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="28" O="true" N="OnlineVideosCount">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="YoutubeVideosCount" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="OnlineVideosCount" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="29" O="true" N="FileTypeInternalFormat">
+    <S T="1" F="FileTypeInternalFormat" />
+  </C>
+  <C T="U32" I="30" O="true" N="LoadedSlides">
+    <S T="1" F="LoadedSlides" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68013" V="9" DC="SM" EN="Office.TellMe.TellMeD.SubstateServiceResponse" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="8nqjp" A="bu1h9 bu1ih bu1ii bwm1p bu1h7" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="TellMeSessionId">
+    <S T="1" F="sessionId" M="Ignore" />
+  </C>
+  <C T="TAG" I="2" O="true" N="Tag">
+    <S T="1" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Result">
+    <S T="1" F="result" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="HttpStatusCode">
+    <S T="1" F="httpStatusCode" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="ResponseTime">
+    <S T="1" F="responseTime" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="7" O="false" N="UserActionName">
+    <V V="TellMeD_SubstateServiceResponse" T="W" />
+  </C>
+  <C T="W" I="8" O="true" N="TraceId">
+    <S T="1" F="traceId" M="Ignore" />
+  </C>
+  <C T="W" I="9" O="true" N="RequestId">
+    <S T="1" F="request-id" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true" N="XCalculatedBETarget">
+    <S T="1" F="X-CalculatedBETarget" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="XMSEdgeRef">
+    <S T="1" F="X-MSEdge-Ref" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="true" N="ClientRequestId">
+    <S T="1" F="Client-request-id" M="Ignore" />
+  </C>
+  <C T="U64" I="13" O="true" N="PeopleResultsCount">
+    <S T="1" F="peopleResultsCount" M="Ignore" />
+  </C>
+  <C T="U64" I="14" O="true" N="DocumentResultsCount">
+    <S T="1" F="documentResultsCount" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

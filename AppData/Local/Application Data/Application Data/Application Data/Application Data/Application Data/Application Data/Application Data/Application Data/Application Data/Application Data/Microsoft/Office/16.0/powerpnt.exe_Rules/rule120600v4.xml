@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120600" V="4" DC="SM" EN="Office.System.SystemHealthMetadataDeviceConsolidated" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalBusinessImpact" DL="A" DCa="DC" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <SS T="1" G="{b1676ac3-7fee-44a9-9a0e-dbb0b496efa5}" />
+    <R T="2" R="120681" />
+  </S>
+  <C T="W" I="0" O="true" N="ProcTypeText">
+    <S T="1" F="ProcessorArchitecture" />
+  </C>
+  <C T="U32" I="1" O="true" N="ProcessorCount">
+    <S T="1" F="ProcessorCount" />
+  </C>
+  <C T="U32" I="2" O="true" N="NumProcShareSingleCore">
+    <S T="1" F="NumProcShareSingleCore" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="NumProcShareSingleCache">
+    <S T="1" F="NumProcShareSingleCache" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="NumProcPhysCores">
+    <S T="1" F="NumProcPhysCores" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="ProcSpeedMHz">
+    <S T="1" F="ProcessorFrequency" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="IsLaptop">
+    <S T="1" F="IsLaptop" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="IsTablet">
+    <S T="1" F="IsTablet" M="Ignore" />
+  </C>
+  <C T="W" I="8" O="true" N="MachineName">
+    <S T="1" F="DeviceName" M="Ignore" />
+  </C>
+  <C T="U16" I="9" O="true" N="RamMB">
+    <S T="1" F="MaxMemory" M="Ignore" />
+  </C>
+  <C T="U16" I="10" O="true" N="PowerPlatformRole">
+    <S T="1" F="PowerPlatformRole" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="SysVolSizeMB">
+    <S T="2" F="0" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="true" N="DeviceManufacturer">
+    <S T="2" F="1" M="Ignore" />
+  </C>
+  <C T="W" I="13" O="true" N="DeviceModel">
+    <S T="1" F="DeviceModel" M="Ignore" />
+  </C>
+  <C T="I32" I="14" O="true" N="DigitizerInfo">
+    <S T="1" F="DigitizerInfo" M="Ignore" />
+  </C>
+  <C T="W" I="15" O="true" N="Platform">
+    <S T="1" F="Platform" M="Ignore" />
+  </C>
+  <C T="W" I="16" O="true" N="DeviceClass">
+    <S T="1" F="DeviceClass" M="Ignore" />
+  </C>
+  <C T="G" I="17" O="true" N="SusClientId">
+    <S T="1" F="SusClientId" M="Ignore" />
+  </C>
+  <C T="G" I="18" O="true" N="WindowsSqmMachineId">
+    <S T="1" F="WindowsSqmMachineId" M="Ignore" />
+  </C>
+  <C T="G" I="19" O="true" N="WindowsErrorReportingMachineId">
+    <S T="1" F="WindowsErrorReportingMachineId" M="Ignore" />
+  </C>
+  <C T="BIN" I="20" O="true" N="ComputerSystemProductUuidHash">
+    <U T="OneWaySHA1HashToBinary">
+      <S T="1" F="ComputerSystemProductId" M="Ignore" />
+    </U>
+  </C>
+  <C T="W" I="21" O="true" N="DeviceProcessorModel">
+    <S T="1" F="DeviceProcessorModel" M="Ignore" />
+  </C>
+  <C T="B" I="22" O="true" N="HasSpectreFix">
+    <S T="1" F="HasSpectreFix" M="Ignore" />
+  </C>
+  <C T="W" I="23" O="true" N="BootDiskType">
+    <S T="1" F="BootDiskType" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150222" V="1" DC="SM" EN="Office.PowerPoint.PPT.CleanRealtimeMessages" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bbtj3" />
+  </S>
+  <C T="U32" I="0" O="false" N="Applied_PerformDurationMs">
+    <S T="1" F="PerformDurationMs" />
+  </C>
+  <C T="U32" I="1" O="false" N="Applied_PerformCount">
+    <S T="1" F="PerformCount" />
+  </C>
+  <C T="U32" I="2" O="false" N="Applied_SuccessCount">
+    <S T="1" F="SuccessCount" />
+  </C>
+  <C T="U32" I="3" O="false" N="Applied_ContextMismatchCount">
+    <S T="1" F="ContextMismatchCount" />
+  </C>
+  <C T="U32" I="4" O="false" N="Applied_StaleMonikerCount">
+    <S T="1" F="StaleMonikerCount" />
+  </C>
+  <C T="U32" I="5" O="false" N="Applied_ErrorCount">
+    <S T="1" F="ErrorCount" />
+  </C>
+  <C T="U32" I="6" O="false" N="Applied_ObjectNotFoundCount">
+    <S T="1" F="ObjectNotFound" />
+  </C>
+  <C T="U32" I="7" O="false" N="Applied_CleanDurationMs">
+    <S T="1" F="Applied_CleanDurationMs" />
+  </C>
+  <C T="U32" I="8" O="false" N="Applied_ExpiredCount">
+    <S T="1" F="Applied_ExpiredCount" />
+  </C>
+  <C T="U32" I="9" O="false" N="Applied_DriedCount">
+    <S T="1" F="Applied_DriedCount" />
+  </C>
+  <C T="U32" I="10" O="false" N="Applied_RemainingCount">
+    <S T="1" F="Applied_RemainingCount" />
+  </C>
+  <C T="U32" I="11" O="false" N="Received_CleanDurationMs">
+    <S T="1" F="Received_CleanDurationMs" />
+  </C>
+  <C T="U32" I="12" O="false" N="Received_ExpiredCount">
+    <S T="1" F="Received_ExpiredCount" />
+  </C>
+  <C T="U32" I="13" O="false" N="Received_DriedCount">
+    <S T="1" F="Received_DriedCount" />
+  </C>
+  <C T="U32" I="14" O="false" N="Received_RemainingCount">
+    <S T="1" F="Received_RemainingCount" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

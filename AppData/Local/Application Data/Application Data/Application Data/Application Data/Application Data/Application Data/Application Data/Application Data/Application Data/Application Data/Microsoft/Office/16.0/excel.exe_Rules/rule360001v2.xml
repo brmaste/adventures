@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="360001" V="2" DC="SM" EN="Office.Compliance.FileFormatBallotOption" ATT="7027c5657baa4c8c94c98ed600467c8c-81874f32-dbc1-42fc-b25b-12494e65c25f-7401" SP="CriticalBusinessImpact" DL="B" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a70rj" />
+  </S>
+  <C T="U32" I="0" O="false" N="FileFormatBallotSelectedOption">
+    <S T="1" F="Option" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

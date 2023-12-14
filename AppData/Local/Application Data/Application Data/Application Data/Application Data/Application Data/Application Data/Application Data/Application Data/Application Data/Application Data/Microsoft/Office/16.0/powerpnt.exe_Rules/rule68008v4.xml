@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68008" V="4" DC="SM" EN="Office.TellMe.TellMeD.EndSessionWithQuery" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="aw6j9" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="false" N="TellMeSessionId">
+    <S T="1" F="sessionId" />
+  </C>
+  <C T="U64" I="2" O="true" N="QueryLength">
+    <S T="1" F="queryLength" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="SearchScenario">
+    <S T="1" F="SearchScenario" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

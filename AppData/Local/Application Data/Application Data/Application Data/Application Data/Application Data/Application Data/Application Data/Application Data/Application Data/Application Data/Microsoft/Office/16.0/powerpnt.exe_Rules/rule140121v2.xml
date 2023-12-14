@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140121" V="2" DC="SM" EN="Office.PowerPoint.PPT.HasUserEditedDocument" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="B" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bfeq8" />
+  </S>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="CorrelationId" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="DocumentCorrelationId" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

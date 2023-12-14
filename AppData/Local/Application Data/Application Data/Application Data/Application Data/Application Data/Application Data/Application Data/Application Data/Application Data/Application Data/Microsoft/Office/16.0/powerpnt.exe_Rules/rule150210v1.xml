@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150210" V="1" DC="SM" EN="Office.PowerPoint.PPT.SlideAndTableConflict" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a05zq" A="a8a7k" />
+  </S>
+  <C T="FT" I="0" O="true" N="ThreeWayMergeCompleteTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Slide_Add">
+    <S T="1" F="SldCft_1" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Slide_Delete">
+    <S T="1" F="SldCft_2" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="Slide_Background">
+    <S T="1" F="SldCft_4" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="Slide_Shapes">
+    <S T="1" F="SldCft_8" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="Slide_ColorScheme">
+    <S T="1" F="SldCft_16" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="Slide_Layout">
+    <S T="1" F="SldCft_32" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="Slide_SlideShow">
+    <S T="1" F="SldCft_64" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="Slide_Notes">
+    <S T="1" F="SldCft_128" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="Slide_Position">
+    <S T="1" F="SldCft_256" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="Slide_TimeNode">
+    <S T="1" F="SldCft_512" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="Slide_SlideSyncInfo">
+    <S T="1" F="SldCft_1024" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="Slide_ModSpecial">
+    <S T="1" F="SldCft_2048" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="Slide_ExtLst">
+    <S T="1" F="SldCft_4096" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="Table_Modified">
+    <S T="1" F="TblCft_1" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="Table_CellModified">
+    <S T="1" F="TblCft_2" M="Ignore" />
+  </C>
+  <C T="U32" I="17" O="true" N="Table_RowsModified">
+    <S T="1" F="TblCft_4" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="Table_ColumnsModified">
+    <S T="1" F="TblCft_8" M="Ignore" />
+  </C>
+  <C T="U32" I="19" O="true" N="Table_StyleModified">
+    <S T="1" F="TblCft_16" M="Ignore" />
+  </C>
+  <C T="U32" I="20" O="true" N="Table_CellModified_Unmergeable">
+    <S T="1" F="TblCft_32" M="Ignore" />
+  </C>
+  <C T="U32" I="21" O="true" N="Table_RowsModified_Unmergeable">
+    <S T="1" F="TblCft_64" M="Ignore" />
+  </C>
+  <C T="U32" I="22" O="true" N="Table_StyleModified_Unmergeable">
+    <S T="1" F="TblCft_128" M="Ignore" />
+  </C>
+  <C T="U32" I="23" O="true" N="ConflictingSlideChanges">
+    <S T="1" F="CSldEt" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

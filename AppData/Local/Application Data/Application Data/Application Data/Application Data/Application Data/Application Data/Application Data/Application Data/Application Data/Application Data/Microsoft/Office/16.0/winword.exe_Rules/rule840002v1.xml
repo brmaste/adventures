@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="840002" V="1" DC="SM" EN="Office.Floodgate.SurveyTracked" ATT="d526a9052e444f1d8706529ef111b101-1a23544e-ef74-4a87-9979-78386cb3c5e6-6762" SP="CriticalBusinessImpact" T="Upload-Medium" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b9q72" A="c2gya c2g72 dciyl" />
+    <F T="2">
+      <O T="GT">
+        <L>
+          <S T="1" F="GovernedChannelType" />
+        </L>
+        <R>
+          <V V="2" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="2" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="SurveyId">
+    <S T="2" F="SurveyId" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="UniqueId">
+    <S T="2" F="UniqueId" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="GovernedChannelType">
+    <S T="2" F="GovernedChannelType" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="PrimaryPriority">
+    <S T="2" F="PrimaryPriority" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

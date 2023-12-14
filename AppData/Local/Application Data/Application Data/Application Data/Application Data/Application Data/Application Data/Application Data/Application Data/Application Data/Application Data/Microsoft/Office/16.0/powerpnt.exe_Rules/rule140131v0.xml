@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140131" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.InkStrokes" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjzqh" />
+  </S>
+  <C T="B" I="0" O="false" N="AreAnimationsPlaying">
+    <S T="1" F="fAnimationsPlaying" />
+  </C>
+  <C T="B" I="1" O="false" N="IsInitiatedFromSlideShow">
+    <S T="1" F="fInitiatedFromSlideShow" />
+  </C>
+  <C T="B" I="2" O="false" N="IsPerfectSyncEnabled">
+    <S T="1" F="FPacketCallback" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

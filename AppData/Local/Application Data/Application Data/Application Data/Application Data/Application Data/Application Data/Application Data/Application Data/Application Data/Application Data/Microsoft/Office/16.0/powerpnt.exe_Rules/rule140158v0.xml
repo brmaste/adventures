@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140158" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.SurfacePenButton.Usage" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b2iky" />
+  </S>
+  <C T="I8" I="0" O="false" N="EventId">
+    <S T="1" F="Event" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

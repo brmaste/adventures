@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240005" V="8" DC="SM" EN="Office.Security.SrDesktopOpen" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a4sch" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U8" I="1" O="true" N="Reasons">
+    <S T="1" F="Reasons" />
+  </C>
+  <C T="U64" I="2" O="true" N="DocumentPointer">
+    <S T="1" F="pioldoc" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="InternetFileSafetyDetail">
+    <S T="1" F="InternetFileSafetyDetail" M="Ignore" />
+  </C>
+  <C T="U8" I="4" O="true" N="Policy">
+    <S T="1" F="Policy" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="DirtyFileChangesDecision">
+    <S T="1" F="DirtyFileChangesDecision" M="Ignore" />
+  </C>
+  <C T="W" I="6" O="true" N="OriginalInternetFileSafetyDetail">
+    <S T="1" F="OriginalInternetFileSafetyDetail" M="Ignore" />
+  </C>
+  <C T="W" I="7" O="true" N="OsrerOriginal">
+    <S T="1" F="osrerOriginal" M="Ignore" />
+  </C>
+  <C T="W" I="8" O="true" N="Osrer">
+    <S T="1" F="osrer" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

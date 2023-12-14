@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63059" V="0" DC="SM" EN="Office.Identity.IdentityCountOnShutdown" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bj46m" A="bj46k" />
+  </S>
+  <C T="TAG" I="0" O="false" N="Tag">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="U64" I="1" O="false" N="ValidIdentityCount">
+    <S T="1" F="ValidIdentityCount" />
+  </C>
+  <C T="U64" I="2" O="false" N="AllIdentityCount">
+    <S T="1" F="AllIdentityCount" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

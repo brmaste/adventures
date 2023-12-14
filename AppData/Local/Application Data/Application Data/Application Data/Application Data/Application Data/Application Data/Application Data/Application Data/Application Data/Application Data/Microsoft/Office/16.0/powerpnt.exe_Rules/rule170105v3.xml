@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170105" V="3" DC="SM" EN="Office.Graphics.HrCreateProtectedTempFile" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ctgbb" A="ctgbc" />
+  </S>
+  <C T="I64" I="0" O="true" N="ResultCode">
+    <S T="1" F="ResultCode" M="Ignore" />
+  </C>
+  <C T="I64" I="1" O="true" N="TimeElapsed">
+    <S T="1" F="Time Elapsed:" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="TagID">
+    <S T="1" F="ULS_TagId" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

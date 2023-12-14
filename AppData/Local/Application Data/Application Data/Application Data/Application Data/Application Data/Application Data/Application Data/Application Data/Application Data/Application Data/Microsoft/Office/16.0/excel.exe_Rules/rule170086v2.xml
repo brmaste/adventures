@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170086" V="2" DC="SM" EN="Office.Graphics.InkEffectsLoad" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b0toe" />
+    <A T="2" E="TelemetrySuspend" />
+    <A T="3" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="effectGUID" />
+    </S>
+  </G>
+  <C T="G" I="0" O="false" N="InkEffect">
+    <S T="1" F="effectGUID" />
+  </C>
+  <C T="U32" I="1" O="false" N="EffectCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="B" I="2" O="false" N="Highlighter">
+    <S T="1" F="fHighlighter" />
+  </C>
+  <C T="U32" I="3" O="false" N="StrokeColor">
+    <S T="1" F="strokeColor" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

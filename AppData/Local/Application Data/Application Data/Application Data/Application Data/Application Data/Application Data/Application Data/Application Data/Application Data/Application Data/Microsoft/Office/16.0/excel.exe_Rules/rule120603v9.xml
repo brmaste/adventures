@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120603" V="9" DC="SM" EN="Office.System.SystemHealthMetadataApplicationAdditional" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalBusinessImpact" E="false" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <SS T="1" G="{c3d2f3fc-0f86-43ac-b7a3-007bf524f38f}" />
+    <SS T="2" G="{1f59c07e-f223-4c7f-aa23-df28da66734b}" />
+    <SS T="3" G="{dd5250a9-3404-43b0-9b7a-6f4eaea6497d}" />
+    <SS T="4" G="{1a6b5bd0-2f17-420c-8ba0-ee01132ee441}" />
+    <SS T="5" G="{6b5515e4-c848-4ef0-92d4-747ecc491c7b}" />
+    <R T="6" R="120100" />
+    <R T="7" R="120607" />
+  </S>
+  <C T="FT" I="0" O="true" N="FirstRunTime">
+    <S T="1" F="FirstRunTime" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="Alias">
+    <S T="3" F="Alias" M="Ignore" />
+  </C>
+  <C T="B" I="2" O="true" N="IsLabMachine">
+    <S T="3" F="IsLabMachine" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="true" N="IsSubscription">
+    <S T="3" F="IsSubscription" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="StudyId">
+    <S T="3" F="StudyId" M="Ignore" />
+  </C>
+  <C T="U16" I="5" O="true" N="WinUserActType">
+    <S T="3" F="WinUserActType" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="IsJoinedToDomain">
+    <S T="3" F="IsJoinedToDomain" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="IsMsftInternal">
+    <S T="3" F="IsMicrosoftInternal" M="Ignore" />
+  </C>
+  <C T="W" I="8" O="true" N="DomainName">
+    <S T="3" F="Domain" M="Ignore" />
+  </C>
+  <C T="U16" I="9" O="true" N="CollectibleClassifications">
+    <S T="3" F="CollectibleClassifications" M="Ignore" />
+  </C>
+  <C T="G" I="10" O="true" N="SqmUserId">
+    <S T="2" F="SqmUidUser" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="CID">
+    <S T="4" F="UserCid" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="true" N="ECSConfigs">
+    <S T="5" F="ECSConfigs" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="LockType">
+    <S T="5" F="LockType" M="Ignore" />
+  </C>
+  <C T="B" I="14" O="true" N="ExpStaleUserId">
+    <S T="5" F="ExpStaleUserId" M="Ignore" />
+  </C>
+  <T>
+    <S T="6" />
+    <S T="7" />
+  </T>
+</R>

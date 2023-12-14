@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180181" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UCSS T="1" C="Scope Summary" S="Medium" />
+    <F T="2">
+      <O T="OR">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ScopeName" />
+            </L>
+            <R>
+              <V V="Excel.GetExternalData.Text" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="ScopeName" />
+                </L>
+                <R>
+                  <V V="XLDesktop Command Execution:532" T="W" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="OR">
+                <L>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="ScopeName" />
+                    </L>
+                    <R>
+                      <V V="XLDesktop Command Execution:534" T="W" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="OR">
+                    <L>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="ULS_Tag" />
+                        </L>
+                        <R>
+                          <V V="17638092" T="U32" />
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="ULS_Tag" />
+                            </L>
+                            <R>
+                              <V V="17438609" T="U32" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="OR">
+                            <L>
+                              <O T="EQ">
+                                <L>
+                                  <S T="1" F="ULS_Tag" />
+                                </L>
+                                <R>
+                                  <V V="17438610" T="U32" />
+                                </R>
+                              </O>
+                            </L>
+                            <R>
+                              <O T="EQ">
+                                <L>
+                                  <S T="1" F="ULS_Tag" />
+                                </L>
+                                <R>
+                                  <V V="17438611" T="U32" />
+                                </R>
+                              </O>
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="D" I="1" O="false">
+    <S T="2" F="DurationToCompleteInMillisecondsHighPrecision" />
+  </C>
+  <C T="D" I="2" O="false">
+    <O T="MUL">
+      <L>
+        <S T="2" F="DurationToCompleteInMillisecondsHighPrecision" />
+      </L>
+      <R>
+        <S T="2" F="DurationToCompleteInMillisecondsHighPrecision" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="false">
+    <S T="2" F="Success" />
+  </C>
+  <C T="I32" I="4" O="true">
+    <S T="2" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="false">
+    <S T="2" F="ScopeName" />
+  </C>
+  <C T="TAG" I="6" O="false">
+    <S T="2" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="7" O="false">
+    <S T="2" F="ScopeInstance" />
+  </C>
+  <C T="U32" I="8" O="true">
+    <S T="2" F="ScopeParentInstance" M="Ignore" />
+  </C>
+  <C T="W" I="9" O="true">
+    <S T="2" F="ParentScopeName" M="Ignore" />
+  </C>
+  <C T="TAG" I="10" O="true">
+    <S T="2" F="ParentScopeTag" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

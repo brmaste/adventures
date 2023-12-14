@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="610005" V="1" DC="SM" EN="Office.ML.UAPEventSink.LogHttpRequestError_1" ATT="655fe2f4f8414e4db3f881ce2bb96fc8-7a0f06e8-b403-4b25-afd7-a54cc7fda27b-7855" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bvy26" />
+  </S>
+  <C T="I32" I="0" O="false" N="ErrorCode">
+    <S T="1" F="SH_ErrorCode" />
+  </C>
+  <C T="W" I="1" O="false" N="ErrorMessage">
+    <S T="1" F="ErrorMessage" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110080" V="2" DC="SM" EN="Office.Word.Word.NumberOfCoauthorsinSession" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" SP="CriticalUsage" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="237" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+    <TR T="4" />
+    <TI T="5" I="Daily" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="4" F="TimeStamp100ns" />
+  </C>
+  <C T="U64" I="1" O="false" N="MaxCoauthorsCount">
+    <A T="MAX">
+      <S T="1" F="editorsCount" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="5" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="370009" V="0" DC="SM" EN="Office.TargetedMessaging.BusbarThemeSelectionStatus" ATT="2f0a1931898144668b4994b491868b75-cc9fb197-8766-4b63-8e07-1887d3d330ac-7107" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bp5hd" />
+  </S>
+  <C T="I32" I="0" O="false" N="ExpectedThemeType">
+    <S T="1" F="ExpectedThemeType" />
+  </C>
+  <C T="I32" I="1" O="false" N="ActualThemeType">
+    <S T="1" F="ActualThemeType" />
+  </C>
+  <C T="W" I="2" O="false" N="Description">
+    <S T="1" F="Description" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

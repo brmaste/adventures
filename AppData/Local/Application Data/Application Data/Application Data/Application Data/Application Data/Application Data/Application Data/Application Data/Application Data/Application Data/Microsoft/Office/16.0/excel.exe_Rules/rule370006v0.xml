@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="370006" V="0" DC="SM" EN="Office.TargetedMessaging.AutoRenewIteration" ATT="2f0a1931898144668b4994b491868b75-cc9fb197-8766-4b63-8e07-1887d3d330ac-7107" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ban9c" />
+    <UTS T="2" Id="ban9h" />
+    <UTS T="3" Id="ban9a" />
+    <A T="4" E="TelemetrySuspend" />
+    <A T="5" E="TelemetryShutdown" />
+  </S>
+  <C T="W" I="0" O="true" N="HardwareId">
+    <S T="2" F="HardwareId" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="false" N="AutoRenewShowCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="AutoRenewClickCount">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <T>
+    <S T="4" />
+    <S T="5" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

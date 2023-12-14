@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11190" V="0" DC="SM" EN="Office.Outlook.Desktop.PhotoCache.SizeOfPhotos" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <TI T="1" I="Daily" />
+    <A T="2" E="TelemetryShutdown" />
+    <UTS T="3" Id="bpfy1" />
+    <F T="4">
+      <O T="GT">
+        <L>
+          <S T="3" F="PhotoSizeInBytes" />
+        </L>
+        <R>
+          <V V="0" T="U64" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U64" I="0" O="true" N="AverageSizeOfADownloadedPhotoInBytes">
+    <A T="AVG">
+      <S T="4" F="PhotoSizeInBytes" />
+    </A>
+  </C>
+  <C T="U64" I="1" O="true" N="TotalSizeOfDownloadedPhotosInBytes">
+    <A T="SUM">
+      <S T="4" F="PhotoSizeInBytes" />
+    </A>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

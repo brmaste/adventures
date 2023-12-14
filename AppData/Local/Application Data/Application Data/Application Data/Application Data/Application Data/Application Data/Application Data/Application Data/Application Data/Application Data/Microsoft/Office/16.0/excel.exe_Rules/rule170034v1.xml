@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170034" V="1" DC="SM" EN="Office.Graphics.SmartArtCoauthoringConflictInfo" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bfo77" A="bfo78 bfo79 bfo8a bfo8b bfo8c bfo8d bfo8e bfo8f bfo8g bfo8h bfo8i bfo8j bfo8k" />
+    <A T="2" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="ULS_TagId" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="TagID">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="U32" I="1" O="false" N="TagCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

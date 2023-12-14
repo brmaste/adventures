@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110260" V="4" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <Etw T="1" E="1627" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <F T="2">
+      <O T="COALESCE">
+        <L>
+          <S T="1" F="fDuringOrAfterRecentAutoSave" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U64" I="0" O="false">
+    <S T="2" F="dmsecTypingTime" />
+  </C>
+  <C T="U64" I="1" O="false">
+    <S T="2" F="dmsecMessagePostDelay" />
+  </C>
+  <C T="U64" I="2" O="false">
+    <S T="2" F="dmsecTypedChar" />
+  </C>
+  <C T="U64" I="3" O="false">
+    <S T="2" F="dmsecAirspaceRender" />
+  </C>
+  <C T="U64" I="4" O="false">
+    <S T="2" F="DocumentId" />
+  </C>
+  <C T="G" I="5" O="false">
+    <S T="2" F="SqmDocId" />
+  </C>
+  <C T="W" I="6" O="false">
+    <S T="2" F="DocKind" />
+  </C>
+  <C T="B" I="7" O="false">
+    <S T="2" F="fAlwaysSaveEnabledAndOn" />
+  </C>
+  <C T="B" I="8" O="false">
+    <S T="2" F="fWetChangesInDocument" />
+  </C>
+  <C T="B" I="9" O="false">
+    <S T="2" F="fDuringOrAfterRecentAutoSave" />
+  </C>
+  <C T="B" I="10" O="false">
+    <S T="2" F="fInOcsMode" />
+  </C>
+  <C T="B" I="11" O="false">
+    <S T="2" F="fChunking" />
+  </C>
+  <C T="B" I="12" O="true">
+    <S T="2" F="fUIMCharacter" M="Ignore" />
+  </C>
+  <C T="U64" I="13" O="true">
+    <S T="2" F="Pdod" M="Ignore" />
+  </C>
+  <C T="U16" I="14" O="true">
+    <S T="2" F="Lid" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

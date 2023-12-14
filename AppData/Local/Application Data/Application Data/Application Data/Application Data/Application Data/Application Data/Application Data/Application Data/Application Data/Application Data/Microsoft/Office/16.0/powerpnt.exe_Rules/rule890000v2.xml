@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="890000" V="2" DC="SM" EN="Office.Privacy.OffersOptIn" ATT="0cc923f8e48042f9b5193007cf34d1ae-def86b84-7392-4e7f-8da6-ecea0a375ec4-7160" SP="CriticalBusinessImpact" DL="B" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="77rqq" />
+    <F T="2">
+      <O T="NE">
+        <L>
+          <S T="1" F="DirectMarketingSettingSourceLocation" />
+        </L>
+        <R>
+          <V V="8" T="U8" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U8" I="0" O="false" N="OffersConsentState">
+    <S T="2" F="DirectMarketingSettingState" />
+  </C>
+  <C T="U8" I="1" O="false" N="OffersConsentSourceLocation">
+    <S T="2" F="DirectMarketingSettingSourceLocation" />
+  </C>
+  <C T="U8" I="2" O="false" N="ConsentGroup">
+    <S T="2" F="UserConsentGroup" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

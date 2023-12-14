@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11882" V="0" DC="SM" EN="Office.Outlook.Desktop.LokiSetAuthHeaderMetrics" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" S="1000" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="c9vi3" />
+    <SR T="2" R="(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)-(.|)(.|)(.|)(.|)-(.|)(.|)(.|)(.|)-(.|)(.|)(.|)(.|)-(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)">
+      <S T="1" F="CorrelationId" />
+    </SR>
+  </S>
+  <C T="W" I="0" O="false" N="CorrelationId">
+    <S T="2" F="Matched" />
+  </C>
+  <C T="U32" I="1" O="false" N="FinalResultTag">
+    <S T="1" F="FinalResultTag" />
+  </C>
+  <C T="I64" I="2" O="false" N="FinalResultExtValue">
+    <S T="1" F="FinalResultExtValue" />
+  </C>
+  <C T="B" I="3" O="false" N="RetryRequired">
+    <S T="1" F="RetryRequired" />
+  </C>
+  <C T="U32" I="4" O="false" N="FirstAttemptResultTag">
+    <S T="1" F="FirstAttemptResultTag" />
+  </C>
+  <C T="I64" I="5" O="false" N="FirstAttemptResultExtValue">
+    <S T="1" F="FirstAttemptResultExtValue" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

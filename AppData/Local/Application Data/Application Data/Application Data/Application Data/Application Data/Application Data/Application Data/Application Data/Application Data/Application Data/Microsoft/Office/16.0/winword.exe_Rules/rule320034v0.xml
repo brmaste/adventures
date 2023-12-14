@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="320034" V="0" DC="SM" EN="Office.Extensibility.StoreUserStatus" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" S="1" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bvti6" />
+    <UTS T="2" Id="bvti7" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="U32" I="0" O="false" N="StoreOpen">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="StoreBlocked">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

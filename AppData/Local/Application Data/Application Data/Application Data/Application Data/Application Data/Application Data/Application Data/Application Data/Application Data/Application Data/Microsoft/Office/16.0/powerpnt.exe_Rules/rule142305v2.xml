@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="142305" V="2" DC="SM" EN="Office.PowerPoint.PPT.Desktop.Content.OnlineMoviePlaybackStop" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cnmkp" />
+    <UTS T="2" Id="c5z9q" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="W" I="0" O="true" N="URLHash">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="StopMovie" M="Ignore" />
+      </L>
+      <R>
+        <S T="2" F="StopVideo" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

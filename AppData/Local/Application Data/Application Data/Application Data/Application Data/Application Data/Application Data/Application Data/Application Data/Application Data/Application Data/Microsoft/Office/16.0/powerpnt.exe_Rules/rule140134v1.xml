@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140134" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.DesignerPrivacyReprompt" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="birhz" A="iclfn" />
+    <UTS T="2" Id="birh0" A="iclfo" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="B" I="0" O="false" N="PrivacyDialogIsAcceptedOnReprompt">
+    <O T="EQ">
+      <L>
+        <S T="3" F="ULS_TagId" M="Ignore" />
+      </L>
+      <R>
+        <V V="birhz" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

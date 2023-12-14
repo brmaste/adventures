@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="320002" V="5" DC="SM" EN="Office.Extensibility.ODPActivationForTaga55rs" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a55rs" />
+    <UTS T="2" Id="c6ipb" />
+    <UTS T="3" Id="dfid7" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="U32" I="0" O="true" N="AssetId">
+    <S T="4" F="AssetId" />
+  </C>
+  <C T="I32" I="1" O="true" N="SandboxCreationTime">
+    <S T="4" F="SandboxCreationTime" M="Ignore" />
+  </C>
+  <C T="I32" I="2" O="true" N="PageLoadTime">
+    <S T="4" F="PageLoadTime" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="AppStateTime">
+    <S T="4" F="AppStateTime" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="AppInstallTime">
+    <S T="4" F="AppInstallTime" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="ManifestDownloadTime">
+    <S T="4" F="ManifestDownloadTime" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="ActivationContext">
+    <S T="4" F="ActivationContext" />
+  </C>
+  <C T="I32" I="7" O="true" N="ErrorResult">
+    <S T="4" F="ErrorResult" />
+  </C>
+  <C T="I32" I="8" O="true" N="ContainerCreationTime">
+    <S T="4" F="ContainerCreationTime" M="Ignore" />
+  </C>
+  <C T="W" I="9" O="true" N="AppInstanceId">
+    <S T="4" F="AppInstanceId" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true" N="AppId">
+    <S T="4" F="AppId" M="Ignore" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

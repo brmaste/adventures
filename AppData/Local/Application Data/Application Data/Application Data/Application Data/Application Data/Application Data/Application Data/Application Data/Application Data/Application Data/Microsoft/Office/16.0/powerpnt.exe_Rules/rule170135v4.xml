@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170135" V="4" DC="SM" EN="Office.Graphics.AltTextFeedbackUIClick" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="5czg2" A="545u8" />
+    <A T="2" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="ClickCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="Id">
+    <S T="1" F="Id" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="false" N="QuerySource">
+    <S T="1" F="QuerySource" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

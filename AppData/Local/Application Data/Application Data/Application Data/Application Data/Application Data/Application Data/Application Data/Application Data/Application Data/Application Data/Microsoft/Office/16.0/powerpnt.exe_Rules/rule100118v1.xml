@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="100118" V="1" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="8ylle" />
+  </S>
+  <C T="W" I="0" O="false">
+    <V V="NameState" T="W" />
+  </C>
+  <C T="U32" I="1" O="false">
+    <S T="1" F="Context" />
+  </C>
+  <C T="U64" I="2" O="false">
+    <S T="1" F="Instance" />
+  </C>
+  <C T="U32" I="3" O="false">
+    <S T="1" F="AuthorCount" />
+  </C>
+  <C T="U64" I="4" O="false">
+    <S T="1" F="AuthorDataSource" />
+  </C>
+  <C T="B" I="5" O="false">
+    <S T="1" F="InitialState" />
+  </C>
+  <C T="U32" I="6" O="false">
+    <S T="1" F="NameState" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

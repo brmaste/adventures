@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="90201" V="2" DC="SM" EN="Office.Telemetry.RulesEngineSpikeThrottled" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" SP="CriticalBusinessImpact" T="Upload-Critical" DL="A" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhyud" A="azxaq" />
+  </S>
+  <C T="FT" I="0" O="false" N="ThrottlingTimestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="false" N="HighestImpactingRuleId">
+    <S T="1" F="RuleId" />
+  </C>
+  <C T="U16" I="2" O="false" N="HighestImpactingRuleVersion">
+    <S T="1" F="RuleVersion" />
+  </C>
+  <C T="U32" I="3" O="false" N="HighestImpactingRuleBytes">
+    <S T="1" F="ImpactingBytes" />
+  </C>
+  <C T="U32" I="4" O="false" N="CurrentLimit">
+    <S T="1" F="SpikeCurrentLimit" />
+  </C>
+  <C T="U32" I="5" O="false" N="MaxLimit">
+    <S T="1" F="SpikeMaxLimit" />
+  </C>
+  <C T="U32" I="6" O="false" N="Factor">
+    <S T="1" F="SpikeFactor" />
+  </C>
+  <C T="U32" I="7" O="false" N="Duration">
+    <S T="1" F="SpikeDurationInSecond" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

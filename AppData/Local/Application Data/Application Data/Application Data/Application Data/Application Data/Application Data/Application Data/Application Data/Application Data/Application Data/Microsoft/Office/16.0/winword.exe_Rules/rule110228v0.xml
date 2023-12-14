@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110228" V="0" DC="SM" EN="Office.Word.Word.AtMentionAddedViaNotificationList" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="348" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+  </S>
+  <C T="U32" I="0" O="false" N="TotalNotifications">
+    <S T="1" F="Total Notifications" />
+  </C>
+  <C T="U32" I="1" O="false" N="AddedNotifications">
+    <S T="1" F="Added Notifications" />
+  </C>
+  <C T="U32" I="2" O="false" N="RemovedNotifications">
+    <S T="1" F="Removed Notifications" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

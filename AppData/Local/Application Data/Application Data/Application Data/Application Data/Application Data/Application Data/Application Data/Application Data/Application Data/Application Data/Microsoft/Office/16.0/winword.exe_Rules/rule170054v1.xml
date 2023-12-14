@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170054" V="1" DC="SM" EN="Office.Graphics.SpriteMemCorrupt" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" SP="CriticalBusinessImpact" DL="B" DCa="DC" xmlns="">
+  <S>
+    <UTS T="1" Id="bkj8v" />
+  </S>
+  <C T="U64" I="0" O="true" N="CurrentSpriteMem">
+    <S T="1" F="Current sprite memory in use" />
+  </C>
+  <C T="U64" I="1" O="true" N="SpriteMemToRemove">
+    <S T="1" F="Amount to remove" />
+  </C>
+  <C T="W" I="2" O="true" N="Function">
+    <S T="1" F="Called from function : " />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

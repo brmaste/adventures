@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68030" V="6" DC="SM" EN="Office.TellMe.TellMeD.QueryIndexLogging" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="dasij" />
+  </S>
+  <C T="G" I="0" O="true" N="TellMeSessionId">
+    <S T="1" F="TellMeSessionId" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="false" N="QueryIndex">
+    <S T="1" F="QueryIndex" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="HttpStatusCode">
+    <S T="1" F="HttpStatusCode" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="StatusFlags">
+    <S T="1" F="Result" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="StatusMessage">
+    <S T="1" F="StatusMessage" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="ResponseTime">
+    <S T="1" F="ResponseTime" M="Ignore" />
+  </C>
+  <C T="FT" I="6" O="true" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="7" O="true" N="UICulture">
+    <S T="1" F="UICulture" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="TimeFromSessionStart">
+    <S T="1" F="TimeFromSessionStart" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

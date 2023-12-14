@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<R Id="63067" V="4" DC="SM" EN="Office.Identity.SspiPromptWin32" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" SP="CriticalBusinessImpact" DL="A" DCa="DC" xmlns="">
+  <S>
+    <UTS T="1" Id="brt55" />
+    <UTS T="2" Id="aysrs" A="aysrt" />
+    <UTS T="3" Id="brt58" />
+    <UTS T="4" Id="brt6b" />
+    <UTS T="5" Id="bgm8f" A="bgm8g bgm8h bgm8i" />
+    <UTS T="6" Id="a9qwz" A="brt56 brt6a" />
+    <UTS T="7" Id="brt59" />
+    <US T="8">
+      <S T="3" />
+      <S T="6" />
+      <S T="4" />
+    </US>
+    <A T="9" E="TelemetryShutdown" />
+    <TO T="10" I="10min">
+      <S T="1" />
+    </TO>
+  </S>
+  <C T="I32" I="0" O="false" N="AuthScheme">
+    <S T="1" F="AuthScheme" />
+  </C>
+  <C T="B" I="1" O="false" N="Proxy">
+    <S T="1" F="Proxy" />
+  </C>
+  <C T="BIN" I="2" O="true" N="DocumentUrlHash">
+    <U T="OneWaySHA1HashToBinary">
+      <S T="1" F="DocumentUrl" M="Ignore" />
+    </U>
+  </C>
+  <C T="TAG" I="3" O="true" N="PromptFlow">
+    <S T="2" F="ULS_Tag" />
+  </C>
+  <C T="W" I="4" O="true" N="UiMessage">
+    <S T="2" F="UiMessage" M="Ignore" />
+  </C>
+  <C T="BIN" I="5" O="true" N="UserNameHash">
+    <U T="OneWaySHA1HashToBinary">
+      <S T="2" F="UserName" M="Ignore" />
+    </U>
+  </C>
+  <C T="BIN" I="6" O="true" N="ServerHash">
+    <U T="OneWaySHA1HashToBinary">
+      <S T="2" F="Server" M="Ignore" />
+    </U>
+  </C>
+  <C T="TAG" I="7" O="true" N="PromptFailedTag">
+    <S T="5" F="ULS_Tag" />
+  </C>
+  <C T="TAG" I="8" O="true" N="EndTag">
+    <S T="8" F="ULS_Tag" />
+  </C>
+  <C T="G" I="9" O="true" N="NewIdentity_UniqueID">
+    <S T="4" F="IdentityMetadata_UniqueId" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true" N="NewIdentity_ProviderType">
+    <S T="4" F="IdentityMetadata_IdentityProviderType" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="NewIdentity_ErrorState">
+    <S T="4" F="IdentityMetadata_IdentityErrorState" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="true" N="OutStatus">
+    <S T="4" F="IdentityErrorState" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="AllowSavedCreds">
+    <S T="7" F="AllowSavedCreds" />
+  </C>
+  <C T="B" I="14" O="true" N="CredsSaved">
+    <S T="7" F="CredsSaved" />
+  </C>
+  <C T="FT" I="15" O="falseNoError" N="PromptStartTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="16" O="true" N="PromptEndTime">
+    <S T="8" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="17" O="true" N="SessionEndTime">
+    <S T="9" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="18" O="true" N="Timeout">
+    <S T="10" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="19" O="true" N="CallerTag">
+    <S T="1" F="CallerTag" M="Ignore" />
+  </C>
+  <T>
+    <S T="8" />
+    <S T="9" />
+    <S T="10" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

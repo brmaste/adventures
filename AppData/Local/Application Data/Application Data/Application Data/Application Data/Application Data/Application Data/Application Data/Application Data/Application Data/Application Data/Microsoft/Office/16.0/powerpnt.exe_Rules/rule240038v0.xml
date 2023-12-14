@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240038" V="0" DC="SM" EN="Office.Security.TWCPackagerData" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bmzuw" />
+  </S>
+  <C T="B" I="0" O="false" N="IsBlocked">
+    <S T="1" F="IsBlocked" />
+  </C>
+  <C T="B" I="1" O="false" N="FromInternet">
+    <S T="1" F="FromInternet" />
+  </C>
+  <C T="B" I="2" O="false" N="IsTrustedDoc">
+    <S T="1" F="IsTrustedDoc" />
+  </C>
+  <C T="U32" I="3" O="false" N="PackagerSetting">
+    <S T="1" F="PackagerSetting" />
+  </C>
+  <C T="W" I="4" O="true" N="Extension">
+    <S T="1" F="Extension" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

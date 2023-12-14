@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150101" V="4" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="axwza" />
+    <UTS T="2" Id="aq7eq" />
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="1" F="AlgorithmState" />
+        </L>
+        <R>
+          <V V="Begin" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="AlgorithmState" />
+        </L>
+        <R>
+          <V V="End" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="3">
+      <F N="Cmd_TelemetryID" />
+    </S>
+    <S T="4">
+      <F N="Cmd_TelemetryID" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false">
+    <S T="4" F="Cmd_Name" />
+  </C>
+  <C T="B" I="1" O="true">
+    <S T="4" F="Cmd_Success" M="Ignore" />
+  </C>
+  <C T="U64" I="2" O="true">
+    <O T="DIV">
+      <L>
+        <O T="SUB">
+          <L>
+            <S T="4" F="Timestamp" />
+          </L>
+          <R>
+            <S T="3" F="Timestamp" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <V V="1000" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="true">
+    <O T="EQ">
+      <L>
+        <S T="4" F="Function" M="Ignore" />
+      </L>
+      <R>
+        <V V="Art::CommandCommon::PerformUsingCommandList" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="4" O="true">
+    <S T="2" F="Tag" M="Ignore" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

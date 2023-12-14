@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140126" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.ZoomCountOnCloseRule" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjd1p" />
+  </S>
+  <C T="U32" I="0" O="false" N="SummaryZoomCount">
+    <S T="1" F="Summary Zoom Count" />
+  </C>
+  <C T="U32" I="1" O="false" N="SectionZoomCount">
+    <S T="1" F="Section Zoom Count" />
+  </C>
+  <C T="U32" I="2" O="false" N="SlideZoomCount">
+    <S T="1" F="Slide Zoom Count" />
+  </C>
+  <C T="G" I="3" O="true" N="DocumentId">
+    <S T="1" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="SlideCount">
+    <S T="1" F="Slide Count" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

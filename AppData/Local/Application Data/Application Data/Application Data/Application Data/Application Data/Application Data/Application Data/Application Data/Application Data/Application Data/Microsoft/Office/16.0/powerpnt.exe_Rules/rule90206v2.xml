@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="90206" V="2" DC="SM" EN="Office.Telemetry.RulesEngineMediumCostThrottled" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" T="Upload-Critical" DL="A" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhyua" A="a6iyn" />
+    <UTS T="2" Id="bhyt2" A="bac31" />
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="1" F="NetworkCost" />
+        </L>
+        <R>
+          <V V="1" T="U8" />
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="2" F="NetworkCost" />
+        </L>
+        <R>
+          <V V="1" T="U8" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <T>
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180195" V="2" DC="SM" EN="Office.Excel.LinkedEntitiesDiagnostic" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b46be" />
+    <UTS T="2" Id="b08lh" />
+    <UTS T="3" Id="b08lj" />
+    <UTS T="4" Id="b08lk" />
+    <UTS T="5" Id="b5mc3" />
+    <UTS T="6" Id="cp9lm" />
+    <UTS T="7" Id="b6209" />
+    <A T="8" E="TelemetryShutdown" />
+    <A T="9" E="TelemetrySuspend" />
+  </S>
+  <C T="U32" I="0" O="false" N="GetFontIconErr">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="FontResourceErr">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="FontFileErr">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="FontFaceErr">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="DrawIconErr">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="ClassifierFailureOnCellCommit">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="ReqResultCultMismatch">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <T>
+    <S T="8" />
+    <S T="9" />
+  </T>
+</R>

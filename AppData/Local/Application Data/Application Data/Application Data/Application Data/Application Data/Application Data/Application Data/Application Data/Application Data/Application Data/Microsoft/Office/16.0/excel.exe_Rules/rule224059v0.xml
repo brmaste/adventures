@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224059" V="0" DC="SM" EN="Office.Licensing.GetLicenseInfoForMachineKey.LicenseAccountResult" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bgqus" />
+    <UTS T="2" Id="bgqut" />
+    <UTS T="3" Id="bgqup" />
+    <UTS T="4" Id="bgquv" />
+    <UTS T="5" Id="bgquw" />
+    <UTS T="6" Id="bgquy" />
+    <TO T="7" I="30s">
+      <S T="1" />
+    </TO>
+    <A T="8" E="TelemetrySuspend" />
+    <A T="9" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="IsAccountReceived">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="IsAccountFull">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="I64" I="2" O="true" N="FailureResult">
+    <S T="3" F="HRESULT" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="FailureReasonCode">
+    <S T="3" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="false" N="IsInputMachineKeyEmpty">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="IsAccountEmpty">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <T>
+    <S T="7" />
+    <S T="8" />
+    <S T="9" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

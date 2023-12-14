@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="65139" V="0" DC="SM" EN="Office.Identity.HttpAutoDRequests" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="axidp" A="axic3 axib2" />
+    <TI T="2" I="Daily" />
+    <A T="3" E="TelemetrySuspend" />
+    <A T="4" E="TelemetryShutdown" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.com.br/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.com.br/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.com.cn/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.com.cn/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.es/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.es/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.fr/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.fr/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.in/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.in/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.it/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.it/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.sg/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.sg/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.uk/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.uk/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.xyz/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="22">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.xyz/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="23">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.online/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="24">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.online/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="25">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.com/autodiscover/autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="26">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Url" />
+        </L>
+        <R>
+          <V V="https://autodiscover.com/Autodiscover/Autodiscover.xml" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountOfAutodiscoverComBrVar1">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountOfAutodiscoverComBrVar2">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountOfAutodiscoverComCnVar1">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CountOfAutodiscoverComCnVar2">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="CountOfAutodiscoverEsVar1">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CountOfAutodiscoverEsVar2">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="CountOfAutodiscoverFrVar1">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="CountOfAutodiscoverFrVar2">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="CountOfAutodiscoverInVar1">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="CountOfAutodiscoverInVar2">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="CountOfAutodiscoverItVar1">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="CountOfAutodiscoverItVar2">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="CountOfAutodiscoverSgVar1">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="CountOfAutodiscoverSgVar2">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="CountOfAutodiscoverUkVar1">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="CountOfAutodiscoverUkVar2">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="CountOfAutodiscoverXyzVar1">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="CountOfAutodiscoverXyzVar2">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="CountOfAutodiscoverOnlineVar1">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="CountOfAutodiscoverOnlineVar2">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="20" O="false" N="CountOfAutodiscoverComVar1">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="21" O="false" N="CountOfAutodiscoverComVar2">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="70500" V="0" DC="SM" EN="Office.Help.HelpTaskPaneSessionTime" ATT="f0ef8c1d59b54013a78c8cce0b75bb44-d4a21f0a-ff29-4a4c-81e7-bc7f69607cc5-7242" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhgtp" />
+  </S>
+  <C T="FT" I="0" O="false" N="Time">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U8" I="1" O="false" N="State">
+    <S T="1" F="Event" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

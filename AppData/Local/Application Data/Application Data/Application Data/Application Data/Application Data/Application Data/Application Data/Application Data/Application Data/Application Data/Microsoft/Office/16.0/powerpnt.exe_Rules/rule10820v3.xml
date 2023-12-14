@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10820" V="3" DC="SM" EN="Office.Outlook.Desktop.ContactCardPropertiesCounts" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="blelm" />
+    <UTS T="4" Id="blelt" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="IsHosted" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="4" F="IsHosted" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="4" F="CardType" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="4" F="CardType" />
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="4" F="CardType" />
+        </L>
+        <R>
+          <V V="2" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="4" F="CardType" />
+        </L>
+        <R>
+          <V V="3" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="2" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="4" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="8" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="16" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="32" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="64" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="128" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="256" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ContactType" />
+        </L>
+        <R>
+          <V V="512" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountIsHostedTrue">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountIsHostedFalse">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountCardTypeNone">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CountCardTypeHoverMenu">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="CountCardTypeHoverMenuPersist">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CountCardTypeExpanded">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="CountContactTypeUnknown">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="CountContactTypeEnterprise">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="CountContactTypeOutlook">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="CountContactTypeBot">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="CountContactTypePhoneOnly">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="CountContactTypeOneOff">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="CountContactTypeGroup">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="CountContactTypePDL">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="CountContactTypeAnonymous">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="CountContactTypeUnifiedGroup">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="CountContactTypeCompany">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U64" I="17" O="false" N="CardVersion">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="CardVersion" M="Ignore" />
+      </L>
+      <R>
+        <V V="1" T="U64" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="500024" V="2" DC="SM" EN="Office.Feedback.InApp.UI.Win32.TaskPane.HostedExperience" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="clmfh" A="clmfi clmfj clmfk clmfn clmfo clmfp clmfq clmfv clmfy" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="HostedSurveyTaskPaneException">
+    <S T="1" F="HostedSurveyTaskPaneException" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="FeedbackType">
+    <S T="1" F="FeedbackType" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="true" N="IsEmailIncluded">
+    <S T="1" F="IncludeEmail" M="Ignore" />
+  </C>
+  <C T="B" I="4" O="true" N="IsScreenshotIncluded">
+    <S T="1" F="IncludeScreenshot" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="IsDiagnosticsIncluded">
+    <S T="1" F="IncludeDiagnostics" M="Ignore" />
+  </C>
+  <C T="W" I="6" O="true" N="FeedbackID">
+    <S T="1" F="FeedbackID" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

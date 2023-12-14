@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68016" V="1" DC="SM" EN="Office.TellMe.TellMeD.ShowTeachingCallout" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="bzuwj" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="2" O="false" N="UserActionName">
+    <V V="TellMeD_ShowTeachingCallout" T="W" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

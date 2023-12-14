@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110133" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <Etw T="1" E="1416" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="2" E="1417" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="3" E="1439" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="4" E="1440" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="logId" />
+    </S>
+    <S T="2">
+      <F N="logId" />
+    </S>
+    <S T="3">
+      <F N="logId" />
+    </S>
+    <S T="4">
+      <F N="logId" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false">
+    <S T="3" F="corId" />
+  </C>
+  <C T="FT" I="1" O="false">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="2" O="false">
+    <O T="COALESCE">
+      <L>
+        <U T="100nsToMs">
+          <O T="SUB">
+            <L>
+              <S T="2" F="TimeStamp100ns" />
+            </L>
+            <R>
+              <S T="1" F="TimeStamp100ns" />
+            </R>
+          </O>
+        </U>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

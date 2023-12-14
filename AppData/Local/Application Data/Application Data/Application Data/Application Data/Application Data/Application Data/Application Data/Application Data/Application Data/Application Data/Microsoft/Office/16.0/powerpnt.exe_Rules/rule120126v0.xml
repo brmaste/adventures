@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120126" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="b14a4" A="awuw3" />
+    <F T="2">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <V V="EventProfileAdd" T="W" />
+                </L>
+                <R>
+                  <S T="1" F="IdentityEvent" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <V V="EventProfileRemove" T="W" />
+                </L>
+                <R>
+                  <S T="1" F="IdentityEvent" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <V V="EventProfileSwitch" T="W" />
+                </L>
+                <R>
+                  <S T="1" F="IdentityEvent" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <V V="EventProfileRemoveNoUserAction" T="W" />
+                </L>
+                <R>
+                  <S T="1" F="IdentityEvent" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="B" I="0" O="false">
+    <V V="true" T="B" />
+  </C>
+  <C T="TAG" I="1" O="true">
+    <S T="2" F="ULS_Tag" />
+  </C>
+  <C T="W" I="2" O="true">
+    <S T="2" F="IdentityEvent" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

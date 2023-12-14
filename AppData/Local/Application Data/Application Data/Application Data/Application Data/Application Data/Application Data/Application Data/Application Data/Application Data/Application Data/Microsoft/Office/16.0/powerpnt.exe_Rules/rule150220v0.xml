@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150220" V="0" DC="SM" EN="Office.PowerPoint.PPT.ExpiredBeforeDriedDuration" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bcrhc" />
+    <UTS T="2" Id="a80uq" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="ClientID" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="ClientID">
+    <S T="1" F="ClientID" />
+  </C>
+  <C T="U32" I="1" O="false" N="CountExpiredBeforeDried">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="I64" I="2" O="false" N="MaxDuration">
+    <A T="MAX">
+      <S T="1" F="ExpiredToDriedTime (ms)" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="100083" V="2" DC="SM" EN="Office.UX.HighContrastAccessibilitySystemSettingsWin32" ATT="c4388c977297413bb054bad1acf0ade1-cc58e53e-f5a4-4f37-b0d2-9a8079e34420-6879" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhktg" A="bgkti" />
+  </S>
+  <C T="B" I="0" O="true" N="IsHighContrastFeatureAvailable">
+    <S T="1" F="IsHighContrastFeatureAvailable" M="Ignore" />
+  </C>
+  <C T="B" I="1" O="true" N="IsHighContrastOn">
+    <S T="1" F="IsHighContrastFeatureOn" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="HighContrastScheme">
+    <S T="1" F="HighContrastScheme" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

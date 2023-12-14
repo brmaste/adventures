@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510000" V="1" DC="SM" EN="Office.DynamicCanvas.HtmlNavigation" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalBusinessImpact" S="1" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjp8o" />
+    <UTS T="2" Id="bj2rg" />
+    <UTS T="3" Id="bj2rf" />
+    <UTS T="4" Id="bjp8s" />
+    <TI T="5" I="30min" />
+    <A T="6" E="TelemetrySuspend" />
+    <A T="7" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="CountNavigateErrors">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountNavigateToFallbackFailed">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountNavigateTimeOut">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CountJavaScriptError">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <T>
+    <S T="5" />
+    <S T="6" />
+    <S T="7" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </ST>
+</R>

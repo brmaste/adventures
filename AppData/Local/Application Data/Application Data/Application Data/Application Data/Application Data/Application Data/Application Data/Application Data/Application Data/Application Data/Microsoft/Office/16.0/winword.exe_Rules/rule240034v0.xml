@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240034" V="0" DC="SM" EN="Office.Security.RestrictedOwnerRightsTemplateUsage" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bho7n" />
+  </S>
+  <C T="I32" I="0" O="false" N="UserResponse">
+    <S T="1" F="Result" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

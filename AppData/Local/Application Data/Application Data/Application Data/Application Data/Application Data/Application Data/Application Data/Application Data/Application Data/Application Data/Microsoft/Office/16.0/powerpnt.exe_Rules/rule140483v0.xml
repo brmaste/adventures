@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140483" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.LiveSubtitles.FrontDoorReconnect" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP" xmlns="">
+  <S>
+    <UTS T="1" Id="czhh6" />
+  </S>
+  <C T="W" I="0" O="true" N="SpeechSessionId">
+    <S T="1" F="SessionId" />
+  </C>
+  <C T="I32" I="1" O="false" N="ReconnectAttempts">
+    <S T="1" F="ReconnectAttempts" />
+  </C>
+  <C T="B" I="2" O="false" N="ReconnectSuccess">
+    <S T="1" F="ReconnectSuccess" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="100069" V="1" DC="SM" EN="Office.UX.WhatsNewTimeOnScreen" ATT="c4388c977297413bb054bad1acf0ade1-cc58e53e-f5a4-4f37-b0d2-9a8079e34420-6879" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bbqsl" />
+    <UTS T="2" Id="bbqsm" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="I64" I="1" O="false" N="WhatsNewOnScreenTimeSec">
+    <O T="DIV">
+      <L>
+        <O T="SUB">
+          <L>
+            <S T="2" F="TimeStamp100ns" />
+          </L>
+          <R>
+            <S T="1" F="TimeStamp100ns" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <V V="10000000" T="U64" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

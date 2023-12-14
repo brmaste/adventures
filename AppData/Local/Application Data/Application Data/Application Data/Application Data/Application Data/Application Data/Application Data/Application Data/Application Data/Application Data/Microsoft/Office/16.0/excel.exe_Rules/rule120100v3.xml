@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120100" V="3" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryStartup" />
+    <A T="2" E="TelemetryResume" />
+    <TI T="3" I="30s" />
+    <R T="4" R="120100" />
+    <TH T="5">
+      <O T="GE">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="3" F="TimeStamp100ns" />
+            </L>
+            <R>
+              <S T="2" F="TimeStamp100ns" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="ADD">
+            <L>
+              <O T="COALESCE">
+                <L>
+                  <S T="4" F="TimeStamp100ns" />
+                </L>
+                <R>
+                  <V V="1" T="FT" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <V V="864000000000" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </TH>
+  </S>
+  <T>
+    <S T="1" />
+    <S T="5" />
+  </T>
+</R>

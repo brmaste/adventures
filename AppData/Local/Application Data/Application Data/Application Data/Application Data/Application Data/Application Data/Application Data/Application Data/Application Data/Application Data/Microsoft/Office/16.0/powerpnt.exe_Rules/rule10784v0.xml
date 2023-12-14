@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10784" V="0" DC="SM" EN="Office.Outlook.Desktop.PeoplePickerSelectionStatistics" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <R T="1" R="10625" />
+    <TI T="2" I="Daily" />
+    <A T="3" E="TelemetryShutdown" />
+  </S>
+  <C T="I32" I="0" O="false" N="AlgorithmVersion">
+    <S T="1" F="0" />
+  </C>
+  <C T="I32" I="1" O="false" N="SelectedIndexPosition0Count">
+    <A T="SUM">
+      <S T="1" F="1" />
+    </A>
+  </C>
+  <C T="I32" I="2" O="false" N="SelectedIndexPosition1Count">
+    <A T="SUM">
+      <S T="1" F="2" />
+    </A>
+  </C>
+  <C T="I32" I="3" O="false" N="SelectedIndexPosition2Count">
+    <A T="SUM">
+      <S T="1" F="3" />
+    </A>
+  </C>
+  <C T="I32" I="4" O="false" N="SelectedIndexPosition3Count">
+    <A T="SUM">
+      <S T="1" F="4" />
+    </A>
+  </C>
+  <C T="I32" I="5" O="false" N="SelectedIndexPosition4Count">
+    <A T="SUM">
+      <S T="1" F="5" />
+    </A>
+  </C>
+  <C T="I32" I="6" O="false" N="SelectedIndexPositionGT4Count">
+    <A T="SUM">
+      <S T="1" F="6" />
+    </A>
+  </C>
+  <C T="I32" I="7" O="false" N="SearchTextLength0Count">
+    <A T="SUM">
+      <S T="1" F="8" />
+    </A>
+  </C>
+  <C T="I32" I="8" O="false" N="SearchTextLength1To5Count">
+    <A T="SUM">
+      <S T="1" F="9" />
+    </A>
+  </C>
+  <C T="I32" I="9" O="false" N="SearchTextLength6To10Count">
+    <A T="SUM">
+      <S T="1" F="10" />
+    </A>
+  </C>
+  <C T="I32" I="10" O="false" N="SearchTextLengthGT10Count">
+    <A T="SUM">
+      <S T="1" F="11" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

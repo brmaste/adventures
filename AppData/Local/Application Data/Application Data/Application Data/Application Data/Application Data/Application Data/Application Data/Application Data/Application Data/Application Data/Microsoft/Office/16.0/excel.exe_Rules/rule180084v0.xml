@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180084" V="0" DC="SM" EN="Office.Excel.PowerPivotOperationsFilter" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ULS_Category" />
+            </L>
+            <R>
+              <V V="Xl Pivot" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Table" />
+            </L>
+            <R>
+              <V V="PowerPivotBIOperations" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="Feature">
+    <S T="2" F="Feature" />
+  </C>
+  <C T="U32" I="1" O="false" N="Operation">
+    <S T="2" F="Operation" />
+  </C>
+  <C T="W" I="2" O="true" N="AdditionalParams">
+    <S T="2" F="AdditionalParams" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

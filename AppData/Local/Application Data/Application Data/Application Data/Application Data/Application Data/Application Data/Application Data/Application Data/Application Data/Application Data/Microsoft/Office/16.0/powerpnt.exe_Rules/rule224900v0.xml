@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224900" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="bbr5m" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="DoLicValidationMode" />
+        </L>
+        <R>
+          <V V="0" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="I32" I="0" O="false">
+    <S T="2" F="DoLicValidationMode" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

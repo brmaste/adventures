@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150013" V="2" DC="SM" EN="Office.PowerPoint.PPT.ContentLogging.SlidesLoaded" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="aya55" />
+    <UTS T="2" Id="ayuzv" />
+  </S>
+  <C T="U32" I="0" O="true" N="HyperlinkCount">
+    <S T="2" F="Hyperlink Count" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="SameDocumentHyperlinkCount">
+    <S T="2" F="Same Document Hyperlink Count" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="CustomDataCount">
+    <S T="2" F="Custom Data Count" M="Ignore" />
+  </C>
+  <C T="G" I="3" O="true" N="CorrelationId">
+    <S T="1" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="LinkedOleCount">
+    <S T="2" F="Linked Ole Count" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="IsAllSlidesLoaded">
+    <S T="2" F="All Slides Loaded" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11932" V="0" DC="SM" EN="Office.Outlook.Desktop.RNCardTimeToRenderInitialBucketed" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSP" xmlns="">
+  <S>
+    <R T="1" R="11930" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+    <F T="4">
+      <O T="LT">
+        <L>
+          <S T="1" F="0" />
+        </L>
+        <R>
+          <V V="100" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="100" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="250" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="250" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="500" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="500" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="1000" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="1000" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="1" F="0" />
+            </L>
+            <R>
+              <V V="2500" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="GE">
+        <L>
+          <S T="1" F="0" />
+        </L>
+        <R>
+          <V V="2500" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountLessThan100ms">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="Count100To250ms">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="Count250To500ms">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="Count500To1000ms">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="Count1000To2500ms">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CountMoreThan2500ms">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

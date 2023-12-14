@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150114" V="0" DC="SM" EN="Office.PowerPoint.PPT.SlideTransitions" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bar6l" />
+  </S>
+  <C T="U64" I="0" O="false" N="SlideId">
+    <S T="1" F="SlideID" />
+  </C>
+  <C T="W" I="1" O="false" N="Type">
+    <S T="1" F="Type" />
+  </C>
+  <C T="W" I="2" O="false" N="Variant">
+    <S T="1" F="Variant" />
+  </C>
+  <C T="F" I="3" O="false" N="Duration">
+    <S T="1" F="Duration" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

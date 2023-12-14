@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10450" V="3" DC="SM" EN="Office.Outlook.Desktop.NDBCorruptStoreRule" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" SP="CriticalUsage" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="319" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="false" N="Context">
+    <S T="1" F="Context" />
+  </C>
+  <C T="U32" I="2" O="false" N="NdbType">
+    <S T="1" F="NdbType" />
+  </C>
+  <C T="U32" I="3" O="false" N="Version">
+    <S T="1" F="Version" />
+  </C>
+  <C T="W" I="4" O="false" N="ProcessName">
+    <S T="1" F="ProcessName" />
+  </C>
+  <C T="W" I="5" O="false" N="PstVersion">
+    <S T="1" F="PstVersion" />
+  </C>
+  <C T="W" I="6" O="false" N="Details">
+    <S T="1" F="Details" />
+  </C>
+  <C T="U32" I="7" O="true" N="CreatedWithVersion">
+    <S T="1" F="CreatedWithVersion" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

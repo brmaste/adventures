@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140203" V="2" DC="SM" EN="Office.PowerPoint.PPT.LayoutDedup" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bb5qu" />
+    <UTS T="2" Id="bb5qv" />
+    <UTS T="3" Id="bb5qr" />
+    <UTS T="4" Id="bb5qs" />
+    <UTS T="5" Id="bb5qj" />
+    <UTS T="6" Id="bb5qk" />
+  </S>
+  <C T="U32" I="0" O="true" N="TotalSlideMastersBefore">
+    <S T="1" F="Total SlideMasters" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="TotalSlideMastersAfter">
+    <S T="2" F="Total SlideMasters" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="SlideMasterReducedListCount">
+    <S T="2" F="Total SlideMasters reduced" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="TotalSlideLayoutsBefore">
+    <S T="1" F="Total SlideLayouts" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="TotalSlideLayoutsAfter">
+    <S T="2" F="Total SlideLayouts" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="SlideLayoutsReducedListCount">
+    <S T="2" F="Total SlideLayouts reduced" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="false" N="GetDuplicatedMainMastersFailureCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="GetDuplicateContentMastersFailureCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="true" N="MainMasterCleanupTimeMS">
+    <S T="3" F="CleanupTimeMS" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="ContentMasterCleanupTimeMS">
+    <S T="5" F="CleanupTimeMS" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="TotalCleanupTimeMS">
+    <S T="2" F="Total CleanupTimeMS" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="NameStepPassed">
+    <S T="2" F="NameStepPassed" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="TypeStepPassed">
+    <S T="2" F="TypeStepPassed" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="IdenticalStepPassed">
+    <S T="2" F="IdenticalStepPassed" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="InUsedStepPassed">
+    <S T="2" F="InUsedStepPassed" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

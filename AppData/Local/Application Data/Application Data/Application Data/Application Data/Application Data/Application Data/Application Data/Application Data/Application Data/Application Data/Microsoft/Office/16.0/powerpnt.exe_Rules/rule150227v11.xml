@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150227" V="11" DC="SM" EN="Office.PowerPoint.PPT.RealtimeEditing.IncomingMessageTimes" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bf63s" />
+  </S>
+  <C T="U32" I="0" O="false" N="RevisionNumber">
+    <S T="1" F="RevisionNumber" />
+  </C>
+  <C T="W" I="1" O="true" N="SenderClientId">
+    <S T="1" F="ClientID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="false" N="Tcid">
+    <S T="1" F="TCID" />
+  </C>
+  <C T="U32" I="3" O="true" N="ProcessTrigger">
+    <S T="1" F="ProcessTrigger" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="ProcessingResult">
+    <S T="1" F="ProcessingResult" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="CommandPerformResult">
+    <S T="1" F="CommandPerformResult" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="StartToQueueMicrosec">
+    <S T="1" F="StartToQueueMicrosec" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="InQueueMicrosec">
+    <S T="1" F="InQueueMicrosec" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="ProcessingMicrosec">
+    <S T="1" F="ProcessingMicrosec" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="IncomingE2EMicrosec">
+    <S T="1" F="IncomingE2EMicrosec" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="DeserializeMicrosec">
+    <S T="1" F="DeserializeMicrosec" M="Ignore" />
+  </C>
+  <C T="I64" I="11" O="true" N="StartToDriedMicrosec">
+    <S T="1" F="StartToDriedMicrosec" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="true" N="ReceiverClientId">
+    <S T="1" F="LocalClientId" M="Ignore" />
+  </C>
+  <C T="G" I="13" O="true" N="ServerDocId">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="ServerDocId" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="Doc.ServerDocId" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="14" O="true" N="ProcessingDeferredCount">
+    <S T="1" F="ProcessingDeferredCount" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="ProcessingDeferredReason">
+    <S T="1" F="ProcessingDeferredReason" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="IncomingBatchNumber">
+    <S T="1" F="IncomingBatchNumber" M="Ignore" />
+  </C>
+  <C T="B" I="17" O="true" N="HasFakeCommand">
+    <S T="1" F="HasFakeCommand" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="LargeBlobSize">
+    <S T="1" F="LargeBlobSize" M="Ignore" />
+  </C>
+  <C T="W" I="19" O="true" N="StackTraits">
+    <S T="1" F="StackTraits" M="Ignore" />
+  </C>
+  <C T="U32" I="20" O="true" N="StartToMergedMicrosec">
+    <S T="1" F="StartToMergedMicrosec" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

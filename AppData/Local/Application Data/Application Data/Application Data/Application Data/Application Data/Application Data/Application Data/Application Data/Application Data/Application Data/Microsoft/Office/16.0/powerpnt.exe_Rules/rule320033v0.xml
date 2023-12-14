@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="320033" V="0" DC="SM" EN="Office.Extensibility.DeepLinkingTrustResult" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalExperimentation" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b072l" />
+  </S>
+  <C T="W" I="0" O="true" N="CorrelationId">
+    <S T="1" F="CorrelationId" />
+  </C>
+  <C T="W" I="1" O="true" N="SolutionId">
+    <S T="1" F="SolutionId" />
+  </C>
+  <C T="W" I="2" O="true" N="AppInstanceId">
+    <S T="1" F="AppInstanceId" />
+  </C>
+  <C T="I32" I="3" O="false" N="DialogCode">
+    <S T="1" F="DialogCode" />
+  </C>
+  <C T="B" I="4" O="false" N="IsAddinTrusted">
+    <S T="1" F="IsAddinTrusted" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

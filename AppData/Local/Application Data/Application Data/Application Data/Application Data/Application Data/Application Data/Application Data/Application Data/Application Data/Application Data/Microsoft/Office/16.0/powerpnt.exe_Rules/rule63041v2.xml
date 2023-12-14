@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63041" V="2" DC="SM" EN="Office.Identity.GetAuthenticatedServiceTicketCadence" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSU" xmlns="">
+  <S>
+    <R T="1" R="63040" />
+    <R T="2" R="63041" />
+    <R T="3" R="120100" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="3" />
+        </L>
+        <R>
+          <V V="1" T="U64" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="4">
+      <F N="1" />
+      <F N="2" />
+      <F N="4" />
+    </S>
+    <S T="2">
+      <F N="1" />
+      <F N="2" />
+      <F N="3" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="TimeStamp100ns" />
+      </L>
+      <R>
+        <S T="4" F="0" />
+      </R>
+    </O>
+  </C>
+  <C T="TAG" I="1" O="false" N="Tag">
+    <O T="COALESCE">
+      <L>
+        <S T="4" F="1" />
+      </L>
+      <R>
+        <S T="2" F="1" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="2" O="true" N="IdentityProviderType">
+    <O T="COALESCE">
+      <L>
+        <S T="4" F="2" />
+      </L>
+      <R>
+        <S T="2" F="2" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="3" O="true" N="LibraryType">
+    <O T="COALESCE">
+      <L>
+        <S T="4" F="4" />
+      </L>
+      <R>
+        <S T="2" F="3" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="4" />
+    <S T="3" />
+  </T>
+</R>

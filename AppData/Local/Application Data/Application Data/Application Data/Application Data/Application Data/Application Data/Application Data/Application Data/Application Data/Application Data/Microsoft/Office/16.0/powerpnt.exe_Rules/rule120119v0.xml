@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120119" V="0" DC="SM" EN="Office.System.SystemHealthRollbackSessionMetadata" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalCensus" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <R T="1" R="120100" />
+    <UTS T="2" Id="awjb7" />
+    <UTS T="3" Id="a14x3" />
+    <R T="4" R="120119" />
+  </S>
+  <C T="W" I="0" O="true" N="PreviousBuild">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="3" F="PreviousBuild" M="Ignore" />
+          </L>
+          <R>
+            <S T="2" F="PreviousBuild" M="Ignore" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <S T="4" F="0" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="1" O="true" N="InstallMethod">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="3" F="InstallMethod" M="Ignore" />
+          </L>
+          <R>
+            <S T="2" F="InstallMethod" M="Ignore" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <S T="4" F="1" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </ST>
+</R>

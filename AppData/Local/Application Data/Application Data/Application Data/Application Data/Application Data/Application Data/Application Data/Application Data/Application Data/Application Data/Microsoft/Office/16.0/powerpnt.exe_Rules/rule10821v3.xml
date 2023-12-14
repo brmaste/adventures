@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10821" V="3" DC="SM" EN="Office.Outlook.Desktop.ContactCardClickCountsA" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="blelm" />
+    <UTS T="4" Id="blekv" />
+    <UTS T="5" Id="bleld" />
+    <UTS T="6" Id="blekw" />
+    <UTS T="7" Id="blekx" />
+    <UTS T="8" Id="bleky" />
+    <UTS T="9" Id="blekz" />
+    <UTS T="10" Id="blek0" />
+    <UTS T="11" Id="blek1" />
+    <UTS T="12" Id="blek2" />
+    <UTS T="13" Id="blek3" />
+    <UTS T="14" Id="bleko" />
+    <UTS T="15" Id="a9ceo" />
+    <UTS T="16" Id="a9cdl" />
+    <UTS T="17" Id="a9cer" />
+    <UTS T="18" Id="blekq" />
+    <UTS T="19" Id="a9ceh" />
+    <UTS T="20" Id="a9cei" />
+    <UTS T="21" Id="a9cel" />
+    <UTS T="22" Id="a9cem" />
+    <UTS T="23" Id="a9cep" />
+    <UTS T="24" Id="a9ceq" />
+    <UTS T="25" Id="blekr" />
+    <UTS T="26" Id="a9ces" />
+    <UTS T="27" Id="blekt" />
+    <UTS T="28" Id="bleks" />
+    <UTS T="29" Id="bleku" />
+    <UTS T="30" Id="a9cej" />
+    <UTS T="31" Id="a9cek" />
+    <UTS T="32" Id="a9cen" />
+  </S>
+  <C T="U32" I="0" O="false" N="TabProfile">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="TabEditProfile">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="TabNotes">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="TabGroup">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="TabMemberOf">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="TabOrganization">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="TabMembers">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="TabFeeds">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="TabUnifiedGroup">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="TabUnifiedGroupMembers">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="FlyoutEmail">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="FlyoutEmailSendEmail">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="FlyoutIM">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="FlyoutIMSendIM">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="FlyoutPhone">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="FlyoutPhoneCallGroupWithComputer">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="FlyoutPhoneCallComputer">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="FlyoutPhoneCallVoiceMail">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="FlyoutPhoneCallNewNumber">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="FlyoutPhoneCallNumber">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="20" O="false" N="FlyoutPhoneCallGroupNumber">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="21" O="false" N="FlyoutVideo">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="22" O="false" N="FlyoutVideoCallVideo">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <C T="U32" I="23" O="false" N="FlyoutSaS">
+    <C>
+      <S T="27" />
+    </C>
+  </C>
+  <C T="U32" I="24" O="false" N="FlyoutOverflow">
+    <C>
+      <S T="28" />
+    </C>
+  </C>
+  <C T="U32" I="25" O="false" N="FlyoutOverflowAddToOutlookContact">
+    <C>
+      <S T="29" />
+    </C>
+  </C>
+  <C T="U32" I="26" O="false" N="FlyoutOverflowToggleTagContact">
+    <C>
+      <S T="30" />
+    </C>
+  </C>
+  <C T="U32" I="27" O="false" N="FlyoutOverflowAddToFavorites">
+    <C>
+      <S T="31" />
+    </C>
+  </C>
+  <C T="U32" I="28" O="false" N="FlyoutOverflowLinkContacts">
+    <C>
+      <S T="32" />
+    </C>
+  </C>
+  <C T="U64" I="29" O="false" N="CardVersion">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="CardVersion" M="Ignore" />
+      </L>
+      <R>
+        <V V="1" T="U64" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

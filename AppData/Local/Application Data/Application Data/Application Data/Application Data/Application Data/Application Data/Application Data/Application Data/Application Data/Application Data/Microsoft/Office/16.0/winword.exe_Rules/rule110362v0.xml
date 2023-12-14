@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110362" V="0" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <UCSS T="1" C="Word File New" S="Monitorable" />
+    <UCSS T="2" C="Word File Open" S="Monitorable" />
+    <UCSS T="3" C="Word Find Replace" S="Monitorable" />
+    <UCSS T="4" C="Word Flash Edits" S="Monitorable" />
+    <UCSS T="5" C="Word Focus Mode" S="Monitorable" />
+    <UCSS T="6" C="Word Font" S="Monitorable" />
+    <UCSS T="7" C="Word Format Consistency Checker" S="Monitorable" />
+    <UCSS T="8" C="Word Forms" S="Monitorable" />
+    <UCSS T="9" C="Word Global Generic" S="Monitorable" />
+    <UCSS T="10" C="Word Global State" S="Monitorable" />
+    <UCSS T="11" C="Word Glyph" S="Monitorable" />
+    <UCSS T="12" C="Word Graphics" S="Monitorable" />
+    <UCSS T="13" C="Word Hashtags" S="Monitorable" />
+    <UCSS T="14" C="WordHistory" S="Monitorable" />
+    <UCSS T="15" C="Word HrLog" S="Monitorable" />
+    <UCSS T="16" C="Word Idle" S="Monitorable" />
+    <UCSS T="17" C="Word Info Protection" S="Monitorable" />
+    <UCSS T="18" C="Word Ink To Text" S="Monitorable" />
+    <UCSS T="19" C="Word InProc Automation" S="Monitorable" />
+    <UCSS T="20" C="Word IntelligentPlaceholders" S="Monitorable" />
+    <UCSS T="21" C="Word Inval" S="Monitorable" />
+    <UCSS T="22" C="Word Keyboard Input" S="Monitorable" />
+    <UCSS T="23" C="Word Language" S="Monitorable" />
+    <UCSS T="24" C="Word Layout" S="Monitorable" />
+    <UCSS T="25" C="Word Layout Dump" S="Monitorable" />
+    <UCSS T="26" C="Word LinkedIn" S="Monitorable" />
+    <UCSS T="27" C="Word Live Drag" S="Monitorable" />
+    <UCSS T="28" C="Word Live Statistics Count" S="Monitorable" />
+    <UCSS T="29" C="Word Locks" S="Monitorable" />
+    <UCSS T="30" C="Word Logging" S="Monitorable" />
+    <UCSS T="31" C="Word Mail Merge" S="Monitorable" />
+    <UCSS T="32" C="Word Memory Storage Object" S="Monitorable" />
+    <UCSS T="33" C="Word Metadata" S="Monitorable" />
+    <US T="34">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+      <S T="10" />
+      <S T="11" />
+      <S T="12" />
+      <S T="13" />
+      <S T="14" />
+      <S T="15" />
+      <S T="16" />
+      <S T="17" />
+      <S T="18" />
+      <S T="19" />
+      <S T="20" />
+      <S T="21" />
+      <S T="22" />
+      <S T="23" />
+      <S T="24" />
+      <S T="25" />
+      <S T="26" />
+      <S T="27" />
+      <S T="28" />
+      <S T="29" />
+      <S T="30" />
+      <S T="31" />
+      <S T="32" />
+      <S T="33" />
+    </US>
+  </S>
+  <C T="W" I="0" O="false">
+    <S T="34" F="ULS_Category" />
+  </C>
+  <C T="W" I="1" O="false">
+    <S T="34" F="ULS_TagId" />
+  </C>
+  <C T="I32" I="2" O="true">
+    <S T="34" F="SH_ErrorId" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true">
+    <S T="34" F="SH_ErrorCode" M="Ignore" />
+  </C>
+  <T>
+    <S T="34" />
+  </T>
+</R>

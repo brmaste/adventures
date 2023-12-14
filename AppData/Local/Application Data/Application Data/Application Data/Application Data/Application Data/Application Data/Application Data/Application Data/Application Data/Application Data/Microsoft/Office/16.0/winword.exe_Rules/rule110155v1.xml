@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110155" V="1" DC="SM" EN="Office.Word.Word.RTCUnregisterContentHandlers" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" SP="CriticalUsage" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="2634" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+  </S>
+  <C T="U64" I="0" O="false" N="Pcoa">
+    <S T="1" F="pcoa" />
+  </C>
+  <C T="U64" I="1" O="false" N="PIRtcConnection">
+    <S T="1" F="pIRtcConnection" />
+  </C>
+  <C T="U64" I="2" O="true" N="RtcContentHandlerActiveDuration">
+    <S T="1" F="DusecRTCContentHandlerDuration" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

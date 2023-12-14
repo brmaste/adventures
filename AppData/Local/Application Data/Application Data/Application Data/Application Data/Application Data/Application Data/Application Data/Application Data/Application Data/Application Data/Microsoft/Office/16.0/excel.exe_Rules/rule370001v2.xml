@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="370001" V="2" DC="SM" EN="Office.TargetedMessaging.TmsGetMessageWebCall" ATT="2f0a1931898144668b4994b491868b75-cc9fb197-8766-4b63-8e07-1887d3d330ac-7107" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a70w0" />
+    <UTS T="2" Id="a70xq" />
+    <UTS T="3" Id="a70w1" />
+    <UTS T="4" Id="a70w2" />
+    <UTS T="5" Id="a70w3" />
+    <UTS T="6" Id="a70yv" />
+    <UTS T="7" Id="a70x9" />
+    <TI T="8" I="30s" />
+    <A T="9" E="TelemetrySuspend" />
+    <A T="10" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="Thread ID" />
+    </S>
+    <S T="2">
+      <F N="Thread ID" />
+    </S>
+    <S T="3">
+      <F N="Thread ID" />
+    </S>
+    <S T="4">
+      <F N="Thread ID" />
+    </S>
+    <S T="5">
+      <F N="Thread ID" />
+    </S>
+    <S T="6">
+      <F N="Thread ID" />
+    </S>
+    <S T="7">
+      <F N="Thread ID" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="Source">
+    <S T="1" F="Source" />
+  </C>
+  <C T="W" I="1" O="false" N="Platform">
+    <S T="1" F="Platform" />
+  </C>
+  <C T="W" I="2" O="false" N="ProductId">
+    <S T="1" F="ProductId" />
+  </C>
+  <C T="W" I="3" O="false" N="HardwareId">
+    <S T="1" F="HardwareId" />
+  </C>
+  <C T="I32" I="4" O="true" N="ServiceStatus">
+    <S T="2" F="Service Status" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="WaitTime">
+    <S T="2" F="Wait Time" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="false" N="RequestFailed">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="ParseFailed">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="ValidationFailed">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="ExceededMaxWait">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="I32" I="10" O="true" N="MessageId">
+    <S T="7" F="MessageHeader: MessageId" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="TransactionId">
+    <S T="7" F="MessageHeader: TransactionId" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="false" N="DataPropertyBag">
+    <S T="1" F="DataPropertyBag" M="Ignore" />
+  </C>
+  <T>
+    <S T="8" />
+    <S T="9" />
+    <S T="10" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="142314" V="2" DC="SM" EN="Office.PowerPoint.PPT.Desktop.Content.OnlineMoviePlay" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cnmko" />
+    <UTS T="2" Id="c5z9o" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="W" I="0" O="true" N="URLHash">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="PlayMovie" M="Ignore" />
+      </L>
+      <R>
+        <S T="2" F="PlayVideo" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="D" I="1" O="true" N="DurationSeconds">
+    <S T="3" F="DurationSeconds" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="ProviderName">
+    <S T="3" F="ProviderName" M="Ignore" />
+  </C>
+  <C T="I64" I="3" O="true" N="CommandDuration">
+    <S T="3" F="CommandDuration" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

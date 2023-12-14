@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140141" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.Print.UserOptions" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bobic" />
+  </S>
+  <C T="B" I="0" O="false" N="IsPrintToFile">
+    <S T="1" F="PrintToFile" />
+  </C>
+  <C T="U32" I="1" O="false" N="SlideRangeType">
+    <S T="1" F="SlideRangeType" />
+  </C>
+  <C T="U32" I="2" O="false" N="TotalSlidesCount">
+    <S T="1" F="TotalSlides" />
+  </C>
+  <C T="B" I="3" O="false" N="IsPrintHiddenSlides">
+    <S T="1" F="PrintHiddenSlides" />
+  </C>
+  <C T="B" I="4" O="false" N="IsPrintComments">
+    <S T="1" F="PrintComments" />
+  </C>
+  <C T="U32" I="5" O="false" N="PrintWhat">
+    <S T="1" F="PrintWhat" />
+  </C>
+  <C T="B" I="6" O="false" N="IsPrintVerticalOrder">
+    <S T="1" F="PrintVerticalOrder" />
+  </C>
+  <C T="B" I="7" O="false" N="IsFrameSlides">
+    <S T="1" F="FrameSlides" />
+  </C>
+  <C T="B" I="8" O="false" N="IsScaleToFit">
+    <S T="1" F="ScaleToFit" />
+  </C>
+  <C T="B" I="9" O="false" N="IsPrintHighQuality">
+    <S T="1" F="PrintHighQuality" />
+  </C>
+  <C T="I32" I="10" O="false" N="Orientation">
+    <S T="1" F="Orientation" />
+  </C>
+  <C T="U32" I="11" O="false" N="ColorMode">
+    <S T="1" F="ColorMode" />
+  </C>
+  <C T="B" I="12" O="false" N="IsSupportMultipleCopies">
+    <S T="1" F="SupportMultipleCopies" />
+  </C>
+  <C T="U32" I="13" O="false" N="CopiesCount">
+    <S T="1" F="Copies" />
+  </C>
+  <C T="B" I="14" O="false" N="IsCollate">
+    <S T="1" F="Collate" />
+  </C>
+  <C T="B" I="15" O="false" N="IsDuplexOn">
+    <S T="1" F="DuplexOn" />
+  </C>
+  <C T="I32" I="16" O="false" N="DupMode">
+    <S T="1" F="DupMode" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="226000" V="0" DC="SM" EN="Office.Globalization.OLEOGetHculture" ATT="fa2d8726ec914a019f61aa83d1a0f156-ff2e4b12-d084-4558-9515-fbf9e1224e49-7217" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a52i0" />
+    <TI T="2" I="Hourly" />
+    <A T="3" E="TelemetryShutdown" />
+    <A T="4" E="TelemetrySuspend" />
+    <TR T="5" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="HResult" />
+      <F N="ResultOrigin" />
+      <F N="wzTag" />
+      <F N="wzAliasTag" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="5" F="TimeStamp100ns" />
+  </C>
+  <C T="I32" I="1" O="false" N="HResult">
+    <S T="1" F="HResult" />
+  </C>
+  <C T="I32" I="2" O="false" N="ResultOrigin">
+    <S T="1" F="ResultOrigin" />
+  </C>
+  <C T="W" I="3" O="true" N="CultureTag">
+    <S T="1" F="wzTag" />
+  </C>
+  <C T="W" I="4" O="true" N="CultureAliasTag">
+    <S T="1" F="wzAliasTag" />
+  </C>
+  <C T="U32" I="5" O="false" N="CultureCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>

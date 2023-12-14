@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224082" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.Session.ReportLicenseMessage" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a2zcw" />
+  </S>
+  <C T="I64" I="0" O="false" N="PopulateLicenseError">
+    <S T="1" F="MessageIDS" />
+  </C>
+  <C T="I64" I="1" O="false" N="ResultCode">
+    <S T="1" F="Error" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

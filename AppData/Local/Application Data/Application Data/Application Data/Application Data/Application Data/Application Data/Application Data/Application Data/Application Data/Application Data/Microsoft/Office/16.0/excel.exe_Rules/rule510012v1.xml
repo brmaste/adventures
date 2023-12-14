@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510012" V="1" DC="SM" EN="Office.DynamicCanvas.OutSpaceCanvas" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b3wqw" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="CampaignName" />
+            </L>
+            <R>
+              <V V="ProgressUi" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ContentName" />
+            </L>
+            <R>
+              <V V="ProgressUi" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="CampaignName" />
+            </L>
+            <R>
+              <V V="ProgressUi" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ContentName" />
+            </L>
+            <R>
+              <V V="MobileUpsell" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="CampaignName" />
+            </L>
+            <R>
+              <V V="ProgressUi" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ContentName" />
+            </L>
+            <R>
+              <V V="SubscriptionShare" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <UTS T="5" Id="b33bf" />
+    <UTS T="6" Id="b33bd" />
+    <UTS T="7" Id="b33bg" />
+    <UTS T="8" Id="b56yw" />
+    <UTS T="9" Id="b56yx" />
+    <UTS T="10" Id="b56yy" />
+    <UTS T="11" Id="b56yz" />
+    <UTS T="12" Id="b56y0" />
+    <UTS T="13" Id="b56y1" />
+  </S>
+  <C T="W" I="0" O="true" N="ContentLog">
+    <S T="2" F="ContextData" />
+  </C>
+  <C T="W" I="1" O="true" N="MobileUpsellContentLog">
+    <S T="3" F="ContextData" />
+  </C>
+  <C T="W" I="2" O="true" N="SubscriptionShareContentLog">
+    <S T="4" F="ContextData" />
+  </C>
+  <C T="U32" I="3" O="true" N="ConnectTimeMs">
+    <S T="5" F="ElapsedMs" />
+  </C>
+  <C T="U32" I="4" O="true" N="FailedVisibilityChecks">
+    <S T="6" F="FailedChecks" />
+  </C>
+  <C T="U32" I="5" O="false" N="ConnectTimeout">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="ErrorOnLoadingFlexValueNull">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="ErrorOnErrorFlexValueNull">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="ErorrSetDataSourceBooleanAllocFail">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="ErrorSetDataSourceBooleanPostFail">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="ErrorSetControlVisibilityNullDataSource">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="ErrorSetSpinnerVisibilityNullDataSource">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+    <S T="6" />
+    <S T="7" />
+    <S T="8" />
+    <S T="9" />
+    <S T="10" />
+    <S T="11" />
+    <S T="12" />
+    <S T="13" />
+  </T>
+</R>

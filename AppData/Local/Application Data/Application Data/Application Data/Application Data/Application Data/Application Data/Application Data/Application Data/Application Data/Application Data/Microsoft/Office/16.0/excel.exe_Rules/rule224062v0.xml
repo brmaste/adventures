@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224062" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.OOBEWelcome.ButtonClicked" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a7op4" />
+    <UTS T="2" Id="a7opz" />
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Source" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="3">
+      <F N="ActionTarget" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false" N="OOBEButtonPressed">
+    <S T="3" F="ActionTarget" />
+  </C>
+  <C T="U32" I="1" O="false" N="OOBEButtonPressedCount">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

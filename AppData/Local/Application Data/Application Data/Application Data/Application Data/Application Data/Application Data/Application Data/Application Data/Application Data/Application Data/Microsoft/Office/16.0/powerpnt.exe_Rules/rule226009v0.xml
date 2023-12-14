@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="226009" V="0" DC="SM" EN="Office.Globalization.StringResources" ATT="fa2d8726ec914a019f61aa83d1a0f156-ff2e4b12-d084-4558-9515-fbf9e1224e49-7217" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b56v5" />
+  </S>
+  <C T="U32" I="0" O="false" N="Alias">
+    <S T="1" F="alias" />
+  </C>
+  <C T="U32" I="1" O="false" N="Ids">
+    <S T="1" F="ids" />
+  </C>
+  <C T="W" I="2" O="true" N="Container">
+    <S T="1" F="container" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

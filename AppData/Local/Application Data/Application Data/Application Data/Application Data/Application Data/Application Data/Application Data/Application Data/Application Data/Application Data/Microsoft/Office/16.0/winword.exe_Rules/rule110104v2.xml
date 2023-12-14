@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110104" V="2" DC="SM" EN="Office.Word.Word.PostMergePerf" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="1461" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <Etw T="2" E="1462" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <Etw T="3" E="1466" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <Etw T="4" E="1468" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <Etw T="5" E="1470" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <R T="6" R="110009" />
+    <TR T="7" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="7" F="TimeStamp100ns" />
+  </C>
+  <C T="U64" I="1" O="false" N="PostMergeTotalTimeMicroseconds">
+    <S T="2" F="ElapsedTimeMicroseconds" />
+  </C>
+  <C T="U64" I="2" O="true" N="COABranchDownloadToCopyTotalTimeMicroseconds">
+    <S T="3" F="ElapsedTimeMicroseconds" />
+  </C>
+  <C T="U64" I="3" O="true" N="COAPostMergeCommitTotalTimeMicroseconds">
+    <S T="4" F="ElapsedTimeMicroseconds" />
+  </C>
+  <C T="U64" I="4" O="true" N="CoreSaveTotalTime100ns">
+    <S T="6" F="2" />
+  </C>
+  <C T="U64" I="5" O="true" N="COAIoldocTransactedCopyFileToCacheTotalTimeMicroseconds">
+    <S T="5" F="ElapsedTimeMicroseconds" />
+  </C>
+  <C T="G" I="6" O="false" N="SaveActionGuid">
+    <S T="1" F="saveActionId" />
+  </C>
+  <C T="B" I="7" O="false" N="SaveAs">
+    <S T="1" F="fSaveAs" />
+  </C>
+  <C T="B" I="8" O="false" N="OnBackgroundThread">
+    <S T="1" F="fOnBackgroundThread" />
+  </C>
+  <C T="G" I="9" O="false" N="SqmDocId">
+    <S T="1" F="sqmDocId" />
+  </C>
+  <C T="U32" I="10" O="false" N="Location">
+    <S T="1" F="sqmDocLocation" />
+  </C>
+  <C T="I32" I="11" O="false" N="FileType">
+    <S T="1" F="ftyp" />
+  </C>
+  <C T="U32" I="12" O="false" N="AuthorsCount">
+    <S T="1" F="AuthorsCount" />
+  </C>
+  <C T="B" I="13" O="false" N="CoAuthorable">
+    <S T="1" F="fCoAuthorable" />
+  </C>
+  <C T="B" I="14" O="false" N="MergeRequired">
+    <S T="2" F="fMergeRequired" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

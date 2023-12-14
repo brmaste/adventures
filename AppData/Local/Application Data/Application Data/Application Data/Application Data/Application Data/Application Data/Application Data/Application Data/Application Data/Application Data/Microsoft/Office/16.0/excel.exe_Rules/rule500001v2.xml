@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="500001" V="2" DC="SM" EN="Office.Feedback.InApp.UI.Win32.FromRibbon" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bgmnm" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Tcid" />
+            </L>
+            <R>
+              <V V="27302" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ParentTcid" />
+            </L>
+            <R>
+              <V V="0" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170007" V="5" DC="SM" EN="Office.Graphics.GvizInsertPictureTelemetry" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="az707" A="ar0tn bqo11" />
+  </S>
+  <C T="W" I="0" O="true" N="PictureSource">
+    <S T="1" F="StorageProvider" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="PictureFormatType">
+    <S T="1" F="FileMimeType" M="Ignore" />
+  </C>
+  <C T="I64" I="2" O="true" N="PictureSize">
+    <S T="1" F="ImageFileSize" M="Ignore" />
+  </C>
+  <C T="I64" I="3" O="true" N="PictureHeight">
+    <S T="1" F="Height" M="Ignore" />
+  </C>
+  <C T="I64" I="4" O="true" N="PictureWidth">
+    <S T="1" F="Width" M="Ignore" />
+  </C>
+  <C T="D" I="5" O="true" N="PictureDpiX">
+    <S T="1" F="DpiX" M="Ignore" />
+  </C>
+  <C T="D" I="6" O="true" N="PictureDpiY">
+    <S T="1" F="DpiY" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="IsAnimated">
+    <S T="1" F="Animated" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="270003" V="2" DC="SM" EN="Office.PowerBI.PowerBIPublishClickCountV2" ATT="a396d7578da948e084182884bf406f95-7ea00771-8110-4e59-b527-f6989ea55408-6957" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Usage" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="a24me" />
+    <UTS T="2" Id="bcc10" />
+    <UTS T="3" Id="bdd8n" />
+    <UTS T="4" Id="beehd" />
+    <US T="5">
+      <S T="1" />
+      <S T="3" />
+    </US>
+    <US T="6">
+      <S T="2" />
+      <S T="4" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false" N="StartTime">
+    <S T="5" F="TimeStamp100ns" />
+  </C>
+  <C T="I32" I="1" O="false" N="TCID">
+    <S T="5" F="TCID" />
+  </C>
+  <C T="U64" I="2" O="false" N="DocPtr">
+    <S T="5" F="DocPtr" />
+  </C>
+  <C T="I32" I="3" O="true" N="IsFFEnabled">
+    <S T="5" F="IsFFEnabled" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="PublishType">
+    <S T="5" F="PublishType" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="IsLocalFilesEnabled">
+    <S T="5" F="IsLocalFilesEnabled" M="Ignore" />
+  </C>
+  <C T="I32" I="6" O="true" N="IsLocalFile">
+    <S T="5" F="IsLocalFile" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true" N="IsGroup">
+    <S T="6" F="IsGroup" M="Ignore" />
+  </C>
+  <T>
+    <S T="6" />
+  </T>
+</R>

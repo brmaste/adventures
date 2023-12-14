@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170022" V="1" DC="SM" EN="Office.Graphics.GVisInkLoad" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="anui5" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+    <TR T="4" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="4" F="TimeStamp100ns" />
+  </C>
+  <C T="U16" I="1" O="false" N="InkStrokeCount">
+    <A T="SUM">
+      <S T="1" F="StrokeCount" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

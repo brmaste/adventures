@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="322006" V="5" DC="SM" EN="Office.Extensibility.COMAddinUnhandledException" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalUsage" DL="B" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bumpa" />
+  </S>
+  <C T="I32" I="0" O="true" N="ScopeId">
+    <S T="1" F="ScopeId" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="Method">
+    <S T="1" F="Method" />
+  </C>
+  <C T="W" I="2" O="true" N="Interface">
+    <S T="1" F="Interface" />
+  </C>
+  <C T="G" I="3" O="true" N="AddinId">
+    <S T="1" F="AddinId" />
+  </C>
+  <C T="W" I="4" O="true" N="AddinProgId">
+    <V V="" T="W" />
+  </C>
+  <C T="W" I="5" O="true" N="AddinFriendlyName">
+    <V V="" T="W" />
+  </C>
+  <C T="W" I="6" O="true" N="AddinTimeDateStamp">
+    <S T="1" F="AddinTimeDateStamp" M="Ignore" />
+  </C>
+  <C T="W" I="7" O="true" N="AddinVersion">
+    <V V="" T="W" />
+  </C>
+  <C T="W" I="8" O="true" N="AddinFileName">
+    <V V="" T="W" />
+  </C>
+  <C T="B" I="9" O="true" N="VSTOAddIn">
+    <S T="1" F="VSTOAddIn" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="AddinConnectFlag">
+    <S T="1" F="AddinConnectFlag" />
+  </C>
+  <C T="U32" I="11" O="true" N="LoadAttempts">
+    <S T="1" F="LoadAttempts" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

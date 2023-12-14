@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150219" V="0" DC="SM" EN="Office.PowerPoint.PPT.TypingInLockedText" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bem1d" />
+    <UTS T="2" Id="bbzi1" />
+  </S>
+  <C T="U32" I="0" O="false" N="TypingCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

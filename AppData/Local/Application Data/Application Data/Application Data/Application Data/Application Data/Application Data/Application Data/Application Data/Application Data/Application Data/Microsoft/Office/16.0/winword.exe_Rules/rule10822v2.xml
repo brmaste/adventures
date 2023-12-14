@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10822" V="2" DC="SM" EN="Office.Outlook.Desktop.ContactCardClickCountsB" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="blelm" />
+    <UTS T="4" Id="blek4" />
+    <UTS T="5" Id="blek5" />
+    <UTS T="6" Id="blek6" />
+    <UTS T="7" Id="blek7" />
+    <UTS T="8" Id="blek8" />
+    <UTS T="9" Id="blek9" />
+    <UTS T="10" Id="blela" />
+    <UTS T="11" Id="blelc" />
+    <UTS T="12" Id="blele" />
+    <UTS T="13" Id="blelf" />
+    <UTS T="14" Id="blelb" />
+    <UTS T="15" Id="blelg" />
+    <UTS T="16" Id="blelh" />
+    <UTS T="17" Id="bleli" />
+    <UTS T="18" Id="blelj" />
+    <UTS T="19" Id="blelk" />
+    <UTS T="20" Id="blell" />
+    <UTS T="21" Id="blekj" />
+    <UTS T="22" Id="blekk" />
+    <UTS T="23" Id="blekl" />
+    <UTS T="24" Id="blekm" />
+    <UTS T="25" Id="blekn" />
+    <UTS T="26" Id="blekc" />
+    <UTS T="27" Id="blekd" />
+    <UTS T="28" Id="bleke" />
+    <UTS T="29" Id="blekf" />
+    <UTS T="30" Id="blekg" />
+    <UTS T="31" Id="blekh" />
+    <UTS T="32" Id="bleki" />
+  </S>
+  <C T="U32" I="0" O="false" N="ButtonClose">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="ButtonTogglePinUnpin">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="ButtonSpokenName">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="ButtonEmail">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="ButtonIM">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="ButtonPhone">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="ButtonVideo">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="ButtonEdit">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="ButtonCancel">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="ButtonSave">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="ButtonExpand">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="EditAddEmail">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="EditAddIM">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="EditAddBirthday">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="EditAddPhoneFlyout">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="EditAddWorkFlyout">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="EditAddAddressFlyout">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="HyperlinkOpenGroupOnedrive">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="HyperlinkOpenGroupNotebookWeb">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="HyperlinkOpenGroupNotebookDesktop">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="20" O="false" N="HyperlinkOpenGroupConversation">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="21" O="false" N="HyperlinkOpenGroupCalendar">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="22" O="false" N="HyperlinkStartMeeting">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <C T="U32" I="23" O="false" N="HyperlinkSendEmail">
+    <C>
+      <S T="27" />
+    </C>
+  </C>
+  <C T="U32" I="24" O="false" N="HyperlinkSendIM">
+    <C>
+      <S T="28" />
+    </C>
+  </C>
+  <C T="U32" I="25" O="false" N="HyperlinkStartCall">
+    <C>
+      <S T="29" />
+    </C>
+  </C>
+  <C T="U32" I="26" O="false" N="HyperlinkContactInspector">
+    <C>
+      <S T="30" />
+    </C>
+  </C>
+  <C T="U32" I="27" O="false" N="HyperlinkWebpageLink">
+    <C>
+      <S T="31" />
+    </C>
+  </C>
+  <C T="U32" I="28" O="false" N="HyperlinkLinkContacts">
+    <C>
+      <S T="32" />
+    </C>
+  </C>
+  <C T="U64" I="29" O="false" N="CardVersion">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="CardVersion" M="Ignore" />
+      </L>
+      <R>
+        <V V="1" T="U64" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

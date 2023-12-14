@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68018" V="1" DC="SM" EN="Office.TellMe.TellMeD.DocumentActionEvents" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="bxl7q" A="b5vxl b5vxm" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="false" N="TellMeSessionId">
+    <S T="1" F="sessionId" />
+  </C>
+  <C T="TAG" I="2" O="true" N="Tag">
+    <S T="1" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="U8" I="3" O="false" N="DocumentType">
+    <S T="1" F="DocType" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="5" O="false" N="UserActionName">
+    <V V="TellMeD_DocumentActionEvents" T="W" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

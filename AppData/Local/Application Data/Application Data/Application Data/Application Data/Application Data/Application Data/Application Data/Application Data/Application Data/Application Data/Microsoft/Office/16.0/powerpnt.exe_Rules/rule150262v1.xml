@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150262" V="1" DC="SM" EN="Office.PowerPoint.PPT.Shared.NoInternetConnectivity" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" S="1" DL="B" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ay6hx" A="a9wub" />
+  </S>
+  <C T="B" I="0" O="false" N="IsNexusDetected">
+    <O T="EQ">
+      <L>
+        <S T="1" F="ULS_TagId" />
+      </L>
+      <R>
+        <V V="ay6hx" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

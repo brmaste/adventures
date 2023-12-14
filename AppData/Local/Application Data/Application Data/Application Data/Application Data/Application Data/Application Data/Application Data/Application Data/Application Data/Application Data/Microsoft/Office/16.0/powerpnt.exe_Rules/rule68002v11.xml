@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68002" V="11" DC="SM" EN="Office.TellMe.TellMeD.RenderedResults" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="aw6ke" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="false" N="InteractionId">
+    <S T="1" F="sessionId" />
+  </C>
+  <C T="G" I="2" O="false" N="QueryId">
+    <S T="1" F="queryId" />
+  </C>
+  <C T="W" I="3" O="false" N="GroupName">
+    <S T="1" F="groupName" />
+  </C>
+  <C T="W" I="4" O="false" N="ResultType">
+    <S T="1" F="resultType" />
+  </C>
+  <C T="I32" I="5" O="false" N="GroupIndex">
+    <S T="1" F="groupIndex" />
+  </C>
+  <C T="I32" I="6" O="false" N="ResultIndex">
+    <S T="1" F="resultIndex" />
+  </C>
+  <C T="I32" I="7" O="false" N="DisplayIndex">
+    <S T="1" F="displayIndex" />
+  </C>
+  <C T="W" I="8" O="true" N="ControlType">
+    <S T="1" F="controlType" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="TCID">
+    <S T="1" F="tcid" M="Ignore" />
+  </C>
+  <C T="B" I="10" O="true" N="IsEnabled">
+    <S T="1" F="isEnabled" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="IsVisible">
+    <S T="1" F="isVisible" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="13" O="false" N="UserActionName">
+    <V V="TellMeD_RenderedResults" T="W" />
+  </C>
+  <C T="W" I="14" O="true" N="Parameter">
+    <S T="1" F="parameter" M="Ignore" />
+  </C>
+  <C T="W" I="15" O="true" N="TryQueryString">
+    <S T="1" F="tryQuery" M="Ignore" />
+  </C>
+  <C T="I32" I="16" O="true" N="TryQueryId">
+    <S T="1" F="tryQueryId" M="Ignore" />
+  </C>
+  <C T="I32" I="17" O="true" N="AnswerType">
+    <S T="1" F="answerType" M="Ignore" />
+  </C>
+  <C T="I32" I="18" O="true" N="FindInDocumentResultCount">
+    <S T="1" F="findInDocumentResultsCount" M="Ignore" />
+  </C>
+  <C T="I32" I="19" O="true" N="HelpResultCount">
+    <S T="1" F="helpResultsCount" M="Ignore" />
+  </C>
+  <C T="U8" I="20" O="true" N="ConfidenceRange">
+    <S T="1" F="confidenceRange" M="Ignore" />
+  </C>
+  <C T="W" I="21" O="true" N="SubGroupName">
+    <S T="1" F="subGroupName" M="Ignore" />
+  </C>
+  <C T="W" I="22" O="true" N="SearchScenario">
+    <S T="1" F="SearchScenario" M="Ignore" />
+  </C>
+  <C T="W" I="23" O="true" N="NotesType">
+    <S T="1" F="NotesType" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

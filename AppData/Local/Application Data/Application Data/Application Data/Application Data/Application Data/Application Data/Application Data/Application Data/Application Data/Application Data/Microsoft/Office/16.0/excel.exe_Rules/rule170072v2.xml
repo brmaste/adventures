@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170072" V="2" DC="SM" EN="Office.Graphics.StencilInkMode" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="boipz" />
+  </S>
+  <C T="W" I="0" O="true" N="StencilInkMode">
+    <S T="1" F="StencilInkMode" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

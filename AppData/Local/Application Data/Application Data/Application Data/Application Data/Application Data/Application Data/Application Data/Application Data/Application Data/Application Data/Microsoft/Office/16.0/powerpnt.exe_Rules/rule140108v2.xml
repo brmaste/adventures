@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140108" V="2" DC="SM" EN="Office.PowerPoint.PPT.Desktop.DesignerApplySuggestPerf" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a3n32" A="iclhs" />
+  </S>
+  <C T="U64" I="0" O="true" N="CloneMS">
+    <S T="1" F="Clone ms" M="Ignore" />
+  </C>
+  <C T="U64" I="1" O="true" N="GetShapeIdMS">
+    <S T="1" F="GetShapeId ms" M="Ignore" />
+  </C>
+  <C T="U64" I="2" O="true" N="MergeMS">
+    <S T="1" F="Merge ms" M="Ignore" />
+  </C>
+  <C T="U64" I="3" O="true" N="CheckMS">
+    <S T="1" F="Check ms" M="Ignore" />
+  </C>
+  <C T="U64" I="4" O="true" N="UndoMS">
+    <S T="1" F="Undo ms" />
+  </C>
+  <C T="U64" I="5" O="true" N="ApplyMS">
+    <S T="1" F="Apply ms" M="Ignore" />
+  </C>
+  <C T="U64" I="6" O="true" N="TotalMS">
+    <S T="1" F="Total ms" />
+  </C>
+  <C T="U64" I="7" O="true" N="UserSlideID">
+    <S T="1" F="User Slide ID" />
+  </C>
+  <C T="U64" I="8" O="true" N="SuggestionSlideID">
+    <S T="1" F="Suggestion Slide ID" />
+  </C>
+  <C T="G" I="9" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

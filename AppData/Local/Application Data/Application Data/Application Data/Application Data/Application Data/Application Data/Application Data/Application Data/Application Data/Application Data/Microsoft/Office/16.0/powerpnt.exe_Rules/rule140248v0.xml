@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140248" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.Collab.CollectConflictDetailSection" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ckob1" />
+    <UTS T="2" Id="av2pu" />
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="2" F="Operation" />
+        </L>
+        <R>
+          <V V="Merge" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="4" Id="av2pv" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="Operation" />
+        </L>
+        <R>
+          <V V="Merge" T="W" />
+        </R>
+      </O>
+    </F>
+    <US T="6">
+      <S T="3" />
+      <S T="5" />
+    </US>
+  </S>
+  <G>
+    <S T="1">
+      <F N="SectionGuid" />
+      <F N="Type" />
+      <F N="Diff" />
+      <F N="Detail" />
+    </S>
+  </G>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="G" I="1" O="true" N="SectionGuid">
+    <S T="1" F="SectionGuid" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="DiffType">
+    <S T="1" F="Type" />
+  </C>
+  <C T="U32" I="3" O="true" N="DiffCode">
+    <S T="1" F="Diff" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="DiffTypeStr">
+    <S T="1" F="TypeStr" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true" N="DiffDescrStr">
+    <S T="1" F="Detail" M="Ignore" />
+  </C>
+  <C T="TAG" I="6" O="false" N="MergeTag">
+    <S T="6" F="ULS_Tag" M="Ignore" />
+  </C>
+  <T>
+    <S T="6" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

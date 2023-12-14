@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11771" V="0" DC="SM" EN="Office.Outlook.Desktop.PeopleSuggestionsSessions" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cwfnj" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="SelectionMade" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="StringLength" />
+        </L>
+        <R>
+          <V V="0" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="4" F="StringLength" />
+        </L>
+        <R>
+          <V V="1" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="4" F="StringLength" />
+        </L>
+        <R>
+          <V V="2" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="4" F="StringLength" />
+        </L>
+        <R>
+          <V V="3" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="4" F="StringLength" />
+        </L>
+        <R>
+          <V V="4" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="GE">
+        <L>
+          <S T="4" F="StringLength" />
+        </L>
+        <R>
+          <V V="5" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="4" F="SelectionIndex" />
+        </L>
+        <R>
+          <V V="0" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="4" F="SelectionIndex" />
+        </L>
+        <R>
+          <V V="1" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="4" F="SelectionIndex" />
+        </L>
+        <R>
+          <V V="2" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="4" F="SelectionIndex" />
+        </L>
+        <R>
+          <V V="3" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="GE">
+        <L>
+          <S T="4" F="SelectionIndex" />
+        </L>
+        <R>
+          <V V="4" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="4" F="TotalSearches" />
+        </L>
+        <R>
+          <V V="1" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="4" F="TotalSearches" />
+        </L>
+        <R>
+          <V V="2" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="4" F="TotalSearches" />
+        </L>
+        <R>
+          <V V="3" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="4" F="TotalSearches" />
+        </L>
+        <R>
+          <V V="4" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="4" F="TotalSearches" />
+        </L>
+        <R>
+          <V V="5" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="GE">
+        <L>
+          <S T="4" F="TotalSearches" />
+        </L>
+        <R>
+          <V V="6" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="22">
+      <O T="EQ">
+        <L>
+          <S T="1" F="SelectionMade" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountTotalSearchSessions">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountSelectionMade">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountStringLengthAtSelection_0">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CountStringLengthAtSelection_1">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="CountStringLengthAtSelection_2">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CountStringLengthAtSelection_3">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="CountStringLengthAtSelection_4">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="CountStringLengthAtSelection_5OrMore">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="CountPositionAtSelection_0">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="CountPositionAtSelection_1">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="CountPositionAtSelection_2">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="CountPositionAtSelection_3">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="CountPositionAtSelection_4OrMore">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="CountTotalSearches_1">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="CountTotalSearches_2">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="CountTotalSearches_3">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="CountTotalSearches_4">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="CountTotalSearches_5">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="CountTotalSearches_6OrMore">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="F" I="19" O="true" N="SelectionMade_AvgStringLength">
+    <A T="AVG">
+      <S T="4" F="StringLength" />
+    </A>
+  </C>
+  <C T="F" I="20" O="true" N="SelectionMade_AvgSelectionIndex">
+    <A T="AVG">
+      <S T="4" F="SelectionIndex" />
+    </A>
+  </C>
+  <C T="F" I="21" O="true" N="SelectionMade_AvgTotalSearches">
+    <A T="AVG">
+      <S T="4" F="TotalSearches" />
+    </A>
+  </C>
+  <C T="F" I="22" O="true" N="SelectionMade_AvgElapsedMs">
+    <A T="AVG">
+      <S T="4" F="ElapsedMs" />
+    </A>
+  </C>
+  <C T="F" I="23" O="true" N="SelectionMade_AvgSessionElapsedMs">
+    <A T="AVG">
+      <S T="4" F="SessionElapsedMs" />
+    </A>
+  </C>
+  <C T="U32" I="24" O="false" N="CountNoSelection">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="F" I="25" O="true" N="NoSelection_AvgStringLength">
+    <A T="AVG">
+      <S T="22" F="StringLength" />
+    </A>
+  </C>
+  <C T="F" I="26" O="true" N="NoSelection_AvgTotalSearches">
+    <A T="AVG">
+      <S T="22" F="TotalSearches" />
+    </A>
+  </C>
+  <C T="F" I="27" O="true" N="NoSelection_AvgElapsedMs">
+    <A T="AVG">
+      <S T="22" F="ElapsedMs" />
+    </A>
+  </C>
+  <C T="F" I="28" O="true" N="NoSelection_AvgSessionElapsedMs">
+    <A T="AVG">
+      <S T="22" F="SessionElapsedMs" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

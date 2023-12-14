@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="490009" V="5" DC="SM" EN="Office.Feedback.Survey.FloodgateClient.Errors" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" T="Upload-Medium" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bl595" A="bl6ab c2g3y c2g37 c2hdl c2hdu" />
+    <UTS T="2" Id="b55pw" A="c2gwy c2g6s" />
+    <UTS T="3" Id="b7zln" A="c2gwo c2g6i" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="4" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="JsonException">
+    <S T="4" F="Json_exception" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="JsonString">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="JsonString" M="Ignore" />
+      </L>
+      <R>
+        <O T="COALESCE">
+          <L>
+            <S T="2" F="channelStateAsJson" M="Ignore" />
+          </L>
+          <R>
+            <S T="3" F="campaignStatesAsJson" M="Ignore" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

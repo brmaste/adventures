@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110092" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <Etw T="1" E="2504" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="2" E="2505" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <TR T="3" />
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="I32" I="1" O="false">
+    <S T="1" F="OpKind" />
+  </C>
+  <C T="I32" I="2" O="false">
+    <S T="2" F="OpResult" />
+  </C>
+  <C T="I32" I="3" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="2" F="ClientType" M="Ignore" />
+      </L>
+      <R>
+        <V V="-1" T="I32" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

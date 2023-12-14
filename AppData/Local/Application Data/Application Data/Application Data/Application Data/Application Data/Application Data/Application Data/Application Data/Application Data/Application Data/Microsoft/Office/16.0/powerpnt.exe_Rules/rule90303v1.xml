@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="90303" V="1" DC="SM" EN="Office.Telemetry.TelemetryUlsQueueUsage" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" SP="CriticalBusinessImpact" DL="A" DCa="PSP PSU" xmlns="">
+  <S>
+    <Etw T="1" E="192" G="{02fd33df-f746-4a10-93a0-2bc6273bc8e4}" />
+    <UTS T="2" Id="avuo1" />
+    <F T="3">
+      <O T="GE">
+        <L>
+          <S T="1" F="QueueSizeInBytes" />
+        </L>
+        <R>
+          <S T="1" F="ExtraProcessingLimit" />
+        </R>
+      </O>
+    </F>
+    <TR T="4" />
+  </S>
+  <C T="FT" I="0" O="false" N="ResultTime">
+    <S T="4" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="falseNoError" N="PeakQueueCB">
+    <A T="MAX">
+      <S T="1" F="QueueSizeInBytes" />
+    </A>
+  </C>
+  <C T="U16" I="2" O="falseNoError" N="PeakEventCount">
+    <A T="MAX">
+      <S T="1" F="EventCount" />
+    </A>
+  </C>
+  <C T="U32" I="3" O="falseNoError" N="AverageQueueCB">
+    <A T="AVG">
+      <S T="1" F="QueueSizeInBytes" />
+    </A>
+  </C>
+  <C T="U16" I="4" O="falseNoError" N="AverageEventCount">
+    <A T="AVG">
+      <S T="1" F="EventCount" />
+    </A>
+  </C>
+  <C T="U16" I="5" O="false" N="QueueFlushesDueToSize">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U16" I="6" O="false" N="QueueFlushCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="FT" I="7" O="true" N="QueueLimitHitTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="8" O="falseNoError" N="QueueHardLimit">
+    <S T="1" F="MaxSizeInBytes" />
+  </C>
+  <C T="U32" I="9" O="falseNoError" N="QueueDisableRuleLimit">
+    <S T="1" F="DisableRuleLimit" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="falseNoError" N="QueueFlushDueToSizeLimit">
+    <S T="1" F="ExtraProcessingLimit" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

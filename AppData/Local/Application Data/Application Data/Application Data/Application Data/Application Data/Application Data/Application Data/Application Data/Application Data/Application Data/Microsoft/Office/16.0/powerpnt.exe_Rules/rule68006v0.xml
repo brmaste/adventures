@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68006" V="0" DC="SM" EN="Office.TellMe.TellMeD.StartSession" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="aw6j5" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="false" N="TellMeSessionId">
+    <S T="1" F="sessionId" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

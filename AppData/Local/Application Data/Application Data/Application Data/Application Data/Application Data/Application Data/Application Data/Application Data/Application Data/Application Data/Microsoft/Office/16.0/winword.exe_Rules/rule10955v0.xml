@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10955" V="0" DC="SM" EN="Office.Outlook.Desktop.RecipientAutoCompleteZeroInputSelection" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ber0h" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Length" />
+        </L>
+        <R>
+          <V V="0" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="4">
+      <F N="Index" />
+    </S>
+    <S T="1">
+      <F N="Index" />
+    </S>
+  </G>
+  <C T="I32" I="0" O="false" N="SelectedIndexResult">
+    <S T="1" F="Index" />
+  </C>
+  <C T="U32" I="1" O="false" N="CountOfRecipientAutoCompleteZeroInputSelection">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120201" V="14" DC="SM" EN="Office.System.SystemHealthUsage.ClickStream" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalUsage" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Usage" />
+    <RI N="CommandUsage" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="bb9uz" A="bb9ve bb9vg bcijr bcijp bgmnl bgmnr bgmnt bgmnx bgmnz bgmn1 bgmn3 bgmn5 bgn2k bgn2m bgn2o bgn2q bgn2s bgn2u bgn2w bgn2y bgn21 bujz1 bunl0 ide6g b0mo1" />
+    <UCSS T="2" C="Command Usage" S="Medium" />
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_Category" />
+        </L>
+        <R>
+          <V V="Scope Summary" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G I="true">
+    <S T="3">
+      <F N="ScopeInstance" />
+    </S>
+    <S T="2">
+      <F N="UserActionID" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="StartTime">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="I32" I="1" O="falseNoError" N="TCID">
+    <S T="2" F="Tcid" M="Ignore" />
+  </C>
+  <C T="I32" I="2" O="false" N="ParentSurface">
+    <S T="2" F="RootType" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="false" N="ParentTCID">
+    <S T="2" F="ParentTcid" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="falseNoError" N="InputType">
+    <S T="2" F="InputType" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="falseNoError" N="DurationInMilliseconds">
+    <S T="3" F="DurationToCompleteInMilliseconds" />
+  </C>
+  <C T="B" I="6" O="false" N="Success">
+    <S T="3" F="Success" />
+  </C>
+  <C T="I32" I="7" O="falseNoError" N="UserActionID">
+    <S T="3" F="ScopeInstance" />
+  </C>
+  <C T="W" I="8" O="true" N="ItemTelemetryId">
+    <S T="2" F="ItemTelemetryId" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="GroupIndex">
+    <S T="2" F="GroupIndex" M="Ignore" />
+  </C>
+  <C T="I32" I="10" O="true" N="ItemIndex">
+    <S T="2" F="ItemIndex" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="Value">
+    <S T="2" F="Value" M="Ignore" />
+  </C>
+  <C T="B" I="12" O="true" N="IsChecked">
+    <S T="2" F="IsChecked" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="IsIntermediate">
+    <S T="2" F="IsIntermediate" M="Ignore" />
+  </C>
+  <C T="B" I="14" O="true" N="IsSingleLineDisplay">
+    <S T="2" F="IsSingleLineDisplay" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="IsSingleLineOverflow">
+    <S T="2" F="IsSingleLineOverflow" M="Ignore" />
+  </C>
+  <C T="B" I="16" O="true" N="IsCreatedByIntelligentServices">
+    <S T="2" F="IsCreatedByIntelligentServices" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

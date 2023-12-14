@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11930" V="0" DC="SM" T="Subrule" DCa="PSP" xmlns="">
+  <S>
+    <UTS T="1" Id="dfds5" />
+    <UTS T="2" Id="dfds6" />
+    <UTS T="3" Id="dfjbr" />
+    <UTS T="4" Id="dfjbs" />
+    <TO T="5" I="30s">
+      <S T="1" />
+    </TO>
+    <A T="6" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="Id" />
+    </S>
+    <S T="2">
+      <F N="Id" />
+    </S>
+    <S T="3">
+      <F N="Id" />
+    </S>
+    <S T="4">
+      <F N="Id" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="falseNoError">
+    <O T="SUB">
+      <L>
+        <S T="4" F="TimeSinceEpochJS" />
+      </L>
+      <R>
+        <S T="1" F="TimeSinceEpoch" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="1" O="falseNoError">
+    <O T="SUB">
+      <L>
+        <S T="2" F="TimeSinceEpoch" />
+      </L>
+      <R>
+        <S T="1" F="TimeSinceEpoch" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="2" O="falseNoError">
+    <O T="SUB">
+      <L>
+        <S T="3" F="TimeSinceEpochJS" />
+      </L>
+      <R>
+        <S T="1" F="TimeSinceEpoch" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="4" />
+    <S T="6" />
+  </T>
+  <R>
+    <S T="5" />
+  </R>
+</R>

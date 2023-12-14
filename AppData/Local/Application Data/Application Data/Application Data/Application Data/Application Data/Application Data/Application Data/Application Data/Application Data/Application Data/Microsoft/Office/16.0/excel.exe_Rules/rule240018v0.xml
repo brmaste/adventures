@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240018" V="0" DC="SM" EN="Office.Security.InternetFileBypassPV" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bcjno" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U64" I="1" O="true" N="DocumentPointer">
+    <S T="1" F="pioldoc" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="InternetFileSafetyDetail">
+    <S T="1" F="InternetFileSafetyDetail" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

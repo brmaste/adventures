@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="880000" V="1" DC="SM" EN="Office.UserFacts.CreativeContentSeen" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="biyhq" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="EventName" />
+            </L>
+            <R>
+              <V V="Office.Graphics.M365ContentPicker.GeneralInfo" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <O T="COALESCE">
+                <L>
+                  <S T="1" F="Data.RequestType" M="Ignore" />
+                </L>
+                <R>
+                  <V V="NotInitialLoad" T="W" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <V V="InitialLoad" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="DataType">
+    <V V="3" T="U32" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

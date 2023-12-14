@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110009" V="11" DC="SM" EN="Office.Word.Word.CoreSaveTime100ns" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU PSP" xmlns="">
+  <S>
+    <Etw T="1" E="125" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <Etw T="2" E="123" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <Etw T="3" E="124" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <R T="4" R="110082" />
+    <R T="5" R="110083" />
+    <UTS T="6" Id="baqth" />
+    <TH T="7">
+      <O T="EQ">
+        <L>
+          <C>
+            <S T="5" />
+          </C>
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </TH>
+    <TH T="8">
+      <O T="EQ">
+        <L>
+          <C>
+            <S T="2" />
+          </C>
+        </L>
+        <R>
+          <C>
+            <S T="3" />
+          </C>
+        </R>
+      </O>
+    </TH>
+  </S>
+  <G>
+    <S T="1">
+      <F N="Pdod" />
+    </S>
+    <S T="2">
+      <F N="pdodSrc" />
+    </S>
+    <S T="3">
+      <F N="pdodSrc" />
+    </S>
+  </G>
+  <C T="G" I="0" O="false" N="SQMDocId">
+    <S T="2" F="SQMDocID" />
+  </C>
+  <C T="W" I="1" O="false" N="Format">
+    <S T="2" F="Format" />
+  </C>
+  <C T="U64" I="2" O="false" N="SaveDuration100ns">
+    <O T="SUB">
+      <L>
+        <A T="MAX">
+          <S T="3" F="TimeStamp100ns" />
+        </A>
+      </L>
+      <R>
+        <A T="MIN">
+          <S T="2" F="TimeStamp100ns" />
+        </A>
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="false" N="FBackground">
+    <S T="2" F="fBackground" />
+  </C>
+  <C T="B" I="4" O="false" N="FSuccess">
+    <S T="3" F="fSuccess" />
+  </C>
+  <C T="I32" I="5" O="false" N="Eid">
+    <S T="3" F="eid" />
+  </C>
+  <C T="U8" I="6" O="false" N="CountSaveStarts">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="true" N="SaveInitiateKind">
+    <S T="2" F="saveInitiateKind" M="Ignore" />
+  </C>
+  <C T="I32" I="8" O="true" N="RtcEnabledState">
+    <S T="2" F="rtcEnabledState" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="AlwaysSaveEnabledState">
+    <S T="2" F="alwaysSaveEnabledState" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="BkgSaveDisallowReason">
+    <S T="2" F="BkgSaveDisallowReason" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="AlwaysSaveDisableReason">
+    <S T="2" F="AlwaysSaveDisableReason" M="Ignore" />
+  </C>
+  <C T="U64" I="12" O="true" N="SaveInitToStartTime100ns">
+    <O T="SUB">
+      <L>
+        <A T="MAX">
+          <S T="2" F="TimeStamp100ns" />
+        </A>
+      </L>
+      <R>
+        <A T="MIN">
+          <S T="1" F="TimeStamp100ns" />
+        </A>
+      </R>
+    </O>
+  </C>
+  <C T="G" I="13" O="true" N="SaveActionGuid">
+    <S T="2" F="SaveActionId" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="FileType">
+    <S T="2" F="ftyp" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="SaveAs">
+    <S T="2" F="fSaveAs" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="Location">
+    <S T="2" F="SqmDocLocation" M="Ignore" />
+  </C>
+  <C T="U32" I="17" O="true" N="AuthorsCount">
+    <S T="2" F="AuthorsCount" M="Ignore" />
+  </C>
+  <C T="B" I="18" O="true" N="CoAuthorable">
+    <S T="2" F="fCoAuthorable" M="Ignore" />
+  </C>
+  <C T="B" I="19" O="true" N="MergeRequired">
+    <S T="2" F="fMergeRequired" M="Ignore" />
+  </C>
+  <C T="U32" I="20" O="true" N="SaveDwTag">
+    <S T="2" F="saveDwTag" M="Ignore" />
+  </C>
+  <C T="FT" I="21" O="false" N="SaveStartTime">
+    <A T="MIN">
+      <S T="2" F="TimeStamp100ns" />
+    </A>
+  </C>
+  <C T="U64" I="22" O="false" N="Pdod">
+    <S T="2" F="pdodSrc" />
+  </C>
+  <C T="U64" I="23" O="true" N="LastCSIFailedActivityErrorCode">
+    <S T="6" F="LastFailedActivityErrorCode" M="Ignore" />
+  </C>
+  <C T="U64" I="24" O="true" N="LastCSIFailedActivityErrorTag">
+    <S T="6" F="LastFailedActivityErrorTag" M="Ignore" />
+  </C>
+  <C T="TAG" I="25" O="true" N="ETW_TrackbackTag">
+    <S T="7" F="5" />
+  </C>
+  <C T="U32" I="26" O="true" N="SaveErrorThreadId">
+    <S T="7" F="6" />
+  </C>
+  <C T="TAG" I="27" O="true" N="ShipAssertTag">
+    <S T="4" F="1" />
+  </C>
+  <C T="FT" I="28" O="true" N="ShipAssertTimestamp">
+    <S T="4" F="0" />
+  </C>
+  <T>
+    <S T="8" />
+  </T>
+</R>

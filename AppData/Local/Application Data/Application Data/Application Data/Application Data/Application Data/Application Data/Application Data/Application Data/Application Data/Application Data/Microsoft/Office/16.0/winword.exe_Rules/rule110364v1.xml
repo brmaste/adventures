@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110364" V="1" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <UCSS T="1" C="Word Three Way Merge" S="Monitorable" />
+    <UCSS T="2" C="Word Touch" S="Monitorable" />
+    <UCSS T="3" C="Word Track Changes" S="Monitorable" />
+    <UCSS T="4" C="Word UIM" S="Monitorable" />
+    <UCSS T="5" C="Word Unit Test" S="Monitorable" />
+    <UCSS T="6" C="Word View" S="Monitorable" />
+    <UCSS T="7" C="WordWebScalingView" S="Monitorable" />
+    <UCSS T="8" C="WordWordMail" S="Monitorable" />
+    <UCSS T="9" C="Word Zoom Scroll" S="Monitorable" />
+    <UCSS T="10" C="Word Text Prediction" S="Monitorable" />
+    <UCSS T="11" C="Word Augmentation Loop" S="Monitorable" />
+    <UCSS T="12" C="Word User Operation" S="Monitorable" />
+    <UCSS T="13" C="Word Document Recovery" S="Monitorable" />
+    <UCSS T="14" C="Word Intelligence" S="Monitorable" />
+    <US T="15">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+      <S T="10" />
+      <S T="11" />
+      <S T="12" />
+      <S T="13" />
+      <S T="14" />
+    </US>
+  </S>
+  <C T="W" I="0" O="false">
+    <S T="15" F="ULS_Category" />
+  </C>
+  <C T="W" I="1" O="false">
+    <S T="15" F="ULS_TagId" />
+  </C>
+  <C T="I32" I="2" O="true">
+    <S T="15" F="SH_ErrorId" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true">
+    <S T="15" F="SH_ErrorCode" M="Ignore" />
+  </C>
+  <T>
+    <S T="15" />
+  </T>
+</R>

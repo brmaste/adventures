@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="326000" V="0" DC="SM" EN="Office.Extensibility.Word15RichApiMethodInvocation" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalBusinessImpact" DCa="DC PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="csuhi" />
+    <F T="2">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Application.retrieveStylesFromBase64" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Body.endnotes" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Body.footnotes" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Body.getContentControls" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.ContentControl.endnotes" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.ContentControl.footnotes" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.ContentControl.getContentControls" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.ContentControlCollection.getByChangeTrackingStates" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Document._RegisterEvent" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Document._UnregisterEvent" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Document.addStyle" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Document.close" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Document.getContentControls" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Document.getEndnoteBody" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Document.getFootnoteBody" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Document.getStyles" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Document.insertFileFromBase64" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.DocumentCreated.addStyle" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.DocumentCreated.getContentControls" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.DocumentCreated.getStyles" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.DocumentCreated.insertFileFromBase64" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Field.code" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Field.data" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Field.delete" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Field.kind" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Field.locked" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Field.select" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Field.type" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Field.updateResult" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.FieldCollection.getByTypes" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.NoteItem.body" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.NoteItem.delete" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.NoteItem.getNext" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.NoteItem.getNextOrNullObject" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.NoteItem.reference" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.NoteItem.type" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.NoteItemCollection.getFirst" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.NoteItemCollection.getFirstOrNullObject" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.NoteItemCollection.items" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Paragraph.endnotes" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Paragraph.footnotes" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Paragraph.getContentControls" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.ParagraphFormat.alignment" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.ParagraphFormat.firstLineIndent" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.ParagraphFormat.keepTogether" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.ParagraphFormat.keepWithNext" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.ParagraphFormat.leftIndent" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.ParagraphFormat.lineSpacing" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.ParagraphFormat.lineUnitAfter" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.ParagraphFormat.lineUnitBefore" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.ParagraphFormat.mirrorIndents" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.ParagraphFormat.outlineLevel" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.ParagraphFormat.rightIndent" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.ParagraphFormat.spaceAfter" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.ParagraphFormat.spaceBefore" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.ParagraphFormat.widowControl" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Range.endnotes" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Range.footnotes" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Range.getContentControls" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Range.insertEndnote" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Range.insertField" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Range.insertFootnote" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Style.baseStyle" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Style.builtIn" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Style.delete" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Style.description" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Style.font" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Style.inUse" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Style.linked" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Style.listTemplate" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Style.nameLocal" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Style.nextParagraphStyle" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Style.paragraphFormat" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Style.priority" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.Style.quickStyle" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="OR">
+                        <L>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Style.type" T="W" />
+                            </R>
+                          </O>
+                        </L>
+                        <R>
+                          <O T="EQ">
+                            <L>
+                              <S T="1" F="Api" />
+                            </L>
+                            <R>
+                              <V V="Microsoft.WordServices.Style.unhideWhenUsed" T="W" />
+                            </R>
+                          </O>
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Style.visibility" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.StyleCollection.getByName" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.StyleCollection.getByNameOrNullObject" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="OR">
+                <L>
+                  <O T="OR">
+                    <L>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.StyleCollection.getCount" T="W" />
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <O T="EQ">
+                        <L>
+                          <S T="1" F="Api" />
+                        </L>
+                        <R>
+                          <V V="Microsoft.WordServices.Table.endnotes" T="W" />
+                        </R>
+                      </O>
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.Table.footnotes" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.TableRow.endnotes" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="Api" />
+                </L>
+                <R>
+                  <V V="Microsoft.WordServices.TableRow.footnotes" T="W" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="OR">
+                <L>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.NoteItemCollection.getEnum" T="W" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="Api" />
+                    </L>
+                    <R>
+                      <V V="Microsoft.WordServices.StyleCollection.getEnum" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <US T="11">
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+      <S T="10" />
+    </US>
+  </S>
+  <C T="G" I="0" O="false" N="ReqId">
+    <S T="11" F="ReqId" />
+  </C>
+  <C T="G" I="1" O="false" N="TypeId">
+    <S T="11" F="TypeId" />
+  </C>
+  <C T="I32" I="2" O="false" N="DispId">
+    <S T="11" F="DispId" />
+  </C>
+  <C T="U8" I="3" O="false" N="DispFlag">
+    <S T="11" F="DispFlag" />
+  </C>
+  <C T="I32" I="4" O="false" N="HResult">
+    <S T="11" F="HResult" />
+  </C>
+  <C T="I64" I="5" O="false" N="Latency">
+    <S T="11" F="Latency" />
+  </C>
+  <C T="W" I="6" O="true" N="Api">
+    <S T="11" F="Api" M="Ignore" />
+  </C>
+  <T>
+    <S T="11" />
+  </T>
+</R>

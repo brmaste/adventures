@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150207" V="0" DC="SM" EN="Office.PowerPoint.PPT.ShapeDiff" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a05zq" A="a8a7k" />
+  </S>
+  <C T="FT" I="0" O="true" N="ShapeDiffTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Shape_Add">
+    <S T="1" F="SpDiff_1" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Shape_Delete">
+    <S T="1" F="SpDiff_2" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="Shape_Position">
+    <S T="1" F="SpDiff_4" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="Shape_Content">
+    <S T="1" F="SpDiff_8" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="Shape_Type">
+    <S T="1" F="SpDiff_16" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="Shape_GroupLayout">
+    <S T="1" F="SpDiff_32" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="Shape_ExternalObject">
+    <S T="1" F="SpDiff_64" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="Shape_InteractiveInfo_OnMove">
+    <S T="1" F="SpDiff_128" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="Shape_InteractiveInfo_OnClick">
+    <S T="1" F="SpDiff_256" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="Shape_Mod_Special">
+    <S T="1" F="SpDiff_512" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="Shape_TextDiff">
+    <S T="1" F="SpDiff_1024" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="Shape_ExtensionList">
+    <S T="1" F="SpDiff_2048" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="Shape_TableDiff">
+    <S T="1" F="SpDiff_4096" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="ShapeBase_ExtLst">
+    <S T="1" F="SpDiff_8192" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="Placeholder_ExtLst">
+    <S T="1" F="SpDiff_16384" M="Ignore" />
+  </C>
+  <C T="U32" I="17" O="true" N="Shape_FirstDrawingProps">
+    <S T="1" F="SpDiff_32768" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="Shape_Connector">
+    <S T="1" F="SpDiff_65536" M="Ignore" />
+  </C>
+  <C T="U32" I="19" O="true" N="Shape_3DSettings">
+    <S T="1" F="SpDiff_131072" M="Ignore" />
+  </C>
+  <C T="U32" I="20" O="true" N="Shape_BWSettings">
+    <S T="1" F="SpDiff_262144" M="Ignore" />
+  </C>
+  <C T="U32" I="21" O="true" N="Shape_LineStyle">
+    <S T="1" F="SpDiff_524288" M="Ignore" />
+  </C>
+  <C T="U32" I="22" O="true" N="Shape_FillStyle">
+    <S T="1" F="SpDiff_1048576" M="Ignore" />
+  </C>
+  <C T="U32" I="23" O="true" N="Shape_Picture">
+    <S T="1" F="SpDiff_2097152" M="Ignore" />
+  </C>
+  <C T="U32" I="24" O="true" N="Shape_TextSetting">
+    <S T="1" F="SpDiff_4194304" M="Ignore" />
+  </C>
+  <C T="U32" I="25" O="true" N="Shape_Transform">
+    <S T="1" F="SpDiff_8388608" M="Ignore" />
+  </C>
+  <C T="U32" I="26" O="true" N="Shape_Effects">
+    <S T="1" F="SpDiff_16777216" M="Ignore" />
+  </C>
+  <C T="U32" I="27" O="true" N="Shape_Visibility">
+    <S T="1" F="SpDiff_33554432" M="Ignore" />
+  </C>
+  <C T="U32" I="28" O="true" N="Shape_Style">
+    <S T="1" F="SpDiff_67108864" M="Ignore" />
+  </C>
+  <C T="U32" I="29" O="true" N="Shape_AltText">
+    <S T="1" F="SpDiff_134217728" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

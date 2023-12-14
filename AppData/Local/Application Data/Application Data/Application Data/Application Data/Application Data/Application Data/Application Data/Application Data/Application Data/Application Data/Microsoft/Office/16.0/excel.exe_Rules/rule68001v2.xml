@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68001" V="2" DC="SM" T="Subrule" DL="N" xmlns="">
+  <S>
+    <UTS T="1" Id="aw6ka" />
+    <UTS T="2" Id="aw6kb" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="queryId" />
+    </S>
+    <S T="2">
+      <F N="queryId" />
+    </S>
+  </G>
+  <C T="G" I="0" O="false">
+    <S T="1" F="sessionId" />
+  </C>
+  <C T="U64" I="1" O="false">
+    <O T="SUB">
+      <L>
+        <S T="2" F="TimeStamp100ns" />
+      </L>
+      <R>
+        <S T="1" F="TimeStamp100ns" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="2" O="true">
+    <S T="1" F="SearchScenario" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

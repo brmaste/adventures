@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11834" V="1" DC="SM" EN="Office.Outlook.Desktop.TcRebuild" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" S="500" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="617" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="NE">
+            <L>
+              <S T="1" F="Elapsed" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="NIDType" />
+                </L>
+                <R>
+                  <V V="14" T="U32" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="NIDType" />
+                </L>
+                <R>
+                  <V V="16" T="U32" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="NIDType">
+    <S T="2" F="NIDType" />
+  </C>
+  <C T="U32" I="1" O="false" N="Rows">
+    <S T="2" F="Rows" />
+  </C>
+  <C T="U32" I="2" O="false" N="Elapsed">
+    <S T="2" F="Elapsed" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11950" V="0" DC="SM" EN="Office.Outlook.Desktop.Ndb.OpenedStats" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="800" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ErrorCode" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <A T="3" E="TelemetryShutdown" />
+  </S>
+  <G I="true" R="TriggerOldest">
+    <S T="2">
+      <F N="LocalStoreFullFilePath" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false" N="NdbVersion">
+    <S T="2" F="StoreVersion" />
+  </C>
+  <C T="U32" I="1" O="false" N="FileTypeMagicNumber">
+    <S T="2" F="LocalStoreFileType" />
+  </C>
+  <C T="U64" I="2" O="false" N="FreeSpaceInFile">
+    <S T="2" F="FreeSpaceWithinLocalStore" />
+  </C>
+  <C T="U64" I="3" O="false" N="FileSize">
+    <S T="2" F="LocalStoreFileSize" />
+  </C>
+  <C T="FT" I="4" O="false" N="FileCreationFiletime">
+    <S T="2" F="LocalStoreCreationDate" />
+  </C>
+  <C T="U32" I="5" O="false" N="NumTimesOpened">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="2" />
+  </ST>
+</R>

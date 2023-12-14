@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140174" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.MergeLifeguard.RecoverViewSet" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ctf9t" />
+  </S>
+  <C T="U32" I="0" O="true" N="ActiveViewType">
+    <S T="1" F="Active ViewType" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="NavigationViewType">
+    <S T="1" F="Navigation ViewType" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

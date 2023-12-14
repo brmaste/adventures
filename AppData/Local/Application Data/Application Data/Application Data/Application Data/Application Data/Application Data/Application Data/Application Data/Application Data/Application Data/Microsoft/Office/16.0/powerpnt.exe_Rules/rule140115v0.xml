@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140115" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.PPTUndoActionsMainRule" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <R T="1" R="140104" />
+    <TI T="2" I="15min" />
+    <A T="3" E="TelemetrySuspend" />
+    <A T="4" E="TelemetryShutdown" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="1" F="0" M="Ignore" />
+        </L>
+        <R>
+          <V V="27" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="5">
+      <F N="12" />
+      <F N="13" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="true" N="UndoStrId">
+    <S T="5" F="12" />
+  </C>
+  <C T="B" I="1" O="true" N="UndoStrIdIsTcid">
+    <S T="5" F="13" />
+  </C>
+  <C T="U32" I="2" O="false" N="Occurrence">
+    <A T="SUM">
+      <S T="5" F="3" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140117" V="2" DC="SM" EN="Office.PowerPoint.PPT.Desktop.Zoom.Navigation" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bcqn4" />
+    <UTS T="2" Id="bf8pb" />
+    <UTS T="3" Id="ax7kn" />
+    <UTS T="4" Id="aq4c0" />
+    <F T="5">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="4" F="Feature" />
+            </L>
+            <R>
+              <V V="Show" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="4" F="Event" />
+            </L>
+            <R>
+              <V V="Finish" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="3" F="cmd" />
+        </L>
+        <R>
+          <V V="GoSlideById" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="6" F="fLinear" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="ZoomNavigationCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="ZoomClickCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="LinearNavigationCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="NavigationCount">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="G" I="4" O="true" N="DocumentId">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="CorrelationId" M="Ignore" />
+      </L>
+      <R>
+        <S T="2" F="CorrelationId" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="2" />
+  </ST>
+</R>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140132" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.ZoomDialogsRule" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjyi4" />
+    <UTS T="2" Id="bh7v2" />
+    <UTS T="3" Id="bjyi3" />
+    <UTS T="4" Id="bedbg" />
+    <UTS T="5" Id="bedbh" />
+    <UTS T="6" Id="beh91" />
+    <UTS T="7" Id="bdrpc" />
+    <UTS T="8" Id="bdsjd" />
+    <UTS T="9" Id="bdsjg" />
+    <UTS T="10" Id="bdsjh" />
+    <UTS T="11" Id="bdrpd" />
+    <UTS T="12" Id="bjyi6" />
+    <UTS T="13" Id="bjyi5" />
+    <UTS T="14" Id="biuyf" />
+    <UTS T="15" Id="biuye" />
+    <A T="16" E="TelemetrySuspend" />
+    <A T="17" E="TelemetryShutdown" />
+  </S>
+  <C T="U8" I="0" O="false" N="SlideZoomInsertDialogLaunchCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U8" I="1" O="false" N="SlideZoomInsertSuccessCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U8" I="2" O="false" N="SectionZoomInsertDialogLaunchCount">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U8" I="3" O="false" N="SectionZoomInsertDialogCancelCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U8" I="4" O="false" N="SectionZoomInsertedUsingDialogCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U8" I="5" O="false" N="SectionZoomInsertSuccessCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U8" I="6" O="false" N="SummaryZoomInsertButtonInvokeCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U8" I="7" O="false" N="SummaryZoomInsertDialogLaunchCount">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U8" I="8" O="false" N="SummaryZoomInsertDialogCancelCount">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U8" I="9" O="false" N="SummaryZoomInsertedUsingDialogCount">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U8" I="10" O="false" N="SummaryZoomInsertSuccessCount">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U8" I="11" O="false" N="SummaryZoomUpdateDialogLaunchCount">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U8" I="12" O="false" N="SummaryZoomUpdateSuccessCount">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U8" I="13" O="false" N="SlideZoomDragAndDropSuccessCount">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U8" I="14" O="false" N="SectionZoomDragAndDropSuccessCount">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <T>
+    <S T="16" />
+    <S T="17" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="3" />
+    <S T="7" />
+    <S T="12" />
+    <S T="14" />
+    <S T="15" />
+  </ST>
+</R>

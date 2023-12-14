@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170005" V="2" DC="SM" EN="Office.Graphics.GVizARC" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="avx7w" />
+    <UTS T="2" Id="avx7x" />
+    <A T="3" E="TelemetryShutdown" />
+    <A T="4" E="TelemetrySuspend" />
+  </S>
+  <C T="U32" I="0" O="false" N="HardwareCriticalFailureCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="SoftwareCriticalFailureCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="4" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="2" />
+  </ST>
+</R>

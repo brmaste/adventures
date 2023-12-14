@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10925" V="0" DC="SM" EN="Office.Outlook.Desktop.PeopleSearchSelectionUsingZeroInput" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjyn0" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="SelectedIndex" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false" N="Result">
+    <S T="1" F="SelectedIndex" />
+  </C>
+  <C T="U32" I="1" O="false" N="CountOfPeopleSearchSelectionUsingZeroInput">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140202" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.CoAuthActivity" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ban7v" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="2" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="4" Id="ban7q" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="5" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="7" Id="a777a" />
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="7" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="8" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <US T="10">
+      <S T="3" />
+      <S T="6" />
+      <S T="9" />
+    </US>
+    <UTS T="11" Id="a0uqg" />
+    <UTS T="12" Id="a5f07" />
+    <UTS T="13" Id="a3ejq" />
+    <UTS T="14" Id="a3eju" />
+  </S>
+  <C T="G" I="0" O="false" N="Correlation">
+    <S T="10" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="B" I="1" O="true" N="Success">
+    <S T="10" F="Success" M="Ignore" />
+  </C>
+  <C T="TAG" I="2" O="true" N="ErrorTag">
+    <S T="10" F="ErrorTag" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="ErrorCode">
+    <S T="10" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="TAG" I="4" O="true" N="ConflictEncounter">
+    <S T="11" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="5" O="true" N="NumberOfConflictSlides">
+    <S T="12" F="Number of slides with conflict" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="UserChooseOwnChange">
+    <S T="13" F="Number of times user chose own changes" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="UserChooseOtherChange">
+    <S T="13" F="Number of times user chose other's changes" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="TotalMergeTime">
+    <S T="14" F="MergeTimeMS" M="Ignore" />
+  </C>
+  <T>
+    <S T="10" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="4" />
+    <S T="7" />
+  </ST>
+</R>

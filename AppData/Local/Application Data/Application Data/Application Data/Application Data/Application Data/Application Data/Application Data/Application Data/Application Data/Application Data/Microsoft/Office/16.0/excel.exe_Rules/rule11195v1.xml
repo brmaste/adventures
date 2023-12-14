@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11195" V="1" DC="SM" EN="Office.Outlook.Desktop.PcxNUIPersonaHealth" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="brj1b" />
+    <UTS T="2" Id="brj1d" />
+    <UTS T="3" Id="brj1e" />
+    <UTS T="4" Id="brj1f" />
+    <UTS T="5" Id="brj1g" />
+    <UTS T="6" Id="brj1h" />
+    <UTS T="7" Id="brj1i" />
+    <UTS T="8" Id="brj1j" />
+    <UTS T="9" Id="brj1k" />
+    <UTS T="10" Id="brj1l" />
+    <TI T="11" I="Daily" />
+    <A T="12" E="TelemetryShutdown" />
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="1" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="NE">
+        <L>
+          <S T="1" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="2" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="NE">
+        <L>
+          <S T="2" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="3" F="HrCreatePersona_Result" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="NE">
+        <L>
+          <S T="3" F="HrCreatePersona_Result" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="5" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="NE">
+        <L>
+          <S T="5" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="8" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="22">
+      <O T="NE">
+        <L>
+          <S T="8" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="23">
+      <O T="EQ">
+        <L>
+          <S T="9" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="24">
+      <O T="NE">
+        <L>
+          <S T="9" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="25">
+      <O T="EQ">
+        <L>
+          <S T="10" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="26">
+      <O T="NE">
+        <L>
+          <S T="10" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="27">
+      <O T="EQ">
+        <L>
+          <S T="3" F="IMsoPersona_Pointer" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="28">
+      <O T="EQ">
+        <L>
+          <S T="3" F="IMsoMManager_Pointer" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="29">
+      <O T="EQ">
+        <L>
+          <S T="4" F="IMsoPersona_Pointer" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="30">
+      <O T="EQ">
+        <L>
+          <S T="5" F="IMsoPersona_Pointer" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="31">
+      <O T="EQ">
+        <L>
+          <S T="5" F="IMsoIMManager_Pointer" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="32">
+      <O T="EQ">
+        <L>
+          <S T="6" F="IMsoPersonaWasNull" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="33">
+      <O T="EQ">
+        <L>
+          <S T="6" F="IMsoPersona_Pointer" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="34">
+      <O T="EQ">
+        <L>
+          <S T="7" F="IMsoPersona_Pointer" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="Initialize_HR_Success_Count">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="Initialize_HR_Fail_Count">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="EnsureLayout_HR_Success_Count">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="EnsureLayout_HR_Fail_Count">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="UpdateMsoPersona_HR_Success_Count">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="UpdateMsoPersona_HR_Fail_Count">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="HrDoAction_HR_Success_Count">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="HrDoAction_HR_Fail_Count">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="LayoutPhotoThreeLine_HR_Success_Count">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="LayoutPhotoThreeLine_HR_Fail_Count">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="LayoutPhotoTwoLine_HR_Success_Count">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="LayoutPhotoTwoLine_HR_Fail_Count">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="LayoutPawnName_HR_Success_Count">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="LayoutPawnName_HR_Fail_Count">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="UpdateMsoPersona_IMsoPersona_Null_Count">
+    <C>
+      <S T="27" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="UpdateMsoPersona_IMsoIMManager_Null_Count">
+    <C>
+      <S T="28" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="UpdateLayer_IMsoPersona_Null_Count">
+    <C>
+      <S T="29" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="HrDoAction_IMsoPersona_Null_Count">
+    <C>
+      <S T="30" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="HrDoAction_IMsoIMManager_Null_Count">
+    <C>
+      <S T="31" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="Paint_IMsoPersona_WasNull_Count">
+    <C>
+      <S T="32" />
+    </C>
+  </C>
+  <C T="U32" I="20" O="false" N="Paint_IMsoPersona_Null_Count">
+    <C>
+      <S T="33" />
+    </C>
+  </C>
+  <C T="U32" I="21" O="false" N="CleanupMsoPersona_IMsoPersona_Null_Count">
+    <C>
+      <S T="34" />
+    </C>
+  </C>
+  <T>
+    <S T="11" />
+    <S T="12" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

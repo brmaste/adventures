@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="490004" V="5" DC="SM" EN="Office.Feedback.Survey.UI.Win32" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" SP="CriticalBusinessImpact" DL="B" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bl9xx" A="bl9xo bl9xq bl9xp bl9xn bp405 b14tn b14td b14tf b14te b14tk b14ta b14tb clmf2" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="SurveyID">
+    <S T="1" F="SurveyId" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="SurveyType">
+    <S T="1" F="SurveyType" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

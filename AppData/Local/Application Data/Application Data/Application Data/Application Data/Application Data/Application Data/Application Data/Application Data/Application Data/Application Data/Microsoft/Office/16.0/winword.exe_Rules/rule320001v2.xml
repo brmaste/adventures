@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="320001" V="2" DC="SM" EN="Office.Extensibility.ODPActivationForTaga55rq" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalBusinessImpact" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a55rq" />
+    <UTS T="2" Id="c6io6" />
+    <UTS T="3" Id="dfid5" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="4" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="true" N="AssetId">
+    <S T="4" F="AssetId" />
+  </C>
+  <C T="U32" I="2" O="true" N="AppInformation">
+    <S T="4" F="AppInformation" />
+  </C>
+  <C T="I32" I="3" O="true" N="ErrorResult">
+    <S T="4" F="ErrorResult" />
+  </C>
+  <C T="U32" I="4" O="true" N="NotificationFlags">
+    <S T="4" F="NotificationFlags" />
+  </C>
+  <C T="W" I="5" O="true" N="AppInstanceId">
+    <S T="4" F="AppInstanceId" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

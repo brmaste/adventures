@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140113" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.DesignerImageCompressionStats" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a7tau" A="ick35" />
+  </S>
+  <C T="U64" I="0" O="true" N="CompressedImageWidth">
+    <S T="1" F="Compressed Image Width" />
+  </C>
+  <C T="U64" I="1" O="true" N="CompressedImageHeight">
+    <S T="1" F="Compressed Image Height" />
+  </C>
+  <C T="U64" I="2" O="true" N="OriginalImageSize">
+    <S T="1" F="Original Image size" />
+  </C>
+  <C T="U64" I="3" O="true" N="CompressedImageSize">
+    <S T="1" F="Compressed Image size" />
+  </C>
+  <C T="U64" I="4" O="true" N="TimeTakenCompressMS">
+    <S T="1" F="TimeTakenCompress ms" />
+  </C>
+  <C T="U64" I="5" O="true" N="TimeTakenReplacePartMS">
+    <S T="1" F="TimeTakenReplacePart ms" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

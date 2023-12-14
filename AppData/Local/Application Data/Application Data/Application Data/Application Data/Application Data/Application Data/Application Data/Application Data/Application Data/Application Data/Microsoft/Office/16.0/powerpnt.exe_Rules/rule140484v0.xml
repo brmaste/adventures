@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140484" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.LiveSubtitles.FrontDoorErrorCodes" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP" xmlns="">
+  <S>
+    <UTS T="1" Id="czmo9" />
+  </S>
+  <C T="W" I="0" O="true" N="SpeechSessionId">
+    <S T="1" F="SessionId" />
+  </C>
+  <C T="W" I="1" O="true" N="TranscriptErrorCode">
+    <S T="1" F="TranscriptErrorCode" />
+  </C>
+  <C T="W" I="2" O="true" N="MessageErrorCode">
+    <S T="1" F="MessageErrorCode" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

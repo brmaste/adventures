@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180135" V="4" DC="SM" EN="Office.Excel.XlFileSaveActivity" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_Category" />
+        </L>
+        <R>
+          <V V="Xl File Save Activity" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="2" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="ActivityName">
+    <S T="2" F="Name" M="Ignore" />
+  </C>
+  <C T="U64" I="3" O="true" N="Duration">
+    <S T="2" F="Duration" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="Result">
+    <S T="2" F="Result" M="Ignore" />
+  </C>
+  <C T="U64" I="5" O="true" N="FileId">
+    <S T="2" F="FileId" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="Cancelled">
+    <S T="2" F="Cancelled" M="Ignore" />
+  </C>
+  <C T="U64" I="7" O="true" N="CancellationDelay">
+    <S T="2" F="CancellationDelay" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="CancellationCount">
+    <S T="2" F="CancellationCount" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="FailureCount">
+    <S T="2" F="FailureCount" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="AutoSaveInterval">
+    <S T="2" F="AutoSaveInterval" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="EnteredModal">
+    <S T="2" F="EnteredModal" M="Ignore" />
+  </C>
+  <C T="B" I="12" O="true" N="MachineSuspended">
+    <S T="2" F="MachineSuspended" M="Ignore" />
+  </C>
+  <C T="W" I="13" O="true" N="CorrelationVector">
+    <S T="2" F="CorrelationVector" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

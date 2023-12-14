@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510062" V="0" DC="SM" EN="Office.DynamicCanvas.Experience.OnboardingOobeWelcomeVideo.CloseButtonClick.Exportable" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalExperimentation" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="97vre" />
+  </S>
+  <C T="W" I="0" O="true" N="ContextData">
+    <S T="1" F="ContextData" />
+  </C>
+  <C T="W" I="1" O="true" N="CampaignName">
+    <S T="1" F="CampaignName" />
+  </C>
+  <C T="W" I="2" O="true" N="ContentName">
+    <S T="1" F="ContentName" />
+  </C>
+  <C T="U32" I="3" O="true" N="ContentNumber">
+    <S T="1" F="ContentNumber" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110281" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="a4oj4" />
+    <F T="2">
+      <O T="OR">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="AlertId" />
+            </L>
+            <R>
+              <V V="200030" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="AlertId" />
+            </L>
+            <R>
+              <V V="200549" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U64" I="0" O="false">
+    <S T="1" F="AlertId" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

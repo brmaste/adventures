@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140252" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.Collab.EmbeddedFontsUsage" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <R T="1" R="140251" />
+    <UTS T="2" Id="crzf4" />
+    <UTS T="3" Id="av2pu" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="3" F="Operation" />
+        </L>
+        <R>
+          <V V="Open" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="EmbeddedFontsCount">
+    <S T="1" F="0" />
+  </C>
+  <C T="U32" I="1" O="false" N="RestrictedEmbeddedFontsCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

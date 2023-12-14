@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150249" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.Merge.LayoutDiffInfo" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bumlm" />
+    <UTS T="2" Id="bumln" />
+    <UTS T="3" Id="ax1o7" />
+    <UTS T="4" Id="ax1o3" />
+    <US T="5">
+      <S T="3" />
+      <S T="4" />
+    </US>
+  </S>
+  <G>
+    <S T="1">
+      <F N="FirstLayoutDiff" />
+    </S>
+    <S T="2">
+      <F N="FirstMainMasterDiff" />
+    </S>
+  </G>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <S T="5" F="ULS_CorrelationID" />
+  </C>
+  <C T="TAG" I="1" O="true" N="Tag">
+    <S T="5" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="2" O="true" N="FirstLayoutDiff">
+    <S T="1" F="FirstLayoutDiff" />
+  </C>
+  <C T="U32" I="3" O="false" N="CountContentMasterDiffEnum">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="true" N="FirstMainMasterDiff">
+    <S T="2" F="FirstMainMasterDiff" />
+  </C>
+  <C T="U32" I="5" O="false" N="CountMainMasterDiffEnum">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+</R>

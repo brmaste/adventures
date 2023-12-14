@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63038" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UCSS T="1" C="Identity OAuth2" S="Unexpected Monitorable Medium" />
+    <UCSS T="2" C="Identity Third Party" S="Unexpected Monitorable Medium" />
+    <UTS T="3" Id="baud9" />
+    <UTS T="4" Id="a8s0f" />
+    <UTS T="5" Id="a9a34" />
+    <UTS T="6" Id="a6o7p" />
+    <UTS T="7" Id="bbgck" />
+    <US T="8">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="8" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="false">
+    <S T="8" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="2" O="falseNoError">
+    <S T="8" F="ErrorBucket" M="Ignore" />
+  </C>
+  <C T="I64" I="3" O="falseNoError">
+    <S T="8" F="ErrorCode" M="Ignore" />
+  </C>
+  <T>
+    <S T="8" />
+  </T>
+</R>

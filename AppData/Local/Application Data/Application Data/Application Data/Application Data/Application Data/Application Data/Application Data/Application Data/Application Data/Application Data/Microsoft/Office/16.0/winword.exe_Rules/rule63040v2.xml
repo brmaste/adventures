@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63040" V="2" DC="SM" T="Subrule" DCa="DC" xmlns="">
+  <S>
+    <R T="1" R="63042" />
+    <R T="2" R="63040" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="1" />
+      <F N="2" />
+      <F N="3" />
+    </S>
+    <S T="2">
+      <F N="1" />
+      <F N="2" />
+      <F N="4" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false">
+    <S T="1" F="0" />
+  </C>
+  <C T="TAG" I="1" O="false">
+    <S T="1" F="1" />
+  </C>
+  <C T="W" I="2" O="true">
+    <S T="1" F="2" />
+  </C>
+  <C T="U64" I="3" O="false">
+    <O T="COALESCE">
+      <L>
+        <O T="ADD">
+          <L>
+            <S T="2" F="3" />
+          </L>
+          <R>
+            <V V="1" T="U64" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <V V="1" T="U64" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="4" O="true">
+    <S T="1" F="3" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11939" V="0" DC="SM" EN="Office.Outlook.Desktop.CCV2TimeToRenderInitial" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" S="100" DCa="PSP" xmlns="">
+  <S>
+    <UTS T="1" Id="dfds4" />
+  </S>
+  <C T="U32" I="0" O="false" N="TimeToRenderInitial">
+    <S T="1" F="Milliseconds" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

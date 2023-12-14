@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11705" V="1" DC="SM" EN="Office.Outlook.Desktop.Lpc.LinkedInBindWorkflow" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" SP="CriticalUsage" S="100" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cmpda" />
+    <UTS T="2" Id="cfzmw" />
+    <UTS T="3" Id="cfzms" />
+    <UTS T="4" Id="cfzmp" />
+    <UTS T="5" Id="cfzmr" />
+    <UTS T="6" Id="cfzmt" />
+    <UTS T="7" Id="cfzmu" />
+    <UTS T="8" Id="cfzmv" />
+    <UTS T="9" Id="cfzqn" />
+    <UTS T="10" Id="bd7ah" />
+    <UTS T="11" Id="b3g8x" />
+    <SR T="12" R="error=(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)(.|)">
+      <S T="8" F="ErrorDescription" />
+    </SR>
+    <SR T="13" R="error_description=AADSTS([^@]|)([^@]|)([^@]|)([^@]|)([^@]|)([^@]|)([^@]|)([^@]|)([^@]|)%3a">
+      <S T="8" F="ErrorDescription" />
+    </SR>
+  </S>
+  <C T="W" I="0" O="false" N="BindVersion">
+    <S T="1" F="ServiceId" />
+  </C>
+  <C T="B" I="1" O="false" N="BindSuccess">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="2" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="2" O="false" N="BindSuccessWithNoQueryParameters">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="3" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="false" N="UserNotAuthorized">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="4" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="4" O="false" N="FailedToCreateBindUrl">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="5" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="5" O="false" N="FailedToExtractBindQueryString">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="6" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="6" O="false" N="FailedToExtractBindQueryString2">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="7" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="7" O="false" N="BindFailed">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="8" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="8" O="true" N="BindErrorCode">
+    <S T="12" F="Matched" />
+  </C>
+  <C T="W" I="9" O="true" N="BindFailedInformation">
+    <S T="13" F="Matched" />
+  </C>
+  <C T="B" I="10" O="false" N="BindCanceled">
+    <O T="GE">
+      <L>
+        <C>
+          <S T="9" />
+        </C>
+      </L>
+      <R>
+        <V V="1" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="I64" I="11" O="true" N="BindCanceledHrResult">
+    <S T="10" F="ShowUIResult" />
+  </C>
+  <C T="I64" I="12" O="false" N="BindWithLinkedInHrResult">
+    <S T="11" F="Result" />
+  </C>
+  <T>
+    <S T="11" />
+  </T>
+</R>

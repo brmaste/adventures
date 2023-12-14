@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68039" V="1" DC="SM" EN="Office.TellMe.TellMeD.VoiceSearchStart" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="c8mqo" />
+  </S>
+  <C T="I32" I="0" O="true" N="StartSpeechRecognitionStatus">
+    <S T="1" F="recognitionStatus" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="ConnectionID">
+    <S T="1" F="connectionID" M="Ignore" />
+  </C>
+  <C T="G" I="2" O="true" N="TellMeSpeechId">
+    <S T="1" F="tellMeSpeechId" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="HRESULT">
+    <S T="1" F="hr" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

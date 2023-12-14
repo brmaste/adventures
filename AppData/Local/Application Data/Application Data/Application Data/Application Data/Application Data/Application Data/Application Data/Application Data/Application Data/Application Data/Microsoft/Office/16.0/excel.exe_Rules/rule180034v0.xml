@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180034" V="0" DC="SM" EN="Office.Excel.XlWBWorkbooksUsagePassthrough" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ULS_Category" />
+            </L>
+            <R>
+              <V V="Xl Workbook Structure" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Table" />
+            </L>
+            <R>
+              <V V="Workbooks" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="false" N="WorkbookId">
+    <S T="2" F="WorkbookId" />
+  </C>
+  <C T="I32" I="2" O="true" N="FileSizeOnDisk">
+    <S T="2" F="FileSizeOnDisk" M="Ignore" />
+  </C>
+  <C T="I64" I="3" O="false" N="FileSizeInMemory">
+    <S T="2" F="FileSizeInMemory" />
+  </C>
+  <C T="I64" I="4" O="false" N="LoadResult">
+    <S T="2" F="LoadResult" />
+  </C>
+  <C T="I64" I="5" O="false" N="ReportingResult">
+    <S T="2" F="ReportingResult" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

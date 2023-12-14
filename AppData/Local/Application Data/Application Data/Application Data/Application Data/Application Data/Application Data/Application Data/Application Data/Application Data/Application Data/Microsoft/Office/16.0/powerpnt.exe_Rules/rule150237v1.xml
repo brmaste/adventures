@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150237" V="1" DC="SM" EN="Office.PowerPoint.PPT.TableDiff.Working" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a05zq" A="a8a7k bdp59" />
+  </S>
+  <C T="FT" I="0" O="true" N="ThreeWayMergeCompleteTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Table_Working_Modified">
+    <S T="1" F="TblDiff_W_1" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Table_Working_CellModified">
+    <S T="1" F="TblDiff_W_2" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="Table_Working_RowsModified">
+    <S T="1" F="TblDiff_W_4" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="Table_Working_ColumnsModified">
+    <S T="1" F="TblDiff_W_8" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="Table_Working_StyleModified">
+    <S T="1" F="TblDiff_W_16" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="Table_Working_CellModified_Unmergeable">
+    <S T="1" F="TblDiff_W_32" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="Table_Working_RowsModified_Unmergeable">
+    <S T="1" F="TblDiff_W_64" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="Table_Working_StyleModified_Unmergeable">
+    <S T="1" F="TblDiff_W_128" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="Table_Working_ColumnModified_Unmergeable">
+    <S T="1" F="TblDiff_W_256" M="Ignore" />
+  </C>
+  <C T="U64" I="11" O="true" N="MsoOLDocumentToken">
+    <S T="1" F="MsoOLDocumentToken" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

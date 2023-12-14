@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11499" V="0" DC="SM" EN="Office.Outlook.Desktop.LinkedInSettingsGetEnabledGraphResult" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="b5vg1" />
+    <F T="4">
+      <O T="AND">
+        <L>
+          <S T="3" F="Tenant enabled" />
+        </L>
+        <R>
+          <S T="3" F="User enabled" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="3" F="Tenant enabled" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <S T="3" F="Tenant enabled" />
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="3" F="User enabled" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="EnabledCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="DisabledByTenantCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="DisabledByUserCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510016" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <R T="1" R="510015" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="1" />
+        </L>
+        <R>
+          <V V="pptshare-meetingpicker" T="W" />
+        </R>
+      </O>
+    </F>
+    <SR T="3" R="clearAllButton">
+      <S T="2" F="0" />
+    </SR>
+    <SR T="4" R="clickBack">
+      <S T="2" F="0" />
+    </SR>
+    <SR T="5" R="clickHistory">
+      <S T="2" F="0" />
+    </SR>
+    <SR T="6" R="presentationDismissed">
+      <S T="2" F="0" />
+    </SR>
+    <SR T="7" R="selectButton">
+      <S T="2" F="0" />
+    </SR>
+    <SR T="8" R="shareInitiated">
+      <S T="2" F="0" />
+    </SR>
+    <SR T="9" R="toggleConflictVisibility">
+      <S T="2" F="0" />
+    </SR>
+    <SR T="10" R="toggleConflicts">
+      <S T="2" F="0" />
+    </SR>
+  </S>
+  <C T="W" I="0" O="true">
+    <S T="2" F="0" />
+  </C>
+  <C T="W" I="1" O="true">
+    <S T="2" F="1" />
+  </C>
+  <C T="W" I="2" O="true">
+    <S T="2" F="2" />
+  </C>
+  <C T="U32" I="3" O="true">
+    <S T="2" F="3" />
+  </C>
+  <C T="U32" I="4" O="false">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false">
+    <O T="ADD">
+      <L>
+        <C>
+          <S T="9" />
+        </C>
+      </L>
+      <R>
+        <C>
+          <S T="10" />
+        </C>
+      </R>
+    </O>
+  </C>
+  <C T="B" I="11" O="false">
+    <O T="NE">
+      <L>
+        <O T="ADD">
+          <L>
+            <O T="ADD">
+              <L>
+                <O T="ADD">
+                  <L>
+                    <C>
+                      <S T="3" />
+                    </C>
+                  </L>
+                  <R>
+                    <C>
+                      <S T="4" />
+                    </C>
+                  </R>
+                </O>
+              </L>
+              <R>
+                <O T="ADD">
+                  <L>
+                    <C>
+                      <S T="5" />
+                    </C>
+                  </L>
+                  <R>
+                    <C>
+                      <S T="6" />
+                    </C>
+                  </R>
+                </O>
+              </R>
+            </O>
+          </L>
+          <R>
+            <O T="ADD">
+              <L>
+                <O T="ADD">
+                  <L>
+                    <C>
+                      <S T="7" />
+                    </C>
+                  </L>
+                  <R>
+                    <C>
+                      <S T="8" />
+                    </C>
+                  </R>
+                </O>
+              </L>
+              <R>
+                <O T="ADD">
+                  <L>
+                    <C>
+                      <S T="9" />
+                    </C>
+                  </L>
+                  <R>
+                    <C>
+                      <S T="10" />
+                    </C>
+                  </R>
+                </O>
+              </R>
+            </O>
+          </R>
+        </O>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

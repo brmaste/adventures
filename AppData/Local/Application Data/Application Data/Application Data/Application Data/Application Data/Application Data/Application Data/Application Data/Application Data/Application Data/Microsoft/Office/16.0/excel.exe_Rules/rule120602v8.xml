@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120602" V="8" DC="SM" EN="Office.System.SystemHealthMetadataApplicationAndLanguage" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalBusinessImpact" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <SS T="1" G="{68442bc6-3519-4b08-a80c-e0a68fc8cda3}" />
+    <SS T="2" G="{8e685dc2-78f7-47e1-9a99-6a636773669a}" />
+    <R T="3" R="120100" />
+  </S>
+  <C T="U16" I="0" O="true" N="Click2RunPackageVersionBuild">
+    <S T="1" F="PackageVersionBuild" M="Ignore" />
+  </C>
+  <C T="U16" I="1" O="true" N="Click2RunPackageVersionMajor">
+    <S T="1" F="PackageVersionMajor" M="Ignore" />
+  </C>
+  <C T="U16" I="2" O="true" N="Click2RunPackageVersionMinor">
+    <S T="1" F="PackageVersionMinor" M="Ignore" />
+  </C>
+  <C T="U16" I="3" O="true" N="Click2RunPackageVersionRevision">
+    <S T="1" F="PackageVersionUpdate" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="DistributionChannel">
+    <S T="1" F="DistributionChannel" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="IsDebug">
+    <S T="1" F="IsDebug" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="IsOEMInstalled">
+    <S T="1" F="IsOEMInstalled" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="IsRunAsAdmin">
+    <S T="1" F="IsRunAsAdmin" M="Ignore" />
+  </C>
+  <C T="W" I="8" O="true" N="OfficeArchitectureText">
+    <S T="1" F="ApplicationArchitecture" M="Ignore" />
+  </C>
+  <C T="U16" I="9" O="true" N="OfficeBuild">
+    <S T="1" F="OfficeVersionBuild" M="Ignore" />
+  </C>
+  <C T="U16" I="10" O="true" N="OfficeBuildRevision">
+    <S T="1" F="OfficeVersionUpdate" M="Ignore" />
+  </C>
+  <C T="U16" I="11" O="true" N="OfficeMajorVer">
+    <S T="1" F="OfficeVersionMajor" M="Ignore" />
+  </C>
+  <C T="U16" I="12" O="true" N="OfficeMinorVer">
+    <S T="1" F="OfficeVersionMinor" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="AppState">
+    <S T="1" F="AppState" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="OfficeMuiCount">
+    <S T="2" F="MuiCount" M="Ignore" />
+  </C>
+  <C T="W" I="15" O="true" N="OfficeUiLangTag">
+    <S T="2" F="OfficeUiLangTag" M="Ignore" />
+  </C>
+  <C T="W" I="16" O="true" N="OfficeSkuLanguageTag">
+    <S T="2" F="OfficeSkuLangTag" M="Ignore" />
+  </C>
+  <C T="B" I="17" O="true" N="IsWdag">
+    <S T="1" F="IsWdag" M="Ignore" />
+  </C>
+  <C T="B" I="18" O="true" N="IsRoboticProcessAutomation">
+    <S T="1" F="IsRoboticProcessAutomation" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224060" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.RedemptionAPI.Completion" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bc9ms" />
+    <UTS T="2" Id="bf35l" />
+    <UTS T="3" Id="bf346" />
+    <UTS T="4" Id="bf35b" />
+    <UTS T="5" Id="bf34q" />
+    <UTS T="6" Id="bf34r" />
+    <UTS T="7" Id="bf34s" />
+    <UTS T="8" Id="bc9mt" />
+  </S>
+  <C T="W" I="0" O="false" N="LanguageCode">
+    <S T="1" F="LanguageCode" />
+  </C>
+  <C T="W" I="1" O="false" N="CountryCode">
+    <S T="1" F="CountryCode" />
+  </C>
+  <C T="B" I="2" O="true" N="ACSRequestSucceeded">
+    <S T="2" F="Result.Succeeded" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="ClientTransactionId">
+    <S T="3" F="ClientTransactionId" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="PurchaseType">
+    <S T="3" F="PurchaseType" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="BodyFailure">
+    <O T="EQ">
+      <L>
+        <S T="4" F="ULS_TagId" M="Ignore" />
+      </L>
+      <R>
+        <V V="bf35b" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="6" O="true" N="UrlFailure">
+    <O T="EQ">
+      <L>
+        <S T="5" F="ULS_TagId" M="Ignore" />
+      </L>
+      <R>
+        <V V="bf34q" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="7" O="true" N="HeaderFailure">
+    <O T="EQ">
+      <L>
+        <S T="6" F="ULS_TagId" M="Ignore" />
+      </L>
+      <R>
+        <V V="bf34r" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="8" O="true" N="ReBodyFailure">
+    <O T="EQ">
+      <L>
+        <S T="7" F="ULS_TagId" M="Ignore" />
+      </L>
+      <R>
+        <V V="bf34s" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="9" O="false" N="ResultCode">
+    <S T="8" F="ResultCode" />
+  </C>
+  <C T="W" I="10" O="false" N="StatusCode">
+    <S T="8" F="StatusCode" />
+  </C>
+  <C T="W" I="11" O="false" N="StatusMessage">
+    <S T="8" F="StatusMessage" />
+  </C>
+  <C T="U32" I="12" O="false" N="ErrorType">
+    <S T="8" F="ErrorType" />
+  </C>
+  <T>
+    <S T="8" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

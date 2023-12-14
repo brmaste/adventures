@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10818" V="3" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="blelm" />
+    <UTS T="2" Id="blelt" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="UniqueID" />
+    </S>
+    <S T="2">
+      <F N="UniqueID" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="2" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="1" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <C T="U64" I="1" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="CardVersion" M="Ignore" />
+      </L>
+      <R>
+        <V V="1" T="U64" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

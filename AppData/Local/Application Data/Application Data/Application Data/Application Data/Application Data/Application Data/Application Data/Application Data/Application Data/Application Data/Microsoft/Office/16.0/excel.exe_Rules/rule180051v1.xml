@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180051" V="1" DC="SM" EN="Office.Excel.XlAddinsLoad.InBoxAddinsOnly" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bl6mb" />
+  </S>
+  <C T="FT" I="0" O="true" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" M="Ignore" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="ScopeHolderId">
+    <S T="1" F="ScopeId" M="Ignore" />
+  </C>
+  <C T="G" I="3" O="true" N="AddinId">
+    <S T="1" F="AddinId" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="AddinFriendlyName">
+    <S T="1" F="AddinFriendlyName" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="AddinEnabled">
+    <S T="1" F="AddinEnabled" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

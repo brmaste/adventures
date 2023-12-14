@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170107" V="1" DC="SM" EN="Office.Graphics.OartTextImeErrors" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="auhqr" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+  </S>
+  <C T="U32" I="0" O="false" N="ErrorCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="I32" I="1" O="true" N="IMEFailure">
+    <S T="1" F="hr" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120126" V="8" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="a3wen" />
+    <UTS T="2" Id="bhq2o" />
+    <UTS T="3" Id="cc3ox" />
+    <F T="4">
+      <O T="OR">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="UserDecision" />
+            </L>
+            <R>
+              <V V="1" T="U8" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="UserDecision" />
+            </L>
+            <R>
+              <V V="2" T="U8" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="3" F="AuthCategory" M="Ignore" />
+            </L>
+            <R>
+              <V V="" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <V V="ActiveIdentityChanged" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="B" I="0" O="false">
+    <V V="true" T="B" />
+  </C>
+  <T>
+    <S T="4" />
+    <S T="2" />
+    <S T="5" />
+  </T>
+</R>

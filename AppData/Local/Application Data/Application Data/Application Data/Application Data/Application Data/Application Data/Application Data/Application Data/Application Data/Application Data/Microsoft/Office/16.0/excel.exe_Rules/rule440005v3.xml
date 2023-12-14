@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="440005" V="3" DC="SM" EN="Office.Excel.ActivityUnaggregatedCore" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ActivityInstance" />
+  </RIS>
+  <S>
+    <UCSS T="1" C="Core" S="Medium" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="B" I="1" O="false" N="WasSuccessful">
+    <S T="1" F="Success" />
+  </C>
+  <C T="I32" I="2" O="true" N="ErrorCode">
+    <S T="1" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="false" N="LogScopeName">
+    <S T="1" F="ScopeName" />
+  </C>
+  <C T="TAG" I="4" O="false" N="ULS_Tag">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="5" O="true" N="ParentScenarioName">
+    <S T="1" F="ParentScenarioName" M="Ignore" />
+  </C>
+  <C T="TAG" I="6" O="true" N="ParentScenarioTag">
+    <S T="1" F="ParentScenarioTag" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="FileIOBytesRead">
+    <S T="1" F="TotalBytesRead" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="FileIOBytesWritten">
+    <S T="1" F="TotalBytesWritten" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="NetworkIOBytesRead">
+    <S T="1" F="TotalBytesReceived" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="NetworkIOBytesWritten">
+    <S T="1" F="TotalBytesSent" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="false" N="ScopeInstance">
+    <S T="1" F="ScopeInstance" />
+  </C>
+  <C T="U32" I="12" O="true" N="ScopeParentInstance">
+    <S T="1" F="ScopeParentInstance" M="Ignore" />
+  </C>
+  <C T="W" I="13" O="true" N="Context">
+    <S T="1" F="Context" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="DurationToCompleteInMilliseconds">
+    <S T="1" F="DurationToCompleteInMilliseconds" M="Ignore" />
+  </C>
+  <C T="TAG" I="15" O="true" N="ErrorTag">
+    <S T="1" F="ErrorTag" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

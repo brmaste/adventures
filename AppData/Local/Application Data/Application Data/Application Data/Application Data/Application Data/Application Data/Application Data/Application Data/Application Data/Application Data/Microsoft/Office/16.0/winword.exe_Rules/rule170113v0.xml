@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170113" V="0" DC="SM" EN="Office.Graphics.GDIError" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cusas" />
+  </S>
+  <C T="I32" I="0" O="true" N="GdipStatus">
+    <S T="1" F="GdipStatus" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="Message">
+    <S T="1" F="ULS_Message" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

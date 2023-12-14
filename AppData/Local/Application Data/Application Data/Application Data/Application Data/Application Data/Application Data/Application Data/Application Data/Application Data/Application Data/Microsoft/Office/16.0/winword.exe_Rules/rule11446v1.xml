@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11446" V="1" DC="SM" EN="Office.Outlook.Desktop.PCXContactCard2LinkedInBasicUsage" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="blelm" />
+    <UTS T="4" Id="b3ko4" />
+    <UTS T="5" Id="b3ko5" />
+    <UTS T="6" Id="b3ko6" />
+    <UTS T="7" Id="b3ko7" />
+    <UTS T="8" Id="b3143" />
+    <UTS T="9" Id="b3142" />
+    <UTS T="10" Id="b3144" />
+    <UTS T="11" Id="b3145" />
+    <F T="12">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="4" F="NameLength" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="4" F="TotalMatches" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="AND">
+        <L>
+          <O T="GT">
+            <L>
+              <S T="4" F="NameLength" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="4" F="TotalMatches" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="4" F="NameLength" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GT">
+            <L>
+              <S T="4" F="TotalMatches" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="AND">
+        <L>
+          <O T="GT">
+            <L>
+              <S T="4" F="NameLength" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GT">
+            <L>
+              <S T="4" F="TotalMatches" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="2" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="3" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="4" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="5" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="22">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="6" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="23">
+      <O T="EQ">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="7" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="24">
+      <O T="GT">
+        <L>
+          <S T="6" F="SelectedMatchPosition" />
+        </L>
+        <R>
+          <V V="7" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="25">
+      <O T="EQ">
+        <L>
+          <S T="7" F="HyperlinkLength" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="26">
+      <O T="GT">
+        <L>
+          <S T="7" F="HyperlinkLength" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="27">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="5" F="properties_IsNull" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="AND">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="5" F="results_IsNull" />
+                </L>
+                <R>
+                  <V V="false" T="B" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="5" F="searchResults_IsNull" />
+                </L>
+                <R>
+                  <V V="false" T="B" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="28">
+      <O T="EQ">
+        <L>
+          <S T="5" F="properties_IsNull" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="29">
+      <O T="EQ">
+        <L>
+          <S T="5" F="results_IsNull" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="30">
+      <O T="EQ">
+        <L>
+          <S T="5" F="searchResults_IsNull" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="31">
+      <O T="EQ">
+        <L>
+          <S T="10" F="IsAcceptRequestSuccessful" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="32">
+      <O T="EQ">
+        <L>
+          <S T="10" F="IsAcceptRequestSuccessful" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="33">
+      <O T="EQ">
+        <L>
+          <S T="11" F="IsConnectRequestSuccessful" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="34">
+      <O T="EQ">
+        <L>
+          <S T="11" F="IsConnectRequestSuccessful" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="LinkedInMatchClicked_Total">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="F" I="1" O="true" N="LinkedInMatchClicked_Average_SelectedMatchPosition">
+    <A T="AVG">
+      <S T="6" F="SelectedMatchPosition" />
+    </A>
+  </C>
+  <C T="U32" I="2" O="false" N="LinkedInWebProfileClicked_Total">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="F" I="3" O="true" N="LinkedInTotalMatches_Average_TotalMatches">
+    <A T="AVG">
+      <S T="4" F="TotalMatches" />
+    </A>
+  </C>
+  <C T="F" I="4" O="true" N="LinkedInTotalMatches_Average_NameLength">
+    <A T="AVG">
+      <S T="4" F="NameLength" />
+    </A>
+  </C>
+  <C T="U32" I="5" O="false" N="LinkedInGetSearchResultsNullchecks_Total_SearchWithValidObjects">
+    <C>
+      <S T="27" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="LinkedInGetSearchResultsNullchecks_Total_PropertiesIsNull">
+    <C>
+      <S T="28" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="LinkedInGetSearchResultsNullchecks_Total_ResultsIsNull">
+    <C>
+      <S T="29" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="LinkedInGetSearchResultsNullchecks_Total_SearchResultsIsNull">
+    <C>
+      <S T="30" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="LinkedInTotalMatches_Total_NameLengthZero_MatchesZero">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="LinkedInTotalMatches_Total_NameLengthNonZero_MatchesZero">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="LinkedInTotalMatches_Total_NameLengthZero_MatchesNonZero">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="LinkedInTotalMatches_Total_NameLengthNonZero_MatchesNonZero">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="LinkedInMatchClicked_Total_P0">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="LinkedInMatchClicked_Total_P1">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="LinkedInMatchClicked_Total_P2">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="LinkedInMatchClicked_Total_P3">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="LinkedInMatchClicked_Total_P4">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="LinkedInMatchClicked_Total_P5">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="LinkedInMatchClicked_Total_P6">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="20" O="false" N="LinkedInMatchClicked_Total_P7">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="21" O="false" N="LinkedInMatchClicked_Total_GT_P7">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="22" O="false" N="LinkedInWebProfileClicked_Total_HyperLinkLengthZero">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="23" O="false" N="LinkedInWebProfileClicked_Total_HyperLinkLengthNonZero">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <C T="U32" I="24" O="false" N="LinkedInConnectButtonClicked_Total">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="25" O="false" N="LinkedInAcceptButtonClicked_Total">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="26" O="false" N="LinkedInAcceptRequestResult_Successes_Total">
+    <C>
+      <S T="31" />
+    </C>
+  </C>
+  <C T="U32" I="27" O="false" N="LinkedInAcceptRequestResult_Failures_Total">
+    <C>
+      <S T="32" />
+    </C>
+  </C>
+  <C T="U32" I="28" O="false" N="LinkedInConnectRequestResult_Successes_Total">
+    <C>
+      <S T="33" />
+    </C>
+  </C>
+  <C T="U32" I="29" O="false" N="LinkedInConnectRequestResult_Failures_Total">
+    <C>
+      <S T="34" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

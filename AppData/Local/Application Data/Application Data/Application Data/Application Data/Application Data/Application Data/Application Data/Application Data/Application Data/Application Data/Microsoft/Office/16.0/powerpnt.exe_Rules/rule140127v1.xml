@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140127" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.ZoomInfoOnCloseRule" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjd1m" />
+  </S>
+  <C T="U32" I="0" O="false" N="ZoomType">
+    <S T="1" F="Zoom Type" />
+  </C>
+  <C T="B" I="1" O="false" N="SlideTransparent">
+    <S T="1" F="SlideTransparent" />
+  </C>
+  <C T="B" I="2" O="false" N="ShowBackground">
+    <S T="1" F="ShowBackground" />
+  </C>
+  <C T="B" I="3" O="false" N="UserCoverImage">
+    <S T="1" F="UserCoverImage" />
+  </C>
+  <C T="B" I="4" O="false" N="ReturnToParent">
+    <S T="1" F="ReturnToParent" />
+  </C>
+  <C T="B" I="5" O="false" N="TransistionEnabled">
+    <S T="1" F="TransistionEnabled" />
+  </C>
+  <C T="G" I="6" O="true" N="DocumentId">
+    <S T="1" F="CorrelationId" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

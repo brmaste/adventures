@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120402" V="21" DC="SM" EN="Office.System.SystemHealthUngracefulAppExitDesktop" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalCensus" DL="A" DCa="PSP" xmlns="">
+  <RIS>
+    <RI N="Crash" />
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="824rc" />
+    <SS T="2" G="{68442bc6-3519-4b08-a80c-e0a68fc8cda3}" />
+    <TR T="3" />
+  </S>
+  <C T="FT" I="0" O="false" N="DetectionTime">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="1" O="false" N="CrashedProcessSessionInitTime">
+    <S T="1" F="CrashedSessionInitTime" />
+  </C>
+  <C T="G" I="2" O="false" N="CrashedProcessSessionID">
+    <S T="1" F="CrashedSessionId" />
+  </C>
+  <C T="U8" I="3" O="false" N="CrashType">
+    <S T="1" F="CrashType" />
+  </C>
+  <C T="W" I="4" O="true" N="PreviousBuild">
+    <S T="1" F="PreviousBuild" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="InstallMethod">
+    <S T="1" F="InstallMethod" M="Ignore" />
+  </C>
+  <C T="W" I="6" O="true" N="ExceptionCode">
+    <S T="1" F="HexExceptionCode" M="Ignore" />
+  </C>
+  <C T="W" I="7" O="true" N="ModuleOffset">
+    <S T="1" F="HexModuleOffset" M="Ignore" />
+  </C>
+  <C T="W" I="8" O="true" N="ModuleVersion">
+    <S T="1" F="ModuleVersion" M="Ignore" />
+  </C>
+  <C T="W" I="9" O="true" N="CrashedEcsETag">
+    <S T="1" F="CrashedEcsETag" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true" N="CrashedModuleName">
+    <S T="1" F="CollectableModuleName" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="CrashedTag">
+    <S T="1" F="CrashTag" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="UninitLibletId">
+    <S T="1" F="UninitLibletId" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="OfficeUILang">
+    <S T="1" F="OfficeUILang" M="Ignore" />
+  </C>
+  <C T="W" I="14" O="true" N="ProcessorArchitecture">
+    <S T="1" F="ProcessorArchitecture" M="Ignore" />
+  </C>
+  <C T="U64" I="15" O="true" N="SessionFlags">
+    <S T="1" F="SessionFlags" M="Ignore" />
+  </C>
+  <C T="FT" I="16" O="true" N="CrashedSessionUninitTime">
+    <S T="1" F="CrashedSessionUninitTime" M="Ignore" />
+  </C>
+  <C T="W" I="17" O="true" N="OfficeArchitectureText">
+    <S T="2" F="ApplicationArchitecture" M="Ignore" />
+  </C>
+  <C T="W" I="18" O="true" N="AffectedProcessAppVersion">
+    <S T="1" F="CrashedAppVersion" M="Ignore" />
+  </C>
+  <C T="G" I="19" O="true" N="LicenseId">
+    <S T="1" F="LicenseId" M="Ignore" />
+  </C>
+  <C T="U64" I="20" O="true" N="BucketId">
+    <S T="1" F="BucketId" M="Ignore" />
+  </C>
+  <C T="W" I="21" O="true" N="WatsonReportId">
+    <S T="1" F="WatsonReportId" M="Ignore" />
+  </C>
+  <C T="W" I="22" O="true" N="CabGuid">
+    <S T="1" F="CabGuid" M="Ignore" />
+  </C>
+  <C T="U32" I="23" O="true" N="ExceptionInfo">
+    <S T="1" F="ExceptionInfo" M="Ignore" />
+  </C>
+  <C T="U32" I="24" O="true" N="HangTypeCode">
+    <S T="1" F="TypeCode" M="Ignore" />
+  </C>
+  <C T="W" I="25" O="true" N="StackHash">
+    <S T="1" F="StackHash" M="Ignore" />
+  </C>
+  <C T="U64" I="26" O="true" N="AppUsedVirtualMemory">
+    <S T="1" F="AppUsedVirtualMemory" M="Ignore" />
+  </C>
+  <C T="U64" I="27" O="true" N="SystemAvailableMemory">
+    <S T="1" F="SystemAvailableMemory" M="Ignore" />
+  </C>
+  <C T="W" I="28" O="true" N="CallStack">
+    <S T="1" F="CallStack" M="Ignore" />
+  </C>
+  <C T="W" I="29" O="true" N="WatsonBucket">
+    <S T="1" F="BucketHash" M="Ignore" />
+  </C>
+  <C T="W" I="30" O="true" N="CallStackHash">
+    <S T="1" F="CallStackHash" M="Ignore" />
+  </C>
+  <C T="B" I="31" O="true" N="IsCustomerImpacting">
+    <S T="1" F="IsCustomerImpacting" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

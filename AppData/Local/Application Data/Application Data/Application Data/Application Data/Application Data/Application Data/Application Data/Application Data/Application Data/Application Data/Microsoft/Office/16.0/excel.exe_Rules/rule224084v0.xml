@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224084" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.InAppAFOSuccess" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bnpw6" />
+    <UTS T="2" Id="bc9mt" />
+  </S>
+  <C T="I64" I="0" O="false" N="RedemptionResult">
+    <S T="1" F="PinResult" />
+  </C>
+  <C T="I32" I="1" O="false" N="IsSuccess">
+    <S T="2" F="ResultCode" />
+  </C>
+  <C T="W" I="2" O="false" N="StatusCode">
+    <S T="2" F="StatusCode" />
+  </C>
+  <C T="W" I="3" O="false" N="StatusMessage">
+    <S T="2" F="StatusMessage" />
+  </C>
+  <C T="U32" I="4" O="false" N="ErrorType">
+    <S T="2" F="ErrorType" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

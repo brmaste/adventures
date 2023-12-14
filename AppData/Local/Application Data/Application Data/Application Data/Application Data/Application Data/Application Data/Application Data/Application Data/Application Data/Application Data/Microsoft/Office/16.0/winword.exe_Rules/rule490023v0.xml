@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="490023" V="0" DC="SM" EN="Office.Feedback.Survey.TeachingCallout" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="dbtq1" A="dbtq2 dbs37 dbs38" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="SurveyId">
+    <S T="1" F="SurveyId" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="UniqueId">
+    <S T="1" F="UniqueId" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="true" N="CalloutShown">
+    <S T="1" F="CalloutShown" M="Ignore" />
+  </C>
+  <C T="U8" I="4" O="true" N="DismissalType">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="DismissType" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="DismissalType" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

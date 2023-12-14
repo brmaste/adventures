@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150259" V="1" DC="SM" EN="Office.PowerPoint.PPT.Shared.RevisionTracking.IncorrectClocks" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b29tw" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="LT">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="1000" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="0" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="LT">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="5000" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="1000" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="AND">
+        <L>
+          <O T="LT">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="30000" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="5000" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="AND">
+        <L>
+          <O T="LT">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="300000" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="30000" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <O T="LT">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="600000" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="300000" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="LT">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="1800000" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <S T="1" F="TimeDiffInMs" />
+            </L>
+            <R>
+              <V V="600000" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="GE">
+        <L>
+          <S T="1" F="TimeDiffInMs" />
+        </L>
+        <R>
+          <V V="1800000" T="U64" />
+        </R>
+      </O>
+    </F>
+    <A T="9" E="TelemetryShutdown" />
+    <A T="10" E="TelemetrySuspend" />
+  </S>
+  <C T="U32" I="0" O="false" N="TimeDiffMs_0s_1s">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="TimeDiffMs_1s_5s">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="TimeDiffMs_5s_30s">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="TimeDiffMs_30s_5m">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="TimeDiffMs_5m_10m">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="TimeDiffMs_10m_30m">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="TimeDiffMs_GE30m">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <T>
+    <S T="9" />
+    <S T="10" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

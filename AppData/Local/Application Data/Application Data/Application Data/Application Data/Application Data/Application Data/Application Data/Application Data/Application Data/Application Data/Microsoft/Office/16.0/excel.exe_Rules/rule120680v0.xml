@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120680" V="0" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <SS T="1" G="{b1676ac3-7fee-44a9-9a0e-dbb0b496efa5}" />
+    <R T="2" R="120682" />
+    <F T="3">
+      <O T="LT">
+        <L>
+          <S T="1" F="SysVolSize" M="Ignore" />
+        </L>
+        <R>
+          <V V="500000" T="U64" />
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="GE">
+        <L>
+          <S T="1" F="SysVolSize" M="Ignore" />
+        </L>
+        <R>
+          <V V="500000" T="U64" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <O T="MUL">
+              <L>
+                <V V="1000" T="U16" />
+              </L>
+              <R>
+                <O T="DIV">
+                  <L>
+                    <S T="3" F="SysVolSize" />
+                  </L>
+                  <R>
+                    <V V="1000" T="U16" />
+                  </R>
+                </O>
+              </R>
+            </O>
+          </L>
+          <R>
+            <O T="MUL">
+              <L>
+                <O T="MUL">
+                  <L>
+                    <V V="100" T="U8" />
+                  </L>
+                  <R>
+                    <V V="1000" T="U16" />
+                  </R>
+                </O>
+              </L>
+              <R>
+                <O T="DIV">
+                  <L>
+                    <S T="4" F="SysVolSize" />
+                  </L>
+                  <R>
+                    <V V="100000" T="U32" />
+                  </R>
+                </O>
+              </R>
+            </O>
+          </R>
+        </O>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="U64" I="1" O="false">
+    <S T="1" F="SysVolSize" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

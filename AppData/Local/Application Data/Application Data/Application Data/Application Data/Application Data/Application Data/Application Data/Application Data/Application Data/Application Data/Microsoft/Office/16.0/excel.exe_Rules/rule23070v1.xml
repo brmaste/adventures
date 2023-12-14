@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="23070" V="1" DC="SM" EN="Office.Docs.TempFileDownloadDAVFallback" ATT="c274b3e05ac5448dae8fbb7466da6acb-fd6dc8de-18b7-409c-a696-4bd66f7a5322-7902" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bppa1" A="bwt18" />
+  </S>
+  <C T="FT" I="0" O="false" N="TimeStamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

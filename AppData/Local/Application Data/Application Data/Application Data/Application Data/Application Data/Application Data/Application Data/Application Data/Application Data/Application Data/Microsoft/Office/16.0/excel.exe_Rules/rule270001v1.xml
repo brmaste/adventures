@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="270001" V="1" DC="SM" EN="Office.PowerBI.PowerBISaveClickCountV1" ATT="a396d7578da948e084182884bf406f95-7ea00771-8110-4e59-b527-f6989ea55408-6957" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Usage" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="a3l78" />
+  </S>
+  <C T="FT" I="0" O="false" N="StartTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="I32" I="1" O="false" N="TCID">
+    <S T="1" F="TCID" />
+  </C>
+  <C T="I32" I="2" O="true" N="IsFFEnabled">
+    <S T="1" F="IsFFEnabled" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

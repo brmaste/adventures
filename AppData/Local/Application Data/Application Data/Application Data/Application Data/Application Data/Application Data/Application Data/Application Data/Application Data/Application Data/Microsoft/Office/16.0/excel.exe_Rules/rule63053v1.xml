@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63053" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UCSS T="1" C="Identity Exception" S="Monitorable Unexpected" />
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="false">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="2" O="false">
+    <S T="1" F="LoggingCategory" />
+  </C>
+  <C T="TAG" I="3" O="true">
+    <S T="1" F="ExceptionTag" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="false">
+    <S T="1" F="Type" />
+  </C>
+  <C T="U64" I="5" O="false">
+    <S T="1" F="Error" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

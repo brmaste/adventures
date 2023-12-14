@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63046" V="10" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="bb9ef" A="azusw a18zb ax73j awuxy awupo bex9n awuxx azusx bb9eg awupn bb0g8 a99q0 bqo4s bdvux bdvuy awutc bdvuz awutd bdvu0 bdvu1 bjljc bjljd bjlje bjljf" />
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="false">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="2" O="true">
+    <S T="1" F="Target" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true">
+    <S T="1" F="Policy" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true">
+    <S T="1" F="IdentityMetadata_IdentityProviderType" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="1" F="IdentityMetadata_IdentityErrorState" M="Ignore" />
+          </L>
+          <R>
+            <S T="1" F="ErrorState" M="Ignore" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <S T="1" F="IdentityErrorState" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="G" I="6" O="true">
+    <S T="1" F="IdentityMetadata_UniqueId" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true">
+    <S T="1" F="HRESULT" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true">
+    <S T="1" F="ErrorBucket" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true">
+    <S T="1" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true">
+    <S T="1" F="ServiceId" M="Ignore" />
+  </C>
+  <C T="I32" I="11" O="true">
+    <S T="1" F="SH_ErrorCode" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

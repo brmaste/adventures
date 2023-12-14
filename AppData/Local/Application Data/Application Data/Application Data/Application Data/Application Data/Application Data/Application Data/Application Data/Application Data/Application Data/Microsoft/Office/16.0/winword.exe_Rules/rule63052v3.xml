@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63052" V="3" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UCSS T="1" C="ADAL Authentication" S="Monitorable" />
+    <UCSS T="2" C="Identity Accounts Control" S="Monitorable" />
+    <UCSS T="3" C="IdentityADALClient" S="Monitorable" />
+    <UCSS T="4" C="IdentityADALClientCritical" S="Monitorable" />
+    <UCSS T="5" C="Identity Authentication Client" S="Monitorable" />
+    <UCSS T="6" C="Identity Authentication Client Critical" S="Monitorable" />
+    <UCSS T="7" C="IdentityAuthenticationCredStore" S="Monitorable" />
+    <UCSS T="8" C="Identity Authentication CredSync" S="Monitorable" />
+    <UCSS T="9" C="Identity Authentication CredUtil" S="Monitorable" />
+    <UCSS T="10" C="IdentityConnectedAccount" S="Monitorable" />
+    <UCSS T="11" C="IdentityConnectedAccountCritical" S="Monitorable" />
+    <UCSS T="12" C="Identity Credentials Client" S="Monitorable" />
+    <UCSS T="13" C="Identity Critical Error" S="Monitorable" />
+    <UCSS T="14" C="Identity DocToIdentityMapping" S="Monitorable" />
+    <UCSS T="15" C="IdentityDocToServiceMapping" S="Monitorable" />
+    <UCSS T="16" C="Identity Exception" S="Monitorable" />
+    <UCSS T="17" C="Identity Http Client" S="Monitorable" />
+    <UCSS T="18" C="Identity LiveOAuth Client" S="Monitorable" />
+    <UCSS T="19" C="IdentityPublicApi" S="Monitorable" />
+    <UCSS T="20" C="Identity SharedCred Client" S="Monitorable" />
+    <UCSS T="21" C="IdentityShipAssert" S="Monitorable" />
+    <UCSS T="22" C="Identity SignIn" S="Monitorable" />
+    <UCSS T="23" C="Identity OAuth2" S="Monitorable" />
+    <UCSS T="24" C="Identity Third Party" S="Monitorable" />
+    <UCSS T="25" C="Roaming" S="Monitorable" />
+    <UCSS T="26" C="MruServiceApi" S="Monitorable" />
+    <US T="27">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+      <S T="10" />
+      <S T="11" />
+      <S T="12" />
+      <S T="13" />
+      <S T="14" />
+      <S T="15" />
+      <S T="16" />
+      <S T="17" />
+      <S T="18" />
+      <S T="19" />
+      <S T="20" />
+      <S T="21" />
+      <S T="22" />
+      <S T="23" />
+      <S T="24" />
+      <S T="25" />
+      <S T="26" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="27" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="false">
+    <S T="27" F="ULS_Category" />
+  </C>
+  <C T="W" I="2" O="false">
+    <S T="27" F="ULS_TagId" />
+  </C>
+  <C T="I32" I="3" O="true">
+    <S T="27" F="SH_ErrorId" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true">
+    <S T="27" F="SH_ErrorCode" M="Ignore" />
+  </C>
+  <T>
+    <S T="27" />
+  </T>
+</R>

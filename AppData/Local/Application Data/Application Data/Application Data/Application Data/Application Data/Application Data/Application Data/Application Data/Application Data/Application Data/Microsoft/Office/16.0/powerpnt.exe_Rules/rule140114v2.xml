@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140114" V="2" DC="SM" EN="Office.PowerPoint.PPT.Desktop.DesignerDisplaySuggestionStats" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a8ues" A="a44ww iclgn" />
+  </S>
+  <C T="U64" I="0" O="true" N="TimeTakenToGetSuggestionsInMS">
+    <S T="1" F="TimeTakenToGetSuggestionsInMS " />
+  </C>
+  <C T="U64" I="1" O="true" N="TimeOutInMs">
+    <S T="1" F="TimeOutInMs " />
+  </C>
+  <C T="G" I="2" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

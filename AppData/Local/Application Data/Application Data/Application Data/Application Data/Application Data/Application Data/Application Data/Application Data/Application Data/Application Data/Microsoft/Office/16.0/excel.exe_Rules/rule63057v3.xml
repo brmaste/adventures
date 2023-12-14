@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63057" V="3" DC="SM" EN="Office.Identity.AdalCreateCredProvider" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="befh1" A="befho" />
+    <UTS T="2" Id="a2otw" A="befhp" />
+    <UTS T="3" Id="befh2" A="befhq" />
+    <UTS T="4" Id="befh3" A="befhr" />
+    <UTS T="5" Id="a2otx" A="befhs" />
+    <UTS T="6" Id="befhk" />
+    <US T="7">
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+    </US>
+    <A T="8" E="TelemetryShutdown" />
+    <TO T="9" I="10min">
+      <S T="1" />
+    </TO>
+  </S>
+  <C T="TAG" I="0" O="false" N="StartTag">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="TAG" I="1" O="true" N="EndTag">
+    <S T="7" F="ULS_Tag" />
+  </C>
+  <C T="G" I="2" O="true" N="InitialState_IdentityUniqueID">
+    <S T="1" F="IdentityMetadata_UniqueId" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="InitialState_IdentityProviderType">
+    <S T="1" F="IdentityMetadata_IdentityProviderType" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="InitialState_IdentityErrorState">
+    <S T="1" F="IdentityMetadata_IdentityErrorState" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="InitialState_IdentityIsSignedOut">
+    <S T="1" F="IdentityMetadata_IsSignedOut" M="Ignore" />
+  </C>
+  <C T="G" I="6" O="true" N="EndState_IdentityUniqueID">
+    <S T="7" F="IdentityMetadata_UniqueId" M="Ignore" />
+  </C>
+  <C T="W" I="7" O="true" N="EndState_IdentityErrorState">
+    <S T="7" F="IdentityMetadata_IdentityErrorState" M="Ignore" />
+  </C>
+  <C T="FT" I="8" O="false" N="StartTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="9" O="true" N="EndTime">
+    <S T="7" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="10" O="true" N="SessionEndTime">
+    <S T="8" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="11" O="true" N="Timeout">
+    <S T="9" F="TimeStamp100ns" />
+  </C>
+  <C T="U64" I="12" O="true" N="LastLoginDelta">
+    <S T="6" F="LastLoginDelta" />
+  </C>
+  <T>
+    <S T="7" />
+    <S T="8" />
+    <S T="9" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170050" V="2" DC="SM" EN="Office.Graphics.SVGStats" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjjme" />
+  </S>
+  <C T="U32" I="0" O="true" N="SVGFileCount">
+    <S T="1" F="SVG_File_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="TotalTagCount">
+    <S T="1" F="SVG_Elements_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="FilterBlendCount">
+    <S T="1" F="SVG_Filter_Blend_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="FilterMatrixCount">
+    <S T="1" F="SVG_Filter_ColorMatrix_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="ComponentTransferCount">
+    <S T="1" F="SVG_Filter_ComponentTransfer_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="CompositeCount">
+    <S T="1" F="SVG_Filter_Composite_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="ConvolveMatrixCount">
+    <S T="1" F="SVG_Filter_ConvolveMatrix_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="DiffuseLightingCount">
+    <S T="1" F="SVG_Filter_DiffuseLighting_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="DisplacementMapCount">
+    <S T="1" F="SVG_Filter_DisplacementMap_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="FloodCount">
+    <S T="1" F="SVG_Filter_Flood_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="GaussianBlurCount">
+    <S T="1" F="SVG_Filter_GaussianBlur_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="ImageCount">
+    <S T="1" F="SVG_Filter_Image_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="MergeCount">
+    <S T="1" F="SVG_Filter_Merge_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="MorphologyCount">
+    <S T="1" F="SVG_Filter_Morphology_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="OffsetCount">
+    <S T="1" F="SVG_Filter_Offset_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="SpecularLightingCount">
+    <S T="1" F="SVG_Filter_SpecularLighting_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="TileCount">
+    <S T="1" F="SVG_Filter_Tile_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="17" O="true" N="TurbulenceCount">
+    <S T="1" F="SVG_Filter_Turbulence_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="FontTagCount">
+    <S T="1" F="Unsupported_Font_Elements_Total_Count" M="Ignore" />
+  </C>
+  <C T="U32" I="19" O="true" N="TextPathTagCount">
+    <S T="1" F="Unsupported_TextPath_Elements_Total_Count" M="Ignore" />
+  </C>
+  <C T="W" I="20" O="true" N="ColorCountBucket">
+    <S T="1" F="Color_Count_Bucket" M="Ignore" />
+  </C>
+  <C T="U32" I="21" O="true" N="UniqueColorCount">
+    <S T="1" F="Unique_Color_Count" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

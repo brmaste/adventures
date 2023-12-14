@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170024" V="2" DC="SM" EN="Office.Graphics.GVisShapeLoadPassthrough" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a4xg1" />
+  </S>
+  <C T="FT" I="0" O="false" N="Time">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="true" N="Name">
+    <S T="1" F="DrEl_TName" />
+  </C>
+  <C T="U32" I="2" O="true" N="Id">
+    <S T="1" F="DrEl_Id" />
+  </C>
+  <C T="U32" I="3" O="false" N="Interval">
+    <S T="1" F="Intv" />
+  </C>
+  <C T="U32" I="4" O="true" N="WidthEMU">
+    <S T="1" F="DrEl_W" />
+  </C>
+  <C T="U32" I="5" O="true" N="HeightEMU">
+    <S T="1" F="DrEl_H" />
+  </C>
+  <C T="W" I="6" O="true" N="Type">
+    <S T="1" F="DrEl_Type" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="Textbox">
+    <S T="1" F="DrEl_Txtbox" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="Line">
+    <S T="1" F="Prop_Line" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="Style">
+    <S T="1" F="Prop_Style" M="Ignore" />
+  </C>
+  <C T="B" I="10" O="true" N="Fill">
+    <S T="1" F="Prop_Fill" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="ThreeD">
+    <S T="1" F="Prop_3D" M="Ignore" />
+  </C>
+  <C T="B" I="12" O="true" N="Reflection">
+    <S T="1" F="Prop_Reflection" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="Shadow">
+    <S T="1" F="Prop_Shadow" M="Ignore" />
+  </C>
+  <C T="B" I="14" O="true" N="SoftEdges">
+    <S T="1" F="Prop_SoftEdges" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="Glow">
+    <S T="1" F="Prop_Glow" M="Ignore" />
+  </C>
+  <C T="W" I="16" O="true" N="FontFace">
+    <S T="1" F="Text_FontFace" M="Ignore" />
+  </C>
+  <C T="F" I="17" O="true" N="FontSize">
+    <S T="1" F="Text_FontSize" M="Ignore" />
+  </C>
+  <C T="W" I="18" O="true" N="FoDocumentId">
+    <S T="1" F="Text_FoDocumentId" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

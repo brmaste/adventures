@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="118916" V="2" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <R T="1" R="110234" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+    <TI T="4" I="30s" />
+  </S>
+  <C T="U64" I="0" O="false">
+    <S T="1" F="0" />
+  </C>
+  <C T="U64" I="1" O="false">
+    <S T="1" F="1" />
+  </C>
+  <C T="U64" I="2" O="false">
+    <S T="1" F="2" />
+  </C>
+  <C T="U64" I="3" O="false">
+    <S T="1" F="3" />
+  </C>
+  <C T="U64" I="4" O="false">
+    <S T="1" F="4" />
+  </C>
+  <C T="G" I="5" O="false">
+    <S T="1" F="5" />
+  </C>
+  <C T="W" I="6" O="false">
+    <S T="1" F="6" />
+  </C>
+  <C T="B" I="7" O="false">
+    <S T="1" F="7" />
+  </C>
+  <C T="B" I="8" O="false">
+    <S T="1" F="8" />
+  </C>
+  <C T="B" I="9" O="false">
+    <S T="1" F="9" />
+  </C>
+  <C T="B" I="10" O="false">
+    <S T="1" F="10" />
+  </C>
+  <C T="B" I="11" O="false">
+    <S T="1" F="11" />
+  </C>
+  <C T="B" I="12" O="true">
+    <S T="1" F="12" M="Ignore" />
+  </C>
+  <C T="U64" I="13" O="true">
+    <S T="1" F="13" M="Ignore" />
+  </C>
+  <C T="U16" I="14" O="true">
+    <S T="1" F="14" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true">
+    <S T="1" F="15" M="Ignore" />
+  </C>
+  <C T="B" I="16" O="true">
+    <S T="1" F="16" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

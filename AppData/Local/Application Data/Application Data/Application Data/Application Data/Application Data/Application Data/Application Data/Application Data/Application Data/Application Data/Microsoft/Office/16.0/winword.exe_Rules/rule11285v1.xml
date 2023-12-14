@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11285" V="1" DC="SM" EN="Office.Outlook.Desktop.ContactCard2OverflowMenuClickCounts" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="blelm" />
+    <UTS T="4" Id="buk0f" />
+    <UTS T="5" Id="buk0m" />
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="4" F="eventId" />
+        </L>
+        <R>
+          <V V="135" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27852" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27853" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="24216" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27861" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27862" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27863" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27864" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27865" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27866" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27867" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27868" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27883" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27884" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27885" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27886" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="22">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27880" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="23">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27881" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="24">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27882" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="25">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27859" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="26">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="27860" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="27">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="22372" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="28">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="16610" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="29">
+      <O T="EQ">
+        <L>
+          <S T="5" F="tcid" />
+        </L>
+        <R>
+          <V V="16611" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="OverflowMenuDroppedCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="AddToOutlookContactsCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="EditOutlookContactCount">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="ContactLinkingCount">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="GroupConversationCount">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="GroupCalendarCount">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="GroupFilesCount">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="GroupNotebookCount">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="GroupPlannerCount">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="GroupSiteCount">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="GroupAddMembersCount">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="GroupEditCount">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="CallWorkCount">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="CallMobileCount">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="CallHomeCount">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="CallOtherCount">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="CallComputerCount">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="CallNewNumberCount">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="CallVoiceMailCount">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="ViewSourceInContactInspectorCount">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="20" O="false" N="ViewSourceInBrowserCount">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <C T="U32" I="21" O="false" N="AddToFavoritesCount">
+    <C>
+      <S T="27" />
+    </C>
+  </C>
+  <C T="U32" I="22" O="false" N="TagForAlertsCount">
+    <C>
+      <S T="28" />
+    </C>
+  </C>
+  <C T="U32" I="23" O="false" N="UntagForAlertsCount">
+    <C>
+      <S T="29" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

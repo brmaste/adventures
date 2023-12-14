@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="90401" V="3" DC="ESM" EN="Office.Telemetry.SamplingPolicy" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" DL="A" DCa="PSP PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="c57bd" />
+    <R T="2" R="120100" />
+    <SS T="3" G="{805a23b4-c402-413c-bc13-1861553d4b03}" />
+  </S>
+  <C T="W" I="0" O="false" N="SamplingMethod">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="SamplingMethod" M="Ignore" />
+      </L>
+      <R>
+        <V V="Unknown" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="1" O="false" N="SamplingKey">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="SamplingKey" M="Ignore" />
+      </L>
+      <R>
+        <V V="Unknown" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="2" O="false" N="MeasuresEnabled">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="MeasuresEnabled" M="Ignore" />
+      </L>
+      <R>
+        <V V="true" T="B" />
+      </R>
+    </O>
+  </C>
+  <C T="D" I="3" O="true" N="SamplingClientIdValue">
+    <S T="3" F="SamplingClientIdValue" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

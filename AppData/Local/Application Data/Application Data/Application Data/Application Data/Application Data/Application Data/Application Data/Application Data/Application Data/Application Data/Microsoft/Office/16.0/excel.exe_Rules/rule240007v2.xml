@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240007" V="2" DC="SM" EN="Office.Security.GkDesktop" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a4sca" />
+    <UTS T="2" Id="a4sb8" />
+    <UTS T="3" Id="a4sb9" />
+    <UTS T="4" Id="a4scb" />
+    <UTS T="5" Id="a4scc" />
+    <US T="6">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+    </US>
+  </S>
+  <C T="TAG" I="0" O="false" N="GkOutcomeTag">
+    <S T="6" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="1" O="true" N="ErrorType">
+    <S T="2" F="ErrorType" />
+  </C>
+  <C T="U32" I="2" O="true" N="Status">
+    <S T="2" F="Status" />
+  </C>
+  <C T="U32" I="3" O="true" N="ContentType">
+    <S T="2" F="Content Type" />
+  </C>
+  <C T="U32" I="4" O="true" N="FileType">
+    <S T="2" F="File Type" />
+  </C>
+  <C T="U32" I="5" O="true" N="ClientData">
+    <S T="2" F="Client Data" />
+  </C>
+  <C T="U32" I="6" O="true" N="GkDuration">
+    <S T="2" F="Gatekeeper Duration (ms)" />
+  </C>
+  <C T="I32" I="7" O="true" N="Location">
+    <S T="2" F="Location" />
+  </C>
+  <C T="U64" I="8" O="true" N="FileSize">
+    <S T="5" F="File Size" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="OpenDurationMs">
+    <S T="5" F="File Open Duration (ms)" M="Ignore" />
+  </C>
+  <C T="FT" I="10" O="false" N="CollectionTime">
+    <S T="6" F="TimeStamp100ns" />
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+</R>

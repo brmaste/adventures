@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170048" V="0" DC="SM" EN="Office.Graphics.BGRWithBrush" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bi7up" />
+  </S>
+  <C T="B" I="0" O="true" N="BrushExperience">
+    <S T="1" F="Brush Experience" />
+  </C>
+  <C T="B" I="1" O="true" N="BgRemovalUsingDrag">
+    <S T="1" F="Bg Removal Using Drag" />
+  </C>
+  <C T="B" I="2" O="true" N="ChangesAccepted">
+    <S T="1" F="Changes Accepted" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

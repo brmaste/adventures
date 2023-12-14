@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10829" V="1" DC="SM" EN="Office.Outlook.Desktop.Outlook.Logging.Metrics" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="21000" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <Etw T="2" E="21001" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <Etw T="3" E="21002" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <Etw T="4" E="21004" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <Etw T="5" E="21005" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <Etw T="6" E="21007" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <Etw T="7" E="21008" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <Etw T="8" E="21014" G="{691e1c12-2693-4d4a-852c-7478657bbe6e}" />
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="7" F="Canceled" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="7" F="Canceled" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U64" I="0" O="false" N="Size_Min_K">
+    <S T="1" F="MinSize" />
+  </C>
+  <C T="U64" I="1" O="false" N="Size_Max_K">
+    <S T="1" F="MaxSize" />
+  </C>
+  <C T="U64" I="2" O="false" N="Size_Avg_K">
+    <S T="1" F="Average" />
+  </C>
+  <C T="U64" I="3" O="false" N="Duration_Min_Minutes">
+    <S T="3" F="MinDuration" />
+  </C>
+  <C T="U64" I="4" O="false" N="Duration_Max_Minutes">
+    <S T="3" F="MaxDuration" />
+  </C>
+  <C T="U64" I="5" O="false" N="Duration_Avg_Minutes">
+    <S T="3" F="Average" />
+  </C>
+  <C T="U64" I="6" O="false" N="Events_Min">
+    <S T="2" F="MinEvents" />
+  </C>
+  <C T="U64" I="7" O="false" N="Events_Max">
+    <S T="2" F="MaxEvents" />
+  </C>
+  <C T="U64" I="8" O="false" N="Events_Avg">
+    <S T="2" F="Average" />
+  </C>
+  <C T="U32" I="9" O="true" N="Purged_Age">
+    <S T="4" F="Count" />
+  </C>
+  <C T="U32" I="10" O="true" N="Purged_Count">
+    <S T="5" F="Count" />
+  </C>
+  <C T="U32" I="11" O="true" N="File_Count">
+    <S T="8" F="Count" />
+  </C>
+  <C T="FT" I="12" O="false" N="Start_Time">
+    <S T="6" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="13" O="false" N="End_Time">
+    <S T="7" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="14" O="false" N="Log_Profile">
+    <O T="COALESCE">
+      <L>
+        <S T="10" F="CurrentLogProfile" />
+      </L>
+      <R>
+        <V V="-unknown-" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="10" />
+  </T>
+  <R>
+    <S T="9" />
+  </R>
+  <ST>
+    <S T="6" />
+  </ST>
+</R>

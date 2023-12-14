@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11989" V="0" DC="SM" EN="Office.Outlook.Desktop.NDBCorruptStoreRuleSampled" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="319" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+  </S>
+  <C T="U32" I="0" O="false" N="Context">
+    <S T="1" F="Context" />
+  </C>
+  <C T="U32" I="1" O="false" N="NdbType">
+    <S T="1" F="NdbType" />
+  </C>
+  <C T="U32" I="2" O="false" N="Version">
+    <S T="1" F="Version" />
+  </C>
+  <C T="U32" I="3" O="true" N="CreatedWithVersion">
+    <S T="1" F="CreatedWithVersion" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

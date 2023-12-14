@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170014" V="4" DC="SM" EN="Office.Graphics.GVizClipboardDataDeliveryStart" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" S="500" DCa="PSU" xmlns="">
+  <S>
+    <UCSS T="1" C="OART Clipboard" S="Monitorable Unexpected" />
+    <F T="2">
+      <O T="NE">
+        <L>
+          <S T="1" F="ULS_TagId" />
+        </L>
+        <R>
+          <V V="aw1jo" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_TagId" />
+        </L>
+        <R>
+          <V V="aw1jo" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="W" I="0" O="false" N="ULS_TagId">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="W" I="1" O="true" N="AdvertisedFormats">
+    <S T="1" F="AdvertisedFormats" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="SelectedFormat">
+    <S T="1" F="SelectedFormat" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="Codepath">
+    <S T="1" F="Codepath" M="Ignore" />
+  </C>
+  <C T="B" I="4" O="true" N="Synchronous">
+    <S T="1" F="Synchronous" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="FailureInt">
+    <S T="2" F="Failure" M="Ignore" />
+  </C>
+  <C T="W" I="6" O="true" N="FailureString">
+    <S T="3" F="Failure" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

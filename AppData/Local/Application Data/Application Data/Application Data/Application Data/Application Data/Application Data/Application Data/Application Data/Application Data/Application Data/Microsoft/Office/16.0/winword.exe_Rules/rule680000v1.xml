@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="680000" V="1" DC="SM" EN="Office.Translator.ShouldOpenTranslatorTeachingCallout" ATT="e91bcbbe30e44ab28e2e2bce83d446e5-a779473f-d500-4783-ae33-75fd57efee29-6985" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cmn7z" />
+  </S>
+  <C T="B" I="0" O="false" N="ShouldOpenTeachingCallout">
+    <S T="1" F="ShouldOpenTeachingCallout" />
+  </C>
+  <C T="W" I="1" O="true" N="MaxLangTag">
+    <S T="1" F="MaxLangTag" />
+  </C>
+  <C T="U32" I="2" O="false" N="MaxLangTagPercent">
+    <S T="1" F="MaxLangTagPercent" />
+  </C>
+  <C T="W" I="3" O="true" N="SecondMaxLangTag">
+    <S T="1" F="SecondMaxLangTag" />
+  </C>
+  <C T="U32" I="4" O="false" N="SecondMaxLangTagPercent">
+    <S T="1" F="SecondMaxLangTagPercent" />
+  </C>
+  <C T="W" I="5" O="true" N="ThirdMaxLangTag">
+    <S T="1" F="ThirdMaxLangTag" />
+  </C>
+  <C T="U32" I="6" O="false" N="ThirdMaxLangTagPercent">
+    <S T="1" F="ThirdMaxLangTagPercent" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

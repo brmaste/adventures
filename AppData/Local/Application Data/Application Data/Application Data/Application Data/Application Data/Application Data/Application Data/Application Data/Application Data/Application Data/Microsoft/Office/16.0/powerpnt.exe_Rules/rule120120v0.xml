@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120120" V="0" DC="ESM" EN="Office.System.SystemHealthEssentialIdentityCount" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalCensus" DL="A" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bisbj" />
+    <R T="2" R="120120" />
+    <R T="3" R="120100" />
+  </S>
+  <C T="U64" I="0" O="false" N="ValidIdentityCount">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="ValidIdentityCount" />
+      </L>
+      <R>
+        <S T="2" F="0" />
+      </R>
+    </O>
+  </C>
+  <C T="U64" I="1" O="false" N="AllIdentityCount">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="AllIdentityCount" />
+      </L>
+      <R>
+        <S T="2" F="1" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

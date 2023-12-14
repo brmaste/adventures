@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11770" V="0" DC="SM" EN="Office.Outlook.Desktop.PeopleSearchResultsReturned" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cu5of" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+    <F T="4">
+      <O T="GE">
+        <L>
+          <S T="1" F="TotalResultsFound" />
+        </L>
+        <R>
+          <V V="1" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="AND">
+        <L>
+          <O T="LE">
+            <L>
+              <S T="1" F="TotalResultsFound" />
+            </L>
+            <R>
+              <V V="0" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <S T="1" F="UnfinishedSources" />
+            </L>
+            <R>
+              <V V="1" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <O T="LE">
+            <L>
+              <S T="1" F="TotalResultsFound" />
+            </L>
+            <R>
+              <V V="0" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LE">
+            <L>
+              <S T="1" F="UnfinishedSources" />
+            </L>
+            <R>
+              <V V="0" T="I32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountOfFoundResults">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="I32" I="1" O="true" N="FoundResults_MinTotalResultsFound">
+    <A T="MIN">
+      <S T="4" F="TotalResultsFound" />
+    </A>
+  </C>
+  <C T="I32" I="2" O="true" N="FoundResults_MaxTotalResultsFound">
+    <A T="MAX">
+      <S T="4" F="TotalResultsFound" />
+    </A>
+  </C>
+  <C T="F" I="3" O="true" N="FoundResults_AvgTotalResultsFound">
+    <A T="AVG">
+      <S T="4" F="TotalResultsFound" />
+    </A>
+  </C>
+  <C T="I32" I="4" O="true" N="FoundResults_MinUnfinishedSources">
+    <A T="MIN">
+      <S T="4" F="UnfinishedSources" />
+    </A>
+  </C>
+  <C T="I32" I="5" O="true" N="FoundResults_MaxUnfinishedSources">
+    <A T="MAX">
+      <S T="4" F="UnfinishedSources" />
+    </A>
+  </C>
+  <C T="F" I="6" O="true" N="FoundResults_AvgUnfinishedSources">
+    <A T="AVG">
+      <S T="4" F="UnfinishedSources" />
+    </A>
+  </C>
+  <C T="I32" I="7" O="true" N="FoundResults_MinTotalSourcesUsed">
+    <A T="MIN">
+      <S T="4" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="I32" I="8" O="true" N="FoundResults_MaxTotalSourcesUsed">
+    <A T="MAX">
+      <S T="4" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="F" I="9" O="true" N="FoundResults_AvgTotalSourcesUsed">
+    <A T="AVG">
+      <S T="4" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="U32" I="10" O="false" N="CountOfNoResultsUnfinishedSources">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="I32" I="11" O="true" N="NoResultsUnfinishedSources_MinUnfinishedSources">
+    <A T="MIN">
+      <S T="5" F="UnfinishedSources" />
+    </A>
+  </C>
+  <C T="I32" I="12" O="true" N="NoResultsUnfinishedSources_MaxUnfinishedSources">
+    <A T="MAX">
+      <S T="5" F="UnfinishedSources" />
+    </A>
+  </C>
+  <C T="F" I="13" O="true" N="NoResultsUnfinishedSources_AvgUnfinishedSources">
+    <A T="AVG">
+      <S T="5" F="UnfinishedSources" />
+    </A>
+  </C>
+  <C T="I32" I="14" O="true" N="NoResultsUnfinishedSources_MinTotalSourcesUsed">
+    <A T="MIN">
+      <S T="5" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="I32" I="15" O="true" N="NoResultsUnfinishedSources_MaxTotalSourcesUsed">
+    <A T="MAX">
+      <S T="5" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="F" I="16" O="true" N="NoResultsUnfinishedSources_AvgTotalSourcesUsed">
+    <A T="AVG">
+      <S T="5" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="U32" I="17" O="false" N="CountOfNoResultsAllSourcesFinished">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="I32" I="18" O="true" N="NoResultsAllSourcesFinished_MinTotalSourcesUsed">
+    <A T="MIN">
+      <S T="6" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="I32" I="19" O="true" N="NoResultsAllSourcesFinished_MaxTotalSourcesUsed">
+    <A T="MAX">
+      <S T="6" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <C T="F" I="20" O="true" N="NoResultsAllSourcesFinished_AvgTotalSourcesUsed">
+    <A T="AVG">
+      <S T="6" F="TotalSourcesUsed" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224085" V="0" DC="SM" EN="Office.Licensing.PreExpirationBusBarInteraction" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" S="1" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a4673" />
+    <UTS T="2" Id="a468a" />
+    <UTS T="3" Id="a5ri8" />
+    <TI T="4" I="30min" />
+    <A T="5" E="TelemetrySuspend" />
+    <A T="6" E="TelemetryShutdown" />
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="1" F="PartType" />
+        </L>
+        <R>
+          <V V="40" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="2" F="ButtonAction" />
+        </L>
+        <R>
+          <V V="Buy" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="2" F="ButtonAction" />
+        </L>
+        <R>
+          <V V="Remind Me Later" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="3" F="PartType" />
+        </L>
+        <R>
+          <V V="40" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="true" N="TimeUntilRemindMeLater">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="9" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="7" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <C T="U32" I="1" O="true" N="TimeUntilClose">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="3" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="7" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <C T="U32" I="2" O="true" N="TimeUntilBuy">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="8" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="7" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <C T="U32" I="3" O="false" N="CountDisplay">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="CountBuyNowClick">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CountRemindMeLaterClick">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="CountClose">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+    <S T="6" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

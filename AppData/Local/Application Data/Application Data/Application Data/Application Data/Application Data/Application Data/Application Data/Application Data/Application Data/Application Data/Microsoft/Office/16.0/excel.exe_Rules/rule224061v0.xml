@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224061" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.OOBE.Closed" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a7op4" />
+    <UTS T="2" Id="a7oqa" />
+    <UTS T="3" Id="a7oqj" />
+    <UTS T="4" Id="a7opw" />
+    <UTS T="5" Id="a7opz" />
+    <UTS T="6" Id="bhcnc" />
+    <UTS T="7" Id="a7op7" />
+    <F T="8">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="1" F="Destination" />
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LE">
+            <L>
+              <S T="1" F="Destination" />
+            </L>
+            <R>
+              <V V="3" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <US T="9">
+      <S T="8" />
+      <S T="2" />
+      <S T="3" />
+      <S T="6" />
+    </US>
+  </S>
+  <C T="W" I="0" O="false" N="OOBEInitial">
+    <S T="4" F="Mode" />
+  </C>
+  <C T="U32" I="1" O="true" N="LastPage">
+    <S T="9" F="Destination" M="Ignore" />
+  </C>
+  <C T="B" I="2" O="true" N="OOBESuccess">
+    <O T="EQ">
+      <L>
+        <S T="7" F="ULS_TagId" M="Ignore" />
+      </L>
+      <R>
+        <V V="a7op7" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+  <ST>
+    <S T="4" />
+  </ST>
+</R>

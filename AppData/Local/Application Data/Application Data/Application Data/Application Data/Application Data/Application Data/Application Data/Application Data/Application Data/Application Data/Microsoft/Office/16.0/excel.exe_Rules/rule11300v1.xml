@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11300" V="1" DC="SM" EN="Office.Outlook.Desktop.ContactCard2TabUsage" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="bv5y1" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="0" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="1" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="2" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="3" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="4" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="5" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="6" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="7" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="8" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="9" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="10" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="11" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="12" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="3" F="tabId" />
+        </L>
+        <R>
+          <V V="13" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="PanelsTabCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="ProfileTabCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="NotesTabCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="OrgTabCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="MembersTabCount">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="GroupTabCount">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="FeedsTabCount">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="MemberOfTabCount">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="UnifiedGroupRelationshipTabCount">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="UnifiedGroupTabCount">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="UnifiedGroupMembersTabCount">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="EditProfileTabCount">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="LinkedInSearchResultsTabCount">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="LinkedInProfileTabCount">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140133" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.RPVInkUI" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bk7aq" />
+  </S>
+  <C T="U8" I="0" O="false" N="InkType">
+    <S T="1" F="InkType" />
+  </C>
+  <C T="I32" I="1" O="false" N="InkColor">
+    <S T="1" F="InkColor" />
+  </C>
+  <C T="B" I="2" O="false" N="IsRecording">
+    <S T="1" F="IsRecording" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

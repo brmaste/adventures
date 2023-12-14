@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170012" V="8" DC="SM" EN="Office.Graphics.GVizInkStroke" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bgwr8" A="aqxmg" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="InkAction" />
+        </L>
+        <R>
+          <V V="StylusUp" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="W" I="0" O="false" N="InputType">
+    <S T="2" F="InputType" />
+  </C>
+  <C T="W" I="1" O="false" N="PenTip">
+    <S T="2" F="PenTip" />
+  </C>
+  <C T="U8" I="2" O="false" N="RGB_R">
+    <S T="2" F="RGB_R" />
+  </C>
+  <C T="U8" I="3" O="false" N="RGB_G">
+    <S T="2" F="RGB_G" />
+  </C>
+  <C T="U8" I="4" O="false" N="RGB_B">
+    <S T="2" F="RGB_B" />
+  </C>
+  <C T="B" I="5" O="true" N="IsDirectInk">
+    <S T="2" F="IsDirectInk" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="UsingTrackpadMode">
+    <S T="2" F="UsingTrackpadMode" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="IsAnimated">
+    <S T="2" F="IsAnimated" M="Ignore" />
+  </C>
+  <C T="W" I="8" O="true" N="AnimationName">
+    <S T="2" F="AnimationName" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="PenIndex">
+    <S T="2" F="PenIndex" M="Ignore" />
+  </C>
+  <C T="F" I="10" O="true" N="Width">
+    <S T="2" F="Width" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="IsTouchDevice">
+    <S T="2" F="IsTouchDevice" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

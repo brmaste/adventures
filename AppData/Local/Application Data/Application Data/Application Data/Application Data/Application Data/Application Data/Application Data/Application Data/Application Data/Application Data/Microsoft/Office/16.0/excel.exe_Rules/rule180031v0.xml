@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180031" V="0" DC="SM" EN="Office.Excel.XlWBSlicerViewsUsagePassthrough" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ULS_Category" />
+            </L>
+            <R>
+              <V V="Xl Workbook Structure" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Table" />
+            </L>
+            <R>
+              <V V="SlicerViews" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="I32" I="1" O="false" N="SlicerViewId">
+    <S T="2" F="SlicerViewId" />
+  </C>
+  <C T="I32" I="2" O="false" N="SheetId">
+    <S T="2" F="SheetId" />
+  </C>
+  <C T="W" I="3" O="false" N="WorkbookId">
+    <S T="2" F="WorkbookId" />
+  </C>
+  <C T="I32" I="4" O="false" N="SlicerCacheId">
+    <S T="2" F="SlicerCacheId" />
+  </C>
+  <C T="I32" I="5" O="false" N="ItemCount">
+    <S T="2" F="ItemCount" />
+  </C>
+  <C T="I32" I="6" O="false" N="SelectedItemCount">
+    <S T="2" F="SelectedItemCount" />
+  </C>
+  <C T="I32" I="7" O="true" N="TimelineLevel">
+    <S T="2" F="TimelineLevel" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="IsVisuallySupported">
+    <S T="2" F="IsVisuallySupported" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

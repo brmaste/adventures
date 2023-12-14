@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="270006" V="3" DC="SM" EN="Office.PowerBI.PowerBIPublishingFailureV3" ATT="a396d7578da948e084182884bf406f95-7ea00771-8110-4e59-b527-f6989ea55408-6957" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjvi7" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="false" N="Message">
+    <S T="1" F="Message" />
+  </C>
+  <C T="I32" I="2" O="false" N="PublishingState">
+    <S T="1" F="PublishingState" />
+  </C>
+  <C T="U32" I="3" O="false" N="ErrorInfo">
+    <S T="1" F="ErrorInfo" />
+  </C>
+  <C T="W" I="4" O="true" N="ExceptionCode">
+    <S T="1" F="ExceptionCode" />
+  </C>
+  <C T="U64" I="5" O="true" N="DocPtr">
+    <S T="1" F="DocPtr" />
+  </C>
+  <C T="W" I="6" O="true" N="RequestId">
+    <S T="1" F="RequestId" />
+  </C>
+  <C T="W" I="7" O="true" N="ActivityId">
+    <S T="1" F="ActivityId" />
+  </C>
+  <C T="I32" I="8" O="true" N="StatusFlag">
+    <S T="1" F="StatusFlag" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="IsGroup">
+    <S T="1" F="IsGroup" M="Ignore" />
+  </C>
+  <C T="I32" I="10" O="true" N="IsFFEnabled">
+    <S T="1" F="IsFFEnabled" M="Ignore" />
+  </C>
+  <C T="I32" I="11" O="true" N="CallbackOperationType">
+    <S T="1" F="OperationType" M="Ignore" />
+  </C>
+  <C T="I32" I="12" O="true" N="IsLocalFilesSupportEnabled">
+    <S T="1" F="IsLocalFilesSupportEnabled" M="Ignore" />
+  </C>
+  <C T="I32" I="13" O="true" N="IsLocalFile">
+    <S T="1" F="IsLocalFile" M="Ignore" />
+  </C>
+  <C T="I32" I="14" O="true" N="NameConflictAction">
+    <S T="1" F="NameConflictAction" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

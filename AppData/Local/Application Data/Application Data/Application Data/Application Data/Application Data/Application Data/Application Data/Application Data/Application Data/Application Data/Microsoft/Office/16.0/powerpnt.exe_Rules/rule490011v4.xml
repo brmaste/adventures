@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="490011" V="4" DC="SM" EN="Office.Feedback.Survey.FloodgateClient.ForcedCooldown" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" SP="CriticalBusinessImpact" T="Upload-Medium" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ck0tl" A="ck0to ck0tq csffj c2gv0 c2gxw c2g5v c2g7o c2gyn c2g8f dcizh dciw6 dcixz" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

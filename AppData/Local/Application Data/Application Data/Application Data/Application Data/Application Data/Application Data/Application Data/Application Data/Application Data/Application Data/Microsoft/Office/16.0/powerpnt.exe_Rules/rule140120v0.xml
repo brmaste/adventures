@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140120" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.PPTZoomLinksAutoRefreshRule" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a0ym9" />
+    <UTS T="2" Id="a0b1t" />
+    <UTS T="3" Id="bfthx" />
+    <UTS T="4" Id="bfthz" />
+    <UTS T="5" Id="bfth1" />
+    <UTS T="6" Id="bfth3" />
+    <UTS T="7" Id="bfth4" />
+    <UTS T="8" Id="bfth5" />
+    <UTS T="9" Id="bfth7" />
+    <UTS T="10" Id="bfth9" />
+    <UTS T="11" Id="bftia" />
+    <UTS T="12" Id="bhdz7" />
+    <A T="13" E="TelemetrySuspend" />
+    <A T="14" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="true" N="AvgThumbnailGeneratedAfterTimeDurationInMs">
+    <A T="AVG">
+      <S T="1" F="SlideDrawTime (ms)" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="1" O="true" N="AvgThumbnailGeneratedInTimeDurationInMs">
+    <A T="AVG">
+      <S T="2" F="SlideDrawTime (ms)" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="2" O="true" N="AvgRefreshOnFileSaveDurationInMs">
+    <A T="AVG">
+      <S T="3" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="3" O="true" N="AvgRefreshSectionLinkToSectionHeightDurationInMs">
+    <A T="AVG">
+      <S T="4" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="4" O="true" N="AvgRefreshGenerateSlideDependenciesDurationInMs">
+    <A T="AVG">
+      <S T="5" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="5" O="true" N="AvgRefreshMiniatureCacheMemoryUsageDurationInMs">
+    <A T="AVG">
+      <S T="6" F="Total Memory" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="6" O="true" N="AvgRefreshTryAddSlideSuccessDurationInMs">
+    <A T="AVG">
+      <S T="7" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="7" O="true" N="AvgRefreshTryAddSlideFailedDurationInMs">
+    <A T="AVG">
+      <S T="8" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="8" O="true" N="AvgRefreshHandleOnImageReadyDurationInMs">
+    <A T="AVG">
+      <S T="9" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="9" O="true" N="AvgRefreshGetSlideLinkImageSuccessDurationInMs">
+    <A T="AVG">
+      <S T="10" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="10" O="true" N="AvgRefreshGetSlideLinkImageFailedDurationInMs">
+    <A T="AVG">
+      <S T="11" F="Duration" M="Ignore" />
+    </A>
+  </C>
+  <C T="U32" I="11" O="false" N="RefreshNoImageOnSave">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <T>
+    <S T="13" />
+    <S T="14" />
+  </T>
+  <ST>
+    <S T="6" />
+  </ST>
+</R>

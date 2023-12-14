@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<R Id="324011" V="1" DC="SM" EN="Office.Extensibility.VbaAmsiScanTelemetry" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b6pk1" />
+  </S>
+  <C T="W" I="0" O="false" N="TagId">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="U32" I="1" O="true" N="HashProjectName">
+    <S T="1" F="HashProjectName" />
+  </C>
+  <C T="U32" I="2" O="true" N="HashApiName">
+    <S T="1" F="HashApiName" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="false" N="AmsiResult">
+    <S T="1" F="AmsiResult" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

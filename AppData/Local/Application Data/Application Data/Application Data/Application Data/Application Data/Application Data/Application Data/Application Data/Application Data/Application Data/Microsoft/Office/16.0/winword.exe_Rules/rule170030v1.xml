@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170030" V="1" DC="SM" EN="Office.Graphics.GFXLegacyInk" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bcze6" />
+    <UTS T="2" Id="bdgkj" />
+  </S>
+  <C T="B" I="0" O="true" N="LegacyInk">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="IsLegacy" M="Ignore" />
+      </L>
+      <R>
+        <S T="2" F="IsLegacy" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+</R>

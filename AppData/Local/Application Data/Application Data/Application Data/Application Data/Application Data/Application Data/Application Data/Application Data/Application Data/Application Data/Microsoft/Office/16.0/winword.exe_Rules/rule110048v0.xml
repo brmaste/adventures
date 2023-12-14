@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110048" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <Etw T="1" E="53" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="2" E="55" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+  </S>
+  <C T="FT" I="0" O="false">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="false">
+    <S T="1" F="Layout Type" />
+  </C>
+  <C T="I32" I="2" O="false">
+    <S T="1" F="x Scroll" />
+  </C>
+  <C T="I32" I="3" O="false">
+    <S T="1" F="y Scroll" />
+  </C>
+  <C T="I32" I="4" O="false">
+    <S T="2" F="x Scroll" />
+  </C>
+  <C T="I32" I="5" O="false">
+    <S T="2" F="y Scroll" />
+  </C>
+  <C T="I32" I="6" O="false">
+    <O T="SUB">
+      <L>
+        <S T="1" F="x Scroll" />
+      </L>
+      <R>
+        <S T="2" F="x Scroll" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="7" O="false">
+    <O T="SUB">
+      <L>
+        <S T="1" F="y Scroll" />
+      </L>
+      <R>
+        <S T="2" F="y Scroll" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

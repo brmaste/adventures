@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110081" V="1" DC="SM" EN="Office.Word.Word.BackgroundSaveNotAllowedReasons" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="222" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <TR T="2" />
+    <TI T="3" I="Hourly" />
+    <A T="4" E="TelemetryShutdown" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Allowed" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="5">
+      <F N="Tag" />
+      <F N="ContextTag" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="false" N="BSDRTag">
+    <S T="5" F="Tag" />
+  </C>
+  <C T="TAG" I="2" O="false" N="ContextTag">
+    <S T="5" F="ContextTag" />
+  </C>
+  <C T="U32" I="3" O="false" N="Count">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>

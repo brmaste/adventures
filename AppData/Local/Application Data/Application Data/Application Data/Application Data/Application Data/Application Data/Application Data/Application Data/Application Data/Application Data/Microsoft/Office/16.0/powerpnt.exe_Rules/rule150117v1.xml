@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150117" V="1" DC="SM" EN="Office.PowerPoint.PPT.MorphMatchingCommon" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bar6n" />
+    <UTS T="2" Id="bchmd" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="ULS_CorrelationID" />
+      <F N="IsMatch" />
+      <F N="Type" />
+      <F N="MatchCategory" />
+      <F N="Contents" />
+    </S>
+  </G>
+  <C T="G" I="0" O="false" N="CorrelationID">
+    <S T="1" F="ULS_CorrelationID" />
+  </C>
+  <C T="B" I="1" O="false" N="IsMatch">
+    <S T="1" F="IsMatch" />
+  </C>
+  <C T="W" I="2" O="false" N="Type">
+    <S T="1" F="Type" />
+  </C>
+  <C T="W" I="3" O="false" N="MatchCategory">
+    <S T="1" F="MatchCategory" />
+  </C>
+  <C T="U32" I="4" O="false" N="NumContents">
+    <S T="1" F="Contents" />
+  </C>
+  <C T="U32" I="5" O="false" N="KeyFrameCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

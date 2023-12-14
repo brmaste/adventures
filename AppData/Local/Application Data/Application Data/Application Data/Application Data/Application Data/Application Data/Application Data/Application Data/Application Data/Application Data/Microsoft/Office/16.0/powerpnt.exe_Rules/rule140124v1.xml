@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140124" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.TextHighlighterUsage" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b5ot7" A="biibi" />
+  </S>
+  <C T="W" I="0" O="false" N="Color">
+    <S T="1" F="Color" />
+  </C>
+  <C T="B" I="1" O="false" N="IsSelectedTextHighlighted">
+    <S T="1" F="Highlighted Selected Text" />
+  </C>
+  <C T="B" I="2" O="false" N="IsEnteredHighlightMode">
+    <S T="1" F="Entered Highlight Mode" />
+  </C>
+  <C T="B" I="3" O="false" N="IsNoColorSelected">
+    <S T="1" F="No Color Selected" />
+  </C>
+  <C T="B" I="4" O="false" N="IsColorClearedByHighlightTwice">
+    <S T="1" F="Color was cleared" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

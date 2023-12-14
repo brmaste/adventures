@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170075" V="2" DC="SM" EN="Office.Graphics.FailedIBitmap" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="br19m" />
+  </S>
+  <C T="G" I="0" O="false" N="OriginalPixelFormat">
+    <S T="1" F="Original pixel format" />
+  </C>
+  <C T="G" I="1" O="false" N="ConvertedPixelFormat">
+    <S T="1" F="Converted pixel format" />
+  </C>
+  <C T="B" I="2" O="false" N="FailedToGetInfo">
+    <S T="1" F="Failed to get IWicBitmapSource info" />
+  </C>
+  <C T="U32" I="3" O="false" N="PixelWidth">
+    <S T="1" F="Pixel width" />
+  </C>
+  <C T="U32" I="4" O="false" N="PixelHeight">
+    <S T="1" F="Pixel height" />
+  </C>
+  <C T="D" I="5" O="false" N="DpiX">
+    <S T="1" F="DpiX" />
+  </C>
+  <C T="D" I="6" O="false" N="DpiY">
+    <S T="1" F="DpiY" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

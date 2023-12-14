@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140177" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.PPTPasteActions" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awna7" />
+    <F T="2">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="ActionId" M="Ignore" />
+                </L>
+                <R>
+                  <V V="1951" T="U32" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="AND">
+                <L>
+                  <O T="GE">
+                    <L>
+                      <S T="1" F="ActionId" M="Ignore" />
+                    </L>
+                    <R>
+                      <V V="1941" T="U32" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="LE">
+                    <L>
+                      <S T="1" F="ActionId" M="Ignore" />
+                    </L>
+                    <R>
+                      <V V="1951" T="U32" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="AND">
+                <L>
+                  <O T="GE">
+                    <L>
+                      <S T="1" F="ActionId" M="Ignore" />
+                    </L>
+                    <R>
+                      <V V="1926" T="U32" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="LE">
+                    <L>
+                      <S T="1" F="ActionId" M="Ignore" />
+                    </L>
+                    <R>
+                      <V V="1930" T="U32" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="AND">
+                <L>
+                  <O T="GE">
+                    <L>
+                      <S T="1" F="ActionId" M="Ignore" />
+                    </L>
+                    <R>
+                      <V V="34" T="U32" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="LE">
+                    <L>
+                      <S T="1" F="ActionId" M="Ignore" />
+                    </L>
+                    <R>
+                      <V V="36" T="U32" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="ActionId">
+    <S T="2" F="ActionId" />
+  </C>
+  <C T="U32" I="1" O="false" N="Tcid">
+    <S T="2" F="Tcid" />
+  </C>
+  <C T="B" I="2" O="false" N="Success">
+    <S T="2" F="Success" />
+  </C>
+  <C T="B" I="3" O="true" N="IsCommandUsed">
+    <S T="2" F="IsCommandUsed" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="false" N="ScrapFormatID">
+    <S T="2" F="ScrapFormatID" />
+  </C>
+  <C T="U32" I="5" O="false" N="DurationInMs">
+    <S T="2" F="Time" />
+  </C>
+  <C T="U8" I="6" O="true" N="PasteHandlerID">
+    <S T="2" F="PasteHandlerID" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

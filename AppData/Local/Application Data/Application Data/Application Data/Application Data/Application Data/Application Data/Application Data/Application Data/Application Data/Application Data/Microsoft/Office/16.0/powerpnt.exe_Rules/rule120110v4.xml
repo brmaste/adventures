@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120110" V="4" DC="ESM" EN="Office.System.SystemHealthEssentialMetadataAllIdentities" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalCensus" T="Upload-Medium" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="4v5ai" />
+    <R T="2" R="120100" />
+    <R T="3" R="120110" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="IdentityUniqueId" />
+    </S>
+    <S T="3">
+      <F N="1" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false" N="IdentityType">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="IdentityType" />
+      </L>
+      <R>
+        <S T="3" F="0" />
+      </R>
+    </O>
+  </C>
+  <C T="G" I="1" O="true" N="IdentityUniqueId2">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="IdentityUniqueId" M="Ignore" />
+      </L>
+      <R>
+        <S T="3" F="1" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+</R>

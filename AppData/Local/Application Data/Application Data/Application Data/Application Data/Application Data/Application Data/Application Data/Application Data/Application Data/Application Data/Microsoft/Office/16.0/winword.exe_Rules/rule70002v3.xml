@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="70002" V="3" DC="SM" EN="Office.AirSpace.DxError" ATT="da06315a64204a91b8c35628ae841a61-c2fdf120-6e99-4fdd-900e-ec9868e5e64b-7449" S="10" DCa="DC" xmlns="">
+  <S>
+    <Etw T="1" E="16" G="{f562bb8e-422d-4b5c-b20e-90d710f7d11c}" />
+  </S>
+  <C T="FT" I="0" O="false" N="Column_0">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="false" N="Column_1">
+    <S T="1" F="command" />
+  </C>
+  <C T="U32" I="2" O="false" N="Column_2">
+    <S T="1" F="hresult" />
+  </C>
+</R>

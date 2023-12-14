@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="69700" V="0" DC="SM" EN="Office.Insights.JunoDesktop.RenderingTime" ATT="250a372c4a854d8fb120ef0366f9410c-dd39bcd8-3b38-4c6c-9f8d-3821e5c28b47-7487" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="be06k" />
+    <UTS T="2" Id="bcw4r" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="AppCorrelationId" />
+    </S>
+    <S T="2">
+      <F N="AppCorrelationId" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="AppCorrelationId">
+    <S T="1" F="AppCorrelationId" />
+  </C>
+  <C T="U64" I="1" O="false" N="EndToEndTime">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="2" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="1" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

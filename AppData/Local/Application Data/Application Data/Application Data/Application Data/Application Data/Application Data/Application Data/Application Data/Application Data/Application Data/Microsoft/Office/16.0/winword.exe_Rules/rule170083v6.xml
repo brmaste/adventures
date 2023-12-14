@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170083" V="6" DC="SM" EN="Office.Graphics.RoamingPen" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bvtfz" A="bz4bc b50fz b3wfp clf2y" />
+  </S>
+  <C T="W" I="0" O="false" N="Action">
+    <S T="1" F="ULS_Message" />
+  </C>
+  <C T="U64" I="1" O="true" N="Item">
+    <S T="1" F="Item" M="Ignore" />
+  </C>
+  <C T="U64" I="2" O="true" N="ItemCount">
+    <S T="1" F="Count" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Type">
+    <S T="1" F="Type" M="Ignore" />
+  </C>
+  <C T="F" I="4" O="true" N="Thickness">
+    <S T="1" F="Thickness" M="Ignore" />
+  </C>
+  <C T="I8" I="5" O="true" N="RGB_R">
+    <S T="1" F="RGB_R" M="Ignore" />
+  </C>
+  <C T="I8" I="6" O="true" N="RGB_G">
+    <S T="1" F="RGB_G" M="Ignore" />
+  </C>
+  <C T="I8" I="7" O="true" N="RGB_B">
+    <S T="1" F="RGB_B" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="Effect">
+    <S T="1" F="Efect" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

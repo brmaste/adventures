@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63048" V="6" DC="SM" EN="Office.Identity.MsaSso" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bch1w" />
+    <UTS T="2" Id="a3qpl" />
+    <UTS T="3" Id="a3qpk" />
+    <UTS T="4" Id="a3qpj" />
+    <UTS T="5" Id="a3qpu" A="a3qpn" />
+    <UTS T="6" Id="a3qpv" A="a3qpo" />
+    <UTS T="7" Id="bch10" A="bd692" />
+    <UTS T="8" Id="bch1x" />
+    <UTS T="9" Id="bch1t" A="befh4 befh7" />
+    <UTS T="10" Id="bch1z" />
+    <A T="11" E="TelemetryShutdown" />
+    <TO T="12" I="10min">
+      <S T="1" />
+    </TO>
+  </S>
+  <C T="B" I="0" O="false" N="OfficeIdentity_EqualTo_OidaIdentity">
+    <O T="NE">
+      <L>
+        <C>
+          <S T="2" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="1" O="false" N="BadOfficeIdentity_EqualTo_OidaIdentity">
+    <O T="NE">
+      <L>
+        <C>
+          <S T="3" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="2" O="false" N="OfficeIdentity_NotEqualTo_OidaIdentity_AddNew">
+    <O T="BITWISEAND">
+      <L>
+        <O T="NE">
+          <L>
+            <C>
+              <S T="4" />
+            </C>
+          </L>
+          <R>
+            <V V="0" T="U32" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <O T="NE">
+          <L>
+            <C>
+              <S T="6" />
+            </C>
+          </L>
+          <R>
+            <V V="0" T="U32" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="false" N="NoOfficeIdentity_OidaIdentity_AddNew">
+    <O T="BITWISEAND">
+      <L>
+        <O T="NE">
+          <L>
+            <C>
+              <S T="4" />
+            </C>
+          </L>
+          <R>
+            <V V="0" T="U32" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <O T="EQ">
+          <L>
+            <C>
+              <S T="6" />
+            </C>
+          </L>
+          <R>
+            <V V="0" T="U32" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="B" I="4" O="false" N="OfficeIdentity_NoOidaIdentity_MaybeAddNew">
+    <O T="NE">
+      <L>
+        <C>
+          <S T="5" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="5" O="false" N="NoOfficeIdentity_NoOidaIdentity_MaybeAddNew">
+    <O T="NE">
+      <L>
+        <C>
+          <S T="7" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="G" I="6" O="true" N="CurrentCidInOida">
+    <S T="1" F="UniqueId" M="Ignore" />
+  </C>
+  <C T="G" I="7" O="true" N="OldCid">
+    <S T="1" F="OldUniqueId" M="Ignore" />
+  </C>
+  <C T="G" I="8" O="true" N="ConnectedIdentity_UniqueID">
+    <S T="8" F="IdentityMetadata_UniqueId" M="Ignore" />
+  </C>
+  <C T="W" I="9" O="true" N="ConnectedIdentity_ProviderType">
+    <S T="8" F="IdentityMetadata_IdentityProviderType" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true" N="ConnectedIdentity_ErrorState">
+    <S T="8" F="IdentityMetadata_IdentityErrorState" M="Ignore" />
+  </C>
+  <C T="FT" I="11" O="true" N="SessionEndTime">
+    <S T="11" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="12" O="true" N="Timeout">
+    <S T="12" F="TimeStamp100ns" />
+  </C>
+  <C T="U64" I="13" O="true" N="LastLoginDelta">
+    <S T="9" F="LastLoginDelta" />
+  </C>
+  <C T="B" I="14" O="true" N="WasIdentitySignedOut">
+    <S T="9" F="PreviousIdentityMetadata_IsSignedOut" M="Ignore" />
+  </C>
+  <T>
+    <S T="10" />
+    <S T="11" />
+    <S T="12" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="100071" V="0" DC="SM" EN="Office.UX.WhatsNewOnlineButtonClick" ATT="c4388c977297413bb054bad1acf0ade1-cc58e53e-f5a4-4f37-b0d2-9a8079e34420-6879" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bbqsr" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

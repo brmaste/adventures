@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63030" V="2" DC="SM" EN="Office.Identity.Identity.Sign.In16.Prompt" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ax0z1" />
+    <UTS T="2" Id="aysqq" />
+    <UTS T="3" Id="aysrq" />
+    <UTS T="4" Id="azfp5" />
+    <UTS T="5" Id="a4dam" />
+    <UTS T="6" Id="a4dao" />
+    <UTS T="7" Id="a4dan" />
+    <UTS T="8" Id="a4dap" />
+    <UTS T="9" Id="aysr0" />
+    <US T="10">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="10" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="false" N="EventId">
+    <S T="10" F="ULS_Tag" />
+  </C>
+  <C T="W" I="2" O="true" N="HrdAuthScheme">
+    <S T="1" F="IdentityProvider" />
+  </C>
+  <T>
+    <S T="10" />
+  </T>
+</R>

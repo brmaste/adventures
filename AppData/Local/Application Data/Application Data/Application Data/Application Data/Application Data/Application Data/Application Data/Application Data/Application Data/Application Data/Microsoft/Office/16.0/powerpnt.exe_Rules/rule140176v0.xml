@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140176" V="0" DC="SM" EN="Office.PowerPoint.PPT.SlideShowDuringZRT" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cx67y" />
+    <UTS T="2" Id="cx67z" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="B" I="0" O="false" N="UserAborted">
+    <O T="EQ">
+      <L>
+        <S T="3" F="ULS_TagId" />
+      </L>
+      <R>
+        <V V="cx67y" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

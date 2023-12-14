@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63051" V="5" DC="SM" EN="Office.Identity.IdentityAuthHistoryPassthrough" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="befh4" A="befh7" />
+    <UTS T="2" Id="befh8" />
+    <UTS T="3" Id="befhk" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+    <US T="5">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="U64" I="0" O="false" N="LastLoginDelta">
+    <S T="4" F="LastLoginDelta" />
+  </C>
+  <C T="W" I="1" O="false" N="ErrorState">
+    <O T="COALESCE">
+      <L>
+        <S T="5" F="PreviousIdentityMetadata_IdentityErrorState" />
+      </L>
+      <R>
+        <S T="3" F="ErrorState" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="2" O="true" N="ProviderType">
+    <S T="5" F="PreviousIdentityMetadata_IdentityProviderType" />
+  </C>
+  <C T="B" I="3" O="true" N="IsPersisted">
+    <S T="5" F="PreviousIdentityMetadata_IsPersisted" />
+  </C>
+  <C T="B" I="4" O="true" N="IsSignedOut">
+    <S T="5" F="PreviousIdentityMetadata_IsSignedOut" />
+  </C>
+  <C T="G" I="5" O="true" N="UniqueId">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="PreviousIdentityMetadata_UniqueId" />
+      </L>
+      <R>
+        <S T="3" F="UniqueId" />
+      </R>
+    </O>
+  </C>
+  <C T="G" I="6" O="true" N="UniqueIdSspi">
+    <S T="2" F="PreviousIdentityMetadata_UniqueId" />
+  </C>
+  <C T="TAG" I="7" O="false" N="FlowTag">
+    <S T="4" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

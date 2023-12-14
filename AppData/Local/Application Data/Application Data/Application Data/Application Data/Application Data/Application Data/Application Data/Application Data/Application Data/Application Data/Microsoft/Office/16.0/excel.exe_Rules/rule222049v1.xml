@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="222049" V="1" DC="SM" EN="Office.NaturalLanguage.Proofing.ProofingOptionState" ATT="71cc1046851042108843d90e5d3ef6c1-61e5de5c-238c-4de5-95de-3b40d20ea6e5-6899" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bij74" A="bn8xq" />
+  </S>
+  <C T="W" I="0" O="false" N="CultureTagProofingOptionState">
+    <S T="1" F="CultureTag" />
+  </C>
+  <C T="W" I="1" O="false" N="ProofingOptionNameProofingOptionState">
+    <S T="1" F="ProofingOptionName" />
+  </C>
+  <C T="I32" I="2" O="false" N="ProofingOptionValueProofingOptionState">
+    <S T="1" F="ProofingOptionValue" />
+  </C>
+  <C T="B" I="3" O="false" N="IsDataShareableOutsideOfficeProofingOptionState">
+    <S T="1" F="IsDataShareableOutsideOffice" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

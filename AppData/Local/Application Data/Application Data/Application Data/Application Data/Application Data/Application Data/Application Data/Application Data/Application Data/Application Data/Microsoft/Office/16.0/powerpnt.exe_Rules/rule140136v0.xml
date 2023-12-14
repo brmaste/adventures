@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140136" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.RPVUI" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bfxo5" />
+    <UTS T="2" Id="bfxn5" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="U32" I="0" O="false" N="ButtonId">
+    <S T="3" F="ButtonId" />
+  </C>
+  <C T="U32" I="1" O="false" N="ButtonInteractionType">
+    <S T="3" F="ButtonInteractionType" />
+  </C>
+  <C T="B" I="2" O="true" N="IsRecording">
+    <S T="3" F="IsRecording" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="false" N="IsButtonPressOnRPVTitleBarView">
+    <O T="EQ">
+      <L>
+        <S T="3" F="ULS_TagId" />
+      </L>
+      <R>
+        <V V="bfxo5" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

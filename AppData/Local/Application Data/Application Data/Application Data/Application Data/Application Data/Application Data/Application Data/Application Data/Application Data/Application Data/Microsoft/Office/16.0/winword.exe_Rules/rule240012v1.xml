@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240012" V="1" DC="SM" EN="Office.Security.OTCMacroEncountered" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a7ys8" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="B" I="1" O="false" N="FromInternet">
+    <S T="1" F="FromInternet" />
+  </C>
+  <C T="B" I="2" O="false" N="IsTrusted">
+    <S T="1" F="IsTrusted" />
+  </C>
+  <C T="I32" I="3" O="false" N="TrustCenterSetting">
+    <S T="1" F="TrustCenterSetting" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

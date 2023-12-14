@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180078" V="1" DC="SM" EN="Office.Excel.XlNumberFormatFunctionIfFailRetTagFailure" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a45uw" />
+    <UTS T="2" Id="a45uz" />
+    <UTS T="3" Id="a45vu" />
+    <UTS T="4" Id="a45qi" />
+    <UTS T="5" Id="a45qj" />
+    <UTS T="6" Id="a45q2" />
+    <UTS T="7" Id="a45q3" />
+    <UTS T="8" Id="a45v5" />
+    <UTS T="9" Id="a45lg" />
+    <UTS T="10" Id="a45li" />
+    <UTS T="11" Id="a45oh" />
+    <UTS T="12" Id="a45nw" />
+    <UTS T="13" Id="a45v8" />
+    <UTS T="14" Id="a6e5j" />
+    <US T="15">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+      <S T="10" />
+      <S T="11" />
+      <S T="12" />
+      <S T="13" />
+      <S T="14" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="15" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="15" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="false" N="TagId">
+    <S T="15" F="ULS_TagId" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="false" N="ULS_Message">
+    <S T="15" F="ULS_Message" M="Ignore" />
+  </C>
+  <T>
+    <S T="15" />
+  </T>
+</R>

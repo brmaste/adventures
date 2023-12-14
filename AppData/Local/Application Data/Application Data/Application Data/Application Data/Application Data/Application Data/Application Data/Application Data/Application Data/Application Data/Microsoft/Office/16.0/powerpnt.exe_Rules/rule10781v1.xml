@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10781" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="bgo4t" />
+    <UTS T="2" Id="bhlvy" />
+  </S>
+  <C T="I32" I="0" O="false">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="2" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="1" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170041" V="2" DC="SM" EN="Office.Graphics.ARCWaitTime" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="DC" xmlns="">
+  <S>
+    <UTS T="1" Id="bfi37" A="bfi38" />
+    <F T="2">
+      <O T="GT">
+        <L>
+          <S T="1" F="TimeElapsedMS" />
+        </L>
+        <R>
+          <V V="100" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="W" I="0" O="true" N="TagID">
+    <S T="2" F="ULS_TagId" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="ElapsedTime">
+    <S T="2" F="TimeElapsedMS" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Result">
+    <S T="2" F="Result" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170071" V="2" DC="SM" EN="Office.Graphics.StencilFailCommit" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="boipf" />
+  </S>
+  <C T="U32" I="0" O="true" N="ToCommitSeqId">
+    <S T="1" F="toCommitSeqId" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="CurSeqId">
+    <S T="1" F="curSeqId" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="InkDeviceType">
+    <S T="1" F="InkDeviceType" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="true" N="Init">
+    <S T="1" F="Init" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

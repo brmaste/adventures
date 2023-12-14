@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150213" V="1" DC="SM" EN="Office.PowerPoint.PPT.SendRealtimeTextTyping" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bae8k" />
+    <UTS T="2" Id="a8j0a" />
+    <UTS T="3" Id="bb34t" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <S T="4" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="RTMsCount">
+    <S T="4" F="RTMsCount" M="Ignore" />
+  </C>
+  <C T="U64" I="2" O="true" N="SerializeTimeInMs">
+    <S T="4" F="SerializeTimeInMs" M="Ignore" />
+  </C>
+  <C T="U64" I="3" O="true" N="SizeInBytes">
+    <S T="4" F="SizeInBytes" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="CountOfSentRetries">
+    <S T="4" F="CountOfSentRetries" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true" N="ThrottleReason">
+    <S T="4" F="ThrottleReason" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="SendRTMRoundtripTimeMs">
+    <S T="4" F="SendRTMRoundtripTimeMs" M="Ignore" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150140" V="1" DC="SM" EN="Office.PowerPoint.PPT.Shared.SlideContentTelemetry.Part3" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bo1zh" />
+  </S>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <S T="1" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="SlidesWithCharts">
+    <S T="1" F="SlidesWithCharts" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="ChartsCount">
+    <S T="1" F="ChartsCount" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="SlidesWithTables">
+    <S T="1" F="SlidesWithTables" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="TablesCount">
+    <S T="1" F="TablesCount" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="SlidesWithSmartArts">
+    <S T="1" F="SlidesWithSmartArts" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="SmartArtsCount">
+    <S T="1" F="SmartArtsCount" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="SlidesWithBackgroundPicture">
+    <S T="1" F="SlidesWithBackgroundPicture" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="BackgroundPicturesCount">
+    <S T="1" F="BackgroundPicturesCount" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="false" N="FileTypeInternalFormat">
+    <S T="1" F="FileTypeInternalFormat" />
+  </C>
+  <C T="U32" I="10" O="false" N="LoadedSlides">
+    <S T="1" F="LoadedSlides" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

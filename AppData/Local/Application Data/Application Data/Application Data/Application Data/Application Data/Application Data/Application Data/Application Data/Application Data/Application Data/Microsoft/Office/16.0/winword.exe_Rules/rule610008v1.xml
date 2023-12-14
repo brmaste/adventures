@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="610008" V="1" DC="SM" EN="Office.ML.UAPEventSink.LogWebServiceAPIOnError_1" ATT="655fe2f4f8414e4db3f881ce2bb96fc8-7a0f06e8-b403-4b25-afd7-a54cc7fda27b-7855" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b6e1p" />
+  </S>
+  <C T="W" I="0" O="false" N="Endpoint">
+    <S T="1" F="Endpoint" />
+  </C>
+  <C T="W" I="1" O="false" N="ActivityCorrelationId">
+    <S T="1" F="ActivityCorrelationId" />
+  </C>
+  <C T="W" I="2" O="true" N="EndpointRequestId">
+    <S T="1" F="EndpointRequestId" />
+  </C>
+  <C T="I64" I="3" O="true" N="NetworkLatency">
+    <S T="1" F="NetworkLatency" />
+  </C>
+  <C T="I32" I="4" O="true" N="ServiceStatus">
+    <S T="1" F="ServiceStatus" />
+  </C>
+  <C T="I32" I="5" O="true" N="ErrorInfo">
+    <S T="1" F="ErrorInfo" />
+  </C>
+  <C T="W" I="6" O="true" N="DiagnosisHeader">
+    <S T="1" F="DiagnosisHeader" />
+  </C>
+  <C T="W" I="7" O="true" N="Diagnostics">
+    <S T="1" F="Diagnostics" />
+  </C>
+  <C T="W" I="8" O="true" N="BEServer">
+    <S T="1" F="BEServer" />
+  </C>
+  <C T="W" I="9" O="true" N="FEServer">
+    <S T="1" F="FEServer" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

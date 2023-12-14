@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140147" V="1" DC="SM" EN="Office.PowerPoint.PPT.Desktop.RPV.Gen1Activities" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bgrlc" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="2" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="4" Id="bhgrp" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="5" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="7" Id="bhgrd" />
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="7" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="8" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="10" Id="bhgre" />
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="10" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="11" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="13" Id="bhgrf" />
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="13" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="14" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="16" Id="bhgrg" />
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="16" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="17" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="19" Id="bhgrr" />
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="19" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="20" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <A T="22" E="TelemetrySuspend" />
+    <A T="23" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="Record_Count">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="RecordUI_Count">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="Recording_Start_Count">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="Recording_Pause_Count">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="Recording_Resume_Count">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="Recording_Stop_Count">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="Recording_Count">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <T>
+    <S T="22" />
+    <S T="23" />
+  </T>
+  <ST>
+    <S T="4" />
+    <S T="1" />
+  </ST>
+</R>

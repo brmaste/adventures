@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224083" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.InAppAFOPinValidationResult" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bnpw6" />
+    <UTS T="2" Id="bnpw8" />
+    <UTS T="3" Id="bnpw9" />
+    <A T="4" E="TelemetrySuspend" />
+    <A T="5" E="TelemetryShutdown" />
+  </S>
+  <C T="I64" I="0" O="false" N="PinValidationResult">
+    <S T="1" F="PinResult" />
+  </C>
+  <C T="TAG" I="1" O="true" N="DisableAFO">
+    <S T="2" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="TAG" I="2" O="true" N="SkipAFOOnce">
+    <S T="3" F="ULS_Tag" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

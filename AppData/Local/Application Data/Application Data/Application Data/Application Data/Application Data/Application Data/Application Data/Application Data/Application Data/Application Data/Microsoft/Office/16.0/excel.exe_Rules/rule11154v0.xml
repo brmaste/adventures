@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11154" V="0" DC="SM" EN="Office.Outlook.Desktop.PCXDataMode" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" S="1" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bq4zg" />
+  </S>
+  <C T="B" I="0" O="false" N="IsLdap">
+    <S T="1" F="IsLdap" />
+  </C>
+  <C T="B" I="1" O="false" N="IsMapi">
+    <S T="1" F="IsMapi" />
+  </C>
+  <C T="B" I="2" O="false" N="IsInOutlook">
+    <S T="1" F="IsInOutlook" />
+  </C>
+  <C T="B" I="3" O="false" N="IsOutlookInstalled">
+    <S T="1" F="IsOutlookInstalled" />
+  </C>
+  <C T="B" I="4" O="false" N="IsOutlookConfigured">
+    <S T="1" F="IsOutlookConfigured" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

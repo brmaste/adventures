@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11514" V="1" DC="SM" EN="Office.Outlook.Desktop.PCXContactCard2LinkedInUsageAndHealth" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="blelm" />
+    <UTS T="4" Id="b5ze7" />
+    <UTS T="5" Id="b5ze8" />
+    <UTS T="6" Id="b5zez" />
+    <UTS T="7" Id="b5ze0" />
+    <UTS T="8" Id="b5ze1" />
+    <UTS T="9" Id="b5ze2" />
+    <UTS T="10" Id="b3g8x" />
+    <UTS T="11" Id="bsexb" />
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="4" F="AssociationFooterState" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="4" F="AssociationFooterState" />
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="4" F="AssociationFooterState" />
+        </L>
+        <R>
+          <V V="2" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="5" F="Action" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="6" F="EmailEmpty" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="6" F="LinkedInProfileUrlEmpty" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="6" F="LinkedInProfileIdEmpty" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="7" F="CouldGetMessageStores" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="7" F="MessageStoresEmpty" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="8" F="isNull_ILokiContext" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="22">
+      <O T="EQ">
+        <L>
+          <S T="8" F="isNull_ILokiLonkedInProvider" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="23">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="5" F="Action" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <S T="5" F="ProfileMenuCommand" />
+        </R>
+      </O>
+    </F>
+    <F T="24">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="5" F="Action" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="5" F="ProfileMenuCommand" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="25">
+      <O T="EQ">
+        <L>
+          <S T="9" F="EmailEmpty" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="26">
+      <O T="EQ">
+        <L>
+          <S T="10" F="Successful" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="27">
+      <O T="EQ">
+        <L>
+          <S T="10" F="IsProfileNull" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="LinkedInAssociationStateOnUpdate_Associated_Total">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="LinkedInAssociationStateOnUpdate_Unassociated_Total">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="LinkedInAssociationStateOnUpdate_AssociationFailed_Total">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="LinkedInAssociation_Associate_Total">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="AssociateWithLinkedInAccount_Total">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="AssociateWithLinkedInAccount_EmptyEmail_Total">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="AssociateWithLinkedInAccount_EmptyProfileURL_Total">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="AssociateWithLinkedInAccount_EmptyProfileId_Total">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="MakeAssociationRestRequest_CouldNotGetMessageStores_Total">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="MakeAssociationRestRequest_MessageStoresEmpty_Total">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="MakeAssociationRestRequest_NullILokiContext_Total">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="MakeAssociationRestRequest_NullILinkedInProvider_Total">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="LinkedInAssociation_UnassociateProfileMenuCommand_Total">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="LinkedInAssociation_UnassociateButton_Total">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="RemoveLinkedInAssociation_Total">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="RemoveLinkedInAssociation_EmptyEmail_Total">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="BindWithLinkedIn_Total">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="BindWithLinkedIn_Successful_Total">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="BindWithLinkedIn_NullProfile_Total">
+    <C>
+      <S T="27" />
+    </C>
+  </C>
+  <C T="B" I="19" O="true" N="TwoWayBindEnabled">
+    <S T="11" F="IsLinkedInTwoWayBindEnabled" />
+  </C>
+  <C T="B" I="20" O="true" N="LinkedInSupported">
+    <S T="11" F="IsLinkedInSupported" />
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+    <S T="11" />
+  </ST>
+</R>

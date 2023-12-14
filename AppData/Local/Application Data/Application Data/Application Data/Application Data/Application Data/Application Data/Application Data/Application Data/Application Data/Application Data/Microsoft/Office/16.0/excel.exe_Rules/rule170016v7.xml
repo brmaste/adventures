@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170016" V="7" DC="SM" EN="Office.Graphics.GvizPictureLoadTelemetry" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="aqww0" />
+    <A T="2" E="TelemetrySuspend" />
+    <A T="3" E="TelemetryShutdown" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Crop" />
+        </L>
+        <R>
+          <V V="True" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="GT">
+        <L>
+          <S T="1" F="EffectsApplied" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="1" F="IsSVG" M="Ignore" />
+            </L>
+            <R>
+              <V V="False" T="B" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <V V="True" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="6" F="IsSVG" />
+        </L>
+        <R>
+          <V V="True" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U16" I="0" O="false" N="PictureCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="FT" I="1" O="false" N="OpenTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="2" O="false" N="PictureCroppedStatus">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="PictureEffectsApplied">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="PictureIsSVG">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

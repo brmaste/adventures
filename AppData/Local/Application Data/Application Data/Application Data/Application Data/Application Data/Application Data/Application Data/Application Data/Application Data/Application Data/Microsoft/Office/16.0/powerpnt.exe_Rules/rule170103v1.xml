@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170103" V="1" DC="SM" EN="Office.Graphics.SVGErrorDetails" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="csp59" />
+  </S>
+  <C T="B" I="0" O="true" N="SVGEnabled">
+    <S T="1" F="SVG enabled" M="Ignore" />
+  </C>
+  <C T="I32" I="1" O="true" N="Constructor">
+    <S T="1" F="Constructor" M="Ignore" />
+  </C>
+  <C T="B" I="2" O="true" N="WasEverResetToOriginalImage">
+    <S T="1" F="Was ever reset to original image" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="true" N="Embedded">
+    <S T="1" F="Embedded" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="BlipEmbedRelID">
+    <S T="1" F="Blip embed rel ID" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="BlipValidationCount">
+    <S T="1" F="Blip validation count" M="Ignore" />
+  </C>
+  <C T="I32" I="6" O="true" N="BlipValidationHistory1">
+    <S T="1" F="Blip validation history 1" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true" N="BlipValidationHistory2">
+    <S T="1" F="Blip validation history 2" M="Ignore" />
+  </C>
+  <C T="I32" I="8" O="true" N="BlipValidationHistory3">
+    <S T="1" F="Blip validation history 3" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="BlipValidationHistory4">
+    <S T="1" F="Blip validation history 4" M="Ignore" />
+  </C>
+  <C T="I32" I="10" O="true" N="LinkProxyPopulatedBy">
+    <S T="1" F="Link proxy populated by" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="LinkProxyContentType">
+    <S T="1" F="Link proxy content type" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="true" N="LinkProxyExtension">
+    <S T="1" F="Link proxy extension" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="LinkProxyMissing">
+    <S T="1" F="Link proxy missing" M="Ignore" />
+  </C>
+  <C T="I32" I="14" O="true" N="EmbedProxyPopulatedBy">
+    <S T="1" F="Embed proxy populated by" M="Ignore" />
+  </C>
+  <C T="I32" I="15" O="true" N="EmbedProxyPartType">
+    <S T="1" F="Embed proxy part type" M="Ignore" />
+  </C>
+  <C T="W" I="16" O="true" N="EmbedProxyContentType">
+    <S T="1" F="Embed proxy content type" M="Ignore" />
+  </C>
+  <C T="W" I="17" O="true" N="EmbedProxyExtension">
+    <S T="1" F="Embed proxy extension" M="Ignore" />
+  </C>
+  <C T="B" I="18" O="true" N="EmbedProxyMissing">
+    <S T="1" F="Embed proxy missing" M="Ignore" />
+  </C>
+  <C T="B" I="19" O="true" N="SVGBlipExists">
+    <S T="1" F="SVG blip exists" M="Ignore" />
+  </C>
+  <C T="W" I="20" O="true" N="SVGLinkRelID">
+    <S T="1" F="SVG link rel ID" M="Ignore" />
+  </C>
+  <C T="W" I="21" O="true" N="SVGEmbedRelID">
+    <S T="1" F="SVG embed rel ID" M="Ignore" />
+  </C>
+  <C T="I32" I="22" O="true" N="SVGProxyPopulatedBy">
+    <S T="1" F="SVG proxy populated by" M="Ignore" />
+  </C>
+  <C T="I32" I="23" O="true" N="SVGProxyPartType">
+    <S T="1" F="SVG proxy part type" M="Ignore" />
+  </C>
+  <C T="W" I="24" O="true" N="SVGProxyContentType">
+    <S T="1" F="SVG proxy content type" M="Ignore" />
+  </C>
+  <C T="W" I="25" O="true" N="SVGProxyExtension">
+    <S T="1" F="SVG proxy extension" M="Ignore" />
+  </C>
+  <C T="B" I="26" O="true" N="SVGProxyMissing">
+    <S T="1" F="SVG proxy missing" M="Ignore" />
+  </C>
+  <C T="I32" I="27" O="true" N="FallbackProxyPopulatedBy">
+    <S T="1" F="Fallback proxy populated by" M="Ignore" />
+  </C>
+  <C T="I32" I="28" O="true" N="FallbackProxyPartType">
+    <S T="1" F="Fallback proxy part type" M="Ignore" />
+  </C>
+  <C T="W" I="29" O="true" N="FallbackProxyContentType">
+    <S T="1" F="Fallback proxy content type" M="Ignore" />
+  </C>
+  <C T="W" I="30" O="true" N="FallbackProxyExtension">
+    <S T="1" F="Fallback proxy extension" M="Ignore" />
+  </C>
+  <C T="B" I="31" O="true" N="FallbackProxyMissing">
+    <S T="1" F="Fallback proxy missing" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

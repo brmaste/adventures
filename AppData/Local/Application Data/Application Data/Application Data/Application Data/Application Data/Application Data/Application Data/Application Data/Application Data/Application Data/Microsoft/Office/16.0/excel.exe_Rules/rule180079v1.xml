@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180079" V="1" DC="SM" EN="Office.Excel.XlNumberFormatFunctionSetHrRetFailure" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a45s5" />
+    <UTS T="2" Id="a45tc" />
+    <UTS T="3" Id="a45lh" />
+    <UTS T="4" Id="a45lj" />
+    <UTS T="5" Id="a6e5l" />
+    <UTS T="6" Id="a6e5m" />
+    <UTS T="7" Id="a6e5k" />
+    <UTS T="8" Id="a6e5n" />
+    <UTS T="9" Id="a6e5o" />
+    <US T="10">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="10" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="10" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="false" N="TagId">
+    <S T="10" F="ULS_TagId" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="false" N="Message">
+    <S T="10" F="Message" M="Ignore" />
+  </C>
+  <T>
+    <S T="10" />
+  </T>
+</R>

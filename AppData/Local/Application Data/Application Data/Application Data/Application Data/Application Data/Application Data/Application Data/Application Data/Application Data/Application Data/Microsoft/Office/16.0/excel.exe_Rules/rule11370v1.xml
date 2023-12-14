@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11370" V="1" DC="SM" EN="Office.Outlook.Desktop.PcxIMProviderIdStatistics" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="bzplv" />
+  </S>
+  <G>
+    <S T="3">
+      <F N="Clsid" />
+    </S>
+  </G>
+  <C T="G" I="0" O="false" N="IMProviderCLSID">
+    <S T="3" F="Clsid" />
+  </C>
+  <C T="U32" I="1" O="false" N="ProviderCount">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

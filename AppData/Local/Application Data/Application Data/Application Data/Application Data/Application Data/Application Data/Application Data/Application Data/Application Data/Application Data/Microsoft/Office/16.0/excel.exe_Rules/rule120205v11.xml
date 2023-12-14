@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120205" V="11" DC="SM" EN="Office.System.SystemHealthUsage.NonTCIDClickStream" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalUsage" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="CommandUsage" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="bb9uz" A="bmmfb bb9ve bb9vg bcijr bcijp bgmnl bgmnr bgmnt bgmnx bgmnz bgmn1 bgmn3 bgmn5 bgn2k bgn2m bgn2o bgn2q bgn2s bgn2u bgn2w bgn2y bgn21 bix8b bix8d bix8f bix8h bix8j bix8l bojix bk8ux bcss8 c5n49" />
+    <UCSS T="2" C="Command Usage" S="Medium" />
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_Category" />
+        </L>
+        <R>
+          <V V="Scope Summary" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="NE">
+        <L>
+          <V V="" T="W" />
+        </L>
+        <R>
+          <O T="COALESCE">
+            <L>
+              <S T="2" F="TelemetryId" M="Ignore" />
+            </L>
+            <R>
+              <V V="" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <SR T="5" R="Office.CustomRibbonButton.">
+      <S T="4" F="TelemetryId" M="Ignore" />
+    </SR>
+  </S>
+  <G I="true">
+    <S T="3">
+      <F N="ScopeInstance" />
+    </S>
+    <S T="2">
+      <F N="UserActionID" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="StartTime">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="falseNoError" N="TelemetryId">
+    <O T="COALESCE">
+      <L>
+        <S T="5" F="Matched" />
+      </L>
+      <R>
+        <S T="2" F="TelemetryId" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <C T="W" I="2" O="true" N="ParentTelemetryId">
+    <S T="2" F="ParentTelemetryId" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="InputType">
+    <S T="2" F="InputType" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="false" N="DurationInMilliseconds">
+    <S T="3" F="DurationToCompleteInMilliseconds" />
+  </C>
+  <C T="B" I="5" O="false" N="Success">
+    <S T="3" F="Success" />
+  </C>
+  <C T="I32" I="6" O="false" N="UserActionID">
+    <S T="3" F="ScopeInstance" />
+  </C>
+  <C T="W" I="7" O="false" N="ActivityTag">
+    <S T="3" F="ULS_TagId" />
+  </C>
+  <C T="W" I="8" O="true" N="ItemTelemetryId">
+    <S T="2" F="ItemTelemetryId" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="GroupIndex">
+    <S T="2" F="GroupIndex" M="Ignore" />
+  </C>
+  <C T="I32" I="10" O="true" N="ItemIndex">
+    <S T="2" F="ItemIndex" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="Value">
+    <S T="2" F="Value" M="Ignore" />
+  </C>
+  <C T="B" I="12" O="true" N="IsChecked">
+    <S T="2" F="IsChecked" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="IsIntermediate">
+    <S T="2" F="IsIntermediate" M="Ignore" />
+  </C>
+  <C T="D" I="14" O="true" N="OldValue">
+    <S T="2" F="OldValue" M="Ignore" />
+  </C>
+  <C T="D" I="15" O="true" N="NewValue">
+    <S T="2" F="NewValue" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

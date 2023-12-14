@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170114" V="1" DC="SM" EN="Office.Graphics.RemoveObserver" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cs84o" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+  </S>
+  <C T="U32" I="0" O="false" N="HitCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="true" N="ThreadID">
+    <S T="1" F="threadID" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="IBlobObserver">
+    <S T="1" F="IBlobObserver" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="TotalBlobsBeingObserved">
+    <S T="1" F="totalBlobsBeingObserved" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

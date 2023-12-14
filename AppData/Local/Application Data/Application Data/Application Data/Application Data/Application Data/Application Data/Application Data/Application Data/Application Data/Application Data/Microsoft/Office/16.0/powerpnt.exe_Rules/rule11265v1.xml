@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11265" V="1" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bdrus" />
+  </S>
+  <C T="I32" I="0" O="false">
+    <S T="1" F="searchSourceId" />
+  </C>
+  <C T="W" I="1" O="false">
+    <S T="1" F="searchSourceName" />
+  </C>
+  <C T="I32" I="2" O="false">
+    <S T="1" F="sourceSearchResultIndex" />
+  </C>
+  <C T="B" I="3" O="false">
+    <S T="1" F="displayNameMatch" />
+  </C>
+  <C T="B" I="4" O="false">
+    <S T="1" F="emailAddressMatch" />
+  </C>
+  <C T="B" I="5" O="false">
+    <S T="1" F="fuzzyMatch" />
+  </C>
+  <C T="B" I="6" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="sourceSearchResultIndex" />
+      </L>
+      <R>
+        <V V="0" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="7" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="sourceSearchResultIndex" />
+      </L>
+      <R>
+        <V V="1" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="8" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="sourceSearchResultIndex" />
+      </L>
+      <R>
+        <V V="2" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="9" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="sourceSearchResultIndex" />
+      </L>
+      <R>
+        <V V="3" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="10" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="sourceSearchResultIndex" />
+      </L>
+      <R>
+        <V V="4" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="11" O="false">
+    <O T="GE">
+      <L>
+        <S T="1" F="sourceSearchResultIndex" />
+      </L>
+      <R>
+        <V V="5" T="I32" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

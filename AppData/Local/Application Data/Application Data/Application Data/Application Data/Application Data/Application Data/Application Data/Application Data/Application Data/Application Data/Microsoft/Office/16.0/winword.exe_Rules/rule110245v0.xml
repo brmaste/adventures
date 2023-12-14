@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110245" V="0" DC="SM" EN="Office.Word.SessionHandoffAndPreviewStats" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="357" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="2" E="358" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <A T="3" E="TelemetryShutdown" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="2" F="message" />
+        </L>
+        <R>
+          <V V="1115" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="2" F="message" />
+        </L>
+        <R>
+          <V V="1118" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="2" F="message" />
+        </L>
+        <R>
+          <V V="1108" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="B" I="0" O="false" N="IsPreviewer">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="1" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="I8" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="1" O="false" N="HandoffOpenFileCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="HandoffNewFileCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="HandoffUnHideCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

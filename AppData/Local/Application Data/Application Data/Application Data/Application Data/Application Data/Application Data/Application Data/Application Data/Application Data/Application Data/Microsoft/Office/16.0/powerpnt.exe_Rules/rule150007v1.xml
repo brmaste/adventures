@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150007" V="1" DC="SM" EN="Office.PowerPoint.PPT.MorphTransition.Performance" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bar6m" />
+  </S>
+  <C T="U64" I="0" O="true" N="TotalTimeToPrepareMessage">
+    <S T="1" F="TimeToPrepare" M="Ignore" />
+  </C>
+  <C T="U64" I="1" O="true" N="TotalTimeToMatchMessage">
+    <S T="1" F="TimeToMatch" M="Ignore" />
+  </C>
+  <C T="U64" I="2" O="true" N="TimeToInitKeyFramesMessage">
+    <S T="1" F="TimeToInitKeyFrames" M="Ignore" />
+  </C>
+  <C T="U64" I="3" O="true" N="TimeToRenderMessage">
+    <S T="1" F="TimeToRender" M="Ignore" />
+  </C>
+  <C T="U64" I="4" O="true" N="TotalTimeMessage">
+    <S T="1" F="TotalTime" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true" N="TransitionVariantMessage">
+    <S T="1" F="TransitionVariant" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="SlideId">
+    <S T="1" F="SlideId" M="Ignore" />
+  </C>
+  <C T="G" I="7" O="false" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

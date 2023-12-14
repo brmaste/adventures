@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10902" V="0" DC="SM" EN="Office.Outlook.Desktop.Outlook.Pst.BFillLevelNeeded.Invalid" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="481" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="PageSize" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false" N="PageSize">
+    <S T="1" F="PageSize" />
+  </C>
+  <C T="U32" I="1" O="false" N="CountOfFailures">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="2" />
+  </T>
+</R>

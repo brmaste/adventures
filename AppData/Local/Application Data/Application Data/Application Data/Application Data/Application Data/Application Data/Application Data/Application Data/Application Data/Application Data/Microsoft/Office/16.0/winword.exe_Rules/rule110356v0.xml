@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110356" V="0" DC="SM" EN="Office.Word.Coauth.PickAWinnerBusBar" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" SP="CriticalUsage" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a4673" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="30min" />
+    <F T="4">
+      <O T="OR">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ErrorCode" />
+            </L>
+            <R>
+              <V V="1509" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="1" F="ErrorCode" />
+                </L>
+                <R>
+                  <V V="1510" T="U32" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="OR">
+                <L>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="ErrorCode" />
+                    </L>
+                    <R>
+                      <V V="2055" T="U32" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="EQ">
+                    <L>
+                      <S T="1" F="ErrorCode" />
+                    </L>
+                    <R>
+                      <V V="2106" T="U32" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="4">
+      <F N="DocId" />
+      <F N="PartType" />
+      <F N="BusBarType" />
+      <F N="ErrorCode" />
+      <F N="Icon" />
+    </S>
+  </G>
+  <C T="U64" I="0" O="true" N="DocId">
+    <S T="4" F="DocId" M="Ignore" />
+  </C>
+  <C T="I32" I="1" O="true" N="PartType">
+    <S T="4" F="PartType" M="Ignore" />
+  </C>
+  <C T="I32" I="2" O="true" N="BusBarType">
+    <S T="4" F="BusBarType" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="ErrorCode">
+    <S T="4" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="Icon">
+    <S T="4" F="Icon" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="false" N="BusBarCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="4" />
+  </ST>
+</R>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170095" V="1" DC="SM" EN="Office.Graphics.DecorativeAltText" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="clezs" A="clp1n" />
+  </S>
+  <C T="B" I="0" O="true" N="Decorative">
+    <S T="1" F="fDecorative" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="ObjectName">
+    <S T="1" F="ObjectName" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="ObjectClass">
+    <S T="1" F="ObjectClass" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="Source">
+    <S T="1" F="Source" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

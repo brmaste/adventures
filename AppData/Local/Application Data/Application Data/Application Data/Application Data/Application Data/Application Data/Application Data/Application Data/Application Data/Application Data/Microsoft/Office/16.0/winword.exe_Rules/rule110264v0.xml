@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110264" V="0" DC="SM" EN="Office.Word.Save.FGSaveFallbackFailed" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="312" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <TI T="2" I="Hourly" />
+    <A T="3" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="cmd" />
+    </S>
+  </G>
+  <C T="I32" I="0" O="false" N="CmdResult">
+    <S T="1" F="cmd" />
+  </C>
+  <C T="U32" I="1" O="false" N="ResultCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

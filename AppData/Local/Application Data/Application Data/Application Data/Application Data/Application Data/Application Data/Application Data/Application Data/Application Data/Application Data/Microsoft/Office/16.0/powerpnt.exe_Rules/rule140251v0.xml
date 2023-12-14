@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140251" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="aya55" />
+    <F T="2">
+      <O T="GT">
+        <L>
+          <S T="1" F="Embedded fonts Count" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false">
+    <S T="2" F="Embedded fonts Count" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150133" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="aq4c0" />
+    <R T="2" R="150133" />
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Feature" />
+            </L>
+            <R>
+              <V V="Laser" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Event" />
+            </L>
+            <R>
+              <V V="Finish" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Feature" />
+            </L>
+            <R>
+              <V V="Laser" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Event" />
+            </L>
+            <R>
+              <V V="Start" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Event" />
+        </L>
+        <R>
+          <V V="Render" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="OR">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Event" />
+            </L>
+            <R>
+              <V V="Start" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Event" />
+            </L>
+            <R>
+              <V V="Resume" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="W" I="0" O="true">
+    <S T="6" F="Feature" />
+  </C>
+  <C T="U64" I="1" O="true">
+    <O T="SUB">
+      <L>
+        <U T="100nsToMs">
+          <S T="5" F="TimeStamp100ns" />
+        </U>
+      </L>
+      <R>
+        <U T="100nsToMs">
+          <S T="6" F="TimeStamp100ns" />
+        </U>
+      </R>
+    </O>
+  </C>
+  <C T="B" I="2" O="true">
+    <O T="GT">
+      <L>
+        <O T="ADD">
+          <L>
+            <C>
+              <S T="4" />
+            </C>
+          </L>
+          <R>
+            <O T="COALESCE">
+              <L>
+                <S T="2" F="3" />
+              </L>
+              <R>
+                <V V="0" T="U64" />
+              </R>
+            </O>
+          </R>
+        </O>
+      </L>
+      <R>
+        <O T="ADD">
+          <L>
+            <C>
+              <S T="3" />
+            </C>
+          </L>
+          <R>
+            <O T="COALESCE">
+              <L>
+                <S T="2" F="4" />
+              </L>
+              <R>
+                <V V="0" T="U64" />
+              </R>
+            </O>
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="U64" I="3" O="true">
+    <O T="ADD">
+      <L>
+        <C>
+          <S T="4" />
+        </C>
+      </L>
+      <R>
+        <O T="COALESCE">
+          <L>
+            <S T="2" F="3" />
+          </L>
+          <R>
+            <V V="0" T="U64" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="U64" I="4" O="true">
+    <O T="ADD">
+      <L>
+        <C>
+          <S T="3" />
+        </C>
+      </L>
+      <R>
+        <O T="COALESCE">
+          <L>
+            <S T="2" F="4" />
+          </L>
+          <R>
+            <V V="0" T="U64" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+</R>

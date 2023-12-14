@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110265" V="2" DC="SM" EN="Office.Word.AutoSave.DocUpdateEnablerStatus" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="313" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+  </S>
+  <C T="U64" I="0" O="false" N="Pdod">
+    <S T="1" F="Pdod" />
+  </C>
+  <C T="B" I="1" O="false" N="FAutoSaveActive">
+    <S T="1" F="AutoSaveActive" />
+  </C>
+  <C T="U32" I="2" O="true" N="RtcEnablementState">
+    <S T="1" F="RtcEnablementState" M="Ignore" />
+  </C>
+  <C T="B" I="3" O="false" N="FlowEnabled">
+    <S T="1" F="FlowEnabled" />
+  </C>
+  <C T="U32" I="4" O="false" N="AutoSaveDisallowReason">
+    <S T="1" F="AutoSaveDisallowReason" />
+  </C>
+  <C T="U32" I="5" O="false" N="AutoSaveBlockingReason">
+    <S T="1" F="AutoSaveBlockingReason" />
+  </C>
+  <C T="U32" I="6" O="false" N="CsiErrorCode">
+    <S T="1" F="CsiErrorCode" />
+  </C>
+  <C T="B" I="7" O="false" N="UserWantsAutoSave">
+    <S T="1" F="UserWantsAutoSave" />
+  </C>
+  <C T="U32" I="8" O="true" N="Doc_SessionId">
+    <S T="1" F="DocumentSessionId" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

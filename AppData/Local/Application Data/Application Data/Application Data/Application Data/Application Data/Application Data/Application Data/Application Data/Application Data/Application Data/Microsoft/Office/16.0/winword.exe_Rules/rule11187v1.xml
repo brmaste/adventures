@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11187" V="1" DC="SM" EN="Office.Outlook.Desktop.PhotoCache.InvalidHrInFTryEDPProtectFile" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <TI T="1" I="Daily" />
+    <A T="2" E="TelemetryShutdown" />
+    <UTS T="3" Id="bpfyz" />
+    <F T="4">
+      <O T="AND">
+        <L>
+          <O T="AND">
+            <L>
+              <S T="3" F="FIsEdpEnabled" />
+            </L>
+            <R>
+              <S T="3" F="FIsEdpIdentityManaged" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <S T="3" F="FIsItemContextAvailable" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="3" F="HRESULT" />
+        </L>
+        <R>
+          <V V="18446744071562526807" T="U64" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="3" F="HRESULT" />
+        </L>
+        <R>
+          <V V="18446744071562330423" T="U64" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="AND">
+            <L>
+              <O T="NE">
+                <L>
+                  <S T="3" F="HRESULT" />
+                </L>
+                <R>
+                  <V V="18446744071562526807" T="U64" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="NE">
+                <L>
+                  <S T="3" F="HRESULT" />
+                </L>
+                <R>
+                  <V V="18446744071562330423" T="U64" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="NE">
+            <L>
+              <S T="3" F="HRESULT" />
+            </L>
+            <R>
+              <V V="0" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="4" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U64" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountOfInvalidArg">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountOfMapiEEdpFileNotProtected">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountOfUnexpectedHr">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CountOfEdpProtectedFile">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="CountOfEdpUnprotectedFile">
+    <O T="SUB">
+      <L>
+        <C>
+          <S T="3" />
+        </C>
+      </L>
+      <R>
+        <C>
+          <S T="8" />
+        </C>
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

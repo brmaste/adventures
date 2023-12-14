@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120127" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <TI T="1" I="30s" />
+    <A T="2" E="TelemetryResume" />
+    <R T="3" R="120127" />
+    <SS T="4" G="{1a6b5bd0-2f17-420c-8ba0-ee01132ee441}" />
+    <R T="5" R="120100" />
+  </S>
+  <C T="B" I="0" O="false">
+    <O T="NE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="3" F="1" />
+          </L>
+          <R>
+            <O T="COALESCE">
+              <L>
+                <S T="4" F="UserCid" M="Ignore" />
+              </L>
+              <R>
+                <V V="" T="W" />
+              </R>
+            </O>
+          </R>
+        </O>
+      </L>
+      <R>
+        <O T="COALESCE">
+          <L>
+            <S T="4" F="UserCid" M="Ignore" />
+          </L>
+          <R>
+            <V V="" T="W" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="W" I="1" O="true">
+    <O T="COALESCE">
+      <L>
+        <S T="4" F="UserCid" M="Ignore" />
+      </L>
+      <R>
+        <V V="" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="5" />
+    <S T="1" />
+    <S T="2" />
+  </T>
+</R>

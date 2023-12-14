@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170099" V="2" DC="SM" EN="Office.Graphics.InsertMedia.Android" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="clog3" />
+    <UTS T="2" Id="co8vc" />
+    <UTS T="3" Id="cq8vw" />
+    <UTS T="4" Id="bqp2g" />
+    <UTS T="5" Id="cra8v" />
+    <US T="6">
+      <S T="5" />
+      <S T="4" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="I8" I="0" O="false" N="RequestCode">
+    <S T="1" F="RequestCode" />
+  </C>
+  <C T="I8" I="1" O="false" N="ResultCode">
+    <S T="1" F="ResultCode" />
+  </C>
+  <C T="W" I="2" O="true" N="FailureReason">
+    <S T="2" F="FailureReason" />
+  </C>
+  <C T="W" I="3" O="true" N="MediaFormat">
+    <S T="2" F="ImageFormat" />
+  </C>
+  <C T="TAG" I="4" O="true" N="InsertMediaViaGalleryResult">
+    <S T="6" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="6" />
+  </T>
+</R>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140243" V="3" DC="SM" EN="Office.PowerPoint.PPT.Shared.Collab.DiffValidation" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cdxu0" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="DiffContext" />
+        </L>
+        <R>
+          <V V="2" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="1" F="DiffContext" />
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <UTS T="4" Id="av2pu" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="Operation" />
+        </L>
+        <R>
+          <V V="Merge" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="6" Id="av2pt" />
+  </S>
+  <C T="U32" I="0" O="true" N="WorkingUnmatchedEditCount">
+    <S T="3" F="UnmatchedEditCount" />
+  </C>
+  <C T="U32" I="1" O="true" N="DownloadUnmatchedEditCount">
+    <S T="2" F="UnmatchedEditCount" />
+  </C>
+  <C T="U32" I="2" O="true" N="WorkingElapsedTimeMS">
+    <S T="3" F="ElapsedTimeMS" />
+  </C>
+  <C T="U32" I="3" O="true" N="DownloadElapsedTimeMS">
+    <S T="2" F="ElapsedTimeMS" />
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+  <ST>
+    <S T="6" />
+  </ST>
+</R>

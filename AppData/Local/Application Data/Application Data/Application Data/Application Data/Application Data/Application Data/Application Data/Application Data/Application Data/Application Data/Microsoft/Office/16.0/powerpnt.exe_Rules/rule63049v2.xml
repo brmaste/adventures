@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63049" V="2" DC="SM" EN="Office.Identity.IdentityExceptionAggregation" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSP PSU" xmlns="">
+  <S>
+    <R T="1" R="63053" />
+    <TI T="2" I="30s" />
+    <A T="3" E="TelemetrySuspend" />
+    <A T="4" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="1" />
+      <F N="2" />
+      <F N="3" />
+      <F N="4" />
+      <F N="5" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="StartTime">
+    <A T="MIN">
+      <S T="1" F="0" />
+    </A>
+  </C>
+  <C T="FT" I="1" O="false" N="EndTime">
+    <A T="MAX">
+      <S T="1" F="0" />
+    </A>
+  </C>
+  <C T="TAG" I="2" O="false" N="Tag">
+    <S T="1" F="1" />
+  </C>
+  <C T="U32" I="3" O="false" N="LoggingCategory">
+    <S T="1" F="2" />
+  </C>
+  <C T="TAG" I="4" O="true" N="ExceptionTag">
+    <S T="1" F="3" />
+  </C>
+  <C T="U32" I="5" O="false" N="Type">
+    <S T="1" F="4" />
+  </C>
+  <C T="U64" I="6" O="false" N="Error">
+    <S T="1" F="5" />
+  </C>
+  <C T="U32" I="7" O="false" N="ExceptionCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>

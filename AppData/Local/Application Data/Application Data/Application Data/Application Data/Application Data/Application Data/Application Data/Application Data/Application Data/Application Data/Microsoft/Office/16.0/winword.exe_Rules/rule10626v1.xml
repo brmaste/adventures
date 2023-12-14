@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10626" V="1" DC="SM" EN="Office.Outlook.Desktop.PeoplePickerSelectionSourceHitRate" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bdrut" />
+    <TI T="2" I="Daily" />
+    <A T="3" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="searchSourceId" />
+      <F N="searchSourceName" />
+    </S>
+  </G>
+  <C T="I32" I="0" O="false" N="SearchSourceId">
+    <S T="1" F="searchSourceId" />
+  </C>
+  <C T="U32" I="1" O="false" N="ExecutionCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="I32" I="2" O="false" N="FoundUserSelectedItemCount">
+    <A T="SUM">
+      <S T="1" F="didSourceFindResult" />
+    </A>
+  </C>
+  <C T="W" I="3" O="false" N="SearchSourceName">
+    <S T="1" F="searchSourceName" />
+  </C>
+  <C T="U32" I="4" O="false" N="SearchSourceFinishedCount">
+    <A T="SUM">
+      <S T="1" F="didSourceFinish" />
+    </A>
+  </C>
+  <C T="U32" I="5" O="false" N="SearchSourceDidNotFinishCount">
+    <O T="SUB">
+      <L>
+        <C>
+          <S T="1" />
+        </C>
+      </L>
+      <R>
+        <A T="SUM">
+          <S T="1" F="didSourceFinish" />
+        </A>
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

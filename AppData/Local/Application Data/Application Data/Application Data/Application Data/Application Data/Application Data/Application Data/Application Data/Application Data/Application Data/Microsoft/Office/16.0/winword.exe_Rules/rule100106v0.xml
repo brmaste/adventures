@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="100106" V="0" DC="SM" EN="Office.UX.Desktop.ContextMenuItemClick" ATT="c4388c977297413bb054bad1acf0ade1-cc58e53e-f5a4-4f37-b0d2-9a8079e34420-6879" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="ctgys" />
+  </S>
+  <C T="G" I="0" O="false" N="ContextMenuSessionId">
+    <S T="1" F="ContextMenuSessionId" />
+  </C>
+  <C T="I32" I="1" O="false" N="CommandPosition">
+    <S T="1" F="CommandPosition" />
+  </C>
+  <C T="I32" I="2" O="false" N="CommandType">
+    <S T="1" F="Command Type" />
+  </C>
+  <C T="I32" I="3" O="false" N="ResultBindingTcid">
+    <S T="1" F="ResultBindingTcid" />
+  </C>
+  <C T="I32" I="4" O="false" N="ExecutedControlTcid">
+    <S T="1" F="ExecutedControlTcid" />
+  </C>
+  <C T="U32" I="5" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="6" O="false" N="UserActionName">
+    <V V="SmartContextMenu_MenuItemClickInfo" T="W" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

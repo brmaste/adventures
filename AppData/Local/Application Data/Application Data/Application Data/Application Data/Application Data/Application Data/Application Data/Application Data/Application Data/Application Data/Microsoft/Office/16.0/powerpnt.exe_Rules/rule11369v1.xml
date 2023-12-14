@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11369" V="1" DC="SM" EN="Office.Outlook.Desktop.PcxOcom2ConnectionHealthStatistics" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="bzplw" />
+    <UTS T="4" Id="bzplx" />
+    <UTS T="5" Id="bzply" />
+    <UTS T="6" Id="bzplz" />
+    <UTS T="7" Id="bzpl0" />
+    <R T="8" R="11794" />
+    <F T="9">
+      <O T="GE">
+        <L>
+          <S T="3" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="I32" />
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="LT">
+        <L>
+          <S T="3" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="Ocom2IUCOfficeIntegrationFirstCallSuccessCount">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="Ocom2IUCOfficeIntegrationFirstCallFailedCount">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="Ocom2AppCrashCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="Ocom2AppSignOutCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="Ocom2AppSignInCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="Ocom2AppShutdownCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="W" I="6" O="true" N="IMProviderName">
+    <S T="8" F="0" />
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="8" />
+    <S T="3" />
+  </ST>
+</R>

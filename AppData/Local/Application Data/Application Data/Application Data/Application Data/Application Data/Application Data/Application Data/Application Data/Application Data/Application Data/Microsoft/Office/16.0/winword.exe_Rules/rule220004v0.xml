@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="220004" V="0" DC="SM" EN="Office.Text.FSFontSubstitution" ATT="9c9dcb87a41b41bebea94330a23d828d-35611aa0-46ca-4351-98e0-5746b84e5be3-6973" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="as8v7" />
+    <UTS T="2" Id="as8v8" />
+    <A T="3" E="TelemetrySuspend" />
+    <A T="4" E="TelemetryShutdown" />
+    <TR T="5" />
+    <TI T="6" I="Hourly" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="5" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="1" O="false" N="TotalSuccess">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="TotalFailure">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <T>
+    <S T="6" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="2" />
+  </ST>
+</R>

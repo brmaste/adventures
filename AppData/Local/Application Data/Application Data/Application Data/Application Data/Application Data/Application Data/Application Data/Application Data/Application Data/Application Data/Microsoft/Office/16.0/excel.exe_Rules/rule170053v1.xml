@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170053" V="1" DC="SM" EN="Office.Graphics.SpriteMem" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="DC" xmlns="">
+  <S>
+    <UTS T="1" Id="bkj8w" />
+  </S>
+  <C T="U64" I="0" O="true" N="CurrentSpriteMem">
+    <S T="1" F="Current" />
+  </C>
+  <C T="U64" I="1" O="true" N="MaxSpriteMem">
+    <S T="1" F="Peak" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

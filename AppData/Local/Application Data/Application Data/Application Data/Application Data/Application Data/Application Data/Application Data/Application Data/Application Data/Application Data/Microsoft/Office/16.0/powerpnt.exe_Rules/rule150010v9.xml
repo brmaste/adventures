@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150010" V="9" DC="SM" EN="Office.PowerPoint.PPT.ContentLogging.Presentation" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="av2pt" />
+    <UTS T="2" Id="aya55" A="ibk7w" />
+    <UTS T="3" Id="a2kfx" />
+    <UTS T="4" Id="bar02" />
+  </S>
+  <C T="FT" I="0" O="false" N="DocumentOpenTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="true" N="Operation">
+    <S T="1" F="Operation" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="SlideCount">
+    <S T="2" F="Slide Count" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="MainMasterCount">
+    <S T="2" F="Main Master Count" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="ContentMasterCount">
+    <S T="2" F="Content Master Count" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="EmbeddedFontsCount">
+    <S T="2" F="Embedded fonts Count" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="IsEncrypted">
+    <S T="2" F="Is Encrypted" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="HasReadPassword">
+    <S T="2" F="Has Read Password" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="HasModifyPassword">
+    <S T="2" F="Has Modify Password" M="Ignore" />
+  </C>
+  <C T="B" I="9" O="true" N="HasSignature">
+    <S T="2" F="Has Signature" M="Ignore" />
+  </C>
+  <C T="B" I="10" O="true" N="IsFinal">
+    <S T="2" F="Is Final" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="IsRestricted">
+    <S T="2" F="Is Restricted" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="CommentAuthorsCount">
+    <S T="2" F="Comment Authors Count" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="ScreenRatio">
+    <S T="2" F="Screen Ratio" M="Ignore" />
+  </C>
+  <C T="B" I="14" O="true" N="IsStrictOOXML">
+    <S T="2" F="Is Strict OOXML" M="Ignore" />
+  </C>
+  <C T="G" I="15" O="true" N="CorrelationId">
+    <S T="2" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="false" N="IsInvokedFromSuggestionService">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="B" I="17" O="true" N="HasSections">
+    <S T="2" F="Has Sections" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="CustomShowCount">
+    <S T="2" F="Custom Show Count" M="Ignore" />
+  </C>
+  <C T="B" I="19" O="true" N="HasVBA">
+    <S T="2" F="Has VBA" M="Ignore" />
+  </C>
+  <C T="U32" I="20" O="true" N="CustomXMLPartCount">
+    <S T="2" F="Custom XML Part Count" M="Ignore" />
+  </C>
+  <C T="B" I="21" O="true" N="IsRTL">
+    <S T="2" F="Is Right To Left" M="Ignore" />
+  </C>
+  <C T="I32" I="22" O="true" N="SlideSizeX">
+    <S T="2" F="Slide Size X" M="Ignore" />
+  </C>
+  <C T="I32" I="23" O="true" N="SlideSizeY">
+    <S T="2" F="Slide Size Y" M="Ignore" />
+  </C>
+  <C T="B" I="24" O="true" N="HasGuide">
+    <S T="2" F="Has Guide" M="Ignore" />
+  </C>
+  <C T="I32" I="25" O="true" N="GridSpacing">
+    <S T="2" F="Grid Spacing" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <R>
+    <S T="4" />
+  </R>
+</R>

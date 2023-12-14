@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68027" V="0" DC="SM" EN="Office.TellMe.TellMeD.RankResultGroups" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="c3a4s" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="TellMeSessionId">
+    <S T="1" F="SessionId" M="Ignore" />
+  </C>
+  <C T="G" I="2" O="true" N="QueryId">
+    <S T="1" F="QueryId" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="IndexOrder">
+    <S T="1" F="IndexOrder" M="Ignore" />
+  </C>
+  <C T="U64" I="4" O="true" N="TimeTaken">
+    <S T="1" F="GetSuggestionsSync_TimeTaken" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

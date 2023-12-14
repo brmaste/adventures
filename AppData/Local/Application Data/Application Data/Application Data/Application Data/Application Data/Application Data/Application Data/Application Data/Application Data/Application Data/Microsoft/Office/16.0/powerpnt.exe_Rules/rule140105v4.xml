@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140105" V="4" DC="SM" EN="Office.PowerPoint.PPT.Desktop.PPTActionsMainRule" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <R T="1" R="140104" />
+    <TI T="2" I="15min" />
+    <A T="3" E="TelemetrySuspend" />
+    <A T="4" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="0" />
+      <F N="9" />
+      <F N="1" />
+      <F N="10" />
+      <F N="11" />
+      <F N="14" />
+      <F N="15" />
+      <F N="16" />
+      <F N="17" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false" N="ActionId">
+    <S T="1" F="0" />
+  </C>
+  <C T="U32" I="1" O="false" N="Tcid">
+    <S T="1" F="9" />
+  </C>
+  <C T="B" I="2" O="false" N="Success">
+    <S T="1" F="1" />
+  </C>
+  <C T="TAG" I="3" O="true" N="ErrorTag">
+    <S T="1" F="10" />
+  </C>
+  <C T="I32" I="4" O="true" N="HResult">
+    <S T="1" F="11" />
+  </C>
+  <C T="B" I="5" O="true" N="IsCommandUsed">
+    <S T="1" F="14" />
+  </C>
+  <C T="B" I="6" O="true" N="IsDialog">
+    <S T="1" F="15" />
+  </C>
+  <C T="B" I="7" O="true" N="InNotesPane">
+    <S T="1" F="16" />
+  </C>
+  <C T="B" I="8" O="true" N="InPresenterView">
+    <S T="1" F="17" />
+  </C>
+  <C T="U32" I="9" O="false" N="Occurrence">
+    <A T="SUM">
+      <S T="1" F="3" />
+    </A>
+  </C>
+  <C T="U32" I="10" O="false" N="Occurrence_0_200">
+    <A T="SUM">
+      <S T="1" F="4" />
+    </A>
+  </C>
+  <C T="U32" I="11" O="false" N="Occurrence_200_500">
+    <A T="SUM">
+      <S T="1" F="5" />
+    </A>
+  </C>
+  <C T="U32" I="12" O="false" N="Occurrence_500_1000">
+    <A T="SUM">
+      <S T="1" F="6" />
+    </A>
+  </C>
+  <C T="U32" I="13" O="false" N="Occurrence_1000_2000">
+    <A T="SUM">
+      <S T="1" F="7" />
+    </A>
+  </C>
+  <C T="U32" I="14" O="false" N="Occurrence_2000">
+    <A T="SUM">
+      <S T="1" F="8" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+</R>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110150" V="1" DC="SM" EN="Office.Word.Word.BusBar.Counts" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a4673" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="30min" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="DocId" />
+      <F N="PartType" />
+      <F N="ClientId" />
+      <F N="BusBarType" />
+      <F N="ErrorCode" />
+      <F N="Icon" />
+    </S>
+  </G>
+  <C T="U64" I="0" O="true" N="DocId">
+    <S T="1" F="DocId" M="Ignore" />
+  </C>
+  <C T="I32" I="1" O="true" N="PartType">
+    <S T="1" F="PartType" M="Ignore" />
+  </C>
+  <C T="I64" I="2" O="true" N="BusBarClientId">
+    <S T="1" F="ClientId" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="BusBarType">
+    <S T="1" F="BusBarType" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="ErrorCode">
+    <S T="1" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="Icon">
+    <S T="1" F="Icon" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="false" N="BusBarCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

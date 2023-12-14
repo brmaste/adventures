@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140155" V="1" DC="SM" EN="Office.PowerPoint.PPT.Shared.FrameProtocol.AggregateInfoHandler" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bv0he" />
+  </S>
+  <C T="W" I="0" O="true" N="RequestOperation">
+    <S T="1" F="RequestOperation" />
+  </C>
+  <C T="I32" I="1" O="true" N="ResponseErrorCode">
+    <S T="1" F="ResponseErrorCode" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110248" V="4" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <Etw T="1" E="203" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="2" E="277" G="{daf0b914-9c1c-450a-81b2-fea7244f6ffa}" />
+    <UTS T="3" Id="bi0zx" A="boy14 boy2x b4c8x" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="IsDocDirty" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U64" I="0" O="false">
+    <S T="4" F="pdod" />
+  </C>
+  <C T="G" I="1" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="Doc.UrlHash" M="Ignore" />
+      </L>
+      <R>
+        <V V="{00000000-0000-0000-0000-000000000000}" T="G" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="2" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="Doc.NumberCoAuthors" M="Ignore" />
+      </L>
+      <R>
+        <V V="0" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="3" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="Doc.Location" M="Ignore" />
+      </L>
+      <R>
+        <V V="16" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="4" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="2" F="fAlwaysSaveEnabled" M="Ignore" />
+      </L>
+      <R>
+        <V V="false" T="B" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="5" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="2" F="wkViewKind" M="Ignore" />
+      </L>
+      <R>
+        <V V="4294967295" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="6" O="false">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="Doc.LocationDetails" M="Ignore" />
+      </L>
+      <R>
+        <V V="16" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="FT" I="7" O="false">
+    <S T="4" F="TimeStamp100ns" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

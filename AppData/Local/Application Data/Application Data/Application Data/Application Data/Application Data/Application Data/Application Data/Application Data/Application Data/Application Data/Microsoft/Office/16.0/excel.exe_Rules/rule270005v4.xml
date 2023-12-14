@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="270005" V="4" DC="SM" EN="Office.PowerBI.PowerBIPublishingFinishV4" ATT="a396d7578da948e084182884bf406f95-7ea00771-8110-4e59-b527-f6989ea55408-6957" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a4za9" A="a3l75" />
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U64" I="1" O="true" N="DocPtr">
+    <S T="1" F="DocPtr" />
+  </C>
+  <C T="I32" I="2" O="true" N="IsGroup">
+    <S T="1" F="IsGroup" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="IsFFEnabled">
+    <S T="1" F="IsFFEnabled" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="CallbackOperationType">
+    <S T="1" F="OperationType" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="IsLocalFilesSupportEnabled">
+    <S T="1" F="IsLocalFilesSupportEnabled" M="Ignore" />
+  </C>
+  <C T="I32" I="6" O="true" N="IsLocalFile">
+    <S T="1" F="IsLocalFile" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true" N="NameConflictAction">
+    <S T="1" F="NameConflictAction" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

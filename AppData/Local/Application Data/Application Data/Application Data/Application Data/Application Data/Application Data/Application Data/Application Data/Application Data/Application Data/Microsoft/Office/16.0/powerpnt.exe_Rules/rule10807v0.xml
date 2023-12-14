@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10807" V="0" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhpn8" />
+  </S>
+  <C T="I32" I="0" O="false">
+    <S T="1" F="errorCode" />
+  </C>
+  <C T="B" I="1" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="callName" />
+      </L>
+      <R>
+        <V V="HrInit" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="2" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="callName" />
+      </L>
+      <R>
+        <V V="CompleteRecipient" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="callName" />
+      </L>
+      <R>
+        <V V="HrShowAutoComplete" T="W" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="4" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="callName" />
+      </L>
+      <R>
+        <V V="HrDeleteAutoCompleteItem" T="W" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

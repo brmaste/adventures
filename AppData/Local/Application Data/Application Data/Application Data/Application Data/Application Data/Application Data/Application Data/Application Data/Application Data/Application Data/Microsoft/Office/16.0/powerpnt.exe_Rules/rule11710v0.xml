@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11710" V="0" DC="SM" EN="Office.Outlook.Desktop.NdbCorruptionResult" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" SP="CriticalUsage" S="50" DL="B" DCa="PSP" xmlns="">
+  <S>
+    <Etw T="1" E="368" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+  </S>
+  <C T="W" I="0" O="false" N="ReportingProcess">
+    <S T="1" F="Process" />
+  </C>
+  <C T="B" I="1" O="false" N="CreateNewFile">
+    <S T="1" F="CreateNew" />
+  </C>
+  <C T="U32" I="2" O="false" N="Consumers">
+    <S T="1" F="Consumers" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

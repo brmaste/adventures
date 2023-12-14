@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240026" V="0" DC="SM" EN="Office.Security.CryptoFileOpenDetails" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a3v6n" />
+    <UTS T="2" Id="bmn4l" />
+    <UTS T="3" Id="bggkq" />
+    <UTS T="4" Id="bmn4k" />
+    <UTS T="5" Id="a23iu" />
+    <UTS T="6" Id="blu8c" />
+    <UTS T="7" Id="bgi47" />
+    <UTS T="8" Id="blu8d" />
+    <UTS T="9" Id="a3v6q" />
+    <UTS T="10" Id="blr4c" />
+    <UTS T="11" Id="bgi3u" />
+    <UTS T="12" Id="blr4b" />
+    <US T="13">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+      <S T="9" />
+      <S T="10" />
+      <S T="11" />
+      <S T="12" />
+    </US>
+    <UTS T="14" Id="a3v6o" />
+    <UTS T="15" Id="bggkr" />
+    <UTS T="16" Id="bauqz" />
+    <UTS T="17" Id="bgi48" />
+    <UTS T="18" Id="a3v6s" />
+    <UTS T="19" Id="bgi3v" />
+    <US T="20">
+      <S T="14" />
+      <S T="15" />
+      <S T="16" />
+      <S T="17" />
+      <S T="18" />
+      <S T="19" />
+    </US>
+    <UTS T="21" Id="aw36d" />
+    <UTS T="22" Id="bgtmt" />
+    <UTS T="23" Id="a17yq" />
+    <UTS T="24" Id="a17yp" />
+    <F T="25">
+      <O T="EQ">
+        <L>
+          <S T="13" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope Summary" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="26">
+      <O T="EQ">
+        <L>
+          <S T="13" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="27">
+      <O T="EQ">
+        <L>
+          <S T="26" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Start" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="28">
+      <O T="EQ">
+        <L>
+          <S T="20" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope Summary" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="27">
+      <F N="TopActivityInstance" />
+    </S>
+    <S T="25">
+      <F N="TopActivityInstance" />
+    </S>
+    <S T="28">
+      <F N="TopActivityInstance" />
+    </S>
+    <S T="21">
+      <F N="TopActivityInstance" />
+    </S>
+    <S T="22">
+      <F N="TopActivityInstance" />
+    </S>
+    <S T="23">
+      <F N="TopActivityInstance" />
+    </S>
+    <S T="24">
+      <F N="TopActivityInstance" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="OpenActivityName">
+    <S T="25" F="ScopeName" />
+  </C>
+  <C T="TAG" I="1" O="false" N="OpenActivityTag">
+    <S T="25" F="ULS_Tag" />
+  </C>
+  <C T="U32" I="2" O="false" N="OpenActivityDurationInMilliseconds">
+    <S T="25" F="DurationToCompleteInMilliseconds" />
+  </C>
+  <C T="B" I="3" O="false" N="OpenActivitySuccess">
+    <S T="25" F="Success" />
+  </C>
+  <C T="I32" I="4" O="true" N="OpenActivityErrorCode">
+    <S T="25" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="PasswordDialogActivityDurationInMilliseconds">
+    <S T="28" F="DurationToCompleteInMilliseconds" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="PasswordDialogActivitySuccess">
+    <S T="28" F="Success" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true" N="PasswordDialogActivityErrorCode">
+    <S T="28" F="ErrorCode" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="EadFlag">
+    <A T="LAST">
+      <O T="COALESCE">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="21" F="Ead Flag" M="Ignore" />
+            </L>
+            <R>
+              <S T="22" F="Ead Flag" M="Ignore" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="COALESCE">
+            <L>
+              <S T="23" F="Ead Flag" M="Ignore" />
+            </L>
+            <R>
+              <S T="24" F="Ead Flag" M="Ignore" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </A>
+  </C>
+  <C T="W" I="9" O="true" N="CryptoAlgorithm">
+    <A T="LAST">
+      <O T="COALESCE">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="21" F="Crypto Algorithm" M="Ignore" />
+            </L>
+            <R>
+              <S T="22" F="Crypto Algorithm" M="Ignore" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="COALESCE">
+            <L>
+              <S T="23" F="Crypto Algorithm" M="Ignore" />
+            </L>
+            <R>
+              <S T="24" F="Crypto Algorithm" M="Ignore" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </A>
+  </C>
+  <C T="U32" I="10" O="true" N="KeySizeBits">
+    <A T="LAST">
+      <O T="COALESCE">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="21" F="Key Size (bits)" M="Ignore" />
+            </L>
+            <R>
+              <S T="22" F="Key Size (bits)" M="Ignore" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="COALESCE">
+            <L>
+              <S T="23" F="Key Size (bits)" M="Ignore" />
+            </L>
+            <R>
+              <S T="24" F="Key Size (bits)" M="Ignore" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </A>
+  </C>
+  <C T="W" I="11" O="true" N="CipherSuite">
+    <A T="LAST">
+      <O T="COALESCE">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="21" F="Cipher Suite" M="Ignore" />
+            </L>
+            <R>
+              <S T="22" F="Cipher Suite" M="Ignore" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="COALESCE">
+            <L>
+              <S T="23" F="Cipher Suite" M="Ignore" />
+            </L>
+            <R>
+              <S T="24" F="Cipher Suite" M="Ignore" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </A>
+  </C>
+  <C T="W" I="12" O="true" N="HashAlgorithm">
+    <A T="LAST">
+      <O T="COALESCE">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="21" F="Hash Algorithm" M="Ignore" />
+            </L>
+            <R>
+              <S T="22" F="Hash Algorithm" M="Ignore" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="COALESCE">
+            <L>
+              <S T="23" F="Hash Algorithm" M="Ignore" />
+            </L>
+            <R>
+              <S T="24" F="Hash Algorithm" M="Ignore" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </A>
+  </C>
+  <T>
+    <S T="25" />
+  </T>
+  <ST>
+    <S T="27" />
+  </ST>
+</R>

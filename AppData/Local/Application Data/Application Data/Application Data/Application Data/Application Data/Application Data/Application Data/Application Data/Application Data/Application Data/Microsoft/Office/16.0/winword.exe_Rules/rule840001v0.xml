@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="840001" V="0" DC="SM" EN="Office.Floodgate.GetDecisionForAction.LastMileCheck" ATT="d526a9052e444f1d8706529ef111b101-1a23544e-ef74-4a87-9979-78386cb3c5e6-6762" T="Upload-Medium" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="82pu4" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="SurveyId">
+    <S T="1" F="ActionId" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Decision">
+    <S T="1" F="Decision" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="ChannelType">
+    <S T="1" F="ChannelType" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

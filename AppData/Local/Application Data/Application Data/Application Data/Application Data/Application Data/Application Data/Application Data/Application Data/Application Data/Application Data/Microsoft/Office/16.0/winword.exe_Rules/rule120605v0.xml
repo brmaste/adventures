@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120605" V="0" DC="SM" EN="Office.System.SystemHealthMetadataDelayedLogin" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalBusinessImpact" S="1" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <SS T="1" G="{1a6b5bd0-2f17-420c-8ba0-ee01132ee441}" />
+    <R T="2" R="120604" />
+    <R T="3" R="120125" />
+    <TH T="4">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="2" F="0" />
+            </L>
+            <R>
+              <V V="" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <S T="3" F="0" />
+        </R>
+      </O>
+    </TH>
+  </S>
+  <C T="W" I="0" O="true" N="CID">
+    <S T="1" F="UserCid" M="Ignore" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

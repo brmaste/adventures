@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140130" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.RecordRibbon" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjxvh" />
+    <UTS T="2" Id="bjxvf" />
+    <UTS T="3" Id="bjxvi" />
+  </S>
+  <C T="B" I="0" O="false" N="IsRecordingRibbonTabVisible">
+    <S T="1" F="fRecordingRibbonTabVisible" />
+  </C>
+  <C T="U32" I="1" O="false" N="RecordingRibbonTabGroupPolicyValue">
+    <S T="1" F="recordingRibbonTabGroupPolicy" />
+  </C>
+  <C T="I8" I="2" O="false" N="RecordingRibbonTabState">
+    <S T="1" F="recordingRibbonTabState" />
+  </C>
+  <C T="B" I="3" O="false" N="IsRecordPresenterViewLaunched">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="2" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="I8" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="4" O="false" N="IsRibbonToolBarLoaded">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="3" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="I8" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

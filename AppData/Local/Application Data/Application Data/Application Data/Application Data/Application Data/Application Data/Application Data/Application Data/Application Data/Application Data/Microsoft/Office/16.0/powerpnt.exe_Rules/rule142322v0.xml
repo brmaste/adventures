@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="142322" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.Content.OnlineMovieGenerateStreamSSOToken" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="c5z9u" />
+    <UTS T="2" Id="c5z9n" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="I64" I="0" O="true" N="CommandDuration">
+    <S T="3" F="CommandDuration" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="URLHash">
+    <S T="3" F="GenerateStreamSSOToken" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="370012" V="0" DC="SM" EN="Office.TargetedMessaging.UnsupportedIdentityType" ATT="2f0a1931898144668b4994b491868b75-cc9fb197-8766-4b63-8e07-1887d3d330ac-7107" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bsg4m" A="bsg4l" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

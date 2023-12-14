@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180161" V="0" DC="SM" EN="Office.Excel.XlUnifiedParseDecode" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bj682" />
+  </S>
+  <C T="G" I="0" O="true" N="Correlation">
+    <S T="1" F="ULS_CorrelationID" />
+  </C>
+  <C T="U32" I="1" O="false" N="ParseTotal">
+    <S T="1" F="ParseTotal" />
+  </C>
+  <C T="U32" I="2" O="false" N="ParseSkipped">
+    <S T="1" F="ParseSkipped" />
+  </C>
+  <C T="U32" I="3" O="false" N="ParseDdeSkipped">
+    <S T="1" F="ParseDdeSkipped" />
+  </C>
+  <C T="U32" I="4" O="false" N="ParseOom">
+    <S T="1" F="ParseOom" />
+  </C>
+  <C T="U32" I="5" O="false" N="ParseSuccess">
+    <S T="1" F="ParseSuccess" />
+  </C>
+  <C T="U32" I="6" O="false" N="Parse2Skipped">
+    <S T="1" F="Parse2Skipped" />
+  </C>
+  <C T="U32" I="7" O="false" N="Parse2Oom">
+    <S T="1" F="Parse2Oom" />
+  </C>
+  <C T="U32" I="8" O="false" N="Parse2Success">
+    <S T="1" F="Parse2Success" />
+  </C>
+  <C T="U32" I="9" O="false" N="Parse2Failure">
+    <S T="1" F="Parse2Failure" />
+  </C>
+  <C T="U32" I="10" O="false" N="DecodeTotal">
+    <S T="1" F="DecodeTotal" />
+  </C>
+  <C T="U32" I="11" O="false" N="DecodeSkipped">
+    <S T="1" F="DecodeSkipped" />
+  </C>
+  <C T="U32" I="12" O="false" N="DecodeOom">
+    <S T="1" F="DecodeOom" />
+  </C>
+  <C T="U32" I="13" O="false" N="DecodeSuccess">
+    <S T="1" F="DecodeSuccess" />
+  </C>
+  <C T="U32" I="14" O="false" N="DecodeFailure">
+    <S T="1" F="DecodeFailure" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

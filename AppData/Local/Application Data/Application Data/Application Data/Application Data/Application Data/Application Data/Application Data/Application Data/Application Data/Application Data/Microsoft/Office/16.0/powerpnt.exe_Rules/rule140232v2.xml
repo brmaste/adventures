@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140232" V="2" DC="SM" EN="Office.PowerPoint.PPT.Shared.Collab.DocumentChanges" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bmv45" />
+  </S>
+  <C T="G" I="0" O="true" N="UlsCorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="G" I="1" O="true" N="ChangeCorrelationId">
+    <S T="1" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="DocumentChangeDetails">
+    <S T="1" F="Document" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="ContentMasterChangeDetails">
+    <S T="1" F="ContentMaster" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="SectionChangeDetails">
+    <S T="1" F="Section" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="MainMasterChangeDetails">
+    <S T="1" F="MainMaster" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="CommentAuthorChangeDetails">
+    <S T="1" F="CommentAuthor" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="CustomShowChangeDetails">
+    <S T="1" F="CustomShow" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="OsfAppChangeDetails">
+    <S T="1" F="OsfApp" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="NotesMasterChangeDetails">
+    <S T="1" F="NotesMaster" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="HandoutChangeDetails">
+    <S T="1" F="Handout" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="FIsExternal">
+    <S T="1" F="fIsExternal" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="610003" V="1" DC="SM" EN="Office.ML.UAPEventSink.LogSIGSSignal_1" ATT="655fe2f4f8414e4db3f881ce2bb96fc8-7a0f06e8-b403-4b25-afd7-a54cc7fda27b-7855" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bzlg7" />
+  </S>
+  <C T="W" I="0" O="false" N="ActivityIdType">
+    <S T="1" F="ActivityIdType" />
+  </C>
+  <C T="W" I="1" O="false" N="AppIdType">
+    <S T="1" F="AppIdType" />
+  </C>
+  <C T="W" I="2" O="false" N="ClientVersion">
+    <S T="1" F="ClientVersion" />
+  </C>
+  <C T="W" I="3" O="false" N="OfficeUserId">
+    <S T="1" F="OfficeUserId" />
+  </C>
+  <C T="W" I="4" O="false" N="UserType">
+    <S T="1" F="UserType" />
+  </C>
+  <C T="W" I="5" O="false" N="ClientSessionId">
+    <S T="1" F="ClientSessionId" />
+  </C>
+  <C T="W" I="6" O="false" N="ActivityCorrelationId">
+    <S T="1" F="ActivityCorrelationId" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

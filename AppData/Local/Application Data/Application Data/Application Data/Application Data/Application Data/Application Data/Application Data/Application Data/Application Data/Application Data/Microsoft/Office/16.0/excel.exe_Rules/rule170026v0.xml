@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170026" V="0" DC="SM" EN="Office.Graphics.GvisIgxTextTelemetry" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a6mzy" />
+    <UTS T="2" Id="axwza" />
+    <SR T="3" R="Igx::">
+      <S T="2" F="Cmd_Name" />
+    </SR>
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="3" F="AlgorithmState" />
+        </L>
+        <R>
+          <V V="End" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_Category" />
+        </L>
+        <R>
+          <V V="Scope Summary" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="5" F="ScopeName" M="Ignore" />
+        </L>
+        <R>
+          <V V="FileIO::CMsoOLDocBase::Close" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="4">
+      <F N="Cmd_Name" />
+      <F N="Cmd_CommandOriginator" M="Ignore" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="Cmd_Name">
+    <S T="4" F="Cmd_Name" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="false" N="Cmd_CommandOriginator">
+    <S T="4" F="Cmd_CommandOriginator" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="false" N="Cmd_Count">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <T>
+    <S T="6" />
+  </T>
+</R>

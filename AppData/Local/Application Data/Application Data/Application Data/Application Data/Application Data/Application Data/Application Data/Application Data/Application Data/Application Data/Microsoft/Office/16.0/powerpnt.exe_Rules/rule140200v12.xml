@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140200" V="12" DC="SM" EN="Office.PowerPoint.PPT.Desktop.FileSave" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UACS T="1" S="Unexpected Assert" />
+    <UTS T="2" Id="av2pt" />
+    <UTS T="3" Id="axn4z" />
+    <UTS T="4" Id="a7nor" />
+    <UTS T="5" Id="av2pu" />
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="5" F="Operation" M="Ignore" />
+        </L>
+        <R>
+          <V V="Save" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="7" Id="aud42" A="a9j8m" />
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="7" F="Operation" M="Ignore" />
+        </L>
+        <R>
+          <V V="Save" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="9" Id="a1cck" A="a9j8m" />
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="9" F="Operation" M="Ignore" />
+        </L>
+        <R>
+          <V V="Save" T="W" />
+        </R>
+      </O>
+    </F>
+    <US T="11">
+      <S T="6" />
+      <S T="8" />
+      <S T="10" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="true" N="PPTSaveTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="true" N="FirstErrorTag">
+    <A T="FIRST">
+      <S T="1" F="ULS_Tag" />
+    </A>
+  </C>
+  <C T="W" I="2" O="true" N="FileHash">
+    <S T="11" F="FileHash" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="SaveFromLocation">
+    <S T="11" F="SaveFromLocation" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="SaveToLocation">
+    <S T="11" F="SaveToLocation" M="Ignore" />
+  </C>
+  <C T="U64" I="5" O="true" N="FileSize">
+    <S T="11" F="FileSize" M="Ignore" />
+  </C>
+  <C T="U64" I="6" O="true" N="FilePath">
+    <S T="11" F="Path" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true" N="Hresult">
+    <S T="11" F="hr" M="Ignore" />
+  </C>
+  <C T="TAG" I="8" O="true" N="LastTag">
+    <S T="11" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="B" I="9" O="true" N="IsExpectedFailure">
+    <S T="11" F="Expected" M="Ignore" />
+  </C>
+  <C T="I64" I="10" O="true" N="TimeInMs">
+    <S T="11" F="Time (ms)" M="Ignore" />
+  </C>
+  <C T="TAG" I="11" O="true" N="FailureTag">
+    <S T="11" F="FailureTag" M="Ignore" />
+  </C>
+  <C T="B" I="12" O="true" N="FullSave">
+    <S T="3" F="FullSave" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="false" N="MergeStarted">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="W" I="14" O="true" N="CorrelationId">
+    <S T="11" F="CorrelationId" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="SaveType">
+    <S T="11" F="SaveType" M="Ignore" />
+  </C>
+  <C T="W" I="16" O="true" N="ExceptionTag">
+    <S T="11" F="Tag" M="Ignore" />
+  </C>
+  <C T="B" I="17" O="true" N="IsAutoSaveable">
+    <S T="11" F="FIsAutoSaveable" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="ReportStartTimeinMs">
+    <S T="11" F="ReportStart Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="19" O="true" N="PrepareForSaveTimeinMs">
+    <S T="11" F="PrepareForSave Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="20" O="true" N="CheckDownRevSaveTimeinMs">
+    <S T="11" F="CheckDownRevSave Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="21" O="true" N="PerformEmbedFontsinMs">
+    <S T="11" F="PerformEmbedFonts Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="22" O="true" N="CloneDocumentTimeinMs">
+    <S T="11" F="CloneDocument Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="23" O="true" N="ScrubClonedDocumentTimeinMs">
+    <S T="11" F="ScrubClonedDocument Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="24" O="true" N="EnsureSaveTransactionTimeinMs">
+    <S T="11" F="EnsureSaveTransaction Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="25" O="true" N="PerformModernSaveTimeinMs">
+    <S T="11" F="PerformModernSave Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="26" O="true" N="PerformMediaOptimizationTimeinMs">
+    <S T="11" F="PerformMediaOptimization Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="27" O="true" N="PerformPostSaveTimeinMs">
+    <S T="11" F="PerformPostSave Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="28" O="true" N="ForegroundThreadPass0TimeInMs">
+    <S T="11" F="Foreground Thread Pass 0 Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="29" O="true" N="BackgroundThreadPass0TimeInMs">
+    <S T="11" F="Background Thread Pass 0 Time(MS)" M="Ignore" />
+  </C>
+  <C T="U32" I="30" O="true" N="ForegroundThreadPass1TimeInMs">
+    <S T="11" F="Foreground Thread Pass 1 Time(MS)" M="Ignore" />
+  </C>
+  <T>
+    <S T="11" />
+  </T>
+  <ST>
+    <S T="2" />
+  </ST>
+</R>

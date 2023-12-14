@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150228" V="0" DC="SM" EN="Office.PowerPoint.PPT.RealtimeCollabDataLoss" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="biqh1" />
+    <UTS T="2" Id="bb8d5" />
+    <UTS T="3" Id="bax11" />
+    <F T="4">
+      <O T="GT">
+        <L>
+          <S T="3" F="SrcRevision" />
+        </L>
+        <R>
+          <S T="3" F="MyWetRevision" />
+        </R>
+      </O>
+    </F>
+    <US T="5">
+      <S T="4" />
+      <S T="2" />
+    </US>
+    <UTS T="6" Id="a8a6u" />
+    <UTS T="7" Id="biqh0" />
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="7" F="FExternal" M="Ignore" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="EQ">
+        <L>
+          <S T="7" F="FExternal" M="Ignore" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="8">
+      <F N="SlideID" />
+      <F N="CreationID" />
+      <F N="SpID" />
+    </S>
+    <S T="9">
+      <F N="SlideID" />
+      <F N="CreationID" />
+      <F N="SpID" />
+    </S>
+    <S T="6">
+      <F N="SId" />
+      <F N="CId" />
+      <F N="SpId" />
+    </S>
+  </G>
+  <C T="B" I="0" O="false" N="LostRTMInSession">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="5" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U16" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="1" O="false" N="ShapeModifiedByLocal_Count">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="ShapeModifiedByRtm_Count">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="ShapeConflict_Count">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U64" I="4" O="true" N="SlideId">
+    <S T="6" F="SId" />
+  </C>
+  <C T="U64" I="5" O="true" N="SlideCreationId">
+    <S T="6" F="CId" />
+  </C>
+  <C T="U64" I="6" O="true" N="ShapeId">
+    <S T="6" F="SpId" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

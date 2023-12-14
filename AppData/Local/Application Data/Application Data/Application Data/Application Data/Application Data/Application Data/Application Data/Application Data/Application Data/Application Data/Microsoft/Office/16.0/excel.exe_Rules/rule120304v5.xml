@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120304" V="5" DC="SM" EN="Office.System.SystemHealthErrorsWithoutTag" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" DL="B" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Error" />
+  </RIS>
+  <S>
+    <R T="1" R="120300" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="2" />
+        </L>
+        <R>
+          <V V="6034006" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="OR">
+        <L>
+          <O T="NE">
+            <L>
+              <S T="2" F="1" />
+            </L>
+            <R>
+              <V V="Pst_Error" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="AND">
+            <L>
+              <O T="NE">
+                <L>
+                  <S T="2" F="0" />
+                </L>
+                <R>
+                  <V V="196" T="U16" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="NE">
+                <L>
+                  <S T="2" F="0" />
+                </L>
+                <R>
+                  <V V="459" T="U16" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <TI T="4" I="10min" />
+    <A T="5" E="TelemetrySuspend" />
+    <A T="6" E="TelemetryShutdown" />
+  </S>
+  <G I="true" R="TriggerOldest">
+    <S T="3">
+      <F N="1" />
+      <F N="0" />
+      <F N="3" />
+      <F N="4" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="EndTime">
+    <A T="MAX">
+      <S T="3" F="TimeStamp100ns" />
+    </A>
+  </C>
+  <C T="W" I="1" O="false" N="ErrorGroup">
+    <S T="3" F="1" />
+  </C>
+  <C T="U16" I="2" O="false" N="Trackback">
+    <S T="3" F="0" />
+  </C>
+  <C T="I32" I="3" O="false" N="Count">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="FT" I="4" O="false" N="FirstTimeStamp">
+    <A T="MIN">
+      <S T="3" F="TimeStamp100ns" />
+    </A>
+  </C>
+  <C T="I32" I="5" O="true" N="ErrorId">
+    <S T="3" F="3" />
+  </C>
+  <C T="I32" I="6" O="true" N="ErrorCode">
+    <S T="3" F="4" />
+  </C>
+  <T>
+    <S T="4" />
+    <S T="5" />
+    <S T="6" />
+  </T>
+</R>

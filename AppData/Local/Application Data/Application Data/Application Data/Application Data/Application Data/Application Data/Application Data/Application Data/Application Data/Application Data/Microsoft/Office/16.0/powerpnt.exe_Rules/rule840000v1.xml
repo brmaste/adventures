@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="840000" V="1" DC="SM" EN="Office.Floodgate.Client.CampaignExperimentLoad" ATT="d526a9052e444f1d8706529ef111b101-1a23544e-ef74-4a87-9979-78386cb3c5e6-6762" SP="CriticalExperimentation" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="920pg" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="AND">
+            <L>
+              <O T="AND">
+                <L>
+                  <O T="NE">
+                    <L>
+                      <S T="1" F="CampaignId" />
+                    </L>
+                    <R>
+                      <V V="8a42827d-29d2-473e-998e-3217724c5b68" T="W" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="NE">
+                    <L>
+                      <S T="1" F="CampaignId" />
+                    </L>
+                    <R>
+                      <V V="c3b31d20-81f5-49ee-8c43-b12d3f898c06" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="NE">
+                <L>
+                  <S T="1" F="CampaignId" />
+                </L>
+                <R>
+                  <V V="0ce29cd5-b11e-4311-ad13-7cb50ee01988" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="AND">
+            <L>
+              <O T="AND">
+                <L>
+                  <O T="NE">
+                    <L>
+                      <S T="1" F="CampaignId" />
+                    </L>
+                    <R>
+                      <V V="398f8b35-ef06-4a2b-a5dc-d85540d6fff3" T="W" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <O T="NE">
+                    <L>
+                      <S T="1" F="CampaignId" />
+                    </L>
+                    <R>
+                      <V V="a7b77f07-a578-4850-bb15-b68b4e40c5c9" T="W" />
+                    </R>
+                  </O>
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="NE">
+                <L>
+                  <S T="1" F="CampaignId" />
+                </L>
+                <R>
+                  <V V="bfd820ee-11e6-48e1-b781-2fecb14602ba" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="W" I="0" O="false" N="CampaignId">
+    <S T="2" F="CampaignId" />
+  </C>
+  <C T="U8" I="1" O="false" N="TreatmentType">
+    <S T="2" F="TreatmentType" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

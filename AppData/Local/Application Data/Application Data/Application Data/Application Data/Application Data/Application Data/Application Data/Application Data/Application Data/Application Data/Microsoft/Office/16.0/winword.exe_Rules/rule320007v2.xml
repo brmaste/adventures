@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="320007" V="2" DC="SM" EN="Office.Extensibility.ODPAppCommands" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bc4pv" A="a7x9h" />
+  </S>
+  <C T="W" I="0" O="false" N="SolutionId">
+    <S T="1" F="SolutionId" />
+  </C>
+  <C T="W" I="1" O="false" N="RibbonId">
+    <S T="1" F="RibbonId" />
+  </C>
+  <C T="I64" I="2" O="false" N="Groups">
+    <S T="1" F="Groups" />
+  </C>
+  <C T="I64" I="3" O="false" N="Controls">
+    <S T="1" F="Controls" />
+  </C>
+  <C T="I64" I="4" O="false" N="CustomTabs">
+    <S T="1" F="CustomTabs" />
+  </C>
+  <C T="I64" I="5" O="false" N="Menus">
+    <S T="1" F="Menus" />
+  </C>
+  <C T="I64" I="6" O="false" N="Context">
+    <S T="1" F="Context" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

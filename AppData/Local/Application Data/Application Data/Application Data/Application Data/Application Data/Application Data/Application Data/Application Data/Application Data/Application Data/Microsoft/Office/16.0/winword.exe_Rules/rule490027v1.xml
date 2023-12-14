@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="490027" V="1" DC="SM" EN="Office.Feedback.Survey.FloodgateClient.CampaignScope" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" T="Upload-Medium" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="93uqm" A="93uql de88r de88q" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="W" I="1" O="true" N="CampaignId">
+    <S T="1" F="CampaignId" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

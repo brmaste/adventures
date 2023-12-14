@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="370007" V="3" DC="SM" EN="Office.TargetedMessaging.EnsureCached" ATT="2f0a1931898144668b4994b491868b75-cc9fb197-8766-4b63-8e07-1887d3d330ac-7107" SP="CriticalExperimentation" DL="B" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bjxcp" />
+    <UTS T="2" Id="bjp68" />
+    <UTS T="3" Id="bjp69" />
+    <UTS T="4" Id="bjp7a" />
+    <UTS T="5" Id="bjp7b" />
+    <UTS T="6" Id="bjp7l" />
+    <UTS T="7" Id="bjp7m" />
+    <UTS T="8" Id="bjp7n" />
+    <UTS T="9" Id="bjp7o" />
+    <UTS T="10" Id="bjp7q" />
+    <UTS T="11" Id="bjp7r" />
+    <UTS T="12" Id="bjp7s" />
+    <UTS T="13" Id="bjp7t" />
+    <UTS T="14" Id="bjp7u" />
+    <UTS T="15" Id="bjp7v" />
+    <UTS T="16" Id="bjp7w" />
+    <UTS T="17" Id="bjp7x" />
+    <UTS T="18" Id="bjp7y" />
+    <TO T="19" I="1min">
+      <S T="1" />
+    </TO>
+    <A T="20" E="TelemetrySuspend" />
+    <A T="21" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="EnsureCached">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="ExistsAlready">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="HashMatchSuccess">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="HashMatchFailed">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="PackageExplodedSuccess">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CacheFolderNotCreated">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="GetFileStreamSuccess">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="GetFileStreamFailed">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="GetFileStreamFailedToCreateLocalFolder">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="HashCalculationFailed">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="PackageDownloadRequestFailed">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="PackageDownloadRequestNoData">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="PackageDownloadRequestSuccess">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="PackageOpenFailed">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="PackageOpenSuccess">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="GetFileStreamFromPackageSuccess">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="GetFileStreamFromPackageFailed">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="GetRelativePathsFailed">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="W" I="18" O="true" N="HashActualValue">
+    <S T="4" F="Package: actualValue" M="Ignore" />
+  </C>
+  <C T="W" I="19" O="true" N="CdnPath">
+    <S T="6" F="CdnPath" M="Ignore" />
+  </C>
+  <C T="W" I="20" O="true" N="SuccessHashValue">
+    <S T="3" F="HashValue" M="Ignore" />
+  </C>
+  <C T="W" I="21" O="true" N="SuccessSource">
+    <S T="3" F="Source" M="Ignore" />
+  </C>
+  <T>
+    <S T="19" />
+    <S T="20" />
+    <S T="21" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

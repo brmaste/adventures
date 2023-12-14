@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510046" V="0" DC="SM" EN="Office.DynamicCanvas.Experience.OnboardingOobeEligibility.Unexportable" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalExperimentation" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="crhlm" />
+  </S>
+  <C T="U32" I="0" O="false" N="EligibilityCheck">
+    <S T="1" F="FailedChecks" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140244" V="1" DC="SM" EN="Office.PowerPoint.PPT.Shared.Collab.ShapeDiffValidationBW" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cdxux" />
+  </S>
+  <C T="U32" I="0" O="true" N="WorkingUnmatchedSlideID">
+    <S T="1" F="SlideID" />
+  </C>
+  <C T="U32" I="1" O="true" N="WorkingUnmatchedShapeID">
+    <S T="1" F="DEBas_ID" />
+  </C>
+  <C T="U32" I="2" O="true" N="WorkingUnmatchedDEType">
+    <S T="1" F="DrawingElementType" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

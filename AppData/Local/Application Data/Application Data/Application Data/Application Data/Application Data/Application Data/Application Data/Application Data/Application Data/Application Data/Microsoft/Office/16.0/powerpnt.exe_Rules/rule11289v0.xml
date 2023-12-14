@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11289" V="0" DC="SM" EN="Office.Outlook.Desktop.ContactCard2OrgDataRetrievalTiming" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="buzan" />
+    <F T="4">
+      <O T="LT">
+        <L>
+          <S T="3" F="RetrievalMilliseconds" />
+        </L>
+        <R>
+          <V V="200" T="I64" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="200" T="I64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="400" T="I64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="400" T="I64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="600" T="I64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="600" T="I64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="800" T="I64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="800" T="I64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="3" F="RetrievalMilliseconds" />
+            </L>
+            <R>
+              <V V="1000" T="I64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="GE">
+        <L>
+          <S T="3" F="RetrievalMilliseconds" />
+        </L>
+        <R>
+          <V V="1000" T="I64" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="OrgDataRetrievalTimespanAvg">
+    <A T="AVG">
+      <S T="3" F="RetrievalMilliseconds" />
+    </A>
+  </C>
+  <C T="U32" I="1" O="false" N="OrgDataRetrievalTimespanMax">
+    <A T="MAX">
+      <S T="3" F="RetrievalMilliseconds" />
+    </A>
+  </C>
+  <C T="U32" I="2" O="false" N="OrgDataRetrievalTimespanLessThan200msCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="OrgDataRetrievalTimespan200To400msCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="OrgDataRetrievalTimespan400To600msCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="OrgDataRetrievalTimespan600To800msCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="OrgDataRetrievalTimespan800To1000msCount">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="OrgDataRetrievalTimespan1000msOrGreaterCount">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

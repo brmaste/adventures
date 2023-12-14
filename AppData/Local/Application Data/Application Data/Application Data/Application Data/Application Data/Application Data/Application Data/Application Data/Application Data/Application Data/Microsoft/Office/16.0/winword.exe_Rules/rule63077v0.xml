@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="63077" V="0" DC="SM" EN="Office.Identity.SignOutEventNoUserAction" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" SP="CriticalBusinessImpact" DL="A" DCa="DC" xmlns="">
+  <S>
+    <UTS T="1" Id="bswsj" />
+    <UTS T="2" Id="bswsk" />
+    <A T="3" E="TelemetryShutdown" />
+  </S>
+  <C T="FT" I="0" O="false" N="FlowStartTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="1" O="true" N="FlowEndTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="2" O="true" N="SessionEndTime">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="3" O="true" N="IdentityUniqueID">
+    <S T="1" F="IdentityMetadata_UniqueId" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="IdentityProviderType">
+    <S T="1" F="IdentityMetadata_IdentityProviderType" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true" N="IdentityErrorState">
+    <S T="1" F="IdentityMetadata_IdentityErrorState" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

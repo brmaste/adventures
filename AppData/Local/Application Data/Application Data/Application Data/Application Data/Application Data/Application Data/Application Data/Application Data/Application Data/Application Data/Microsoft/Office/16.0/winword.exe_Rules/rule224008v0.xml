@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224008" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.Client.ReportLicensingEnteringRFM" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a2y9o" />
+  </S>
+  <C T="I64" I="0" O="false" N="AppState">
+    <S T="1" F="AppState" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

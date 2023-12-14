@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="65138" V="0" DC="SM" EN="Office.Identity.DetectAuthSchemeAggregate" ATT="5c65bbc4edbf480d9637ace04d62bd98-12844893-8ab9-4dde-b850-5612cb12e0f2-7822" DCa="PSU" xmlns="">
+  <S>
+    <TI T="1" I="Daily" />
+    <A T="2" E="TelemetrySuspend" />
+    <A T="3" E="TelemetryShutdown" />
+    <R T="4" R="65137" />
+  </S>
+  <G>
+    <S T="4">
+      <F N="0" />
+      <F N="1" />
+    </S>
+  </G>
+  <C T="TAG" I="0" O="false" N="Tag">
+    <S T="4" F="0" />
+  </C>
+  <C T="U32" I="1" O="false" N="AuthScheme">
+    <S T="4" F="1" />
+  </C>
+  <C T="U32" I="2" O="false" N="CountOfAuthScheme">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

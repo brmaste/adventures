@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="12019" V="1" DC="SM" EN="Office.Outlook.Desktop.Pst.FileTypeUsage" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" SP="CriticalUsage" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="802" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <O T="BITWISEAND">
+            <L>
+              <S T="1" F="Provider" />
+            </L>
+            <R>
+              <V V="1" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <O T="BITWISEAND">
+                <L>
+                  <S T="1" F="Provider" />
+                </L>
+                <R>
+                  <V V="256" T="U32" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <V V="256" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <S T="1" F="IsExchangeAccount" />
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="AND">
+        <L>
+          <O T="GT">
+            <L>
+              <O T="BITWISEAND">
+                <L>
+                  <S T="1" F="Provider" />
+                </L>
+                <R>
+                  <V V="6" T="U32" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <V V="0" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <O T="AND">
+                <L>
+                  <O T="EQ">
+                    <L>
+                      <O T="BITWISEAND">
+                        <L>
+                          <S T="1" F="Provider" />
+                        </L>
+                        <R>
+                          <V V="256" T="U32" />
+                        </R>
+                      </O>
+                    </L>
+                    <R>
+                      <V V="256" T="U32" />
+                    </R>
+                  </O>
+                </L>
+                <R>
+                  <S T="1" F="IsExchangeAccount" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="IsExchangeAccount" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="4" F="IsExchangeAccount" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <A T="7" E="TelemetryShutdown" />
+  </S>
+  <C T="B" I="0" O="false" N="OpenedPstFile">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="2" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="1" O="false" N="OpenedOstFileForExchangeStore">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="5" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="2" O="false" N="OpenedOstFileForNonExchangeStore">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="6" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="false" N="OpenedNstFile">
+    <O T="GT">
+      <L>
+        <C>
+          <S T="3" />
+        </C>
+      </L>
+      <R>
+        <V V="0" T="U32" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="7" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

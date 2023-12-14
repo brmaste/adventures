@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150234" V="1" DC="SM" EN="Office.PowerPoint.PPT.SlideDiff.Download" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a05zq" A="a8a7k bdp59" />
+  </S>
+  <C T="FT" I="0" O="true" N="ThreeWayMergeCompleteTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Slide_Download_Add">
+    <S T="1" F="SldDiff_D_1" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Slide_Download_Delete">
+    <S T="1" F="SldDiff_D_2" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="Slide_Download_Background">
+    <S T="1" F="SldDiff_D_4" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="Slide_Download_Shapes">
+    <S T="1" F="SldDiff_D_8" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="Slide_Download_ColorScheme">
+    <S T="1" F="SldDiff_D_16" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="Slide_Download_Layout">
+    <S T="1" F="SldDiff_D_32" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="Slide_Download_SlideShow">
+    <S T="1" F="SldDiff_D_64" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="Slide_Download_Notes">
+    <S T="1" F="SldDiff_D_128" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="Slide_Download_Position">
+    <S T="1" F="SldDiff_D_256" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="Slide_Download_TimeNode">
+    <S T="1" F="SldDiff_D_512" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="Slide_Download_SlideSyncInfo">
+    <S T="1" F="SldDiff_D_1024" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="Slide_Download_ModSpecial">
+    <S T="1" F="SldDiff_D_2048" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="Slide_Download_ExtLst">
+    <S T="1" F="SldDiff_D_4096" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="RevDocRevision_Download">
+    <S T="1" F="RevDocRevisionD_" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="MutualSlideChangesCount">
+    <S T="1" F="MSldEt" M="Ignore" />
+  </C>
+  <C T="U32" I="17" O="true" N="MutualTextChangesCount">
+    <S T="1" F="MTxEt" M="Ignore" />
+  </C>
+  <C T="U64" I="18" O="true" N="MsoOLDocumentToken">
+    <S T="1" F="MsoOLDocumentToken" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

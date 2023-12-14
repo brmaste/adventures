@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68011" V="4" DC="SM" EN="Office.TellMe.TellMeD.HelpSessionInfo" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="bik4t" />
+    <UTS T="2" Id="bik4u" />
+    <UTS T="3" Id="bik4v" />
+    <UTS T="4" Id="bik4x" />
+    <UTS T="5" Id="ck23t" />
+    <UTS T="6" Id="bik5s" />
+    <UTS T="7" Id="bisx7" />
+    <UTS T="8" Id="aw6j9" />
+  </S>
+  <G>
+    <S T="8">
+      <F N="sessionId" />
+    </S>
+    <S T="1">
+      <F N="sessionId" />
+    </S>
+    <S T="2">
+      <F N="sessionId" />
+    </S>
+    <S T="3">
+      <F N="sessionId" />
+    </S>
+    <S T="4">
+      <F N="sessionId" />
+    </S>
+    <S T="5">
+      <F N="sessionId" />
+    </S>
+    <S T="6">
+      <F N="sessionId" />
+    </S>
+    <S T="7">
+      <F N="sessionId" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="8" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="false" N="TellMeSessionId">
+    <S T="8" F="sessionId" />
+  </C>
+  <C T="U32" I="2" O="false" N="HelpRequestCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="HelpResponseCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="HelpCancelCount">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="HelpLoadingCreatedCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="HelpResultsCreatedCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="HelpFlyoutDroppedCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="HelpNetworkErrorCount">
+    <V V="0" T="U32" />
+  </C>
+  <C T="U32" I="9" O="false" N="HelpNoResultsCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="HelpParsingErrorCount">
+    <V V="0" T="U32" />
+  </C>
+  <C T="U32" I="11" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="12" O="false" N="UserActionName">
+    <V V="TellMeD_HelpSessionInfo" T="W" />
+  </C>
+  <C T="W" I="13" O="true" N="SearchScenario">
+    <S T="8" F="SearchScenario" M="Ignore" />
+  </C>
+  <T>
+    <S T="8" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

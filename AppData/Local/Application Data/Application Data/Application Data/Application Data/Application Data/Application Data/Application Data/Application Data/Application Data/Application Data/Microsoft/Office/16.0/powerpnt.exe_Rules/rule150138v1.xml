@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150138" V="1" DC="SM" EN="Office.PowerPoint.PPT.Shared.SlideShow.Stats" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <R T="1" R="150133" />
+    <UTS T="2" Id="aq4c0" />
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Feature" />
+            </L>
+            <R>
+              <V V="Show" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Event" />
+            </L>
+            <R>
+              <V V="Finish" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Feature" />
+            </L>
+            <R>
+              <V V="Show" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Event" />
+            </L>
+            <R>
+              <V V="Start" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Feature" />
+            </L>
+            <R>
+              <V V="Slide" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Event" />
+            </L>
+            <R>
+              <V V="Finish" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Feature" />
+            </L>
+            <R>
+              <V V="Slide" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Event" />
+            </L>
+            <R>
+              <V V="Render" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Feature" />
+            </L>
+            <R>
+              <V V="Laser" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="2" F="Event" />
+            </L>
+            <R>
+              <V V="Finish" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U64" I="0" O="false" N="SlideCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U64" I="1" O="true" N="SSStartDelay">
+    <O T="SUB">
+      <L>
+        <A T="MIN">
+          <U T="100nsToMs">
+            <S T="6" F="TimeStamp100ns" />
+          </U>
+        </A>
+      </L>
+      <R>
+        <U T="100nsToMs">
+          <S T="4" F="TimeStamp100ns" />
+        </U>
+      </R>
+    </O>
+  </C>
+  <C T="U64" I="2" O="true" N="SSLength">
+    <O T="SUB">
+      <L>
+        <U T="100nsToMs">
+          <S T="3" F="TimeStamp100ns" />
+        </U>
+      </L>
+      <R>
+        <U T="100nsToMs">
+          <S T="4" F="TimeStamp100ns" />
+        </U>
+      </R>
+    </O>
+  </C>
+  <C T="U64" I="3" O="false" N="SSLaserCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="324012" V="3" DC="SM" EN="Office.Extensibility.VbaTelemetryBreak" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalBusinessImpact" DL="B" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cltx2" />
+    <UTS T="2" Id="cltx1" />
+    <UTS T="3" Id="cnvgv" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="W" I="0" O="false" N="TagId">
+    <S T="4" F="ULS_TagId" />
+  </C>
+  <C T="U32" I="1" O="true" N="MalformedArg1Type">
+    <S T="2" F="Arg1" />
+  </C>
+  <C T="U32" I="2" O="true" N="MalformedArg2Type">
+    <S T="2" F="Arg2" />
+  </C>
+  <C T="U32" I="3" O="true" N="MalformedArg3Type">
+    <S T="2" F="Arg3" />
+  </C>
+  <C T="U32" I="4" O="true" N="ArgCount">
+    <S T="1" F="ArgCount" />
+  </C>
+  <C T="U32" I="5" O="true" N="SolutionType">
+    <S T="3" F="SolutionType" />
+  </C>
+  <C T="U32" I="6" O="true" N="BreakReason">
+    <S T="3" F="BreakReason" />
+  </C>
+  <C T="U32" I="7" O="true" N="ErrorCode">
+    <S T="3" F="ErrorCode" M="Ignore" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

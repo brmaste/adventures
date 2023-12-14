@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<R Id="1000" V="5" DC="ESM" EN="Office.Telemetry.RuleErrorsAggregated" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" SP="CriticalBusinessImpact" S="70" DL="A" DCa="PSP PSU" xmlns="">
+  <S>
+    <Etw T="1" E="159" G="{02fd33df-f746-4a10-93a0-2bc6273bc8e4}" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="NE">
+            <L>
+              <S T="1" F="Warning" />
+            </L>
+            <R>
+              <V V="37" T="U32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="NE">
+            <L>
+              <S T="1" F="Warning" />
+            </L>
+            <R>
+              <V V="29" T="U32" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <TI T="3" I="10min" />
+    <A T="4" E="TelemetrySuspend" />
+    <A T="5" E="TelemetryShutdown" />
+  </S>
+  <G I="true" R="TriggerOldest">
+    <S T="2">
+      <F N="RuleID" />
+      <F N="RuleVersion" />
+      <F N="Warning" />
+      <F N="Info" />
+    </S>
+  </G>
+  <C T="U32" I="0" O="false" N="ErrorCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="ErrorRuleId">
+    <S T="2" F="RuleID" />
+  </C>
+  <C T="U16" I="2" O="false" N="ErrorRuleVersion">
+    <S T="2" F="RuleVersion" />
+  </C>
+  <C T="U8" I="3" O="false" N="WarningInfo">
+    <S T="2" F="Warning" />
+  </C>
+  <C T="U64" I="4" O="false" N="ErrorInfo">
+    <S T="2" F="Info" />
+  </C>
+  <T>
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+  </T>
+</R>

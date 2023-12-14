@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="580004" V="0" DC="SM" EN="Office.Canvas.GraphImport.TenantRootMismatch" ATT="625e97e3f60f498b93f637a1326ca839-4fa1bdd2-bae5-44a3-8d8c-a510d37d8472-7128" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cyvpr" />
+  </S>
+  <C T="U32" I="0" O="false" N="ServerTenantRootLength">
+    <S T="1" F="ServerTenantRootLength" />
+  </C>
+  <C T="U32" I="1" O="false" N="EnterpriseTenantRootLength">
+    <S T="1" F="EnterpriseTenantRootLength" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

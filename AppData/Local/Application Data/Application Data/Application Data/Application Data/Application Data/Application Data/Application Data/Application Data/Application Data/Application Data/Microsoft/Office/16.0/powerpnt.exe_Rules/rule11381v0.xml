@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11381" V="0" DC="SM" EN="Office.Outlook.Desktop.PcxIMProviderCounts" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="bzplv" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="3" F="Clsid" />
+        </L>
+        <R>
+          <V V="{A0651028-BA7A-4D71-877F-12E0175A5806}" T="G" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="3" F="Clsid" />
+        </L>
+        <R>
+          <V V="{8885370D-B33E-44b7-875D-28E403CF9270}" T="G" />
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="EQ">
+        <L>
+          <S T="3" F="Clsid" />
+        </L>
+        <R>
+          <V V="{5C4C8078-24CF-4C71-B05E-8B1D935DB5AC}" T="G" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="NE">
+            <L>
+              <S T="3" F="Clsid" />
+            </L>
+            <R>
+              <V V="{A0651028-BA7A-4D71-877F-12E0175A5806}" T="G" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="AND">
+            <L>
+              <O T="NE">
+                <L>
+                  <S T="3" F="Clsid" />
+                </L>
+                <R>
+                  <V V="{8885370D-B33E-44b7-875D-28E403CF9270}" T="G" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="NE">
+                <L>
+                  <S T="3" F="Clsid" />
+                </L>
+                <R>
+                  <V V="{5C4C8078-24CF-4C71-B05E-8B1D935DB5AC}" T="G" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CreatedSkypeProviderCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CreatedLCClientProviderCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CreatedMsnMessengerProviderCount">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CreatedOtherProviderCount">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

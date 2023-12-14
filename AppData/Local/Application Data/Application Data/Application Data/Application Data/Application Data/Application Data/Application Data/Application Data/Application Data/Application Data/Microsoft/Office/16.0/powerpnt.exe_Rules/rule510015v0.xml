@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510015" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <UTS T="1" Id="b3wqw" />
+  </S>
+  <C T="W" I="0" O="true">
+    <S T="1" F="ContextData" />
+  </C>
+  <C T="W" I="1" O="true">
+    <S T="1" F="CampaignName" />
+  </C>
+  <C T="W" I="2" O="true">
+    <S T="1" F="ContentName" />
+  </C>
+  <C T="U32" I="3" O="true">
+    <S T="1" F="ContentNumber" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

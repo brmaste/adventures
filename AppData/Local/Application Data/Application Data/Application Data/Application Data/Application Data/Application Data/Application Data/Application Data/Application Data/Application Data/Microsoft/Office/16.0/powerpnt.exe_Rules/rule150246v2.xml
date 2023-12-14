@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150246" V="2" DC="SM" EN="Office.PowerPoint.PPT.Shared.TextMerge.ConflictInfo" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bi1g2" />
+  </S>
+  <C T="U32" I="0" O="false" N="Length_RangeBase">
+    <S T="1" F="Length_RangeBase" />
+  </C>
+  <C T="U64" I="1" O="false" N="Count_ChangesWorking">
+    <S T="1" F="Count_ChangesWorking" />
+  </C>
+  <C T="U64" I="2" O="false" N="Count_ChangesDownload">
+    <S T="1" F="Count_ChangesDownload" />
+  </C>
+  <C T="U32" I="3" O="false" N="Count_OverlappingChanges">
+    <S T="1" F="Count_OverlappingChanges" />
+  </C>
+  <C T="U8" I="4" O="false" N="ChangeTypes_Download">
+    <S T="1" F="ChangeTypes_Download" />
+  </C>
+  <C T="U8" I="5" O="false" N="ChangeTypes_Working">
+    <S T="1" F="ChangeTypes_Working" />
+  </C>
+  <C T="G" I="6" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="false" N="ParaFormat_Working">
+    <S T="1" F="ParaFormat_Working" />
+  </C>
+  <C T="U32" I="8" O="false" N="ParaFormat_Download">
+    <S T="1" F="ParaFormat_Download" />
+  </C>
+  <C T="U64" I="9" O="false" N="CharFormat_Working">
+    <S T="1" F="CharFormat_Working" />
+  </C>
+  <C T="U64" I="10" O="false" N="CharFormat_Download">
+    <S T="1" F="CharFormat_Download" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170002" V="6" DC="SM" EN="Office.Graphics.GVisCommandSelectionPassthrough" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="axwza" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="AlgorithmState" />
+        </L>
+        <R>
+          <V V="Begin" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="AlgorithmState" />
+            </L>
+            <R>
+              <V V="Begin" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="NE">
+            <L>
+              <S T="1" F="Cmd_Name" />
+            </L>
+            <R>
+              <V V="NULL" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="3" F="Cmd_Name" />
+                </L>
+                <R>
+                  <V V="Art::FillCommand" T="W" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="3" F="Cmd_Name" />
+                </L>
+                <R>
+                  <V V="Art::LineCommand" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="OR">
+            <L>
+              <O T="EQ">
+                <L>
+                  <S T="3" F="Cmd_Name" />
+                </L>
+                <R>
+                  <V V="Art::ShapeStyleCommand" T="W" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="EQ">
+                <L>
+                  <S T="3" F="Cmd_Name" />
+                </L>
+                <R>
+                  <V V="Art::ApplyPresetStyleCommand" T="W" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <A T="5" E="TelemetrySuspend" />
+    <A T="6" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="2">
+      <F N="Cmd_Name" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="CommandName">
+    <S T="2" F="Cmd_Name" />
+  </C>
+  <C T="W" I="1" O="true" N="SelectionName">
+    <S T="2" F="Sel_Name" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="false" N="CommandCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="true" N="MultiSelect">
+    <S T="2" F="Sel_MultiSel_Summary_TotalCount" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="SingleGroup">
+    <S T="2" F="Sel_SingleGroupSel_Summary_TotalCount" M="Ignore" />
+  </C>
+  <C T="FT" I="5" O="true" N="Time">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="6" O="true" N="CommandType">
+    <S T="2" F="Cmd_CommandType" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="SVGEnabled">
+    <S T="2" F="Sel_IsSVGEnabled" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="SVGNumSelections">
+    <S T="2" F="Sel_NumSelectionsSVG" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="CurrentFontSize">
+    <S T="2" F="Cmd_Current_FontSize" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="NewFontSize">
+    <S T="2" F="Cmd_Prospect_FontSize_PointsVal" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="CurrentFontFace">
+    <S T="2" F="Cmd_Current_FontFace" M="Ignore" />
+  </C>
+  <C T="W" I="12" O="true" N="NewFontFace">
+    <S T="2" F="Cmd_Prospect_LatinFont_Typeface" M="Ignore" />
+  </C>
+  <C T="W" I="13" O="true" N="CurrentFontColor">
+    <S T="2" F="Cmd_Current_FontColor" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="CurrentFontColorThemeIndex">
+    <S T="2" F="Cmd_Current_FontColor_SchemeColorVal" M="Ignore" />
+  </C>
+  <C T="W" I="15" O="true" N="NewFontColor">
+    <S T="2" F="Cmd_Prospect_NewFontColor" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="NewFontColorThemeIndex">
+    <S T="2" F="Cmd_Prospect_NewFontColor_SchemeColorVal" M="Ignore" />
+  </C>
+  <C T="W" I="17" O="true" N="SelectionType">
+    <S T="4" F="Cmd_Current_SelectionType" M="Ignore" />
+  </C>
+  <C T="W" I="18" O="true" N="Current_QuickStyle">
+    <S T="4" F="Cmd_Current_QuickStyle" M="Ignore" />
+  </C>
+  <C T="W" I="19" O="true" N="Current_QuickStyleColor">
+    <S T="4" F="Cmd_Current_QuickStyleColor" M="Ignore" />
+  </C>
+  <C T="W" I="20" O="true" N="Current_PresetStyle">
+    <S T="4" F="Cmd_Current_PresetStyle" M="Ignore" />
+  </C>
+  <C T="W" I="21" O="true" N="Current_PresetStyleColor">
+    <S T="4" F="Cmd_Current_PresetStyleColor" M="Ignore" />
+  </C>
+  <C T="B" I="22" O="true" N="IsDirectFormatted">
+    <S T="4" F="Cmd_Current_IsDirectFormatted" M="Ignore" />
+  </C>
+  <C T="U16" I="23" O="true" N="New_QuickStyle">
+    <S T="4" F="Cmd_Prospect_NewQuickStyle" M="Ignore" />
+  </C>
+  <C T="W" I="24" O="true" N="New_QuickStyleColor">
+    <S T="4" F="Cmd_Prospect_NewQuickStyleColor" M="Ignore" />
+  </C>
+  <C T="U16" I="25" O="true" N="New_PresetStyle">
+    <S T="4" F="Cmd_Prospect_NewPresetStyle" M="Ignore" />
+  </C>
+  <C T="W" I="26" O="true" N="New_PresetStyleColor">
+    <S T="4" F="Cmd_Prospect_NewPresetStyleColor" M="Ignore" />
+  </C>
+  <C T="W" I="27" O="true" N="New_FillColor">
+    <S T="4" F="Cmd_Prospect_NewFillColor" M="Ignore" />
+  </C>
+  <C T="U16" I="28" O="true" N="New_FillColor_SchemeColorVal">
+    <S T="4" F="Cmd_Prospect_NewFillColor_SchemeColorVal" M="Ignore" />
+  </C>
+  <C T="W" I="29" O="true" N="New_LineColor">
+    <S T="4" F="Cmd_Prospect_NewLineColor" M="Ignore" />
+  </C>
+  <C T="U16" I="30" O="true" N="New_LineColor_SchemeColorVal">
+    <S T="4" F="Cmd_Prospect_NewLineColor_SchemeColorVal" M="Ignore" />
+  </C>
+  <T>
+    <S T="5" />
+    <S T="6" />
+  </T>
+</R>

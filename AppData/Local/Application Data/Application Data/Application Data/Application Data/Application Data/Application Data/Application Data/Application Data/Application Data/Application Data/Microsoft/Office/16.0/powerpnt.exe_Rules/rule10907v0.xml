@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10907" V="0" DC="SM" EN="Office.Outlook.Desktop.NDB.Unknown.Corruption" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" S="100" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="395" G="{2adf8e23-0af9-43c9-ba4c-952ee130540d}" />
+  </S>
+  <C T="U32" I="0" O="false" N="Context">
+    <S T="1" F="Context" />
+  </C>
+  <C T="W" I="1" O="false" N="ProcessName">
+    <S T="1" F="ProcessName" />
+  </C>
+  <C T="W" I="2" O="false" N="Version">
+    <S T="1" F="ProcessVersion" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

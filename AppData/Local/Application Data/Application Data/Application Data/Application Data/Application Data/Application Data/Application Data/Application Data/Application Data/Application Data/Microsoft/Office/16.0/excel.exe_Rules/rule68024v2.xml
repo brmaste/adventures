@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68024" V="2" DC="SM" EN="Office.TellMe.TellMeD.SubstateOfficeWebServiceResponseDetails" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="8nqih" A="cnq4c" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="TAG" I="1" O="true" N="Tag">
+    <S T="1" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Endpoint">
+    <S T="1" F="endpoint" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Result">
+    <S T="1" F="result" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="HttpStatusCode">
+    <S T="1" F="httpStatusCode" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="ResponseTime">
+    <S T="1" F="responseTime" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="PopulateIdentityTime">
+    <S T="1" F="populateIdentityTime" M="Ignore" />
+  </C>
+  <C T="W" I="7" O="true" N="RequestId">
+    <S T="1" F="request-id" M="Ignore" />
+  </C>
+  <C T="W" I="8" O="true" N="XCalculatedBETarget">
+    <S T="1" F="X-CalculatedBETarget" M="Ignore" />
+  </C>
+  <C T="W" I="9" O="true" N="XMSEdgeRef">
+    <S T="1" F="X-MSEdge-Ref" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true" N="ClientRequestId">
+    <S T="1" F="Client-request-id" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="12" O="false" N="UserActionName">
+    <V V="TellMeD_SubstateServiceResponse" T="W" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

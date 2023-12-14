@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="90204" V="1" DC="SM" EN="Office.Telemetry.RulesEngineDiskThrottled" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" SP="CriticalBusinessImpact" T="Upload-Critical" DL="A" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bdc2l" A="a4biy" />
+  </S>
+  <C T="FT" I="0" O="false" N="ThrottlingTimestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U64" I="1" O="false" N="PayloadSize">
+    <S T="1" F="PayloadSize" />
+  </C>
+  <C T="U64" I="2" O="false" N="SessionDiskWriteTotal">
+    <S T="1" F="SessionDiskWriteTotal" />
+  </C>
+  <C T="U64" I="3" O="false" N="DiskWriteTotal">
+    <S T="1" F="DiskWriteTotal" />
+  </C>
+  <C T="U64" I="4" O="false" N="DiskWriteLimit">
+    <S T="1" F="DiskWriteLimit" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

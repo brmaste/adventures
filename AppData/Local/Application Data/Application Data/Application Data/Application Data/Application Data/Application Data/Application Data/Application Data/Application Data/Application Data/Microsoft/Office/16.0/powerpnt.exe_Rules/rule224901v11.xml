@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224901" V="11" DC="SM" EN="Office.Licensing.OfficeClientLicensing.DoLicenseValidation" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" SP="CriticalCensus" T="Upload-Medium" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <R T="1" R="224900" />
+    <R T="2" R="224902" />
+    <UTS T="3" Id="be7wx" />
+    <UTS T="4" Id="be7wy" />
+    <SS T="5" G="{a36a970d-45a9-4e0d-9cab-2a235cc9d7c6}" />
+    <F T="6">
+      <O T="NE">
+        <L>
+          <S T="2" F="0" M="Ignore" />
+        </L>
+        <R>
+          <V V="{99999999-9999-9999-9999-999999999999}" T="G" />
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="NE">
+        <L>
+          <S T="2" F="1" M="Ignore" />
+        </L>
+        <R>
+          <V V="99999-999-999999" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="I32" I="0" O="true" N="FullValidationMode">
+    <S T="1" F="0" M="Ignore" />
+  </C>
+  <C T="G" I="1" O="true" N="LicensingACID">
+    <S T="6" F="0" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="OlsLicenseId">
+    <S T="7" F="1" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="LicenseStatus">
+    <S T="5" F="LicenseStatus" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="LicenseType">
+    <S T="5" F="LicenseType" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="IsSubscription">
+    <S T="5" F="AggregatedSubscription" M="Ignore" />
+  </C>
+  <C T="TAG" I="6" O="true" N="SkuIdIsNull">
+    <S T="3" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="TAG" I="7" O="true" N="SlapiIsNull">
+    <S T="4" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="IsSCA">
+    <S T="5" F="IsSCA" M="Ignore" />
+  </C>
+  <C T="B" I="9" O="true" N="IsvNext">
+    <S T="5" F="IsvNext" M="Ignore" />
+  </C>
+  <C T="B" I="10" O="true" N="IsRFM">
+    <S T="5" F="IsRFM" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="LicenseCategory">
+    <S T="5" F="LicenseCategory" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="LicensingMode">
+    <S T="5" F="LicensingMode" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="IsEdu">
+    <S T="5" F="IsEdu" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

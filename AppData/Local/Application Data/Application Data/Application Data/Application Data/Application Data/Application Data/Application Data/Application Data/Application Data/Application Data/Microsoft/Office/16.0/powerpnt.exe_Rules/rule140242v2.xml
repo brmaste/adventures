@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140242" V="2" DC="SM" EN="Office.PowerPoint.PPT.Shared.Collab.CollectConflictDetailDoc" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="chxn8" />
+    <UTS T="2" Id="av2pu" />
+    <F T="3">
+      <O T="EQ">
+        <L>
+          <S T="2" F="Operation" />
+        </L>
+        <R>
+          <V V="Merge" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="4" Id="av2pv" />
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="4" F="Operation" />
+        </L>
+        <R>
+          <V V="Merge" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="6" Id="aq7eq" />
+    <F T="7">
+      <O T="EQ">
+        <L>
+          <S T="6" F="Tag" />
+        </L>
+        <R>
+          <V V="befej" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="EQ">
+        <L>
+          <S T="6" F="Tag" />
+        </L>
+        <R>
+          <V V="a6k3l" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="9" Id="ban7v" />
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="9" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="10" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="12" Id="ban7q" />
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="12" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="13" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <UTS T="15" Id="a777a" />
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="15" F="ULS_Category" M="Ignore" />
+        </L>
+        <R>
+          <V V="Scope" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="16" F="ScopeAction" M="Ignore" />
+        </L>
+        <R>
+          <V V="Complete" T="W" />
+        </R>
+      </O>
+    </F>
+    <US T="18">
+      <S T="3" />
+      <S T="5" />
+      <S T="7" />
+      <S T="8" />
+      <S T="11" />
+      <S T="14" />
+      <S T="17" />
+    </US>
+  </S>
+  <G>
+    <S T="1">
+      <F N="Type" />
+      <F N="Diff" />
+      <F N="Detail" />
+    </S>
+  </G>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="false" N="DiffType">
+    <S T="1" F="Type" />
+  </C>
+  <C T="U32" I="2" O="true" N="DiffCode">
+    <S T="1" F="Diff" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="DiffTypeStr">
+    <S T="1" F="TypeStr" M="Ignore" />
+  </C>
+  <C T="W" I="4" O="true" N="DiffDescrStr">
+    <S T="1" F="Detail" M="Ignore" />
+  </C>
+  <C T="TAG" I="5" O="false" N="MergeTag">
+    <S T="18" F="ULS_Tag" M="Ignore" />
+  </C>
+  <T>
+    <S T="18" />
+  </T>
+</R>

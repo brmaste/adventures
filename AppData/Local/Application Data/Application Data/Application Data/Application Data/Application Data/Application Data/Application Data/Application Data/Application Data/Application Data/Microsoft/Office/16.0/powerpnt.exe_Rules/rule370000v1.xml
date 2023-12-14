@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="370000" V="1" DC="SM" EN="Office.TargetedMessaging.TmsWarningCategoryPassthrough" ATT="2f0a1931898144668b4994b491868b75-cc9fb197-8766-4b63-8e07-1887d3d330ac-7107" DCa="PSU" xmlns="">
+  <S>
+    <UCSS T="1" C="TargetedMessagingService" S="Monitorable" />
+  </S>
+  <C T="W" I="0" O="false" N="ULS_TagId">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="G" I="1" O="false" N="ULS_CorrelationID">
+    <S T="1" F="ULS_CorrelationID" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

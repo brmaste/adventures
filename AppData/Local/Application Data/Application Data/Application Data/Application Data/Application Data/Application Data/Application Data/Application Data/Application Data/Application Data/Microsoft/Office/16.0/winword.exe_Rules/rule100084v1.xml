@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="100084" V="1" DC="SM" EN="Office.UX.AnimationSystemSettings" ATT="c4388c977297413bb054bad1acf0ade1-cc58e53e-f5a4-4f37-b0d2-9a8079e34420-6879" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhkth" />
+  </S>
+  <C T="B" I="0" O="true" N="IsAnimationEnabled">
+    <S T="1" F="IsAnimationEnabled" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

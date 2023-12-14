@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="510022" V="2" DC="SM" EN="Office.DynamicCanvas.ShareWithMeeting.Unexportable" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalBusinessImpact" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cfya6" />
+    <UTS T="2" Id="cfya7" />
+    <UTS T="3" Id="cfya9" />
+    <UTS T="4" Id="cfyar" />
+    <UTS T="5" Id="cfyaw" />
+    <UTS T="6" Id="cfybc" />
+    <UTS T="7" Id="ck4zy" />
+    <UTS T="8" Id="cnqph" />
+  </S>
+  <C T="U32" I="0" O="false" N="ShowBusBarCalled">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="InAppNotificationDisabled">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="ConflictingBusBar">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="B" I="3" O="true" N="MeetingPickerResult">
+    <S T="4" F="LaunchCanvasResult" />
+  </C>
+  <C T="U32" I="4" O="false" N="ShareDialogDisplayed">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="W" I="5" O="true" N="BusBarDisplayPresentationId">
+    <S T="6" F="PresentationId" />
+  </C>
+  <C T="U8" I="6" O="true" N="BusBarDisplaySource">
+    <S T="6" F="DisplayBusBarSource" />
+  </C>
+  <C T="U8" I="7" O="true" N="GetInsightsBusBarSource">
+    <S T="7" F="DisplayBusBarSource" />
+  </C>
+  <C T="B" I="8" O="true" N="GetInsightsForceUpdate">
+    <S T="7" F="ForceCacheUpdate" />
+  </C>
+  <C T="B" I="9" O="true" N="GetInsightsOnlyCachedData">
+    <S T="7" F="CachedDataOnly" />
+  </C>
+  <C T="B" I="10" O="true" N="GetInsightsAppNotificationsEnabled">
+    <S T="7" F="EnableInAppNotification" />
+  </C>
+  <C T="W" I="11" O="true" N="SlideShowPresentationId">
+    <S T="8" F="PresentationId" />
+  </C>
+  <C T="B" I="12" O="true" N="HasInternalScreen">
+    <S T="8" F="HasInternalScreen" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="IsPresentingToExternalScreen">
+    <S T="8" F="IsPresentingToExternalScreen" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="PresentationLengthMs">
+    <S T="8" F="PresentationLengthMs" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+    <S T="6" />
+    <S T="7" />
+    <S T="8" />
+  </T>
+</R>

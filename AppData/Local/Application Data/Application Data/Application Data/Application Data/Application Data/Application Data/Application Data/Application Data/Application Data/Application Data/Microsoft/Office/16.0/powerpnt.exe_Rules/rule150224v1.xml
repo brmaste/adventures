@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150224" V="1" DC="SM" EN="Office.PowerPoint.PPT.ReapplyRealtimeMessages" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a80uq" />
+  </S>
+  <C T="U32" I="0" O="false" N="PerformDurationMs">
+    <S T="1" F="PerformDurationMs" />
+  </C>
+  <C T="U32" I="1" O="false" N="PerformCount">
+    <S T="1" F="PerformCount" />
+  </C>
+  <C T="U32" I="2" O="false" N="SuccessCount">
+    <S T="1" F="SuccessCount" />
+  </C>
+  <C T="U32" I="3" O="false" N="ContextMismatchCount">
+    <S T="1" F="ContextMismatchCount" />
+  </C>
+  <C T="U32" I="4" O="false" N="StaleMonikerCount">
+    <S T="1" F="StaleMonikerCount" />
+  </C>
+  <C T="U32" I="5" O="false" N="ErrorCount">
+    <S T="1" F="ErrorCount" />
+  </C>
+  <C T="U32" I="6" O="false" N="ObjectNotFoundCount">
+    <S T="1" F="ObjectNotFound" />
+  </C>
+  <C T="U32" I="7" O="false" N="CleanDurationMs">
+    <S T="1" F="Applied_CleanDurationMs" />
+  </C>
+  <C T="U32" I="8" O="false" N="ExpiredCount">
+    <S T="1" F="Applied_ExpiredCount" />
+  </C>
+  <C T="U32" I="9" O="false" N="DriedCount">
+    <S T="1" F="Applied_DriedCount" />
+  </C>
+  <C T="U32" I="10" O="false" N="RemainingCount">
+    <S T="1" F="Applied_RemainingCount" />
+  </C>
+  <C T="U32" I="11" O="false" N="Context">
+    <S T="1" F="Context" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

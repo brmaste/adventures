@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="390004" V="3" DC="SM" EN="Office.Wildfire.CanvasDeprovisionedDialog" ATT="350d24c16a934c2d9734791ed7301d8e-73bafc90-ca43-424c-815a-63b076120b49-6725" SP="CriticalExperimentation" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ckyjo" />
+    <UTS T="2" Id="ckyjp" />
+    <UTS T="3" Id="ckyjq" />
+    <UTS T="4" Id="ckyjg" />
+    <UTS T="5" Id="cu6t1" />
+    <UTS T="6" Id="ckyjf" />
+    <UTS T="7" Id="ckyjh" />
+    <UTS T="8" Id="ckyje" />
+    <UTS T="9" Id="ckyji" />
+    <UTS T="10" Id="ckyjk" />
+    <UTS T="11" Id="ckyjj" />
+    <UTS T="12" Id="ckyjl" />
+    <UTS T="13" Id="ckyjn" />
+    <UTS T="14" Id="ckyjm" />
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="4" F="IsGateEnabled" />
+        </L>
+        <R>
+          <V V="True" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="4" F="IsGateEnabled" />
+        </L>
+        <R>
+          <V V="False" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="5" F="IsPreRfmGateEnabled" />
+        </L>
+        <R>
+          <V V="True" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="5" F="IsPreRfmGateEnabled" />
+        </L>
+        <R>
+          <V V="False" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="PreRFMGateEnabled">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="PreRFMGateNotEnabled">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="RFMGateEnabled">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="RFMGateNotEnabled">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="UserNotInRFM">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="UserInExpiredBeta">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="UserHasNoSubscription">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="LicensingInformationNotCached">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="LicenseSuspended">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="PaymentIssue">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="LicenseCancelled">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="OwnedByBPOS">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="MachineRemovedByUser">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="ContentPackageNotReady">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="OrchestrationEngineFailed">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="ExperienceLaunched">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="1" />
+    <S T="2" />
+    <S T="7" />
+    <S T="8" />
+    <S T="9" />
+    <S T="10" />
+    <S T="11" />
+    <S T="10" />
+    <S T="12" />
+    <S T="13" />
+    <S T="14" />
+  </T>
+</R>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110347" V="0" DC="SM" EN="Office.Word.Editor.PaneClose" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DCa="PSU" xmlns="">
+  <S>
+    <Etw T="1" E="440" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+  </S>
+  <C T="B" I="0" O="false" N="IsAutoOpen">
+    <S T="1" F="fAutoOpen" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

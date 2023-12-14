@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="90200" V="4" DC="SM" EN="Office.Telemetry.RulesEngineThrottled" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" T="Upload-Critical" DL="A" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhyua" A="a6iyn" />
+    <UTS T="2" Id="bhyt2" A="bac31" />
+  </S>
+  <C T="FT" I="0" O="false" N="ThrottlingTimestamp">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="TimeStamp100ns" />
+      </L>
+      <R>
+        <S T="2" F="TimeStamp100ns" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+</R>

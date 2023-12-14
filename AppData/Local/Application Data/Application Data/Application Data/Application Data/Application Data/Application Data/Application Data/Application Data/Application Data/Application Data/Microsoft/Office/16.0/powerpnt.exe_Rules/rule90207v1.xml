@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="90207" V="1" DC="SM" EN="Office.Telemetry.SystemHealthMetadataNetworkCost" ATT="f998cc5ba4d448d6a1e8e913ff18be94-dd122e0a-fcf8-4dc5-9dbb-6afac5325183-7405" T="Upload-Medium" DL="A" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a426l" />
+    <A T="2" E="TelemetrySuspend" />
+    <A T="3" E="TelemetryShutdown" />
+    <TI T="4" I="Hourly" />
+  </S>
+  <C T="U8" I="0" O="false" N="NetworkCost">
+    <S T="1" F="NetworkCost" />
+  </C>
+  <C T="TAG" I="1" O="false" N="Tag">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

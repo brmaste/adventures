@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150131" V="2" DC="SM" EN="Office.PowerPoint.PPT.Shared.SlideContentTelemetry.Part1" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bo1zh" />
+  </S>
+  <C T="G" I="0" O="true" N="CorrelationId">
+    <S T="1" F="CorrelationId" />
+  </C>
+  <C T="U32" I="1" O="true" N="FileTypeInternalFormat">
+    <S T="1" F="FileTypeInternalFormat" />
+  </C>
+  <C T="U32" I="2" O="true" N="SlideCount">
+    <S T="1" F="SlideCount" />
+  </C>
+  <C T="U32" I="3" O="true" N="LoadedSlides">
+    <S T="1" F="LoadedSlides" />
+  </C>
+  <C T="U32" I="4" O="true" N="HiddenSlides">
+    <S T="1" F="HiddenSlides" />
+  </C>
+  <C T="U32" I="5" O="true" N="SlidesWithNotes">
+    <S T="1" F="SlidesWithNotes" />
+  </C>
+  <C T="U32" I="6" O="true" N="SlidesWithTransition">
+    <S T="1" F="SlidesWithTransition" />
+  </C>
+  <C T="U32" I="7" O="true" N="SlidesWithTransitionAudio">
+    <S T="1" F="SlidesWithTransitionAudio" />
+  </C>
+  <C T="U32" I="8" O="true" N="SlidesWithComments">
+    <S T="1" F="SlidesWithComments" />
+  </C>
+  <C T="U32" I="9" O="true" N="CommentsCount">
+    <S T="1" F="CommentsCount" />
+  </C>
+  <C T="U32" I="10" O="true" N="CommentsLength">
+    <S T="1" F="CommentsLength" />
+  </C>
+  <C T="U32" I="11" O="true" N="SlidesWithAnimations">
+    <S T="1" F="SlidesWithAnimations" />
+  </C>
+  <C T="U32" I="12" O="true" N="AnimationsCount">
+    <S T="1" F="AnimationsCount" />
+  </C>
+  <C T="U32" I="13" O="true" N="SlidesWithShapes">
+    <S T="1" F="SlidesWithShapes" />
+  </C>
+  <C T="U32" I="14" O="true" N="ShapesCount">
+    <S T="1" F="ShapesCount" />
+  </C>
+  <C T="U32" I="15" O="true" N="SlidesWithGroups">
+    <S T="1" F="SlidesWithGroups" />
+  </C>
+  <C T="U32" I="16" O="true" N="GroupsCount">
+    <S T="1" F="GroupsCount" />
+  </C>
+  <C T="U32" I="17" O="true" N="SlidesWithE2os">
+    <S T="1" F="SlidesWithE2os" />
+  </C>
+  <C T="U32" I="18" O="true" N="E2osCount">
+    <S T="1" F="E2osCount" />
+  </C>
+  <C T="U32" I="19" O="true" N="SlidesWithOleE2os">
+    <S T="1" F="SlidesWithOleE2os" />
+  </C>
+  <C T="U32" I="20" O="true" N="OleE2osCount">
+    <S T="1" F="OleE2osCount" />
+  </C>
+  <C T="U32" I="21" O="true" N="SlidesWithCompatE2os">
+    <S T="1" F="SlidesWithCompatE2os" />
+  </C>
+  <C T="U32" I="22" O="true" N="CompatE2osCount">
+    <S T="1" F="CompatE2osCount" />
+  </C>
+  <C T="U32" I="23" O="true" N="SlidesWithConnectors">
+    <S T="1" F="SlidesWithConnectors" />
+  </C>
+  <C T="U32" I="24" O="true" N="ConnectorsCount">
+    <S T="1" F="ConnectorsCount" />
+  </C>
+  <C T="U32" I="25" O="true" N="SlidesWithPictures">
+    <S T="1" F="SlidesWithPictures" />
+  </C>
+  <C T="U32" I="26" O="true" N="PicturesCount">
+    <S T="1" F="PicturesCount" />
+  </C>
+  <C T="U32" I="27" O="true" N="SlidesWithContentParts">
+    <S T="1" F="SlidesWithContentParts" />
+  </C>
+  <C T="U32" I="28" O="true" N="ContentPartsCount">
+    <S T="1" F="ContentPartsCount" />
+  </C>
+  <C T="U32" I="29" O="true" N="SlidesWithDesignElements">
+    <S T="1" F="SlidesWithDesignElements" />
+  </C>
+  <C T="U32" I="30" O="true" N="DesignElementsCount">
+    <S T="1" F="DesignElementsCount" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

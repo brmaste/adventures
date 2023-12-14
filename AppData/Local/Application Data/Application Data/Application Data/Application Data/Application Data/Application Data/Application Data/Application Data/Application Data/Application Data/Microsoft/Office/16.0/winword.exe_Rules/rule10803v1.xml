@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10803" V="1" DC="SM" EN="Office.Outlook.Desktop.RecipientAutoCompletePerformanceStatistics" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bgo5g" />
+    <UTS T="2" Id="bgo5h" />
+    <R T="3" R="10801" />
+    <R T="4" R="10802" />
+    <R T="5" R="10880" />
+    <R T="6" R="10882" />
+    <TI T="7" I="Daily" />
+    <A T="8" E="TelemetryShutdown" />
+  </S>
+  <C T="U32" I="0" O="false" N="SomeAutoCompleteSearchResultsCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="NoAutoCompleteSearchResultsCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="I32" I="2" O="false" N="DisplayUnder50msCount">
+    <A T="SUM">
+      <S T="3" F="0" />
+    </A>
+  </C>
+  <C T="I32" I="3" O="false" N="Display50To100msCount">
+    <A T="SUM">
+      <S T="3" F="1" />
+    </A>
+  </C>
+  <C T="I32" I="4" O="false" N="Display100To200msCount">
+    <A T="SUM">
+      <S T="3" F="2" />
+    </A>
+  </C>
+  <C T="I32" I="5" O="false" N="Display200To300msCount">
+    <A T="SUM">
+      <S T="3" F="3" />
+    </A>
+  </C>
+  <C T="I32" I="6" O="false" N="Display300To400msCount">
+    <A T="SUM">
+      <S T="3" F="4" />
+    </A>
+  </C>
+  <C T="I32" I="7" O="false" N="Display400To500msCount">
+    <A T="SUM">
+      <S T="3" F="5" />
+    </A>
+  </C>
+  <C T="I32" I="8" O="false" N="DisplayOver500msCount">
+    <A T="SUM">
+      <S T="3" F="6" />
+    </A>
+  </C>
+  <C T="I32" I="9" O="false" N="UpdateUnder50msCount">
+    <A T="SUM">
+      <S T="4" F="0" />
+    </A>
+  </C>
+  <C T="I32" I="10" O="false" N="Update50To100msCount">
+    <A T="SUM">
+      <S T="4" F="1" />
+    </A>
+  </C>
+  <C T="I32" I="11" O="false" N="Update100To200msCount">
+    <A T="SUM">
+      <S T="4" F="2" />
+    </A>
+  </C>
+  <C T="I32" I="12" O="false" N="Update200To300msCount">
+    <A T="SUM">
+      <S T="4" F="3" />
+    </A>
+  </C>
+  <C T="I32" I="13" O="false" N="Update300To400msCount">
+    <A T="SUM">
+      <S T="4" F="4" />
+    </A>
+  </C>
+  <C T="I32" I="14" O="false" N="Update400To500msCount">
+    <A T="SUM">
+      <S T="4" F="5" />
+    </A>
+  </C>
+  <C T="I32" I="15" O="false" N="UpdateOver500msCount">
+    <A T="SUM">
+      <S T="4" F="6" />
+    </A>
+  </C>
+  <C T="I32" I="16" O="false" N="DisplayAndShowUnder50msCount">
+    <A T="SUM">
+      <S T="5" F="0" />
+    </A>
+  </C>
+  <C T="I32" I="17" O="false" N="DisplayAndShow50To100msCount">
+    <A T="SUM">
+      <S T="5" F="1" />
+    </A>
+  </C>
+  <C T="I32" I="18" O="false" N="DisplayAndShow100To200msCount">
+    <A T="SUM">
+      <S T="5" F="2" />
+    </A>
+  </C>
+  <C T="I32" I="19" O="false" N="DisplayAndShow200To300msCount">
+    <A T="SUM">
+      <S T="5" F="3" />
+    </A>
+  </C>
+  <C T="I32" I="20" O="false" N="DisplayAndShow300To400msCount">
+    <A T="SUM">
+      <S T="5" F="4" />
+    </A>
+  </C>
+  <C T="I32" I="21" O="false" N="DisplayAndShow400To500msCount">
+    <A T="SUM">
+      <S T="5" F="5" />
+    </A>
+  </C>
+  <C T="I32" I="22" O="false" N="DisplayAndShowOver500msCount">
+    <A T="SUM">
+      <S T="5" F="6" />
+    </A>
+  </C>
+  <C T="I32" I="23" O="false" N="SearchAndUpdateUnder50msCount">
+    <A T="SUM">
+      <S T="6" F="0" />
+    </A>
+  </C>
+  <C T="I32" I="24" O="false" N="SearchAndUpdate50To100msCount">
+    <A T="SUM">
+      <S T="6" F="1" />
+    </A>
+  </C>
+  <C T="I32" I="25" O="false" N="SearchAndUpdate100To200msCount">
+    <A T="SUM">
+      <S T="6" F="2" />
+    </A>
+  </C>
+  <C T="I32" I="26" O="false" N="SearchAndUpdate200To300msCount">
+    <A T="SUM">
+      <S T="6" F="3" />
+    </A>
+  </C>
+  <C T="I32" I="27" O="false" N="SearchAndUpdate300To400msCount">
+    <A T="SUM">
+      <S T="6" F="4" />
+    </A>
+  </C>
+  <C T="I32" I="28" O="false" N="SearchAndUpdate400To500msCount">
+    <A T="SUM">
+      <S T="6" F="5" />
+    </A>
+  </C>
+  <C T="I32" I="29" O="false" N="SearchAndUpdateOver500msCount">
+    <A T="SUM">
+      <S T="6" F="6" />
+    </A>
+  </C>
+  <T>
+    <S T="7" />
+    <S T="8" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+    <S T="6" />
+  </ST>
+</R>

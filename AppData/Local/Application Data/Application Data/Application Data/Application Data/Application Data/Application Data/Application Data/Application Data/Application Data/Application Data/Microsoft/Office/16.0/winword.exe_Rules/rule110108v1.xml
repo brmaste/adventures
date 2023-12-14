@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110108" V="1" DC="SM" EN="Office.Word.Word.RTCConnection" ATT="bffd26d9e49b4b7db4cb4df3425812de-d3cf8f62-3ad9-4007-99a8-8fb5cc89fd5d-7896" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <Etw T="1" E="2609" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <Etw T="2" E="2610" G="{bb00e856-a12f-4ab7-b2c8-4e80caea5b07}" />
+    <TR T="3" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="GuidFileId" />
+    </S>
+    <S T="2">
+      <F N="GuidFileId" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="FT" I="1" O="false" N="StartTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="U32" I="2" O="false" N="RTCSessionTimePeriod">
+    <U T="100nsToMs">
+      <O T="SUB">
+        <L>
+          <S T="2" F="TimeStamp100ns" />
+        </L>
+        <R>
+          <S T="1" F="TimeStamp100ns" />
+        </R>
+      </O>
+    </U>
+  </C>
+  <C T="G" I="3" O="false" N="GUIDFileID">
+    <S T="1" F="GuidFileId" />
+  </C>
+  <C T="U64" I="4" O="false" N="PDOD">
+    <S T="1" F="pdod" />
+  </C>
+  <C T="U64" I="5" O="true" N="PIOLDoc">
+    <S T="1" F="pioldoc" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120305" V="3" DC="SM" EN="Office.System.SystemHealthErrorsWithTag" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalBusinessImpact" DL="B" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Error" />
+  </RIS>
+  <S>
+    <R T="1" R="120300" />
+    <F T="2">
+      <O T="NE">
+        <L>
+          <S T="1" F="2" />
+        </L>
+        <R>
+          <V V="6034006" T="U32" />
+        </R>
+      </O>
+    </F>
+    <TI T="3" I="10min" />
+    <A T="4" E="TelemetrySuspend" />
+    <A T="5" E="TelemetryShutdown" />
+  </S>
+  <G I="true" R="TriggerOldest">
+    <S T="2">
+      <F N="1" />
+      <F N="2" />
+      <F N="3" />
+      <F N="4" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="EndTime">
+    <A T="MAX">
+      <S T="2" F="TimeStamp100ns" />
+    </A>
+  </C>
+  <C T="W" I="1" O="false" N="ErrorGroup">
+    <S T="2" F="1" />
+  </C>
+  <C T="TAG" I="2" O="false" N="Trackback">
+    <S T="2" F="2" />
+  </C>
+  <C T="U32" I="3" O="false" N="Count">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="FT" I="4" O="false" N="FirstTimeStamp">
+    <A T="MIN">
+      <S T="2" F="TimeStamp100ns" />
+    </A>
+  </C>
+  <C T="I32" I="5" O="true" N="ErrorId">
+    <S T="2" F="3" />
+  </C>
+  <C T="I32" I="6" O="true" N="ErrorCode">
+    <S T="2" F="4" />
+  </C>
+  <T>
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+  </T>
+</R>

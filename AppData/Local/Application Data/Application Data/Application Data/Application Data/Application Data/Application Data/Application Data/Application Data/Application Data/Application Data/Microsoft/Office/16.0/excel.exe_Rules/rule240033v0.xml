@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240033" V="0" DC="SM" EN="Office.Security.TCOcxNonTrustedEncounter" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhi93" />
+  </S>
+  <C T="U64" I="0" O="false" N="DocID">
+    <S T="1" F="DocID" />
+  </C>
+  <C T="B" I="1" O="false" N="FromInternet">
+    <S T="1" F="FromInternet" />
+  </C>
+  <C T="B" I="2" O="false" N="IsEmbeddable">
+    <S T="1" F="IsEmbeddable" />
+  </C>
+  <C T="B" I="3" O="false" N="SafeForInit">
+    <S T="1" F="SafeForInit" />
+  </C>
+  <C T="G" I="4" O="false" N="Clsid">
+    <S T="1" F="CLSID" />
+  </C>
+  <C T="B" I="5" O="false" N="SecureReaderMode">
+    <S T="1" F="SecureReaderMode" />
+  </C>
+  <C T="U32" I="6" O="false" N="Permission">
+    <S T="1" F="Permission" />
+  </C>
+  <C T="U32" I="7" O="false" N="OcxTrustCenterSettings">
+    <S T="1" F="OcxTrustCenterSettings" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

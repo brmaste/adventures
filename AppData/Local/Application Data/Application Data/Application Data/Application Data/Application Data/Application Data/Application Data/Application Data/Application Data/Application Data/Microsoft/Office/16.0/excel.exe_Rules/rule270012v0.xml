@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="270012" V="0" DC="SM" EN="Office.PowerBI.PowerBIGoToClicks" ATT="a396d7578da948e084182884bf406f95-7ea00771-8110-4e59-b527-f6989ea55408-6957" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bcc1w" />
+  </S>
+  <C T="FT" I="0" O="false" N="StartTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

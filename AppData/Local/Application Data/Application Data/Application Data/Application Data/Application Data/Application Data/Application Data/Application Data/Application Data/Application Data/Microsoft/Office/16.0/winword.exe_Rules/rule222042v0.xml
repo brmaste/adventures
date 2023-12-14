@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="222042" V="0" DC="SM" EN="Office.NaturalLanguage.Proofing.ProofingToolsAdvertisementAction" ATT="71cc1046851042108843d90e5d3ef6c1-61e5de5c-238c-4de5-95de-3b40d20ea6e5-6899" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bdgkg" />
+  </S>
+  <C T="W" I="0" O="true" N="ActionProofingToolsAdvertisementAction">
+    <S T="1" F="Action" />
+  </C>
+  <C T="W" I="1" O="true" N="LanguageTagProofingToolsAdvertisementAction">
+    <S T="1" F="LanguageTag" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

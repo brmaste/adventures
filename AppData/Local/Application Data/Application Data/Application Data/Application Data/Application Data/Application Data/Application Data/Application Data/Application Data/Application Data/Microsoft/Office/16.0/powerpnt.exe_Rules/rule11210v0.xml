@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11210" V="0" DC="SM" EN="Office.Outlook.Desktop.PcxTimeBetweenCardsOpened" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bsexm" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+  </S>
+  <C T="U64" I="0" O="false" N="MinSecondsBetweenCards">
+    <A T="MIN">
+      <S T="1" F="SecondsBetweenCards" />
+    </A>
+  </C>
+  <C T="F" I="1" O="false" N="AvgSecondsBetweenCards">
+    <A T="AVG">
+      <S T="1" F="SecondsBetweenCards" />
+    </A>
+  </C>
+  <C T="U64" I="2" O="false" N="MaxSecondsBetweenCards">
+    <A T="MAX">
+      <S T="1" F="SecondsBetweenCards" />
+    </A>
+  </C>
+  <C T="U64" I="3" O="false" N="MinMillisecondsBetweenCards">
+    <A T="MIN">
+      <S T="1" F="MillisecondsBetweenCards" />
+    </A>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

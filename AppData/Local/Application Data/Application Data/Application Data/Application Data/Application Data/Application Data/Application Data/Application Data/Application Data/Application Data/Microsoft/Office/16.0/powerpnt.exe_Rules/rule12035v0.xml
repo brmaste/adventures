@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="12035" V="0" DC="SM" EN="Office.Outlook.Desktop.Pcx.IsExchangeAddressBook" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="9trqk" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="1" F="HasAddrBook" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="AND">
+        <L>
+          <S T="1" F="HasAddrBook" />
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="LoadedSearchPath" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <S T="1" F="LoadedSearchPath" />
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="FoundAbProp" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <S T="1" F="FoundAbProp" />
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="IsEmsmbdProvider" />
+            </L>
+            <R>
+              <V V="false" T="B" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="AND">
+        <L>
+          <S T="1" F="FoundAbProp" />
+        </L>
+        <R>
+          <S T="1" F="IsEmsmbdProvider" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountOfIsExchangeAddressBook">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountOfNoAddressBook">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountOfFailedToLoadSeachPath">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="CountOfFailedToFindAbProp">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="CountOfIsNotEmsmbdProvider">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="CountOfIsEmsmbdProvider">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

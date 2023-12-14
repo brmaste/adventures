@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180178" V="0" DC="SM" EN="Office.Excel.Charting.ChartingErrors" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UCSS T="1" C="Chart Load" S="Assert Unexpected" />
+    <UCSS T="2" C="Chart Error" S="Assert Unexpected" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="I32" I="0" O="true" N="ErrorCode">
+    <S T="3" F="SH_ErrorCode" M="Ignore" />
+  </C>
+  <C T="I32" I="1" O="true" N="ErrorId">
+    <S T="3" F="SH_ErrorId" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="ErrorMessage">
+    <S T="3" F="Error Message" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="FormatString">
+    <S T="3" F="FormatString" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="LCID">
+    <S T="3" F="LCID" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

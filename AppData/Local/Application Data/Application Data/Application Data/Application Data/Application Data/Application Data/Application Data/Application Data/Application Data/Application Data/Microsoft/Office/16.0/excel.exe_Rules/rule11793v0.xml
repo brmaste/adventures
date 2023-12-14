@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="11793" V="0" DC="SM" EN="Office.Outlook.Desktop.PeopleSuggestionsSearchStats" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cwfni" />
+    <A T="2" E="TelemetryShutdown" />
+    <TI T="3" I="Daily" />
+    <F T="4">
+      <O T="GE">
+        <L>
+          <S T="1" F="Suggestions" />
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="EQ">
+        <L>
+          <S T="1" F="Suggestions" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="CountSearches">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="CountSearchesWithSuggestions">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="CountSearchesWithoutSuggestions">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="F" I="3" O="true" N="AvgElapsedMs">
+    <A T="AVG">
+      <S T="1" F="ElapsedMs" />
+    </A>
+  </C>
+  <T>
+    <S T="2" />
+    <S T="3" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

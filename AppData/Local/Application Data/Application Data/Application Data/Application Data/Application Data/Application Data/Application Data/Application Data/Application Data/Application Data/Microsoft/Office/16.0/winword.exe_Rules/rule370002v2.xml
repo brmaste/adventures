@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="370002" V="2" DC="SM" EN="Office.TargetedMessaging.TmsBusBarInteraction" ATT="2f0a1931898144668b4994b491868b75-cc9fb197-8766-4b63-8e07-1887d3d330ac-7107" S="1" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a70xu" />
+    <UTS T="2" Id="a70y2" />
+    <UTS T="3" Id="a8smq" />
+    <UTS T="4" Id="a8smr" />
+    <UTS T="5" Id="a8sms" />
+    <UTS T="6" Id="a4673" />
+    <UTS T="7" Id="a468a" />
+    <UTS T="8" Id="a5ri9" />
+    <UTS T="9" Id="a5ri8" />
+    <UTS T="10" Id="a4679" />
+    <UTS T="11" Id="a70w5" />
+    <A T="12" E="TelemetrySuspend" />
+    <A T="13" E="TelemetryShutdown" />
+    <F T="14">
+      <O T="EQ">
+        <L>
+          <S T="1" F="MessageKey: Source" />
+        </L>
+        <R>
+          <V V="BizBar" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="6" F="PartType" />
+            </L>
+            <R>
+              <V V="57" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <V V="62" T="I32" />
+            </L>
+            <R>
+              <S T="6" F="PartType" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="7" F="PartType" />
+            </L>
+            <R>
+              <V V="57" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <V V="62" T="I32" />
+            </L>
+            <R>
+              <S T="7" F="PartType" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="8" F="PartType" />
+            </L>
+            <R>
+              <V V="57" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <V V="62" T="I32" />
+            </L>
+            <R>
+              <S T="8" F="PartType" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="9" F="PartType" />
+            </L>
+            <R>
+              <V V="57" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <V V="62" T="I32" />
+            </L>
+            <R>
+              <S T="9" F="PartType" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="10" F="PartType" />
+            </L>
+            <R>
+              <V V="57" T="I32" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="GE">
+            <L>
+              <V V="62" T="I32" />
+            </L>
+            <R>
+              <S T="10" F="PartType" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="I32" I="0" O="true" N="MessageId">
+    <S T="14" F="MessageHeader: MessageId" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="TransactionId">
+    <S T="14" F="MessageHeader: TransactionId" M="Ignore" />
+  </C>
+  <C T="I32" I="2" O="true" N="InitialUserAction">
+    <S T="14" F="MessageHeader: SetUserAction" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="false" N="TmsNotDisplayed">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="TmsExpiredOfferLicensingOverride">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="TmsExpiredOfferLicensingStack">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="TmsPreExpiryOfferLicensingOverride">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="TmsLicensingOverride">
+    <O T="ADD">
+      <L>
+        <O T="ADD">
+          <L>
+            <C>
+              <S T="3" />
+            </C>
+          </L>
+          <R>
+            <C>
+              <S T="4" />
+            </C>
+          </R>
+        </O>
+      </L>
+      <R>
+        <C>
+          <S T="5" />
+        </C>
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="8" O="true" N="TmsPartType">
+    <S T="15" F="PartType" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="TmsBusbarType">
+    <S T="15" F="BusBarType" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="false" N="TmsDisplay">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="TmsButtonClick">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="TmsDescriptionClick">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="TmsDismiss">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="TmsClose">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="TotalDisplay">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="TotalButtonClick">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="TotalDescriptionClick">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="TotalDismiss">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="TotalClose">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="W" I="20" O="true" N="LastUserAction">
+    <S T="11" F="Action" />
+  </C>
+  <T>
+    <S T="12" />
+    <S T="13" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

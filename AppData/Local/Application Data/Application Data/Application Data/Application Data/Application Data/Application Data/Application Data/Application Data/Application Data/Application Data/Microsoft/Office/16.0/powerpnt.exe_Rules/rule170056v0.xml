@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170056" V="0" DC="SM" EN="Office.Graphics.InvalidCharacterPos" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bmw6j" A="bmw6k" />
+  </S>
+  <C T="W" I="0" O="false" N="TagID">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="W" I="1" O="true" N="Function">
+    <S T="1" F="Function" />
+  </C>
+  <C T="I32" I="2" O="true" N="TextBodyLength">
+    <S T="1" F="TextBody Length" />
+  </C>
+  <C T="I32" I="3" O="true" N="RightCharPosition">
+    <S T="1" F="right.m_charPos" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

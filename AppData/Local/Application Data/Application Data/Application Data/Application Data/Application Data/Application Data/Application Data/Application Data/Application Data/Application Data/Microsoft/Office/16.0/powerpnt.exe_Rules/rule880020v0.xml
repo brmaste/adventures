@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="880020" V="0" DC="SM" EN="Office.UserFacts.PresenterCoachSeen" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="biyhq" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="EventName" />
+        </L>
+        <R>
+          <V V="Office.PowerPoint.Rehearsal.SessionMetrics" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="DataType">
+    <V V="3" T="U32" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

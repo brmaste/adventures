@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68003" V="12" DC="SM" EN="Office.TellMe.TellMeD.SessionInfo" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="aw6j5" />
+    <UTS T="2" Id="aw6j7" />
+    <UTS T="3" Id="aw6j9" />
+    <UTS T="4" Id="bx4at" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="sessionId" />
+    </S>
+    <S T="2">
+      <F N="sessionId" />
+    </S>
+    <S T="3">
+      <F N="sessionId" />
+    </S>
+    <S T="4">
+      <F N="sessionId" />
+    </S>
+  </G>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="false" N="TellMeSessionId">
+    <S T="3" F="sessionId" />
+  </C>
+  <C T="G" I="2" O="true" N="TellMeQueryId">
+    <S T="2" F="queryId" />
+  </C>
+  <C T="W" I="3" O="true" N="LastQuery">
+    <V V="QUERYSCRUBBED" T="W" />
+  </C>
+  <C T="U32" I="4" O="false" N="ClssfrCount">
+    <V V="0.0" T="D" />
+  </C>
+  <C T="D" I="5" O="true" N="ClssfrTime">
+    <V V="0.0" T="D" />
+  </C>
+  <C T="U32" I="6" O="false" N="RenderingCount">
+    <V V="0.0" T="D" />
+  </C>
+  <C T="D" I="7" O="true" N="RenderingTime">
+    <V V="0.0" T="D" />
+  </C>
+  <C T="W" I="8" O="true" N="DataContext">
+    <S T="1" F="dataContext" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="10" O="false" N="UserActionName">
+    <V V="TellMeD_SessionInfo" T="W" />
+  </C>
+  <C T="B" I="11" O="true" N="PrivacyAccepted">
+    <S T="4" F="privacyAccepted" M="Ignore" />
+  </C>
+  <C T="I32" I="12" O="true" N="QueryLength">
+    <S T="2" F="queryLength" M="Ignore" />
+  </C>
+  <C T="I32" I="13" O="true" N="WordCount">
+    <S T="2" F="wordCount" M="Ignore" />
+  </C>
+  <C T="W" I="14" O="true" N="UICulture">
+    <S T="1" F="UICulture" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="IsSpeechInput">
+    <S T="2" F="isSpeechInput" M="Ignore" />
+  </C>
+  <C T="G" I="16" O="true" N="TellMeSpeechId">
+    <S T="2" F="tellMeSpeechId" M="Ignore" />
+  </C>
+  <C T="W" I="17" O="true" N="SearchScenario">
+    <S T="2" F="SearchScenario" M="Ignore" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

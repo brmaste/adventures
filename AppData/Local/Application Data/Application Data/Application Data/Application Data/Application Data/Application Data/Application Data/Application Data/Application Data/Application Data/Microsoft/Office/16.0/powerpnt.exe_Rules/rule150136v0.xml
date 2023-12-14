@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150136" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.SlideShow.TransitionRenderEvents" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="aq4c0" />
+    <R T="2" R="150133" />
+    <F T="3">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Feature" />
+            </L>
+            <R>
+              <V V="Show" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Event" />
+            </L>
+            <R>
+              <V V="Finish" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <S T="2" F="0" />
+        </L>
+        <R>
+          <V V="Transition" T="W" />
+        </R>
+      </O>
+    </F>
+    <F T="5">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="0" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="16" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="6">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="16" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="32" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="7">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="32" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="100" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="8">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="100" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="200" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="9">
+      <O T="AND">
+        <L>
+          <O T="GE">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="200" T="U64" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="LT">
+            <L>
+              <S T="4" F="1" />
+            </L>
+            <R>
+              <V V="500" T="U64" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <F T="10">
+      <O T="GE">
+        <L>
+          <S T="4" F="1" />
+        </L>
+        <R>
+          <V V="500" T="U64" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <G>
+    <S T="4">
+      <F N="2" />
+    </S>
+    <S T="5">
+      <F N="2" />
+    </S>
+    <S T="6">
+      <F N="2" />
+    </S>
+    <S T="7">
+      <F N="2" />
+    </S>
+    <S T="8">
+      <F N="2" />
+    </S>
+    <S T="9">
+      <F N="2" />
+    </S>
+    <S T="10">
+      <F N="2" />
+    </S>
+  </G>
+  <C T="U64" I="0" O="false" N="TransitionRender_0_16">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <C T="U64" I="1" O="false" N="TransitionRender_16_32">
+    <C>
+      <S T="6" />
+    </C>
+  </C>
+  <C T="U64" I="2" O="false" N="TransitionRender_32_100">
+    <C>
+      <S T="7" />
+    </C>
+  </C>
+  <C T="U64" I="3" O="false" N="TransitionRender_100_200">
+    <C>
+      <S T="8" />
+    </C>
+  </C>
+  <C T="U64" I="4" O="false" N="TransitionRender_200_500">
+    <C>
+      <S T="9" />
+    </C>
+  </C>
+  <C T="U64" I="5" O="false" N="TransitionRender_500">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="B" I="6" O="false" N="LaserEnabled">
+    <S T="4" F="2" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

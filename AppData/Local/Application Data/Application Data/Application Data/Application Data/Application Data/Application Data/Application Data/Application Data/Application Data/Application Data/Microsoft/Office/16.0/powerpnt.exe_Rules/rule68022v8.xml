@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68022" V="8" DC="SM" EN="Office.TellMe.TellMeD.ResultGroupTypeOrder" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="c3a4p" />
+    <UTS T="2" Id="aw6j9" />
+  </S>
+  <C T="TAG" I="0" O="true" N="Tag">
+    <S T="1" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="G" I="1" O="true" N="TellMeSessionId">
+    <S T="1" F="SessionId" />
+  </C>
+  <C T="G" I="2" O="true" N="TellMeQueryId">
+    <S T="1" F="QueryId" />
+  </C>
+  <C T="W" I="3" O="true" N="OrderBeforeRanking">
+    <S T="1" F="OrderBefore" />
+  </C>
+  <C T="W" I="4" O="true" N="OrderAfterRanking">
+    <S T="1" F="OrderAfter" />
+  </C>
+  <C T="U32" I="5" O="true" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="6" O="true" N="UserActionName">
+    <V V="TellMeD_ResultGroupTypeOrder" T="W" />
+  </C>
+  <C T="W" I="7" O="true" N="ResultGroupArrangementOperation">
+    <S T="1" F="Operation" />
+  </C>
+  <C T="W" I="8" O="true" N="ResultGroupArrangementStrategy">
+    <S T="1" F="Strategy" />
+  </C>
+  <C T="I32" I="9" O="true" N="ResultGroupRandomPercent">
+    <S T="1" F="RandomPercent" />
+  </C>
+  <C T="W" I="10" O="true" N="Message">
+    <V V="" T="W" />
+  </C>
+  <C T="W" I="11" O="true" N="SearchScenario">
+    <S T="2" F="SearchScenario" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170061" V="5" DC="SM" EN="Office.Graphics.SVGLoad" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="aqww0" />
+    <A T="2" E="TelemetryShutdown" />
+    <A T="3" E="TelemetrySuspend" />
+    <F T="4">
+      <O T="EQ">
+        <L>
+          <O T="COALESCE">
+            <L>
+              <S T="1" F="IsSVG" M="Ignore" />
+            </L>
+            <R>
+              <V V="False" T="B" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <V V="True" T="B" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="SVGCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <T>
+    <S T="3" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170038" V="0" DC="SM" EN="Office.Graphics.InkPointerMode" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bfslj" />
+    <UTS T="2" Id="bfmm5" />
+    <UTS T="3" Id="bfmm6" />
+  </S>
+  <C T="B" I="0" O="true" N="ExcelPenPointerMode">
+    <S T="1" F="PenPointerMode" M="Ignore" />
+  </C>
+  <C T="B" I="1" O="true" N="PPTPenPointerMode">
+    <S T="2" F="PenPointerMode" M="Ignore" />
+  </C>
+  <C T="B" I="2" O="true" N="WordPenPointerMode">
+    <S T="3" F="PenPointerMode" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+  </T>
+</R>

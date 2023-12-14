@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180200" V="0" DC="SM" EN="Office.Excel.DynamicArray.SingleFixupDialog" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a1xb7" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="SH_ErrorId" />
+        </L>
+        <R>
+          <V V="102240" T="I32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="I32" I="0" O="true" N="ErrorId">
+    <S T="2" F="SH_ErrorId" M="Ignore" />
+  </C>
+  <C T="I32" I="1" O="true" N="DialogChoice">
+    <S T="2" F="DialogChoice" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

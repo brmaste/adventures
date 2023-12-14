@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170087" V="2" DC="SM" EN="Office.Graphics.SecondFailedIBitmap" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bi2pe" />
+  </S>
+  <C T="W" I="0" O="true" N="ErrorString">
+    <S T="1" F="Error String" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="PixelWidth">
+    <S T="1" F="Pixel width" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="PixelHeight">
+    <S T="1" F="Pixel height" M="Ignore" />
+  </C>
+  <C T="D" I="3" O="true" N="DpiX">
+    <S T="1" F="DpiX" M="Ignore" />
+  </C>
+  <C T="D" I="4" O="true" N="DpiY">
+    <S T="1" F="DpiY" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true" N="Filetype">
+    <S T="1" F="Filetype" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

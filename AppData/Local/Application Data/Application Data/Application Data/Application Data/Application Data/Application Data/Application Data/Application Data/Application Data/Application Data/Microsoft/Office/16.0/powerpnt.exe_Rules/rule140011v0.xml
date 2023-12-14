@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140011" V="0" DC="SM" EN="Office.PowerPoint.DocOperation.IncOpenMediaStreamCollision" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cv2sn" />
+    <UTS T="2" Id="aya57" />
+    <F T="3">
+      <O T="OR">
+        <L>
+          <O T="OR">
+            <L>
+              <O T="GT">
+                <L>
+                  <S T="2" F="Embed Video" />
+                </L>
+                <R>
+                  <V V="1" T="U32" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="GT">
+                <L>
+                  <S T="2" F="Embed Audio" />
+                </L>
+                <R>
+                  <V V="1" T="U32" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="AND">
+            <L>
+              <O T="GT">
+                <L>
+                  <S T="2" F="Embed Video" />
+                </L>
+                <R>
+                  <V V="0" T="U32" />
+                </R>
+              </O>
+            </L>
+            <R>
+              <O T="GT">
+                <L>
+                  <S T="2" F="Embed Audio" />
+                </L>
+                <R>
+                  <V V="0" T="U32" />
+                </R>
+              </O>
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+    <UTS T="4" Id="cmkfr" />
+    <SQ T="5" R="[1][1][3][4]" />
+  </S>
+  <C T="W" I="0" O="true" N="MatchedSequenceCheck">
+    <S T="5" F="Matched" />
+  </C>
+  <C T="W" I="1" O="true" N="SeqCheck">
+    <S T="5" F="Sequence" />
+  </C>
+  <T>
+    <S T="5" />
+  </T>
+</R>

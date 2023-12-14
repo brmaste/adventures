@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10625" V="0" DC="SM" T="Subrule" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bdruu" />
+  </S>
+  <C T="I32" I="0" O="false">
+    <S T="1" F="searchAlgorithmVersion" />
+  </C>
+  <C T="B" I="1" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="SelectedIndex" />
+      </L>
+      <R>
+        <V V="0" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="2" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="SelectedIndex" />
+      </L>
+      <R>
+        <V V="1" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="3" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="SelectedIndex" />
+      </L>
+      <R>
+        <V V="2" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="4" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="SelectedIndex" />
+      </L>
+      <R>
+        <V V="3" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="5" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="SelectedIndex" />
+      </L>
+      <R>
+        <V V="4" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="6" O="false">
+    <O T="GT">
+      <L>
+        <S T="1" F="SelectedIndex" />
+      </L>
+      <R>
+        <V V="4" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="I32" I="7" O="false">
+    <S T="1" F="searchTextLength" />
+  </C>
+  <C T="B" I="8" O="false">
+    <O T="EQ">
+      <L>
+        <S T="1" F="searchTextLength" />
+      </L>
+      <R>
+        <V V="0" T="I32" />
+      </R>
+    </O>
+  </C>
+  <C T="B" I="9" O="false">
+    <O T="AND">
+      <L>
+        <O T="GE">
+          <L>
+            <S T="1" F="searchTextLength" />
+          </L>
+          <R>
+            <V V="1" T="I32" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <O T="LE">
+          <L>
+            <S T="1" F="searchTextLength" />
+          </L>
+          <R>
+            <V V="5" T="I32" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="B" I="10" O="false">
+    <O T="AND">
+      <L>
+        <O T="GE">
+          <L>
+            <S T="1" F="searchTextLength" />
+          </L>
+          <R>
+            <V V="6" T="I32" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <O T="LE">
+          <L>
+            <S T="1" F="searchTextLength" />
+          </L>
+          <R>
+            <V V="10" T="I32" />
+          </R>
+        </O>
+      </R>
+    </O>
+  </C>
+  <C T="B" I="11" O="false">
+    <O T="GT">
+      <L>
+        <S T="1" F="searchTextLength" />
+      </L>
+      <R>
+        <V V="10" T="I32" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

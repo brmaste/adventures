@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140259" V="0" DC="SM" EN="Office.PowerPoint.ModernCommentMerge.TextAnchorInvalidation" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="c8i3u" />
+    <UTS T="2" Id="c8i3h" />
+    <UTS T="3" Id="9x6y0" />
+    <US T="4">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+    </US>
+  </S>
+  <C T="U32" I="0" O="true" N="TextbodyLength">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="3" F="TextBody Length" />
+          </L>
+          <R>
+            <S T="2" F="TextBody Length" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <S T="3" F="Context TextBody Length" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="1" O="true" N="BodyMismatchCharPos">
+    <S T="3" F="TextRange CharPos" />
+  </C>
+  <C T="U32" I="2" O="true" N="BodyMismatchTextRangeLength">
+    <S T="3" F="TextRange Length" />
+  </C>
+  <C T="G" I="3" O="true" N="ServerDocId">
+    <O T="COALESCE">
+      <L>
+        <O T="COALESCE">
+          <L>
+            <S T="3" F="ServerDocId" />
+          </L>
+          <R>
+            <S T="2" F="ServerDocId" />
+          </R>
+        </O>
+      </L>
+      <R>
+        <S T="1" F="ServerDocId" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="4" O="true" N="StartPos">
+    <O T="COALESCE">
+      <L>
+        <S T="2" F="Start Char position" />
+      </L>
+      <R>
+        <S T="1" F="StartCharPos" />
+      </R>
+    </O>
+  </C>
+  <C T="U32" I="5" O="true" N="EndPos">
+    <O T="COALESCE">
+      <L>
+        <S T="2" F="End Char position" />
+      </L>
+      <R>
+        <S T="1" F="EndCharPos" />
+      </R>
+    </O>
+  </C>
+  <C T="TAG" I="6" O="false" N="Tag">
+    <S T="4" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="4" />
+  </T>
+</R>

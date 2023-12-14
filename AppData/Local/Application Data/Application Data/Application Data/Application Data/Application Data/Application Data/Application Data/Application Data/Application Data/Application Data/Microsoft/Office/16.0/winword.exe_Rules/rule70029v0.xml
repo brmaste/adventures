@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="70029" V="0" DC="SM" EN="Office.AirSpace.AirSpaceLocalBlocklistDriverUpdated" ATT="da06315a64204a91b8c35628ae841a61-c2fdf120-6e99-4fdd-900e-ec9868e5e64b-7449" SP="CriticalBusinessImpact" DL="B" DCa="DC" xmlns="">
+  <S>
+    <Etw T="1" E="325" G="{f562bb8e-422d-4b5c-b20e-90d710f7d11c}" />
+  </S>
+  <C T="W" I="0" O="true" N="DeviceId">
+    <S T="1" F="DeviceId" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="BlockedDriverVersion">
+    <S T="1" F="BlockedDriverVersion" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="UpdatedDriverVersion">
+    <S T="1" F="UpdatedDriverVersion" M="Ignore" />
+  </C>
+</R>

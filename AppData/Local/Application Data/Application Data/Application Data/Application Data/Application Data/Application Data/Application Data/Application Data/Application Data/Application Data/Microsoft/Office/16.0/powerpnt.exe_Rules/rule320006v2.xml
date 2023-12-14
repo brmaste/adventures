@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="320006" V="2" DC="SM" EN="Office.Extensibility.RichApiBatch" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalBusinessImpact" DCa="DC PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="crm82" />
+    <UTS T="2" Id="cou1d" />
+    <US T="3">
+      <S T="1" />
+      <S T="2" />
+    </US>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="3" F="TimeStamp100ns" />
+  </C>
+  <C T="W" I="1" O="false" N="SolutionId">
+    <S T="3" F="SolutionId" />
+  </C>
+  <C T="W" I="2" O="false" N="InstanceId">
+    <S T="3" F="InstanceId" />
+  </C>
+  <C T="W" I="3" O="false" N="MarketplaceType">
+    <S T="3" F="MarketplaceType" />
+  </C>
+  <C T="G" I="4" O="false" N="ReqId">
+    <S T="3" F="ReqId" />
+  </C>
+  <C T="W" I="5" O="false" N="ReqType">
+    <S T="3" F="ReqType" />
+  </C>
+  <C T="I64" I="6" O="false" N="ReqInitLatency">
+    <S T="3" F="ReqInitLat" />
+  </C>
+  <C T="I64" I="7" O="false" N="TotalLatency">
+    <S T="3" F="TotalLat" />
+  </C>
+  <C T="I64" I="8" O="false" N="ActualLatency">
+    <S T="3" F="ActualLat" />
+  </C>
+  <T>
+    <S T="3" />
+  </T>
+</R>

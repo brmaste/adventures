@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140003" V="3" DC="SM" EN="Office.PowerPoint.PPT.Desktop.Bootime" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" SP="CriticalBusinessImpact" DL="B" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a0980" />
+    <UTS T="2" Id="ay8ip" />
+  </S>
+  <C T="FT" I="0" O="false" N="Time">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="B" I="1" O="true" N="IsOpen">
+    <S T="1" F="O" />
+  </C>
+  <C T="B" I="2" O="true" N="AssistedReading">
+    <S T="1" F="H" />
+  </C>
+  <C T="B" I="3" O="true" N="ProtectedView">
+    <S T="1" F="VP" />
+  </C>
+  <C T="B" I="4" O="true" N="UnprotectedView">
+    <S T="1" F="VU" />
+  </C>
+  <C T="B" I="5" O="true" N="Benchmark">
+    <S T="1" F="#" />
+  </C>
+  <C T="B" I="6" O="true" N="Macro1">
+    <S T="1" F="M" />
+  </C>
+  <C T="B" I="7" O="true" N="Macro2">
+    <S T="1" F="MACRO" />
+  </C>
+  <C T="B" I="8" O="true" N="Print">
+    <S T="1" F="P" />
+  </C>
+  <C T="B" I="9" O="true" N="PrintPrinter">
+    <S T="1" F="PT" />
+  </C>
+  <C T="B" I="10" O="true" N="PrintDialog">
+    <S T="1" F="PWO" />
+  </C>
+  <C T="B" I="11" O="true" N="Show">
+    <S T="1" F="S" />
+  </C>
+  <C T="B" I="12" O="true" N="IsNew">
+    <S T="1" F="N" />
+  </C>
+  <C T="B" I="13" O="true" N="Blank">
+    <S T="1" F="B" />
+  </C>
+  <C T="B" I="14" O="true" N="Restore">
+    <S T="1" F="RESTORE" />
+  </C>
+  <C T="B" I="15" O="true" N="Embedding">
+    <S T="1" F="EMBEDDING" />
+  </C>
+  <C T="B" I="16" O="true" N="Automation">
+    <S T="1" F="AUTOMATION" />
+  </C>
+  <C T="B" I="17" O="true" N="Regserver">
+    <S T="1" F="REGSERVER" />
+  </C>
+  <C T="U32" I="18" O="true" N="BootTime">
+    <S T="2" F="DurationInMs" />
+  </C>
+  <C T="B" I="19" O="true" N="IsC2R">
+    <S T="2" F="isC2R" />
+  </C>
+  <C T="B" I="20" O="true" N="NonStandardSpaceInCmdLine">
+    <S T="1" F="fNonStandardSpaceInCmdLine" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

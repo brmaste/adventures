@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180027" V="2" DC="SM" EN="Office.Excel.XlWBPivotTablesUsagePassthrough" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ULS_Category" />
+            </L>
+            <R>
+              <V V="Xl Workbook Structure" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Table" />
+            </L>
+            <R>
+              <V V="PivotTables" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="2" F="ULS_CorrelationID" />
+  </C>
+  <C T="G" I="2" O="true" N="XLUID">
+    <S T="2" F="XLUID" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="PivotTableId">
+    <S T="2" F="PivotTableId" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="SheetId">
+    <S T="2" F="SheetId" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="true" N="WorkbookId">
+    <S T="2" F="WorkbookId" M="Ignore" />
+  </C>
+  <C T="W" I="6" O="true" N="SourceType">
+    <S T="2" F="SourceType" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true" N="ConnectionId">
+    <S T="2" F="ConnectionId" M="Ignore" />
+  </C>
+  <C T="U64" I="8" O="true" N="PivotViewSize">
+    <S T="2" F="PivotViewSize" M="Ignore" />
+  </C>
+  <C T="G" I="9" O="true" N="PivotCacheId">
+    <S T="2" F="PivotCacheId" M="Ignore" />
+  </C>
+  <C T="U64" I="10" O="true" N="PivotCacheSize">
+    <S T="2" F="PivotCacheSize" M="Ignore" />
+  </C>
+  <C T="U64" I="11" O="true" N="CountItemsRowsWell">
+    <S T="2" F="CountItemsRowsWell" M="Ignore" />
+  </C>
+  <C T="U64" I="12" O="true" N="CountItemsColumnsWell">
+    <S T="2" F="CountItemsColumnsWell" M="Ignore" />
+  </C>
+  <C T="U64" I="13" O="true" N="CountItemsFiltersWell">
+    <S T="2" F="CountItemsFiltersWell" M="Ignore" />
+  </C>
+  <C T="U64" I="14" O="true" N="CountItemsValuesWell">
+    <S T="2" F="CountItemsValuesWell" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="ConditionalFormatting">
+    <S T="2" F="ConditionalFormatting" M="Ignore" />
+  </C>
+  <C T="B" I="16" O="true" N="GrandTotalsColumn">
+    <S T="2" F="GrandTotalsColumn" M="Ignore" />
+  </C>
+  <C T="B" I="17" O="true" N="GrandTotalsRow">
+    <S T="2" F="GrandTotalsRow" M="Ignore" />
+  </C>
+  <C T="B" I="18" O="true" N="SubTotals">
+    <S T="2" F="SubTotals" M="Ignore" />
+  </C>
+  <C T="B" I="19" O="true" N="Styles">
+    <S T="2" F="Styles" M="Ignore" />
+  </C>
+  <C T="I64" I="20" O="true" N="CountKPI">
+    <S T="2" F="CountKPI" M="Ignore" />
+  </C>
+  <C T="U64" I="21" O="true" N="CountCalculatedSets">
+    <S T="2" F="CountCalculatedSets" M="Ignore" />
+  </C>
+  <C T="U64" I="22" O="true" N="CountCalculatedField">
+    <S T="2" F="CountCalculatedField" M="Ignore" />
+  </C>
+  <C T="U64" I="23" O="true" N="CountCalculatedItem">
+    <S T="2" F="CountCalculatedItem" M="Ignore" />
+  </C>
+  <C T="U64" I="24" O="true" N="CountCalculatedMeasures">
+    <S T="2" F="CountCalculatedMeasures" M="Ignore" />
+  </C>
+  <C T="U64" I="25" O="true" N="CountCalculatedMember">
+    <S T="2" F="CountCalculatedMember" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

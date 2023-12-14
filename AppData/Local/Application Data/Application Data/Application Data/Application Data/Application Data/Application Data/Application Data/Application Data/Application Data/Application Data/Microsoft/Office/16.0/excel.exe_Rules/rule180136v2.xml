@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180136" V="2" DC="SM" EN="Office.Excel.XlHtmlCopyPasteUsage" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_Category" />
+        </L>
+        <R>
+          <V V="Xl Copy Paste" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="2" F="ULS_CorrelationID" />
+  </C>
+  <C T="G" I="2" O="true" N="PasteAsHtmlGuid">
+    <S T="2" F="PasteAsHtmlGuid" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="RowCount">
+    <S T="2" F="RowCount" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="ColumnCount">
+    <S T="2" F="ColumnCount" M="Ignore" />
+  </C>
+  <C T="I32" I="5" O="true" N="ClipboardDataType">
+    <S T="2" F="ClipboardDataType" M="Ignore" />
+  </C>
+  <C T="I32" I="6" O="true" N="PastedFromCrossOfficeAppId">
+    <S T="2" F="PastedFromCrossOfficeAppId" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="PastedHtmlNestedListInTable">
+    <S T="2" F="PastedHtmlNestedListInTable" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="PastedHtmlNestedTable">
+    <S T="2" F="PastedHtmlNestedTable" M="Ignore" />
+  </C>
+  <C T="B" I="9" O="true" N="CopiedToExternalAsHtml">
+    <S T="2" F="CopiedToExternalAsHtml" M="Ignore" />
+  </C>
+  <C T="B" I="10" O="true" N="LegacyCodeUsed">
+    <S T="2" F="LegacyCodeUsed" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="PastedHyperlinkWithNameSet">
+    <S T="2" F="PastedHyperlinkWithNameSet" M="Ignore" />
+  </C>
+  <C T="B" I="12" O="true" N="PastedInternalHyperlink">
+    <S T="2" F="PastedInternalHyperlink" M="Ignore" />
+  </C>
+  <C T="B" I="13" O="true" N="PastedPhoneticTextWithHyperlink">
+    <S T="2" F="PastedPhoneticTextWithHyperlink" M="Ignore" />
+  </C>
+  <C T="B" I="14" O="true" N="PastedHtmlHasOArt">
+    <S T="2" F="PastedHtmlHasOArt" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="IsUndo">
+    <S T="2" F="IsUndo" M="Ignore" />
+  </C>
+  <C T="I32" I="16" O="true" N="HtmlClipboardFeatureVersion">
+    <S T="2" F="HtmlClipboardFeatureVersion" M="Ignore" />
+  </C>
+  <C T="I32" I="17" O="true" N="DeepestNestedTable">
+    <S T="2" F="DeepestNestedTable" M="Ignore" />
+  </C>
+  <C T="B" I="18" O="true" N="EmptyRowColRemovedFromTable">
+    <S T="2" F="EmptyRowColRemovedFromTable" M="Ignore" />
+  </C>
+  <C T="B" I="19" O="true" N="IgnoredTableContentOutsideCellsAndCaption">
+    <S T="2" F="IgnoredTableContentOutsideCellsAndCaption" M="Ignore" />
+  </C>
+  <C T="B" I="20" O="true" N="IgnoredColTag">
+    <S T="2" F="IgnoredColTag" M="Ignore" />
+  </C>
+  <C T="B" I="21" O="true" N="IgnoredBasefont">
+    <S T="2" F="IgnoredBasefont" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

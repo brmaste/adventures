@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="680001" V="0" DC="SM" EN="Office.Translator.NeverForLanguagePressed" ATT="e91bcbbe30e44ab28e2e2bce83d446e5-a779473f-d500-4783-ae33-75fd57efee29-6985" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cmqvb" />
+  </S>
+  <C T="U32" I="0" O="false" N="NeverForLanguageCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

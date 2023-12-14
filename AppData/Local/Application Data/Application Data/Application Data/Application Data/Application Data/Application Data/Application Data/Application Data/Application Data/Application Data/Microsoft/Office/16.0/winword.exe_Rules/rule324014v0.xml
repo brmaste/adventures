@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="324014" V="0" DC="SM" EN="Office.Extensibility.MacroDigSigSaveHighestVersion" ATT="db334b301e7b474db5e0f02f07c51a47-a1b5bc36-1bbe-482f-a64a-c2d9cb606706-7439" SP="CriticalBusinessImpact" DL="B" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="9j4qm" />
+  </S>
+  <C T="W" I="0" O="false" N="TagId">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="W" I="1" O="false" N="DigSigVersion">
+    <S T="1" F="DigSigVersion" />
+  </C>
+  <C T="B" I="2" O="false" N="IsDigSigCreated">
+    <S T="1" F="IsDigSigCreated" />
+  </C>
+  <C T="B" I="3" O="false" N="UnderFGEnabledVbaV3Sig">
+    <S T="1" F="UnderFGEnabledVbaV3Sig" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

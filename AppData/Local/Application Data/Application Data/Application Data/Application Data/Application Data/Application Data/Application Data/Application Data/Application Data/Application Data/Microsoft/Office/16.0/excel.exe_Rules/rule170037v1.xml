@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170037" V="1" DC="SM" EN="Office.Graphics.GvisIgxBulletCustomization" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bdld4" />
+    <UTS T="2" Id="bdld5" />
+    <UTS T="3" Id="bdld6" />
+    <UTS T="4" Id="bdld7" />
+    <UTS T="5" Id="bdld8" />
+    <A T="6" E="TelemetryShutdown" />
+    <A T="7" E="TelemetrySuspend" />
+  </S>
+  <C T="U32" I="0" O="true" N="BulletSizeCustomizationCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="true" N="BulletColorCustomizationCount">
+    <C>
+      <S T="2" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="true" N="NumberBulletCustomizationCount">
+    <C>
+      <S T="3" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="true" N="PictureBulletCustomizationCount">
+    <C>
+      <S T="4" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="true" N="CharBulletCustomizationCount">
+    <C>
+      <S T="5" />
+    </C>
+  </C>
+  <T>
+    <S T="6" />
+    <S T="7" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="2" />
+    <S T="3" />
+    <S T="4" />
+    <S T="5" />
+  </ST>
+</R>

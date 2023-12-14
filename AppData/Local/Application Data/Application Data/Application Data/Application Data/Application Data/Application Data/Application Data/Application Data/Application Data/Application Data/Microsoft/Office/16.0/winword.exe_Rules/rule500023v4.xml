@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="500023" V="4" DC="SM" EN="Office.Feedback.InApp.PayloadSent" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bm22s" A="82pus 82puv 82puu 82put cl8f9 cl8ga cl8gb" />
+  </S>
+  <C T="I32" I="0" O="true" N="HttpStatusCode">
+    <S T="1" F="HttpStatusCode" />
+  </C>
+  <C T="W" I="1" O="true" N="ClientFeedbackId">
+    <S T="1" F="ClientFeedbackId" />
+  </C>
+  <C T="TAG" I="2" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

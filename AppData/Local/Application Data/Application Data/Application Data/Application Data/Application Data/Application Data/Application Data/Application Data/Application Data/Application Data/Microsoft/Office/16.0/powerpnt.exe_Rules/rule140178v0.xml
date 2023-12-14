@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140178" V="0" DC="SM" EN="Office.PowerPoint.PPT.Shared.OCS.PingPongDetected" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ctk04" />
+  </S>
+  <C T="U32" I="0" O="true" N="MaxConflictCount">
+    <S T="1" F="MaxConflictCount" M="Ignore" />
+  </C>
+  <C T="U32" I="1" O="true" N="MaxSameHashCount">
+    <S T="1" F="MaxSameHashCount" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="true" N="MaxConflictPartName">
+    <S T="1" F="MaxConflictPartName" M="Ignore" />
+  </C>
+  <C T="W" I="3" O="true" N="MaxSameHashPartName">
+    <S T="1" F="MaxSameHashPartName" M="Ignore" />
+  </C>
+  <C T="G" I="4" O="true" N="ServerDocId">
+    <S T="1" F="ServerDocId" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

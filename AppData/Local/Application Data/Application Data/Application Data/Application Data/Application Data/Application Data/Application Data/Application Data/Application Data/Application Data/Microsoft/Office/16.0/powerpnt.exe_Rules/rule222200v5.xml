@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="222200" V="5" DC="SM" EN="Office.NaturalLanguage.Proofing.ProofingEventsRuleContextualSpellerEvent" ATT="71cc1046851042108843d90e5d3ef6c1-61e5de5c-238c-4de5-95de-3b40d20ea6e5-6899" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a22tx" A="bkoh2 bn8xn" />
+  </S>
+  <C T="W" I="0" O="true" N="ContextualSpellerEventCultureTag">
+    <S T="1" F="CultureTag" M="Ignore" />
+  </C>
+  <C T="W" I="1" O="true" N="ContextualSpellerEventName">
+    <S T="1" F="EventName" M="Ignore" />
+  </C>
+  <C T="I32" I="2" O="true" N="ContextualSpellerEventScore">
+    <S T="1" F="Score" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="ContextualSpellerEventIndexSelectedSuggestion">
+    <S T="1" F="IndexSelectedSuggestion" M="Ignore" />
+  </C>
+  <C T="B" I="4" O="true" N="ContextualSpellerEventIsFromApplicationUndo">
+    <S T="1" F="IsFromApplicationUndo" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="ContextualSpellerEventEndPoint">
+    <S T="1" F="EndPoint" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="ContextualSpellerEventIsDataShareableOutsideOffice">
+    <S T="1" F="IsDataShareableOutsideOffice" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

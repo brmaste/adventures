@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="10952" V="1" DC="SM" EN="Office.Outlook.Desktop.ContactCardHealth" ATT="d807609276744245baf81bf7bc8033f6-2268e374-7766-4976-be44-b6ad5bddc5b6-7813" DCa="PSU" xmlns="">
+  <S>
+    <A T="1" E="TelemetryShutdown" />
+    <TI T="2" I="Daily" />
+    <UTS T="3" Id="blelm" />
+    <UTS T="4" Id="bleln" />
+    <UTS T="5" Id="blelo" />
+    <UTS T="6" Id="blelp" />
+    <UTS T="7" Id="blelu" />
+    <UTS T="8" Id="blelv" />
+    <UTS T="9" Id="blelw" />
+    <F T="10">
+      <O T="EQ">
+        <L>
+          <S T="3" F="ValidPersona" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="11">
+      <O T="EQ">
+        <L>
+          <S T="3" F="ValidManager" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="12">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ValidPersona" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="13">
+      <O T="EQ">
+        <L>
+          <S T="4" F="ValidCustomLabels" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="14">
+      <O T="LT">
+        <L>
+          <S T="4" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="15">
+      <O T="EQ">
+        <L>
+          <S T="5" F="ValidToolWindow" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="16">
+      <O T="EQ">
+        <L>
+          <S T="5" F="CardExpanding" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="17">
+      <O T="EQ">
+        <L>
+          <S T="5" F="CardExpanding" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="18">
+      <O T="EQ">
+        <L>
+          <S T="5" F="IsFullCardInitially" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="19">
+      <O T="EQ">
+        <L>
+          <S T="5" F="IsFullCardInitially" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="20">
+      <O T="EQ">
+        <L>
+          <S T="5" F="MsoCardLayoutPosition" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="21">
+      <O T="EQ">
+        <L>
+          <S T="5" F="MsoCardLayoutPosition" />
+        </L>
+        <R>
+          <V V="1" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="22">
+      <O T="LT">
+        <L>
+          <S T="5" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="23">
+      <O T="EQ">
+        <L>
+          <S T="6" F="IsCardTypeNone" />
+        </L>
+        <R>
+          <V V="true" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="24">
+      <O T="EQ">
+        <L>
+          <S T="6" F="IsCardTypeNone" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="25">
+      <O T="EQ">
+        <L>
+          <S T="6" F="ValidToolWindow" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="26">
+      <O T="EQ">
+        <L>
+          <S T="6" F="ValidHwndCard" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="27">
+      <O T="EQ">
+        <L>
+          <S T="6" F="ValidComponentID" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="28">
+      <O T="LT">
+        <L>
+          <S T="6" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="29">
+      <O T="EQ">
+        <L>
+          <S T="7" F="ValidToolWindow" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="30">
+      <O T="EQ">
+        <L>
+          <S T="7" F="ValidPersona" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="31">
+      <O T="EQ">
+        <L>
+          <S T="7" F="ValidContactCardMgr" />
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </F>
+    <F T="32">
+      <O T="LT">
+        <L>
+          <S T="8" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+    <F T="33">
+      <O T="LT">
+        <L>
+          <S T="9" F="HRESULT" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false" N="Count_CreateCard_ValidPersona_False">
+    <C>
+      <S T="10" />
+    </C>
+  </C>
+  <C T="U32" I="1" O="false" N="Count_CreateCard_ValidManager_False">
+    <C>
+      <S T="11" />
+    </C>
+  </C>
+  <C T="U32" I="2" O="false" N="Count_CreateResult_ValidPersona_False">
+    <C>
+      <S T="12" />
+    </C>
+  </C>
+  <C T="U32" I="3" O="false" N="Count_CreateResult_ValidCustomLabels_False">
+    <C>
+      <S T="13" />
+    </C>
+  </C>
+  <C T="U32" I="4" O="false" N="Count_CreateResult_Invalid_HRESULT">
+    <C>
+      <S T="14" />
+    </C>
+  </C>
+  <C T="U32" I="5" O="false" N="Count_PositionAndMove_ValidToolWindow_False">
+    <C>
+      <S T="15" />
+    </C>
+  </C>
+  <C T="U32" I="6" O="false" N="Count_PositionAndMove_CardExpanding_True">
+    <C>
+      <S T="16" />
+    </C>
+  </C>
+  <C T="U32" I="7" O="false" N="Count_PositionAndMove_CardExpanding_False">
+    <C>
+      <S T="17" />
+    </C>
+  </C>
+  <C T="U32" I="8" O="false" N="Count_PositionAndMove_IsFullCardInitially_True">
+    <C>
+      <S T="18" />
+    </C>
+  </C>
+  <C T="U32" I="9" O="false" N="Count_PositionAndMove_IsFullCardInitially_False">
+    <C>
+      <S T="19" />
+    </C>
+  </C>
+  <C T="U32" I="10" O="false" N="Count_PositionAndMove_MsoCardLayoutPosition_Top">
+    <C>
+      <S T="20" />
+    </C>
+  </C>
+  <C T="U32" I="11" O="false" N="Count_PositionAndMove_MsoCardLayoutPosition_Left">
+    <C>
+      <S T="21" />
+    </C>
+  </C>
+  <C T="U32" I="12" O="false" N="Count_PositionAndMove_Invalid_HRESULT">
+    <C>
+      <S T="22" />
+    </C>
+  </C>
+  <C T="U32" I="13" O="false" N="Count_CreateCardWindow_IsCardTypeNone_True">
+    <C>
+      <S T="23" />
+    </C>
+  </C>
+  <C T="U32" I="14" O="false" N="Count_CreateCardWindow_IsCardTypeNone_False">
+    <C>
+      <S T="24" />
+    </C>
+  </C>
+  <C T="U32" I="15" O="false" N="Count_CreateCardWindow_ValidToolWindow_False">
+    <C>
+      <S T="25" />
+    </C>
+  </C>
+  <C T="U32" I="16" O="false" N="Count_CreateCardWindow_ValidHwndCard_False">
+    <C>
+      <S T="26" />
+    </C>
+  </C>
+  <C T="U32" I="17" O="false" N="Count_CreateCardWindow_ValidComponentID_False">
+    <C>
+      <S T="27" />
+    </C>
+  </C>
+  <C T="U32" I="18" O="false" N="Count_CreateCardWindow_Invalid_HRESULT">
+    <C>
+      <S T="28" />
+    </C>
+  </C>
+  <C T="U32" I="19" O="false" N="Count_CloseBeginning_ValidToolWindow_False">
+    <C>
+      <S T="29" />
+    </C>
+  </C>
+  <C T="U32" I="20" O="false" N="Count_CloseBeginning_ValidPersona_False">
+    <C>
+      <S T="30" />
+    </C>
+  </C>
+  <C T="U32" I="21" O="false" N="Count_CloseBeginning_ValidManager_False">
+    <C>
+      <S T="31" />
+    </C>
+  </C>
+  <C T="U32" I="22" O="false" N="Count_CloseEnding_Invalid_HRESULT">
+    <C>
+      <S T="32" />
+    </C>
+  </C>
+  <C T="U32" I="23" O="false" N="Count_ViaMgr_Invalid_HRESULT">
+    <C>
+      <S T="33" />
+    </C>
+  </C>
+  <C T="U64" I="24" O="false" N="CardVersion">
+    <O T="COALESCE">
+      <L>
+        <S T="3" F="CardVersion" M="Ignore" />
+      </L>
+      <R>
+        <V V="1" T="U64" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="3" />
+  </ST>
+</R>

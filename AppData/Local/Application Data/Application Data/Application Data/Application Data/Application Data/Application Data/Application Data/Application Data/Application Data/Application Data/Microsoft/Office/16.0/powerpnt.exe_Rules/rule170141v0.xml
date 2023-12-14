@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170141" V="0" DC="SM" EN="Office.Graphics.CameoErrors" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="6vec7" A="6vec5 6vec4 6zbuc 6zbub 7wj9k 6ri1f 6sucd 6zbvs 6zbvq 6fu1f 6d0mz 6pkg4 6pkg2 6pkg0 6pkgy 6pkgw" />
+    <A T="2" E="TelemetryShutdown" />
+  </S>
+  <G>
+    <S T="1">
+      <F N="ULS_TagId" />
+    </S>
+  </G>
+  <C T="W" I="0" O="false" N="TagID">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <C T="U32" I="1" O="false" N="TagCount">
+    <C>
+      <S T="1" />
+    </C>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+  </ST>
+</R>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170081" V="2" DC="SM" EN="Office.Graphics.InkEffects" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="b0tof" A="bvuie coukr" />
+  </S>
+  <C T="G" I="0" O="false" N="InkEffect">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="Ink Effect GUID" M="Ignore" />
+      </L>
+      <R>
+        <S T="1" F="Ink Effect GUID for new ink" M="Ignore" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

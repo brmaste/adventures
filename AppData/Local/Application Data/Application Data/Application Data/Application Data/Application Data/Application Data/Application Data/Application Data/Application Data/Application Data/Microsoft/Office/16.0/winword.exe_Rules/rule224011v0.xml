@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="224011" V="0" DC="SM" EN="Office.Licensing.OfficeClientLicensing.Client.ReportActivationDetails" ATT="c1a0db0127964674a0d62fde5ab0fe62-6ec4ac45-cebc-4f80-aa83-b6b9d3a86ed7-7719" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a46wg" />
+    <UTS T="2" Id="a46vn" />
+    <UTS T="3" Id="a46wh" />
+  </S>
+  <C T="W" I="0" O="false" N="Client">
+    <S T="2" F="Client" />
+  </C>
+  <C T="W" I="1" O="false" N="ClientVersion">
+    <S T="2" F="ClientVersion" />
+  </C>
+  <C T="W" I="2" O="false" N="ClientLanguage">
+    <S T="2" F="ClientLanguage" />
+  </C>
+  <C T="I32" I="3" O="false" N="OfficeMajorVersion">
+    <S T="2" F="OfficeMajorVersion" />
+  </C>
+  <C T="I32" I="4" O="false" N="Protocol">
+    <S T="2" F="Protocol" />
+  </C>
+  <C T="G" I="5" O="false" N="CorrelationId">
+    <S T="2" F="CorrelationId" />
+  </C>
+  <C T="I64" I="6" O="true" N="Result">
+    <S T="3" F="HRESULT" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

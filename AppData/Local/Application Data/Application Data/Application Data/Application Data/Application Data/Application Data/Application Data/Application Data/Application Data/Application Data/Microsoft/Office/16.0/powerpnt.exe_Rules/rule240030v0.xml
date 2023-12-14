@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="240030" V="0" DC="SM" EN="Office.Security.TCOcxUFIPrompt" ATT="05e0c2fd5fff432bac7a175220223da5-2eec7cb2-952b-4862-9fd4-16ed083da5ec-7364" SP="CriticalBusinessImpact" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bhi92" />
+  </S>
+  <C T="B" I="0" O="false" N="FromInternet">
+    <S T="1" F="FromInternet" />
+  </C>
+  <C T="B" I="1" O="false" N="SecureReaderMode">
+    <S T="1" F="SecureReaderMode" />
+  </C>
+  <C T="U32" I="2" O="false" N="OcxTrustCenterSettings">
+    <S T="1" F="OcxTrustCenterSettings" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="120112" V="1" DC="ESM" EN="Office.System.SystemHealthSessionStartTime" ATT="cd836626611c4caaa8fc5b2e728ee81d-3b6d6c45-6377-4bf5-9792-dbf8e1881088-7521" SP="CriticalCensus" T="Upload-Medium" DL="A" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="Metadata" />
+  </RIS>
+  <S>
+    <A T="1" E="TelemetryStartup" />
+    <R T="2" R="120100" />
+    <R T="3" R="120112" />
+  </S>
+  <C T="FT" I="0" O="false" N="SessionStart">
+    <O T="COALESCE">
+      <L>
+        <S T="1" F="TimeStamp100ns" />
+      </L>
+      <R>
+        <S T="3" F="0" />
+      </R>
+    </O>
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+  <ST>
+    <S T="1" />
+    <S T="3" />
+  </ST>
+</R>

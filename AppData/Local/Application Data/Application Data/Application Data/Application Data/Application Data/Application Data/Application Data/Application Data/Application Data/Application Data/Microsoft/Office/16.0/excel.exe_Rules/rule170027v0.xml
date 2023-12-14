@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170027" V="0" DC="SM" EN="Office.Graphics.GvisIgxCPOpenCloseFrameWidgetXButton" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bbxeh" A="bb9a0 bb9a1" />
+  </S>
+  <C T="B" I="0" O="true" N="IsTouch">
+    <S T="1" F="IsTouch" M="Ignore" />
+  </C>
+  <C T="B" I="1" O="true" N="CPState">
+    <S T="1" F="CPState" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="false" N="TagID">
+    <S T="1" F="ULS_TagId" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

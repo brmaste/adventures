@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140181" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.ClosedCaptions.PlayMediaEx" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="7kq91" />
+  </S>
+  <C T="B" I="0" O="false" N="IsNarration">
+    <S T="1" F="FIsNarration" />
+  </C>
+  <C T="B" I="1" O="false" N="CaptionEnabled">
+    <S T="1" F="FCaptionsVisible" />
+  </C>
+  <C T="B" I="2" O="false" N="IsVideo">
+    <S T="1" F="FIsVideo" />
+  </C>
+  <C T="B" I="3" O="false" N="IsPlayerMuted">
+    <S T="1" F="FIsPlayerMuted" />
+  </C>
+  <C T="B" I="4" O="false" N="IsResuming">
+    <S T="1" F="FIsResuming" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="140139" V="0" DC="SM" EN="Office.PowerPoint.PPT.Desktop.SlideShow.CustomShowDialog" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="bndgf" />
+  </S>
+  <C T="U32" I="0" O="false" N="NewCount">
+    <S T="1" F="New" />
+  </C>
+  <C T="U32" I="1" O="false" N="EditCount">
+    <S T="1" F="Edit" />
+  </C>
+  <C T="U32" I="2" O="false" N="RemoveCount">
+    <S T="1" F="Remove" />
+  </C>
+  <C T="U32" I="3" O="false" N="CopyCount">
+    <S T="1" F="Copy" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

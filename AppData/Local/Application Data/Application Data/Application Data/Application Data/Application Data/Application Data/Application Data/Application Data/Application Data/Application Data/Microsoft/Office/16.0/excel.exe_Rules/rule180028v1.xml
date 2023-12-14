@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180028" V="1" DC="SM" EN="Office.Excel.XlWBSheetsUsagePassthrough" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ULS_Category" />
+            </L>
+            <R>
+              <V V="Xl Workbook Structure" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Table" />
+            </L>
+            <R>
+              <V V="Sheets" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="I32" I="1" O="false" N="SheetId">
+    <S T="2" F="SheetId" />
+  </C>
+  <C T="W" I="2" O="false" N="WorkbookId">
+    <S T="2" F="WorkbookId" M="Ignore" />
+  </C>
+  <C T="I32" I="3" O="true" N="UsedRangeColCount">
+    <S T="2" F="UsedRangeColCount" M="Ignore" />
+  </C>
+  <C T="I32" I="4" O="true" N="UsedRangeRowCount">
+    <S T="2" F="UsedRangeRowCount" M="Ignore" />
+  </C>
+  <C T="B" I="5" O="true" N="IsLoadedSheet">
+    <S T="2" F="IsLoadedSheet" M="Ignore" />
+  </C>
+  <C T="B" I="6" O="true" N="HasFreezePanes">
+    <S T="2" F="HasFreezePanes" M="Ignore" />
+  </C>
+  <C T="B" I="7" O="true" N="HasSplitPanes">
+    <S T="2" F="HasSplitPanes" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="HasFrozenSplitPanes">
+    <S T="2" F="HasFrozenSplitPanes" M="Ignore" />
+  </C>
+  <C T="I32" I="9" O="true" N="CalculatedCellCount">
+    <S T="2" F="CalculatedCellCount" M="Ignore" />
+  </C>
+  <C T="W" I="10" O="true" N="SheetType">
+    <S T="2" F="SheetType" M="Ignore" />
+  </C>
+  <C T="B" I="11" O="true" N="IsVolatile">
+    <S T="2" F="IsVolatile" M="Ignore" />
+  </C>
+  <C T="I32" I="12" O="true" N="CommentCount">
+    <S T="2" F="CommentCount" M="Ignore" />
+  </C>
+  <C T="I32" I="13" O="true" N="AllocatedRangeColCount">
+    <S T="2" F="AllocatedRangeColCount" M="Ignore" />
+  </C>
+  <C T="I32" I="14" O="true" N="AllocatedRangeRowCount">
+    <S T="2" F="AllocatedRangeRowCount" M="Ignore" />
+  </C>
+  <C T="B" I="15" O="true" N="HasColoredTab">
+    <S T="2" F="HasColoredTab" M="Ignore" />
+  </C>
+  <C T="I32" I="16" O="true" N="OutlinesMaxRw">
+    <S T="2" F="OutlinesMaxRw" M="Ignore" />
+  </C>
+  <C T="I32" I="17" O="true" N="OutlinesMaxCol">
+    <S T="2" F="OutlinesMaxCol" M="Ignore" />
+  </C>
+  <C T="I32" I="18" O="true" N="OutlineLevelsRwCount">
+    <S T="2" F="OutlineLevelsRwCount" M="Ignore" />
+  </C>
+  <C T="I32" I="19" O="true" N="OutlineLevelsColCount">
+    <S T="2" F="OutlineLevelsColCount" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

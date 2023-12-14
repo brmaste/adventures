@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68004" V="16" DC="SM" EN="Office.TellMe.TellMeD.ExecutedCommand" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <RIS>
+    <RI N="ExperimentationCustomData" />
+  </RIS>
+  <S>
+    <UTS T="1" Id="a7m12" A="aw6j3" />
+  </S>
+  <C T="FT" I="0" O="false" N="Timestamp">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="false" N="InteractionId">
+    <S T="1" F="sessionId" />
+  </C>
+  <C T="G" I="2" O="false" N="QueryId">
+    <S T="1" F="queryId" />
+  </C>
+  <C T="W" I="3" O="false" N="GroupName">
+    <S T="1" F="groupName" />
+  </C>
+  <C T="I32" I="4" O="true" N="GroupIndex">
+    <S T="1" F="groupIndex" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="false" N="ResultType">
+    <S T="1" F="resultType" />
+  </C>
+  <C T="I32" I="6" O="true" N="ResultBindingTcid">
+    <S T="1" F="resultBindingTcid" M="Ignore" />
+  </C>
+  <C T="I32" I="7" O="true" N="ExecutedControlTcid">
+    <S T="1" F="executedControlTcid" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="false" N="UserActionID">
+    <V V="0" T="U32" />
+  </C>
+  <C T="W" I="9" O="false" N="UserActionName">
+    <V V="TellMeD_ExecutedCommand" T="W" />
+  </C>
+  <C T="W" I="10" O="true" N="Parameter">
+    <S T="1" F="parameter" M="Ignore" />
+  </C>
+  <C T="W" I="11" O="true" N="TryQueryString">
+    <S T="1" F="tryQuery" M="Ignore" />
+  </C>
+  <C T="I32" I="12" O="true" N="TryQueryId">
+    <S T="1" F="tryQueryId" M="Ignore" />
+  </C>
+  <C T="I32" I="13" O="true" N="Answertype">
+    <S T="1" F="answerType" M="Ignore" />
+  </C>
+  <C T="W" I="14" O="true" N="ExecutionMethod">
+    <S T="1" F="executionMethod" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="ServiceProvider">
+    <S T="1" F="ServiceProvider" M="Ignore" />
+  </C>
+  <C T="W" I="16" O="true" N="SubGroupName">
+    <S T="1" F="subGroupName" M="Ignore" />
+  </C>
+  <C T="W" I="17" O="true" N="DocumentType">
+    <S T="1" F="documentType" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="QuerySuggestionType">
+    <S T="1" F="QuerySuggestionType" M="Ignore" />
+  </C>
+  <C T="W" I="19" O="true" N="SearchScenario">
+    <S T="1" F="SearchScenario" M="Ignore" />
+  </C>
+  <C T="W" I="20" O="true" N="NotesType">
+    <S T="1" F="NotesType" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="150232" V="1" DC="SM" EN="Office.PowerPoint.PPT.ShapeDiff.Download" ATT="e97859101370486fbcb67f5a023da3fc-29b89831-2d28-4841-8fa6-338080fae3a4-7206" DL="N" DCa="PSP PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="a05zq" A="a8a7k bdp59" />
+  </S>
+  <C T="FT" I="0" O="true" N="ShapeDiffTime">
+    <S T="1" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="CorrelationId">
+    <S T="1" F="ULS_CorrelationID" M="Ignore" />
+  </C>
+  <C T="U32" I="2" O="true" N="Shape_Download_Add">
+    <S T="1" F="SpDiff_D_1" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="Shape_Download_Delete">
+    <S T="1" F="SpDiff_D_2" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="Shape_Download_Position">
+    <S T="1" F="SpDiff_D_4" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="Shape_Download_Content">
+    <S T="1" F="SpDiff_D_8" M="Ignore" />
+  </C>
+  <C T="U32" I="6" O="true" N="Shape_Download_Type">
+    <S T="1" F="SpDiff_D_16" M="Ignore" />
+  </C>
+  <C T="U32" I="7" O="true" N="Shape_Download_GroupLayout">
+    <S T="1" F="SpDiff_D_32" M="Ignore" />
+  </C>
+  <C T="U32" I="8" O="true" N="Shape_Download_ExternalObject">
+    <S T="1" F="SpDiff_D_64" M="Ignore" />
+  </C>
+  <C T="U32" I="9" O="true" N="Shape_Download_InteractiveInfo_OnMove">
+    <S T="1" F="SpDiff_D_128" M="Ignore" />
+  </C>
+  <C T="U32" I="10" O="true" N="Shape_Download_InteractiveInfo_OnClick">
+    <S T="1" F="SpDiff_D_256" M="Ignore" />
+  </C>
+  <C T="U32" I="11" O="true" N="Shape_Download_Mod_Special">
+    <S T="1" F="SpDiff_D_512" M="Ignore" />
+  </C>
+  <C T="U32" I="12" O="true" N="Shape_Download_TextDiff">
+    <S T="1" F="SpDiff_D_1024" M="Ignore" />
+  </C>
+  <C T="U32" I="13" O="true" N="Shape_Download_ExtensionList">
+    <S T="1" F="SpDiff_D_2048" M="Ignore" />
+  </C>
+  <C T="U32" I="14" O="true" N="Shape_Download_TableDiff">
+    <S T="1" F="SpDiff_D_4096" M="Ignore" />
+  </C>
+  <C T="U32" I="15" O="true" N="ShapeBase_Download_ExtLst">
+    <S T="1" F="SpDiff_D_8192" M="Ignore" />
+  </C>
+  <C T="U32" I="16" O="true" N="Placeholde_Download_ExtLst">
+    <S T="1" F="SpDiff_D_16384" M="Ignore" />
+  </C>
+  <C T="U32" I="17" O="true" N="Shape_Download_FirstDrawingProps">
+    <S T="1" F="SpDiff_D_32768" M="Ignore" />
+  </C>
+  <C T="U32" I="18" O="true" N="Shape_Download_Connector">
+    <S T="1" F="SpDiff_D_65536" M="Ignore" />
+  </C>
+  <C T="U32" I="19" O="true" N="Shape_Download_3DSettings">
+    <S T="1" F="SpDiff_D_131072" M="Ignore" />
+  </C>
+  <C T="U32" I="20" O="true" N="Shape_Download_BWSettings">
+    <S T="1" F="SpDiff_D_262144" M="Ignore" />
+  </C>
+  <C T="U32" I="21" O="true" N="Shape_Download_LineStyle">
+    <S T="1" F="SpDiff_D_524288" M="Ignore" />
+  </C>
+  <C T="U32" I="22" O="true" N="Shape_Download_FillStyle">
+    <S T="1" F="SpDiff_D_1048576" M="Ignore" />
+  </C>
+  <C T="U32" I="23" O="true" N="Shape_Download_Picture">
+    <S T="1" F="SpDiff_D_2097152" M="Ignore" />
+  </C>
+  <C T="U32" I="24" O="true" N="Shape_Download_TextSetting">
+    <S T="1" F="SpDiff_D_4194304" M="Ignore" />
+  </C>
+  <C T="U32" I="25" O="true" N="Shape_Download_Transform">
+    <S T="1" F="SpDiff_D_8388608" M="Ignore" />
+  </C>
+  <C T="U32" I="26" O="true" N="Shape_Download_Effects">
+    <S T="1" F="SpDiff_D_16777216" M="Ignore" />
+  </C>
+  <C T="U32" I="27" O="true" N="Shape_Download_Visibility">
+    <S T="1" F="SpDiff_D_33554432" M="Ignore" />
+  </C>
+  <C T="U32" I="28" O="true" N="Shape_Download_Style">
+    <S T="1" F="SpDiff_D_67108864" M="Ignore" />
+  </C>
+  <C T="U32" I="29" O="true" N="Shape_Download_AltText">
+    <S T="1" F="SpDiff_D_134217728" M="Ignore" />
+  </C>
+  <C T="U64" I="30" O="true" N="MsoOLDocumentToken">
+    <S T="1" F="MsoOLDocumentToken" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

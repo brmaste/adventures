@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="110135" V="1" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <R T="1" R="110134" />
+    <F T="2">
+      <O T="GT">
+        <L>
+          <S T="1" F="1" />
+        </L>
+        <R>
+          <V V="0" T="U32" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="U32" I="0" O="false">
+    <S T="2" F="0" />
+  </C>
+  <C T="TAG" I="1" O="false">
+    <S T="2" F="2" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

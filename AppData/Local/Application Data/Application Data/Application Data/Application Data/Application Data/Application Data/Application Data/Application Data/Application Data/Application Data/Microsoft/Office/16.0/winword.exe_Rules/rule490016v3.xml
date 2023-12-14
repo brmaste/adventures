@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<R Id="490016" V="3" DC="SM" EN="Office.Feedback.Survey.FloodgateClient.RoamingSuccessfulReadWrite" ATT="d79e824386c4441cb8c1d4ae15690526-bd443309-5494-444a-aba9-0af9eef99f84-7360" T="Upload-Medium" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="cvw3m" A="cvw38 cvw3t cvw3g cvw32 cvw3w cvw3q cvw4d cvw3v c2g0w c2g1w c2g1b c2g02 c2g13 c2g1h c2g01 c2g12 c2g1g c2hal c2hbl c2ha0 c2har c2hbs c2ha6 c2haq c2hbr c2ha5" />
+  </S>
+  <C T="TAG" I="0" O="false" N="EventId">
+    <S T="1" F="ULS_Tag" />
+  </C>
+  <C T="U64" I="1" O="true" N="Count">
+    <S T="1" F="count" M="Ignore" />
+  </C>
+  <C T="B" I="2" O="true" N="AnonymousUser">
+    <S T="1" F="anonymousUser" M="Ignore" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>

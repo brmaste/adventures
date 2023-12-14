@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="890003" V="1" DC="SM" EN="Office.Privacy.UnifiedConsent.API.CreateHttpRequestFailureReason" ATT="0cc923f8e48042f9b5193007cf34d1ae-def86b84-7392-4e7f-8da6-ecea0a375ec4-7160" DCa="PSP" xmlns="">
+  <S>
+    <UTS T="1" Id="48bo4" />
+    <UTS T="2" Id="48bo3" />
+    <UTS T="3" Id="4yvlj" />
+    <UTS T="4" Id="4yvli" />
+    <UTS T="5" Id="4yvll" />
+    <UTS T="6" Id="4yvlk" />
+    <UTS T="7" Id="495ry" />
+    <UTS T="8" Id="495rx" />
+    <US T="9">
+      <S T="1" />
+      <S T="2" />
+      <S T="3" />
+      <S T="4" />
+      <S T="5" />
+      <S T="6" />
+      <S T="7" />
+      <S T="8" />
+    </US>
+  </S>
+  <C T="TAG" I="0" O="false" N="Tag">
+    <S T="9" F="ULS_Tag" />
+  </C>
+  <C T="U8" I="1" O="true" N="Endpoint">
+    <S T="9" F="Endpoint" M="Ignore" />
+  </C>
+  <C T="U8" I="2" O="true" N="Method">
+    <S T="9" F="Method" M="Ignore" />
+  </C>
+  <C T="U32" I="3" O="true" N="IdentityProvider">
+    <S T="9" F="Provider" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="AuthError">
+    <S T="9" F="AuthError" M="Ignore" />
+  </C>
+  <C T="U32" I="5" O="true" N="InternalAuthError">
+    <S T="9" F="InternalAuthError" M="Ignore" />
+  </C>
+  <T>
+    <S T="9" />
+  </T>
+</R>

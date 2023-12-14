@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="170039" V="0" DC="SM" EN="Office.Graphics.InkPointerModeForFork" ATT="cfcfdb91c68c4329bb8b7cb7babb3cf7-e082c2f2-ef1d-427a-ac4d-b0b700afe7a7-7655" DCa="PSU" xmlns="">
+  <S>
+    <UCSS T="1" C="Office Ink Object" S="Medium" />
+    <F T="2">
+      <O T="EQ">
+        <L>
+          <S T="1" F="ULS_TagId" />
+        </L>
+        <R>
+          <V V="0000" T="W" />
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="B" I="0" O="true" N="PenPointerMode">
+    <S T="2" F="PenPointerMode" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>

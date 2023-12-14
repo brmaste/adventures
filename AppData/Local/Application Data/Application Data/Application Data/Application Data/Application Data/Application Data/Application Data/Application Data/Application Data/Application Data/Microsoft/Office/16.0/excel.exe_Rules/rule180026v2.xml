@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="180026" V="2" DC="SM" EN="Office.Excel.XlWBDataConnectionsUsagePassthrough" ATT="19eb5e37de684ce38ce5cf3d5842d3f7-e8722941-bde5-4b98-9cd5-2775ec51482c-6873" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="awk8e" />
+    <F T="2">
+      <O T="AND">
+        <L>
+          <O T="EQ">
+            <L>
+              <S T="1" F="ULS_Category" />
+            </L>
+            <R>
+              <V V="Xl Workbook Structure" T="W" />
+            </R>
+          </O>
+        </L>
+        <R>
+          <O T="EQ">
+            <L>
+              <S T="1" F="Table" />
+            </L>
+            <R>
+              <V V="DataConnections" T="W" />
+            </R>
+          </O>
+        </R>
+      </O>
+    </F>
+  </S>
+  <C T="FT" I="0" O="false" N="CollectionTime">
+    <S T="2" F="TimeStamp100ns" />
+  </C>
+  <C T="G" I="1" O="true" N="Correlation">
+    <S T="2" F="ULS_CorrelationID" />
+  </C>
+  <C T="I32" I="2" O="false" N="ConnectionId">
+    <S T="2" F="ConnectionId" />
+  </C>
+  <C T="W" I="3" O="false" N="WorkbookId">
+    <S T="2" F="WorkbookId" />
+  </C>
+  <C T="B" I="4" O="false" N="IsPPM">
+    <S T="2" F="IsPPM" />
+  </C>
+  <C T="W" I="5" O="true" N="SourceType">
+    <S T="2" F="SourceType" M="Ignore" />
+  </C>
+  <C T="W" I="6" O="true" N="AuthenticationType">
+    <S T="2" F="AuthenticationType" M="Ignore" />
+  </C>
+  <C T="W" I="7" O="true" N="Provider">
+    <S T="2" F="Provider" M="Ignore" />
+  </C>
+  <C T="B" I="8" O="true" N="IsPPMMainConnection">
+    <S T="2" F="IsPPMMainConnection" M="Ignore" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>
