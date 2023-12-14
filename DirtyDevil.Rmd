@@ -214,6 +214,8 @@ ggplot(q_lower, aes(x = waterDay, y = q, group = waterYear)) +
 
 ```
 
+**Annual discharge (cfs) for 2002-2022. Average discharge is the red line.**
+
 Let's put the average into an interactive data plotter
 
 ```{r data_plotter_average 2, cache=FALSE}
