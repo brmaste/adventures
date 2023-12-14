@@ -2,3 +2,27 @@
 .Rhistory
 .RData
 .Ruserdata
+
+
+.bash_history
+.gitconfig
+.gitignore
+.idlerc/
+.ipython/
+.ssh/
+AppData/
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT
+NTUSER.DAT*
+OneDrive - Colostate/
+Saved Games/
+Searches/
+Videos/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
