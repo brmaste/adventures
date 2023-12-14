@@ -1,4 +1,13 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# Ignore specific files
+.bash_history
+.gitconfig
+.idlerc/
+.ipython/
+.lesshst
+.ssh/
+
+# Ignore all files under AppData/Local/Application Data
+AppData/Local/Application Data/
+
+# Ignore all files under AppData/Local/.certifi
+AppData/Local/.certifi/
