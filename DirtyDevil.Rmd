@@ -63,7 +63,7 @@ q <- readNWISdv(siteNumbers = '09333500',
   select(-X_00060_00003_cd)
 ```
 
-####  Discharge, 2002-2022
+##  Discharge, 2002-2022
 
 ```{r Static, warning = FALSE, fig.width = 8, fig.height = 5}
 ggplot(q, aes(x = Date, y = q)) + 
@@ -73,15 +73,15 @@ ggplot(q, aes(x = Date, y = q)) +
   ggtitle('Discharge For the Dirty Devil River, UT')
 ```
 
-#### Interactive Data Plotter
+## Interactive Data Plotter
 
-```{r data plotter}
+```{r data plotter, cache=FALSE}
 q_xts <- xts(q$q, order.by = q$Date)
 dygraph(q_xts) %>%
   dyAxis("y", label = "Discharge (cfs)") 
 ```
 
-#### January & February Discharge
+## January & February Discharge
 
 ```{r March clean}
 
@@ -94,7 +94,7 @@ q_january <- q %>%
 
 ```
 
-#### January & February Discharge, 2002-2022
+## January & February Discharge, 2002-2022
 
 ```{r January figure from ChatGPT}
 
@@ -120,7 +120,7 @@ ggplot(q_january, aes(x = waterDay, y = q, group = waterYear)) +
 **Discharge (cfs) for 2002-2022 for January & February. Average discharge is the red line.**
 
 
-Excluding the 1600 cfs recorded on January 12, 2005:
+## Excluding the 1600 cfs recorded on January 12, 2005:
 
 ```{r 2005 excluded}
 
@@ -144,3 +144,91 @@ ggplot(q_excluded_2005, aes(x = waterDay, y = q, group = waterYear)) +
 ```
 
 **Discharge (cfs) for 2002-2022 for January & February. Average discharge is the red line.**
+
+# The whole year daily average
+
+```{r daily average}
+
+q_annual <- q %>% 
+  addWaterYear() %>%
+  group_by(waterYear)%>% 
+  mutate(waterDay = (as.integer(difftime(Date, ymd(paste0(waterYear - 1 ,'-09-30')), units = "days")))) %>% #filter(waterDay >= 93, waterDay <= 151) %>% 
+  group_by(waterDay) %>% 
+  mutate(avg = mean(q))
+
+# Convert waterYear to factor if it's not already
+q_annual$waterYear <- factor(q_annual$waterYear)
+
+
+ggplot(q_annual, aes(x = waterDay, y = q, group = waterYear)) + 
+  geom_line(aes(color = waterYear), size = 1) + 
+  geom_line(aes(x = waterDay, y = avg, linetype = "average"), size = 1, color = "red") +
+  theme_minimal() +
+  scale_color_viridis_d(name = "Water Year") +
+  scale_linetype_manual(name = "", values = "dashed") +
+  ylab('Q (cfs)') +
+  xlab('Water Day') +
+  labs(color = "Legend Title") +
+  guides(color = guide_legend(order = 1), linetype = guide_legend(order = 2))
+
+```
+
+
+**Annual discharge (cfs) for 2002-2022. Average discharge is the red line.**
+
+Whoa! 2006-10-07, 26900 cubic feet per second!
+
+Without altering the average values, let's exclude the values higher than 500 CFS:
+
+```{r lower flows}
+q_lower <- q_annual %>% 
+  filter(q < 500)
+
+ggplot(q_lower, aes(x = waterDay, y = q, group = waterYear)) + 
+  geom_line(aes(color = waterYear), size = 1) + 
+  geom_line(aes(x = waterDay, y = avg, linetype = "average"), size = 1, color = "red") +
+  theme_minimal() +
+  scale_color_viridis_d(name = "Water Year") +
+  scale_linetype_manual(name = "", values = "dashed") +
+  ylab('Q (cfs)') +
+  xlab('Water Day') +
+  labs(color = "Legend Title") +
+  guides(color = guide_legend(order = 1), linetype = guide_legend(order = 2))
+```
+
+One color:
+
+```{r lower flows grey}
+# Convert waterYear to factor if it's not already
+q_lower$waterYear <- factor(q_lower$waterYear)
+
+ggplot(q_lower, aes(x = waterDay, y = q, group = waterYear)) + 
+  geom_line(aes(color = waterYear), size = 1) + 
+  geom_line(aes(x = waterDay, y = avg, linetype = "average"), size = 1, color = "red") +
+  theme_minimal() +
+  scale_color_manual(values = rep("grey", nlevels(q_lower$waterYear))) +
+  scale_linetype_manual(values = "dashed") +
+  ylab('Q (cfs)') +
+  xlab('Water Day')+
+  theme(legend.position = "none")
+
+```
+
+Let's put the average into an interactive data plotter
+
+```{r data_plotter_average 2, cache=FALSE}
+ 
+# Assuming waterDay corresponds to days in the water year starting from October 1
+# Adjust accordingly if the water year starts on a different date
+water_year_start_date <- as.Date("2001-10-01")
+
+dates <- water_year_start_date + q_lower$waterDay - 1
+q_ave_xts <- xts(q_lower$avg, order.by = dates)
+
+dygraph(q_ave_xts) %>%
+  dyAxis("y", label = "Discharge (cfs)")
+
+```
+
+
+**Average discharge per water day. (Ignore the year in the x-axis label.)** 
